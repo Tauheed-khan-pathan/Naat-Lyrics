@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Naat Lyrics</title>
+<meta name="description" content="Naat, Hamd, Salaam aur Noha ki lyrics Roman Urdu aur Hindi me.">
+<link rel="canonical" href="https://tauheed-khan-pathan.github.io/Naat-Lyrics/">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="top">
+    <h1>Naat Lyrics</h1>
+    <p class="tagline"><a href="index.html" style="color:#fbbf24">← Wapas sab lyrics par</a></p>
+  </div>
+  <div class="lang">
+    <button data-lang="roman" class="active">Roman</button>
+    <button data-lang="hindi">हिन्दी</button>
+    <button id="fontUp" title="Font bada">A+</button>
+    <button id="fontDown" title="Font chhota">A−</button>
+  </div>
+</header>
+<main id="one"></main>
+<footer><p><strong>Naat Lyrics</strong> — Naat, Hamd, Salaam aur Noha, ek hi jagah.</p></footer>
+<script>
+let lang='roman', size=1.1;
+const id=new URLSearchParams(location.search).get('id');
+fetch('lyrics.json').then(r=>r.json()).then(all=>{
+  const x=all.find(i=>i.id===id);
+  const el=document.getElementById('one');
+  if(!x){el.innerHTML='<div class="empty"><p>Ye lyric nahi mili.</p><p><a href="index.html">Wapas sab lyrics par jao</a></p></div>';return;}
+  document.title=x.title+' Lyrics — Naat Lyrics';
+  function render(){
+    el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • ${x.poet}</div><div class="lines" style="font-size:${size}rem">${x[lang].join('\n')}</div><button class="copy">Copy karo</button><a class="read" href="index.html">Sab lyrics →</a></article>`;
+    const b=el.querySelector('.copy');
+    b.onclick=()=>{navigator.clipboard.writeText(x.title+'\n'+x[lang].join('\n')); b.textContent='Copy ho gaya ✓'; setTimeout(()=>b.textContent='Copy karo',1500);};
+  }
+  render();
+  document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
+    lang=b.dataset.lang;
+    document.querySelectorAll('.lang button[data-lang]').forEach(y=>y.classList.toggle('active',y===b));
+    render();
+  });
+  document.getElementById('fontUp').onclick=()=>{size=Math.min(1.4,size+0.1); render();};
+  document.getElementById('fontDown').onclick=()=>{size=Math.max(0.9,size-0.1); render();};
+});
+</script>
+</body>
+</html>

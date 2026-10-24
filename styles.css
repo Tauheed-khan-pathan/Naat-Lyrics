@@ -1,0 +1,16 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#fdfbf7;color:#1f2937;line-height:1.65}
+header{background:linear-gradient(160deg,#0f5132,#14532d 60%,#166534);color:#fff;padding:28px 16px 20px;text-align:center}
+.top{max-width:900px;margin:0 auto}header h1{margin:0;font-size:2.2rem;letter-spacing:.2px}.tagline{opacity:.92;margin:8px 0 18px}
+.searchbox{max-width:680px;margin:0 auto}#search{width:100%;padding:13px 16px;border-radius:12px;border:0;font-size:1rem;box-shadow:0 4px 16px #00000025}.count{margin:8px 0 0;font-size:.9rem;opacity:.85;min-height:1.2em}
+.controls{max-width:900px;margin:18px auto 0;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center}
+#tabs{display:flex;gap:8px;flex-wrap:wrap}.tab,.lang button{background:#ffffff22;color:#fff;border:1px solid #ffffff55;padding:7px 14px;border-radius:20px;cursor:pointer;font-size:.95rem}
+.tab.active,.lang button.active{background:#fbbf24;color:#111;border-color:#fbbf24;font-weight:600}
+.tab:focus-visible,.lang button:focus-visible,#search:focus-visible,.copy:focus-visible,.read:focus-visible{outline:3px solid #fbbf24;outline-offset:2px}
+main{max-width:900px;margin:0 auto;padding:20px 16px 8px}.card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 2px 8px #00000010}
+.card h2{margin:0 0 4px;font-size:1.3rem}.card h2 a{color:#0f5132;text-decoration:none}.card h2 a:hover{text-decoration:underline}
+.meta{color:#6b7280;font-size:.9rem}.lines{white-space:pre-line;margin-top:12px}.preview{color:#374151}
+.copy,.read{display:inline-block;margin-top:14px;padding:8px 16px;border-radius:9px;cursor:pointer;font-size:.95rem;text-decoration:none}
+.copy{border:1px solid #0f5132;background:#fff;color:#0f5132}.read{border:1px solid #0f5132;background:#0f5132;color:#fff;margin-left:8px}
+.empty{background:#fff;border:1px dashed #d1d5db;border-radius:14px;padding:24px;text-align:center;color:#6b7280}
+footer{text-align:center;color:#6b7280;padding:24px 16px 32px;font-size:.95rem}footer p{max-width:700px;margin:6px auto}
+@media(max-width:600px){header h1{font-size:1.8rem}.controls{justify-content:center}.card{padding:16px}}

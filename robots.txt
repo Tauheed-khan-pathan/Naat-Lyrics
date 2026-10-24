@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tauheed-khan-pathan.github.io/Naat-Lyrics/sitemap.xml
