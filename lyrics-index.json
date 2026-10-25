@@ -78,5 +78,125 @@
       "Mere Hussain tujhe salam",
       "Mere Hussain tujhe salam"
     ]
+  },
+  {
+    "id": "aey-mere-mola",
+    "title": "Aey Mere Mola",
+    "category": "Hamd",
+    "poet": "Muhammad Ali Soharwardi",
+    "preview": [
+      "Apna Haram dikha de",
+      "Dono jahan ke Malik"
+    ]
+  },
+  {
+    "id": "allah-hoo-qalb-ko",
+    "title": "Allah Hoo Qalb Ko",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Allah Hoo, Allah Hoo, Allah Hoo",
+      "Qalb ko us ki ruiyat ki hai aarzo"
+    ]
+  },
+  {
+    "id": "allah-hoo-yeh-zameen",
+    "title": "Allah Hoo Yeh Zameen",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Allah Hoo, Allah Hoo, Allah Hoo",
+      "Malik-ul-mulk la shareeka lahu"
+    ]
+  },
+  {
+    "id": "bigre-sare-kam-bananda",
+    "title": "Bigre Sare Kam Bananda",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Allahu, Allahu, Allah",
+      "Bigre sare kam bananda Allah eh"
+    ]
+  },
+  {
+    "id": "hamd-e-baari",
+    "title": "Hamd-e-Baari",
+    "category": "Hamd",
+    "poet": "Durga Sahay Suroor",
+    "preview": [
+      "Aql-e-daqeeqa-ras ka dauda samand barson",
+      "Raunda kiya jahan ke past-o-baland barson"
+    ]
+  },
+  {
+    "id": "hasbi-rabbi",
+    "title": "Hasbi Rabbi",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Hasbi Rabbi Jallallah",
+      "Ma fi qalbi ghairullah"
+    ]
+  },
+  {
+    "id": "hua-jab-hamd-mein",
+    "title": "Hua Jab Hamd Mein",
+    "category": "Hamd",
+    "poet": "Nadir Shahjahanpuri",
+    "preview": [
+      "Hua jab hamd mein matla-e-diwan raqam mera",
+      "Adab se sar ba-sajda ho gaya pehle qalam mera"
+    ]
+  },
+  {
+    "id": "kaliisa-na-dair-o-haram",
+    "title": "Kaliisa Na Dair-o-Haram",
+    "category": "Hamd",
+    "poet": "Mitthan Lal Vafa",
+    "preview": [
+      "Teri shaan-e-rahmat jo hum dekhte hain",
+      "Ise banda-e-hirs kam dekhte hain"
+    ]
+  },
+  {
+    "id": "mere-rabb-kahan-pe-nahin-hai-tu",
+    "title": "Mere Rabb Kahan Pe Nahin Hai Tu",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Mere Rabb kahan pe nahin hai tu",
+      "Teri shaan jalla jalalahu"
+    ]
+  },
+  {
+    "id": "sun-le-jeevan-ki-pukaar",
+    "title": "Sun Le Jeevan Ki Pukaar",
+    "category": "Hamd",
+    "poet": "Bahzad Lakhnavi",
+    "preview": [
+      "Sun le jeevan ki pukaar",
+      "Jeevan nayya hai manjdhaar"
+    ]
+  },
+  {
+    "id": "teri-nahi-misal-koi",
+    "title": "Teri Nahi Misal Koi",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Teri nahi misal koi",
+      "Tu hai be misal"
+    ]
+  },
+  {
+    "id": "ya-rab-dil-e-muslim",
+    "title": "Ya Rab Dil-e-Muslim Ko",
+    "category": "Hamd",
+    "poet": "Allama Iqbal",
+    "preview": [
+      "Ya Rab! Dil-e-Muslim ko woh zinda tamanna de",
+      "Jo qalb ko garma de, jo rooh ko tarpa de"
+    ]
   }
 ]
