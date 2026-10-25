@@ -1,7 +1,7 @@
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f7f7f5;color:#1f2937;line-height:1.65}
 .site-header{background:#0b3d2e;color:#fff;position:sticky;top:0;z-index:10}
 .bar{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.logo{color:#fff;text-decoration:none;font-size:1.25rem;font-weight:700;letter-spacing:.2px;display:flex;align-items:center;gap:8px}.logo-img{height:42px;width:auto;max-width:220px;object-fit:contain;flex:none;background:#fff;border-radius:8px;padding:3px 8px}
+.logo{color:#fff;text-decoration:none;font-size:1.25rem;font-weight:700;letter-spacing:.2px}
 .lang{display:flex;gap:6px;align-items:center}
 .lang button{background:transparent;color:#d1d5db;border:1px solid #ffffff40;padding:4px 10px;border-radius:6px;cursor:pointer;font-size:.85rem}
 .lang button.active{background:#fff;color:#0b3d2e;border-color:#fff;font-weight:600}
