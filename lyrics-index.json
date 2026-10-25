@@ -1318,5 +1318,285 @@
       "Shah e Mardaan, Sher e Yazdaan",
       "Qoowwat e Parwardigaar"
     ]
+  },
+  {
+    "id": "aariz-e-shams-o-qamar-se-bhi-hain-anwar-ediyaan",
+    "title": "Aariz-e-Shams-o-Qamar Se Bhi Hain Anwar Ediyaan",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Aariz-e-shams-o-qamar se bhi hain anwar ediyaan",
+      "Arsh ki aankhon ke taare hain wo khushtar ediyaan"
+    ]
+  },
+  {
+    "id": "ahle-sirat-rooh-e-ameen-ko-khabar-kare",
+    "title": "Ahle Sirat Rooh-e-Ameen Ko Khabar Kare",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Ahle Sirat Rooh-e-Ameen ko khabar karen",
+      "Jaati hai Ummate Nabavi farsh par karen"
+    ]
+  },
+  {
+    "id": "aj-sik-mitran-di-vadheri-ye",
+    "title": "Aj Sik Mitran Di Vadheri Ye",
+    "category": "Naat",
+    "poet": "Pir Meher Ali Shah",
+    "preview": [
+      "Aj sik mitran di vadheri ye",
+      "Kyun dilri udaas ghaneri ye"
+    ]
+  },
+  {
+    "id": "aye-bayabaane-arab-teri-bahaaron-ko-salaam",
+    "title": "Aye Bayabaane Arab Teri Bahaaron Ko Salaam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Aye Bayabaane Arab Teri Bahaaro Ko Salaam",
+      "Teri Phoolo Ko Tere Paakiza Khaaron Ko Salaam"
+    ]
+  },
+  {
+    "id": "aye-habeeb-e-ahmad-e-mujtaba",
+    "title": "Aye Habeeb-e-Ahmad-e-Mujtaba",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Aye Habeeb e Ahmad e Mujtaba",
+      "Dil e Mubtala Ka Salaam Lo"
+    ]
+  },
+  {
+    "id": "bay-bismillah-ism-allah-da",
+    "title": "Bay Bismillah Ism Allah Da",
+    "category": "Hamd",
+    "poet": "Sultan Bahu",
+    "preview": [
+      "Bay Bismillah ism Allah da",
+      "Eh bhi kahna bhara hoo"
+    ]
+  },
+  {
+    "id": "bulleya-ki-jaana-main-kaun",
+    "title": "Bulleya Ki Jaana Main Kaun",
+    "category": "Hamd",
+    "poet": "Bulleh Shah",
+    "preview": [
+      "Bulleya Ki Jaana Main Kaun",
+      "Na main momin vich maseetan"
+    ]
+  },
+  {
+    "id": "chanda-kare-tum-ka-salaam",
+    "title": "Chanda Kare Tum Ka Salaam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Chanda Kare Tum ka Salaam Aye Pyare Nabi",
+      "Taare Gagan Le Tumra Naam Aye Pyare Nabi"
+    ]
+  },
+  {
+    "id": "fakhre-isaa-naaz-e-aadam-assalaato-wassalaam",
+    "title": "Fakhre Isaa Naaz-e-Aadam Assalaato Wassalaam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Fakhre Isaa Naaz e Aadam Assalaato Wassalaam",
+      "Roohe Imaan Jaane Aalam Assalaato Wassalaam"
+    ]
+  },
+  {
+    "id": "hai-kalaam-e-ilahi-me-shams-o-duha",
+    "title": "Hai Kalaam-e-Ilahi Me Shams-o-Duha",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Hai kalaam-e-Ilahi me Shams-ud-Duha tere chehre noor faza ki qasam",
+      "Qasam-e-shab-e-taar me raaz yeh tha ke Habeeb ki zulfe duta ki qasam"
+    ]
+  },
+  {
+    "id": "ho-imamul-ambiya-par-dam-ba-dam-lakhon-salaam",
+    "title": "Ho Imamul Ambiya Par Dam Ba Dam Laakhon Salaam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ho Imamul Ambiya Par Dam Ba Dam Laakhon Salaam",
+      "Ho Muhammad Mustafa Par Dam Ba Dam Laakhon Salaam"
+    ]
+  },
+  {
+    "id": "ik-nukte-wich-gal-mukdi-ae",
+    "title": "Ik Nukte Wich Gal Mukdi Ae",
+    "category": "Hamd",
+    "poet": "Bulleh Shah",
+    "preview": [
+      "Ik Nukte Wich Gal Mukdi Ae",
+      "Phadd Nukta, Chodd Hisaabaan Nu"
+    ]
+  },
+  {
+    "id": "ilmon-bas-kareen-o-yaar",
+    "title": "Ilmon Bas Kareen O Yaar",
+    "category": "Hamd",
+    "poet": "Bulleh Shah",
+    "preview": [
+      "Ilmon Bas Kareen O Yaar",
+      "Ikko Alif Tere Darkar"
+    ]
+  },
+  {
+    "id": "jo-banon-par-hai-bahaar-e-chaman",
+    "title": "Jo Banon Par Hai Bahaar-e-Chaman Aarai-e-Dost",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Jo banon par hay bahaar-e-chaman aarai-e-dost",
+      "Khuld ka naam na le bulbul-e-shaidaayi-e-dost"
+    ]
+  },
+  {
+    "id": "kis-ke-jalwe-ki-jhalak-hai-ye-ujala-kya-hai",
+    "title": "Kis Ke Jalwe Ki Jhalak Hai Ye Ujala Kya Hai",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Kis ke jalwe ki jhalak hai ye ujala kya hai",
+      "Har taraf deed-e-hairatzada takta kya hai"
+    ]
+  },
+  {
+    "id": "kiya-poochte-ho-garmi-e-bazaar-e-mustafa",
+    "title": "Kiya Poochte Ho Garmi-e-Bazaar-e-Mustafa",
+    "category": "Naat",
+    "poet": "Bedam Shah Warsi",
+    "preview": [
+      "Kiya poochte ho garmi-e-bazaar-e-Mustafa",
+      "Khud bik rahay hain aa ke khareedar-e-Mustafa"
+    ]
+  },
+  {
+    "id": "madine-ke-zaair-salaam-unse-kehna",
+    "title": "Madine Ke Zaair Salaam Unse Kehna",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Madine Ke Zaair Salaam Unse Kehna",
+      "Tadapte Hai Tere Ghulaam Unse Kehna"
+    ]
+  },
+  {
+    "id": "meda-ishq-vi-tu",
+    "title": "Meda Ishq Vi Tu",
+    "category": "Hamd",
+    "poet": "Khwaja Ghulam Farid",
+    "preview": [
+      "Meda Ishq Vi Tu Meda Yaar Vi Tu",
+      "Meda Deen Vi Tu Meda Eeman Vi Tu"
+    ]
+  },
+  {
+    "id": "nami-danam-chi-manzil",
+    "title": "Nami Danam Chi Manzil",
+    "category": "Hamd",
+    "poet": "Amir Khusro",
+    "preview": [
+      "Nami danam chi manzil bood shab jaay ki man boodam",
+      "Baharsu raqs-e bismil bood shab jaay ki man boodam"
+    ]
+  },
+  {
+    "id": "parh-parh-ilm-hazar-kitaban",
+    "title": "Parh Parh Ilm Hazar Kitaban",
+    "category": "Hamd",
+    "poet": "Sultan Bahu",
+    "preview": [
+      "Parh parh ilm hazar kitaban aalim hoye bhare hoo",
+      "Ak harf ishq da parhan na jaanan bhulle phiran bichare hoo"
+    ]
+  },
+  {
+    "id": "ser-e-gulshan-kaun-dekhe-dasht-e-taiba-chor-kar",
+    "title": "Ser-e-Gulshan Kaun Dekhe Dasht-e-Taiba Chor Kar",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "preview": [
+      "Ser-e-gulshan kaun dekhe dasht-e-Taiba chor kar",
+      "Sooe Jannat kaun jaaye dar tumhara chor kar"
+    ]
+  },
+  {
+    "id": "talama-ashku-gharami",
+    "title": "Talama Ashku Gharami",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Hadha Qalbi Ya Ilahi",
+      "Hadhi Hi Ruhi Ya Ilahi"
+    ]
+  },
+  {
+    "id": "tanam-farsooda-jaa-para",
+    "title": "Tanam Farsooda Jaa Para",
+    "category": "Naat",
+    "poet": "Maulana Jami",
+    "preview": [
+      "Tanam farsooda jaa para ze hijran ya Rasul Allah",
+      "Dilam pazhmurda aawara ze isyan ya Rasul Allah"
+    ]
+  },
+  {
+    "id": "tariq-ki-dua",
+    "title": "Tariq Ki Dua",
+    "category": "Hamd",
+    "poet": "Allama Iqbal",
+    "preview": [
+      "Ye Ghazi, Ye Tere Purisrar Bande",
+      "Jinhain Tu Ne Bakhsha Hai Zauq-e-Khudai"
+    ]
+  },
+  {
+    "id": "ya-badra-timma",
+    "title": "Ya Badra Timma",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Badra Timma Haza Kulla Kamal",
+      "Madha Yu'abbaru An Ulaka Maqali"
+    ]
+  },
+  {
+    "id": "ya-rabbi-salli-ala-nabi-muhammadin",
+    "title": "Ya Rabbi Salli Ala Nabi Muhammadin",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Rabbi Salli Ala An Nabi Muhammadin",
+      "Khayri Al Anami Wa Man Bihi Yutashaffa'u"
+    ]
+  },
+  {
+    "id": "ya-rasulullahi-salamun-alayk",
+    "title": "Ya Rasulullahi Salamun Alayk",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Rasulullahi Salamun Alayk",
+      "Ya Rafiish Shaani Wad Daraji"
+    ]
+  },
+  {
+    "id": "yaad-me-jiski-nahi-hosh-e-tan-o-jaan",
+    "title": "Yaad Me Jiski Nahi Hosh-e-Tan-o-Jaan",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Yaad me jiski nahi hoshe tano jaan hum ko",
+      "Phir dikhade woh rukh aye mehre faroza hum ko"
+    ]
   }
 ]
