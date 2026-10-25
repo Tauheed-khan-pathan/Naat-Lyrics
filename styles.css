@@ -62,3 +62,12 @@ body.dark .section-title{color:#f3f4f6}
 body.dark .tab{color:#9ca3af}
 body.dark .tab.active{color:#a7f3d0;border-bottom-color:#a7f3d0}
 body.dark .copy{background:#1f2937;color:#a7f3d0;border-color:#a7f3d0}
+
+.see-more{display:block;width:100%;margin:20px 0;padding:12px;border:1px solid #0b3d2e;border-radius:10px;background:#fff;color:#0b3d2e;font-size:1rem;font-weight:600;cursor:pointer}
+.site-footer{background:#0b3d2e;color:#d1d5db;padding:32px 16px 36px;text-align:center;margin-top:24px}
+.site-footer .foot-inner{max-width:960px;margin:0 auto}
+.site-footer .foot-logo{font-family:'Marcellus',Georgia,serif;font-size:1.4rem;color:#fff;letter-spacing:.6px;margin:0 0 8px}
+.site-footer p{margin:6px auto;max-width:700px}
+.site-footer .foot-cats{color:#a7f3d0}
+.site-footer .foot-copy{color:#9ca3af;font-size:.85rem}
+body.dark .site-footer{background:#052e22;color:#d1d5db}
