@@ -1,18 +1,34 @@
 {
-  "category": "Hamd",
-  "hindi": [
-    "लब पे आती है दुआ बन के तमन्ना मेरी",
-    "ज़िंदगी शम्अ की सूरत हो ख़ुदाया मेरी",
-    "दूर दुनिया का मेरे दम से अँधेरा हो जाए",
-    "हर जगह मेरे चमकने से उजाला हो जाए"
-  ],
-  "id": "lab-pe-aati-hai-dua",
-  "poet": "Allama Iqbal",
-  "roman": [
-    "Lab pe aati hai dua ban ke tamanna meri",
-    "Zindagi shama ki soorat ho Khudaya meri",
-    "Door duniya ka mere dam se andhera ho jaye",
-    "Har jagah mere chamakne se ujala ho jaye"
-  ],
-  "title": "Lab Pe Aati Hai Dua"
+ "category": "Hamd",
+ "hindi": [
+  "लब पे आती है दुआ बन के तमन्ना मेरी",
+  "ज़िंदगी शम्अ की सूरत हो ख़ुदाया मेरी",
+  "दूर दुनिया का मेरे दम से अँधेरा हो जाए",
+  "हर जगह मेरे चमकने से उजाला हो जाए",
+  "हो मेरे दम से यूँही मेरे वतन की ज़ीनत",
+  "जिस तरह फूल से होती है चमन की ज़ीनत",
+  "ज़िंदगी हो मेरी परवाने की सूरत या रब",
+  "इल्म की शम्अ से हो मुझ को मोहब्बत या रब",
+  "हो मेरा काम ग़रीबों की हिमायत करना",
+  "दर्दमंदों से ज़ईफ़ों से मोहब्बत करना",
+  "मेरे अल्लाह बुराई से बचाना मुझ को",
+  "नेक जो राह हो, उस रह पे चलाना मुझ को"
+ ],
+ "id": "lab-pe-aati-hai-dua",
+ "poet": "Allama Iqbal",
+ "roman": [
+  "Lab pe aati hai dua ban ke tamanna meri",
+  "Zindagi shama ki soorat ho Khudaya meri",
+  "Door duniya ka mere dam se andhera ho jaye",
+  "Har jagah mere chamakne se ujala ho jaye",
+  "Ho mere dam se yunhi mere watan ki zeenat",
+  "Jis tarah phool se hoti hai chaman ki zeenat",
+  "Zindagi ho meri parwane ki soorat ya Rab",
+  "Ilm ki shama se ho mujh ko mohabbat ya Rab",
+  "Ho mera kaam ghareebon ki himayat karna",
+  "Dardmando se za'eefon se mohabbat karna",
+  "Mere Allah burai se bachana mujh ko",
+  "Naik jo rah ho, uss reh pe chalana mujh ko"
+ ],
+ "title": "Lab Pe Aati Hai Dua"
 }
