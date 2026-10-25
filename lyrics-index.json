@@ -778,5 +778,215 @@
       "Qatal-al Husain-o-be Karbala",
       "Zobeh-al Husain-o-be Karbala"
     ]
+  },
+  {
+    "id": "aate-hain-aate-hain-sarkar-e-madina",
+    "title": "Aate Hain Aate Hain Sarkar-e-Madina",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Aate hain aate hain Sarkar-e-Madina",
+      "Jahan zikr kiya jaye unka, tashreef wahan par laate hain"
+    ]
+  },
+  {
+    "id": "abbas-kahaan-ho",
+    "title": "Abbas Kahaan Ho",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Aina Akhi Abbas (x4)",
+      "Bazaar Mai Binte-Ali Deti Thi Sadaa Bhai"
+    ]
+  },
+  {
+    "id": "awal-allah",
+    "title": "Awal Allah",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Awal Allah Ho, Awal Allah Ho",
+      "Awal Allah Noor Upaya, Qudrat Ke Sab Banday"
+    ]
+  },
+  {
+    "id": "bulalo-sarkar-tum-apne-dar-par",
+    "title": "Bulalo Sarkar Tum Apne Dar Par",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Bulalo Sarkar Tum Apne Dar Par, Durood Tum Par Salam Tum Par",
+      "Karam Ho Ham Par Bhi Bandaparwar, Durood Tum Par Salam Tum Par"
+    ]
+  },
+  {
+    "id": "ghulam-kehta-hai-aaqa-tumhe-salam",
+    "title": "Ghulam Kehta Hai Aaqa Tumhe Salam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ghulaam Kehta Hai Aaqa, Tumhe Salaam As Salaam",
+      "Ghulaam Kehta Hai Aaqa, Tumhe Salaam As Salaam"
+    ]
+  },
+  {
+    "id": "habeeb-e-khuda-ka-nazara-karoon-mein",
+    "title": "Habeeb-e-Khuda Ka Nazara Karoon Mein",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Habeeb-e-Khuda ka nazara karoon mein",
+      "Dilo jaan unpar nisaaraa karoon mein"
+    ]
+  },
+  {
+    "id": "har-waqt-tasawwur-mein-madine-ki-gali-ho",
+    "title": "Har Waqt Tasawwur Mein Madine Ki Gali Ho",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Har waqt Tasawwur mein Madine ki gali ho",
+      "Aur yaad Muhammed ki mere dil mein basi ho"
+    ]
+  },
+  {
+    "id": "kamli-wale-ka-naam-le-le-kar-salam-karte-hain",
+    "title": "Kamli Wale Ka Naam Le Le Kar Salam Karte Hain",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Kamli Wale Ka Naam Le Le Kar, Be-Sahaare Salam Karte Hain",
+      "Hajiyo Mustafa Se Keh Dena Gham Ke Maare Salam Karte Hain"
+    ]
+  },
+  {
+    "id": "mawla-ya-salli-wa-sallim",
+    "title": "Mawla Ya Salli Wa Sallim",
+    "category": "Salaam",
+    "poet": "Imam Busiri / Traditional",
+    "preview": [
+      "Mawla Ya Salli Wa Sallim Daiman Abadan",
+      "Ala Habibika Khairil Khalqi Kullihimi"
+    ]
+  },
+  {
+    "id": "meetha-meetha-hai-mere-muhammad-ka-naam",
+    "title": "Meetha Meetha Hai Mere Muhammad Ka Naam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Meetha Meetha Hai Mere Muhammad Ka Naam",
+      "Un Pe Lakhon Karoron Durood O Salam"
+    ]
+  },
+  {
+    "id": "mein-to-khud-unke-dar-ka-ghada-hoon",
+    "title": "Mein To Khud Unke Dar Ka Ghada Hoon",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Mein to khud Unke dar ka ghada huun",
+      "Apne Aaqa ko mein nazar kya duun"
+    ]
+  },
+  {
+    "id": "rahman-ya-rahman",
+    "title": "Rahman Ya Rahman",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Rahman, Ya Rahman",
+      "Ya Rahman, Ya Rahman"
+    ]
+  },
+  {
+    "id": "sakina-ko-kyun-chorr-kar-jaa-rahe-hain",
+    "title": "Sakina Ko Kyun Chorr Kar Jaa Rahe Hain",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Sakina Ko Kyun Chorr Kar Jaa Rahe Hain x 4",
+      "Kahaa Roke Baqir Ne Aabid Se Baba"
+    ]
+  },
+  {
+    "id": "shahensha-e-waala-salamun-alaykum",
+    "title": "Shahensha-e-Waala Salamun Alaykum",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Shahensha-E-Waala Salamun Alaykum",
+      "Do Alam Ke Shaaha Salamun Alaykum"
+    ]
+  },
+  {
+    "id": "subhanallah",
+    "title": "SubhanAllah",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "SubhanAllah, Alhamdulillah, La Ilaha Illallaho Akbar",
+      "SubhanAllah, Alhamdulillah, La Ilaha Illallaho Akbar"
+    ]
+  },
+  {
+    "id": "tajdar-e-haram",
+    "title": "Tajdar-e-Haram",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Tajdare haram ae Shahensha e deen",
+      "Tumpe hardam karodon Duroodo Salam"
+    ]
+  },
+  {
+    "id": "tum-chalo-hum-chale-sab-madine-chale",
+    "title": "Tum Chalo Hum Chale Sab Madine Chale",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Tum chalo hum chale sab Madine chale",
+      "Jaanibe Taiba sab kai safeenai chale"
+    ]
+  },
+  {
+    "id": "ya-muhammad-noor-e-mujassam",
+    "title": "Ya Muhammad Noor-e-Mujassam",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Muhammad Noor-e-Mujassam ya Habibi Ya Maulai",
+      "Tasweer-e-Kamal-e-Mohabbat Tanveer-e-Jamal-e-Khudayei"
+    ]
+  },
+  {
+    "id": "ya-mustafa-ya-mujtaba",
+    "title": "Ya Mustafa Ya Mujtaba",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Mustafa Ya Mujtaba",
+      "Iraham-lana, Iraham-lana"
+    ]
+  },
+  {
+    "id": "ya-shafi-al-wara-salamun-alayk",
+    "title": "Ya Shafi-Al-Wara Salamun Alayk",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Shafi-Al-Wara Salamun Alayk",
+      "Ya Nabi-Al-Huda Salamun Alayk"
+    ]
+  },
+  {
+    "id": "yeh-karbala-hai",
+    "title": "Yeh Karbala Hai",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Zulm-o-Sitam Ki Intaha Hai",
+      "Yeh Karbala Hai, Yeh Karbala Hai"
+    ]
   }
 ]
