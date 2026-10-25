@@ -26,8 +26,7 @@
 <script>
 let lang='roman', size=1.1;
 const id=new URLSearchParams(location.search).get('id');
-fetch('lyrics.json').then(r=>r.json()).then(all=>{
-  const x=all.find(i=>i.id===id);
+fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Error('not found'); return r.json();}).then(x=>{
   const el=document.getElementById('one');
   if(!x){el.innerHTML='<div class="empty"><p>Ye lyric nahi mili.</p><p><a href="index.html">Wapas sab lyrics par jao</a></p></div>';return;}
   document.title=x.title+' Lyrics — Naat Lyrics';
@@ -44,7 +43,7 @@ fetch('lyrics.json').then(r=>r.json()).then(all=>{
   });
   document.getElementById('fontUp').onclick=()=>{size=Math.min(1.4,size+0.1); render();};
   document.getElementById('fontDown').onclick=()=>{size=Math.max(0.9,size-0.1); render();};
-});
+}).catch(()=>{document.getElementById('one').innerHTML='<div class="empty"><p>Ye lyric nahi mili.</p><p><a href="index.html">Wapas sab lyrics par jao</a></p></div>';});
 </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
-let all=[], lang='roman', cat='All', size=1.05;
+let all=[], lang='roman', cat='All', size=1.05, full=null, fullLoading=false;
 const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search'), countEl=document.getElementById('count');
-fetch('lyrics.json').then(r=>r.json()).then(d=>{all=d; buildTabs(); render();});
+fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; buildTabs(); render();});
 function buildTabs(){
   const cats=['All',...new Set(all.map(x=>x.category))];
   tabsEl.innerHTML=cats.map(c=>{
@@ -9,20 +9,34 @@ function buildTabs(){
   }).join('');
   tabsEl.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render();});
 }
-function matches(x,q){
+function matchesIndex(x,q){
+  if(!q) return true;
+  return x.title.toLowerCase().includes(q) || x.poet.toLowerCase().includes(q) || x.category.toLowerCase().includes(q) || x.preview.join(' ').toLowerCase().includes(q);
+}
+function matchesFull(x,q){
   if(!q) return true;
   return x.title.toLowerCase().includes(q) || x.roman.join(' ').toLowerCase().includes(q) || x.hindi.join(' ').toLowerCase().includes(q);
 }
 function card(x){
-  const lines=x[lang], preview=lines.slice(0,2).join('\n');
-  return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} • ${x.poet}</div><div class="lines preview" style="font-size:${size}rem">${preview}</div><button class="copy" data-id="${x.id}">Copy karo</button><a class="read" href="lyric.html?id=${x.id}">Poori lyric padho →</a></article>`;
+  const preview=x.preview || (x.roman||[]).slice(0,2);
+  return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} • ${x.poet}</div><div class="lines preview" style="font-size:${size}rem">${preview.join('\n')}</div><a class="read" href="lyric.html?id=${x.id}">Poori lyric padho →</a></article>`;
 }
 function miniCard(x){
   return `<a class="mini-card" href="lyric.html?id=${x.id}"><strong>${x.title}</strong><span>${x.category} • ${x.poet}</span></a>`;
 }
 function render(){
   const q=searchEl.value.trim().toLowerCase();
-  const items=all.filter(x=>(cat==='All'||x.category===cat) && matches(x,q));
+  let items=all.filter(x=>(cat==='All'||x.category===cat) && matchesIndex(x,q));
+  if(q && items.length===0 && !full && !fullLoading){
+    fullLoading=true;
+    fetch('lyrics.json').then(r=>r.json()).then(d=>{full=d; fullLoading=false; render();});
+    countEl.textContent='Poori lyrics me dhoondh rahe hain…';
+    listEl.innerHTML='<div class="empty"><p>Poori lyrics me search ho raha hai, thoda wait karo…</p></div>';
+    return;
+  }
+  if(q && full){
+    items=full.filter(x=>(cat==='All'||x.category===cat) && matchesFull(x,q));
+  }
   countEl.textContent = q ? `${items.length} result mile` : `${all.length} lyrics • ${new Set(all.map(x=>x.category)).size} categories`;
   if(!q && cat==='All'){
     const cats=[...new Set(all.map(x=>x.category))];
@@ -41,11 +55,6 @@ function render(){
   } else {
     listEl.innerHTML = items.length ? items.map(card).join('') : '<div class="empty"><p>Koi result nahi mila.</p><p>Doosra word, ya sirf ek line ka hissa try karo — search har line aur har word me chalta hai.</p></div>';
   }
-  listEl.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{
-    const x=all.find(i=>i.id===b.dataset.id);
-    navigator.clipboard.writeText(x.title+'\n'+x[lang].join('\n'));
-    b.textContent='Copy ho gaya ✓'; setTimeout(()=>b.textContent='Copy karo',1500);
-  });
 }
 const clearBtn=document.getElementById('clearSearch');
 function syncClear(){ if(clearBtn) clearBtn.hidden=!searchEl.value; }
