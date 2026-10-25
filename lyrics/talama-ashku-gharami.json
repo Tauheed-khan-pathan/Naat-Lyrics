@@ -2,7 +2,7 @@
   "id": "talama-ashku-gharami",
   "title": "Talama Ashku Gharami",
   "category": "Salaam",
-  "poet": "Traditional",
+  "poet": "Unknown",
   "roman": [
     "Hadha Qalbi Ya Ilahi",
     "Hadhi Hi Ruhi Ya Ilahi",
@@ -66,5 +66,6 @@
     "यक्फ़ी या नूरल अहिल्ला इन्ना हज्रि ताल",
     "सैय्यिदि अल-उम्र वल्ला",
     "जुद बिल-वस्लि जुद"
-  ]
+  ],
+  "khawan": "Unknown"
 }

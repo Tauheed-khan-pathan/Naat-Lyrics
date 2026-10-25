@@ -2,7 +2,7 @@
   "id": "qamarun-sidna-nabi-qamarun",
   "title": "Qamarun Sidna Nabi Qamarun",
   "category": "Salaam",
-  "poet": "Traditional",
+  "poet": "Unknown",
   "roman": [
     "Qamarun qamarun qamarun sidna-nabi qamarun",
     "Wa-jamil wa-jamil wa-jamil sidna-nabi wa-jamil",
@@ -46,5 +46,6 @@
     "वा-कुल्लुल-कौनि अनारा बि-नूरि ताहा",
     "क़मरुन क़मरुन क़मरुन सिदना-नबी क़मरुन",
     "वा-जमील वा-जमील वा-जमील सिदना-नबी वा-जमील"
-  ]
+  ],
+  "khawan": "Unknown"
 }

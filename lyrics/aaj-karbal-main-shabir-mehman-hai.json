@@ -2,7 +2,7 @@
   "id": "aaj-karbal-main-shabir-mehman-hai",
   "title": "Aaj Karbal Main Shabir Mehman Hai",
   "category": "Noha",
-  "poet": "Traditional",
+  "poet": "Unknown",
   "roman": [
     "Aaj karbal main Shabir mehman hai, dil ko arman hai",
     "Hota qatal-e-shah deen ka saman hai, dil ko arman hai",
@@ -52,5 +52,6 @@
     "नज़ शह की सिनन पर सवरी होइ, गिरिअ ज़री होइ",
     "शम अह्ल-ए-हरम की तय्यरी होइ, गिरिअ ज़री होइ",
     "आज ज़ैनब होइ सर सय उर्यन है, दिल को अर्मन है"
-  ]
+  ],
+  "khawan": "Unknown"
 }

@@ -2,7 +2,7 @@
   "id": "madina-tujhe-salam",
   "title": "Madina Tujhe Salam",
   "category": "Salaam",
-  "poet": "Traditional",
+  "poet": "Unknown",
   "roman": [
     "Madina Tujhe Salam Madina Tujhe Salam",
     "Noor Ka Sagar, Noor Ki Mai Hai, Noor Ka Chalka Jaam",
@@ -68,5 +68,6 @@
     "क्या क्या ख़ूबी तेरी गिनाऊँ और कितने औसाफ़",
     "अजमल के इद्राक से बाला तर है तेरा मक़ाम",
     "मदीना तुझे सलाम मदीना तुझे सलाम"
-  ]
+  ],
+  "khawan": "Unknown"
 }

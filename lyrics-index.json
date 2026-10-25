@@ -4,6 +4,7 @@
     "title": "Balaghal Ula Bi Kamalihi",
     "category": "Naat",
     "poet": "Sheikh Saadi Shirazi",
+    "khawan": "Unknown",
     "preview": [
       "Balaghal ula bi kamalihi",
       "Kashafad duja bi jamalihi"
@@ -14,6 +15,7 @@
     "title": "Mustafa Jaan-e-Rehmat",
     "category": "Salaam",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Mustafa Jaan-e-Rehmat Pe Laakhon Salaam",
       "Shama-e-Bazm-e-Hidaayat Pe Laakhon Salaam"
@@ -24,6 +26,7 @@
     "title": "Sabse Aula O Aala Hamara Nabi",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Sabse aula o aala hamara Nabi",
       "Sabse baala o wala hamara Nabi"
@@ -34,6 +37,7 @@
     "title": "Zameen-o-Zaman Tumhare Liye",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Zameen o zaman tumhare liye",
       "Makeen o makan tumhare liye"
@@ -43,7 +47,8 @@
     "id": "ya-nabi-salam-alaika",
     "title": "Ya Nabi Salam Alaika",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Nabi Salam Alaika",
       "Ya Rasool Salam Alaika"
@@ -54,6 +59,7 @@
     "title": "Lab Pe Aati Hai Dua",
     "category": "Hamd",
     "poet": "Allama Iqbal",
+    "khawan": "Unknown",
     "preview": [
       "Lab pe aati hai dua ban ke tamanna meri",
       "Zindagi shama ki soorat ho Khudaya meri"
@@ -63,18 +69,19 @@
     "id": "ya-ilahi",
     "title": "Ya Ilahi Har Jagah Teri Ata Ka Saath Ho",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Ala Hazrat",
+    "khawan": "Muhammad Owais Raza Qadri",
     "preview": [
       "Ya Ilahi har jagah teri ata ka saath ho",
       "Jab pare mushkil, Shah-e-mushkil kusha ka saath ho"
-    ],
-    "khawan": "Muhammad Owais Raza Qadri"
+    ]
   },
   {
     "id": "mere-hussain-tujhe-salam",
     "title": "Mere Hussain Tujhe Salam",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Mere Hussain tujhe salam",
       "Mere Hussain tujhe salam"
@@ -85,6 +92,7 @@
     "title": "Aey Mere Mola",
     "category": "Hamd",
     "poet": "Muhammad Ali Soharwardi",
+    "khawan": "Unknown",
     "preview": [
       "Apna Haram dikha de",
       "Dono jahan ke Malik"
@@ -94,7 +102,8 @@
     "id": "allah-hoo-qalb-ko",
     "title": "Allah Hoo Qalb Ko",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Allah Hoo, Allah Hoo, Allah Hoo",
       "Qalb ko us ki ruiyat ki hai aarzo"
@@ -104,7 +113,8 @@
     "id": "allah-hoo-yeh-zameen",
     "title": "Allah Hoo Yeh Zameen",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Allah Hoo, Allah Hoo, Allah Hoo",
       "Malik-ul-mulk la shareeka lahu"
@@ -114,7 +124,8 @@
     "id": "bigre-sare-kam-bananda",
     "title": "Bigre Sare Kam Bananda",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Allahu, Allahu, Allah",
       "Bigre sare kam bananda Allah eh"
@@ -125,6 +136,7 @@
     "title": "Hamd-e-Baari",
     "category": "Hamd",
     "poet": "Durga Sahay Suroor",
+    "khawan": "Unknown",
     "preview": [
       "Aql-e-daqeeqa-ras ka dauda samand barson",
       "Raunda kiya jahan ke past-o-baland barson"
@@ -134,7 +146,8 @@
     "id": "hasbi-rabbi",
     "title": "Hasbi Rabbi",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Syed Fasihuddin Soharwardi",
     "preview": [
       "Hasbi Rabbi Jallallah",
       "Ma fi qalbi ghairullah"
@@ -145,6 +158,7 @@
     "title": "Hua Jab Hamd Mein",
     "category": "Hamd",
     "poet": "Nadir Shahjahanpuri",
+    "khawan": "Unknown",
     "preview": [
       "Hua jab hamd mein matla-e-diwan raqam mera",
       "Adab se sar ba-sajda ho gaya pehle qalam mera"
@@ -155,6 +169,7 @@
     "title": "Kaliisa Na Dair-o-Haram",
     "category": "Hamd",
     "poet": "Mitthan Lal Vafa",
+    "khawan": "Unknown",
     "preview": [
       "Teri shaan-e-rahmat jo hum dekhte hain",
       "Ise banda-e-hirs kam dekhte hain"
@@ -164,7 +179,8 @@
     "id": "mere-rabb-kahan-pe-nahin-hai-tu",
     "title": "Mere Rabb Kahan Pe Nahin Hai Tu",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Mere Rabb kahan pe nahin hai tu",
       "Teri shaan jalla jalalahu"
@@ -175,6 +191,7 @@
     "title": "Sun Le Jeevan Ki Pukaar",
     "category": "Hamd",
     "poet": "Bahzad Lakhnavi",
+    "khawan": "Unknown",
     "preview": [
       "Sun le jeevan ki pukaar",
       "Jeevan nayya hai manjdhaar"
@@ -184,7 +201,8 @@
     "id": "teri-nahi-misal-koi",
     "title": "Teri Nahi Misal Koi",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Teri nahi misal koi",
       "Tu hai be misal"
@@ -195,6 +213,7 @@
     "title": "Ya Rab Dil-e-Muslim Ko",
     "category": "Hamd",
     "poet": "Allama Iqbal",
+    "khawan": "Unknown",
     "preview": [
       "Ya Rab! Dil-e-Muslim ko woh zinda tamanna de",
       "Jo qalb ko garma de, jo rooh ko tarpa de"
@@ -204,7 +223,8 @@
     "id": "ae-sabz-gumbad-wale",
     "title": "Ae Sabz Gumbad Wale Manzoor Dua Karna",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ae sabz gumbad wale manzoor dua karna",
       "Jab waqt-e-naza aaye deedar ata karna"
@@ -214,7 +234,8 @@
     "id": "arsh-ka-dulha-aaya-hai",
     "title": "Arsh Ka Dulha Aaya Hai",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "A'alam mein baraat rachi hai",
       "Arsh ka dulha aaya hai"
@@ -225,6 +246,7 @@
     "title": "Chamak Tujhse Paate Hain Sab Paane Wale",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Chamak tujhse paate hain sab paane wale",
       "Mera dil bhi chamka de chamkane wale"
@@ -235,17 +257,18 @@
     "title": "Hajio Aao Shahenshah Ka Roza Dekho",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Owais Raza Qadri",
     "preview": [
       "Haajiyo aao Shahenshah ka rauza dekho",
       "Kaaba to dekh chuke kaabe ka kaaba dekho"
-    ],
-    "khawan": "Owais Raza Qadri"
+    ]
   },
   {
     "id": "hum-ko-bulana-ya-rasoolallah",
     "title": "Hum Ko Bulana Ya Rasoolallah",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Hum ko bulana ya Rasoolallah",
       "Hum ko bulana ya Habiballah"
@@ -256,17 +279,18 @@
     "title": "Jab Gumbad E Khazra Pe Woh Pehli Nazar Gayi",
     "category": "Naat",
     "poet": "Ubaid",
+    "khawan": "Owais Raza Qadri",
     "preview": [
       "Jab gumbad-e-khazra pe woh pehli nazar gayi",
       "Aankhon ke raaste mere dil mein utar gayi"
-    ],
-    "khawan": "Owais Raza Qadri"
+    ]
   },
   {
     "id": "jashn-e-aamade-rasool",
     "title": "Jashn E Aamade Rasool",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Jashne amade Rasool Allah hi Allah",
       "Bibi Amna ke phool Allah hi Allah"
@@ -277,6 +301,7 @@
     "title": "Lam Yati Nazeero Kafi Nazarin",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Lam yati nazeeruka fee nazarin misle to na shud paida jaana",
       "Jag raaj ko taaj tore sarso hai tujhko shahe do sara jaana"
@@ -287,6 +312,7 @@
     "title": "Madine Ko Jaaen Yeh Jee Chahta Hai",
     "category": "Naat",
     "poet": "Behzad",
+    "khawan": "Unknown",
     "preview": [
       "Madine ko jaaen yeh jee chahta hai",
       "Muqaddar banae yeh jee chahta hai"
@@ -296,7 +322,8 @@
     "id": "mai-tu-ummati-hoon",
     "title": "Mai Tu Ummati Hoon Aye Shah E Umam",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Mai tu ummati hoon aye Shah-e-Umam",
       "Karden mere Aaqa ab nazr-e-karam"
@@ -306,7 +333,8 @@
     "id": "mere-sarkar-aaye",
     "title": "Mere Sarkar Aaye",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Bara Rabi ul Awwal ke din",
       "Abre bahara chaye"
@@ -317,6 +345,7 @@
     "title": "Nabiyon Ke Nabi",
     "category": "Naat",
     "poet": "Muzaffar",
+    "khawan": "Unknown",
     "preview": [
       "Nabiyon ke Nabi",
       "Ummi laqbi"
@@ -326,7 +355,8 @@
     "id": "noor-wala-aaya-hai",
     "title": "Noor Wala Aaya Hai",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Noor wala aaya hai",
       "Noor lekar aaya hai"
@@ -337,6 +367,7 @@
     "title": "Rounaq E Bazme Jahan",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Rounaq-e-bazme jahaan hai aashiqane sokhta",
       "Keh rahi hai shamma ki goya zabaan-e-sokhta"
@@ -347,6 +378,7 @@
     "title": "Sarkare Do Aalam Ko Nigah Mujh Pe Padi Hai",
     "category": "Naat",
     "poet": "Shakir",
+    "khawan": "Unknown",
     "preview": [
       "Sarkaare do aalam ko nigah mujh pe padi hai",
       "Pohncha hoon wahan khulde bareen ki jo gali hai"
@@ -357,6 +389,7 @@
     "title": "Sunte Hain Ke Mehshar Mein Sirf Unki Rasai Hai",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Sunte hain ke mehshar mein sirf unki rasai hai",
       "Gar unki rasai hai lo jab to ban aayi hai"
@@ -367,6 +400,7 @@
     "title": "Unki Mahak Ne Dil Ke Ghunche Khila Diye Hain",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Unki mahek ne dil ke ghunche khila diye hain",
       "Jis raah chal diye hain kooche basa diye hain"
@@ -377,6 +411,7 @@
     "title": "Wah Kya Jood O Karam Hai Shahe Batha Tera",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Waah kya jood o karam hai Shahe Bat-ha tera",
       "Nahi sunta hi nahi maangne wala tera"
@@ -387,6 +422,7 @@
     "title": "Wo Kamal E Husn E Huzoor Hai",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Wo kamal-e-husn-e-huzoor hai gumaan-e-nuqs-e-jahaan nahi",
       "Ye hi phool khaar se door hai ye hi shamma hai ke duhaan nahi"
@@ -396,7 +432,8 @@
     "id": "ya-nabi-dekha-yeh-rutba",
     "title": "Ya Nabi Dekha Yeh Rutba Aapki Nalain Ka",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Nabi dekha ye rutba aapki naalein ka",
       "Arsh ne chooma hai talwa aapki naalein ka"
@@ -406,7 +443,8 @@
     "id": "aaqa-le-lo-salam-ab-hamara",
     "title": "Aaqa Le Lo Salam Ab Hamara",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aaqa Le Lo Salam Ab Hamara",
       "Saba Tu Madine Ja Ke Kehna Khudara"
@@ -417,6 +455,7 @@
     "title": "Aye Deen E Haq Ke Rehbar Tum Par Salaam Har Dam",
     "category": "Salaam",
     "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
     "preview": [
       "Aye Deen E Haq Ke Rehbar Tum Par Salaam Har Dam",
       "Mere Shafi E Mehshar Tum Par Salaam Har Dam"
@@ -426,7 +465,8 @@
     "id": "aye-saba-mustafa-se-keh-dena",
     "title": "Aye Saba Mustafa Se Keh Dena",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aye Saba Mustafa Se Keh Dena",
       "Gham Ke Maare Salam Kehte Hain"
@@ -436,7 +476,8 @@
     "id": "chaman-ke-mast-nazare-salam-kehte-hain",
     "title": "Chaman Ke Mast Nazare Salaam Kehte Hain",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Chaman Ke Mast Nazare Salaam Kehte Hain",
       "Falak Ke Chaand Sitaare Salaam Kehte Hain"
@@ -446,7 +487,8 @@
     "id": "dil-se-hazaar-baar-madina-tujhe-salam",
     "title": "Dil Se Hazaar Baar Madina Tujhe Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Dil Se Hazaar Baar Madina Tujhe Salaam",
       "Aaqa Ka Tu Dayaar Madina Tujhe Salaam"
@@ -456,7 +498,8 @@
     "id": "hum-be-kason-ka-shahe-madina-salam-lo",
     "title": "Hum Be Kason Ka Shahe Madina Salam Lo",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Hum Be Kason Ka Shahe Madina Salam Lo",
       "Hum Aasiyon Ke Dil Ki Sada Hai Salam Lo"
@@ -466,7 +509,8 @@
     "id": "kaabe-ke-badrudduja",
     "title": "Kaabe Ke Badrudduja Tum Pe Karodon Durood",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Kaabe Ke Badrudduja Tum Pe Karodon Durood",
       "Taiba Ke Shamsudduha Tum Pe Karodon Durood"
@@ -476,7 +520,8 @@
     "id": "khairul-bashar-par-lakho-salam",
     "title": "Khairul Bashar Par Lakho Salam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Adeeb Raipuri",
+    "khawan": "Unknown",
     "preview": [
       "Khairul Bashar Par Lakho Salam",
       "Lakho Darood Aur Lakho Salam"
@@ -486,7 +531,8 @@
     "id": "madina-tujhe-salam",
     "title": "Madina Tujhe Salam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Madina Tujhe Salam Madina Tujhe Salam",
       "Noor Ka Sagar, Noor Ki Mai Hai, Noor Ka Chalka Jaam"
@@ -496,7 +542,8 @@
     "id": "mehboob-e-kibriya-se-mera-salam-kehna",
     "title": "Mehboob E Kibriya Se Mera Salaam Kehna",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Mehboob E Kibriya Se Mera Salaam Kehna",
       "Sultane Ambiya Se Mera Salaam Kehna"
@@ -506,7 +553,8 @@
     "id": "nabi-wo-aale-nabi-par-salam-ho-mera",
     "title": "Nabi Wo Aale Nabi Par Salam Ho Mera",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Nabi Wo Aale-Nabi Par, Salam Ho Mera",
       "Khuda Ke Noor-e-Nazar Par, Salam Ho Mera"
@@ -516,7 +564,8 @@
     "id": "saba-madine-mein-mustafa-se-salam-kehna",
     "title": "Saba Madine Mein Mustafa Se Salam Kehna",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Saba Madine Mein Mustafa Se, Hum Bekason Ka Salaam Kehna",
       "Nahi Hai Koi Bajuz Tumhare, Hamara Itna Payaam Kehna"
@@ -526,7 +575,8 @@
     "id": "salaat-al-badariyya",
     "title": "Salaat Al Badariyya - Salatullah Salamullah",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Salatullah Salamullah",
       "Ala Taha Rasoolillah"
@@ -536,7 +586,8 @@
     "id": "salam-us-par-ke-jisne",
     "title": "Salam Us Par Ke Jisne",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Salam Us Par Ke Jisne Be Kason Ki Dastageeri Ki",
       "Salam Us Par Ke Jisne Badshahi Mein Faqeeri Ki"
@@ -546,7 +597,8 @@
     "id": "salawatullah-alaika",
     "title": "Salawatullah Alaika",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Nabi Salam Alaika",
       "Ya Rasool Salam Alaika"
@@ -556,7 +608,8 @@
     "id": "shahe-do-aalam-salam-as-salam",
     "title": "Shahe Do Aalam Salam As Salam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Shahe Do Aalam Salam As Salam",
       "Ummat Ke Humdum Salam As Salam"
@@ -566,7 +619,8 @@
     "id": "tala-al-badru-alayna",
     "title": "Tala Al Badru Alayna",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Tala Al Badru Alayna",
       "Min Thaniyyat Al Wada"
@@ -576,7 +630,8 @@
     "id": "ya-rasoolallah-tere-dar-ki-fazaon-ko-salam",
     "title": "Ya Rasoolallah Tere Dar Ki Fazaon Ko Salam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Rasool Allah Tere Dar Ki Fazaon Ko Salaam",
       "Gumbad-e-Khazra Ki Thandi, Thandi Chhaoon Ko Salaam"
@@ -586,7 +641,8 @@
     "id": "aaj-karbal-main-shabir-mehman-hai",
     "title": "Aaj Karbal Main Shabir Mehman Hai",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aaj karbal main Shabir mehman hai, dil ko arman hai",
       "Hota qatal-e-shah deen ka saman hai, dil ko arman hai"
@@ -597,6 +653,7 @@
     "title": "Aaj Kufay May Shabbir-o-Shabbar Ro Rahe Hain",
     "category": "Noha",
     "poet": "Himayat",
+    "khawan": "Unknown",
     "preview": [
       "Aaj Kufay may Shabbir-o-Shabbar ro rahe hain",
       "Baap ko apne Zaherra ke Dilbar ro rahe hain"
@@ -606,7 +663,8 @@
     "id": "aay-sham-e-ghariban",
     "title": "Aay Sham-e-Ghariban",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aay Sham-e-Ghariban, Aay Sham-e-Ghariban",
       "Saadat kay khaimon say uthta hai kyon dhuhan"
@@ -616,7 +674,8 @@
     "id": "aey-kufiyane-bewafa",
     "title": "Aey Kufiyane Bewafa",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ghul Machatey Be Adab Wo Koofiyan e Bad Zaban",
       "Wehshaton Ke Daeyron Me Theen Ali ki Betiyaan"
@@ -626,7 +685,8 @@
     "id": "alvida-alvida",
     "title": "Alvida Alvida",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Alvida Alvida Ali Akbar Alvida",
       "Alvida Alvida Ali Asghar Alvida"
@@ -637,6 +697,7 @@
     "title": "Aseer Hoti Hai Attharan Bhaiyon Ki Bahen",
     "category": "Noha",
     "poet": "Ishrat Rizvi Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Bata rahi hai dilon ki badhi hui dhadkan",
       "Atash ki aag se ab tak jhulas raha hai badan"
@@ -647,6 +708,7 @@
     "title": "Asghar Ke Baad Chhain Na Aaya Rabaab Ko",
     "category": "Noha",
     "poet": "Ishrat Rizvi Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Asghar ke baad chhain na aaya Rabaab ko",
       "Dekha tamaam umr tadapta Rabaab ko"
@@ -657,6 +719,7 @@
     "title": "Athara Baras Ke Ali Akbar Ka Janaza",
     "category": "Noha",
     "poet": "Ishrat Rizvi Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Athara baras ke Ali Akbar ka janaza",
       "Akbar ka janaza"
@@ -667,6 +730,7 @@
     "title": "Beti Ali Ki Turbat-e-Zahra Par Aayi Hai",
     "category": "Noha",
     "poet": "Hasan Ali Shivji 'Fughan'",
+    "khawan": "Unknown",
     "preview": [
       "Beti Ali ki Turbat-e-Zehra pe aayee hai",
       "Kurta Lahoo bahara hua bhai ka layee hai"
@@ -677,6 +741,7 @@
     "title": "Ghar Lut Gaya Rasool Ka, Amma Ab Aaye Ho",
     "category": "Noha",
     "poet": "Ishrat Rizvi Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Ghar lut gaya Rasool ka, Amma ab aaye ho",
       "Bhai shaheed ho gaya, Amma ab aaye ho"
@@ -686,7 +751,8 @@
     "id": "goonj-rahi-hai-ye-sada-ya-hussain",
     "title": "Goonj Rahi Hai Ye Sada Ya Hussain",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Hussain, Ya Hussain, Ya Hussain, Ya Hussain!",
       "Goonj rahi hai yeh sada, Ya Hussain"
@@ -696,7 +762,8 @@
     "id": "haaye-hussain-pyaase-hussain",
     "title": "Haaye Hussain Pyaase Hussain",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Haaye Hussain pyaase Hussain",
       "Damishk mai jo gareebeon ka khafela pahoncha"
@@ -706,7 +773,8 @@
     "id": "haaye-kis-tarha-kati-sham-e-ghariban-zainab",
     "title": "Haaye Kis Tarha Kati Sham-e-Ghariban Zainab",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Haaye kis tarha kati sham-e-ghariban Zainab",
       "Kitna purhol tha karbal ka bayabaan Zainab"
@@ -716,7 +784,8 @@
     "id": "hai-kamar-jhuk-gai",
     "title": "Hai Kamar Jhuk Gai",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Kartey they sarwar buka",
       "Haye Kamar jhuk gai"
@@ -727,6 +796,7 @@
     "title": "Illiya Illaya Sakina Sakina",
     "category": "Noha",
     "poet": "Ishrat Rizvi Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Judaye ka gham tujhko sahna hai Beti",
       "Bohat kuch tujhse abhi kahna hai beti"
@@ -737,6 +807,7 @@
     "title": "Jab Gulu-e-Khush Par Khanjar Chalaya Jaye Ga",
     "category": "Noha",
     "poet": "Hasan Faraz Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Jab Gulu e khush par khanjar chalaya jaye ga",
       "Kis tarhan se Zainab se yeh sadma uthaya jaye ga"
@@ -747,6 +818,7 @@
     "title": "Jab Sakeena Ne Ro Ke Kaha, Ai Phupi Ab Madine Chalo",
     "category": "Noha",
     "poet": "Ishrat Rizvi Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Jab Sakeena ne ro ke kaha, Ai Phupi ab Madine chalo",
       "Ab Madine chalo, Ab Madine chalo, Ab Madine chalo"
@@ -757,6 +829,7 @@
     "title": "Kahtin Thin Ro Kar Zainab-e-Kubra",
     "category": "Noha",
     "poet": "Ishrat Rizvi Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Kahtin thin ro kar Zainab e kubra, Eik dukhiyari meri Sakeena",
       "Pani ko tarsi, Wa waila, Eik dukhiyari meri Sakeena"
@@ -766,7 +839,8 @@
     "id": "meri-sakina-is-terha-na-rona",
     "title": "Meri Sakina Is Terha Na Rona",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aakhri Salam",
       "Meri Sakina is terha na rona"
@@ -777,6 +851,7 @@
     "title": "Qatal Al Husain O-Be Karbala",
     "category": "Noha",
     "poet": "Haasil Lucknowi",
+    "khawan": "Unknown",
     "preview": [
       "Qatal-al Husain-o-be Karbala",
       "Zobeh-al Husain-o-be Karbala"
@@ -786,7 +861,8 @@
     "id": "aate-hain-aate-hain-sarkar-e-madina",
     "title": "Aate Hain Aate Hain Sarkar-e-Madina",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aate hain aate hain Sarkar-e-Madina",
       "Jahan zikr kiya jaye unka, tashreef wahan par laate hain"
@@ -796,7 +872,8 @@
     "id": "abbas-kahaan-ho",
     "title": "Abbas Kahaan Ho",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aina Akhi Abbas (x4)",
       "Bazaar Mai Binte-Ali Deti Thi Sadaa Bhai"
@@ -806,7 +883,8 @@
     "id": "awal-allah",
     "title": "Awal Allah",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Awal Allah Ho, Awal Allah Ho",
       "Awal Allah Noor Upaya, Qudrat Ke Sab Banday"
@@ -816,7 +894,8 @@
     "id": "bulalo-sarkar-tum-apne-dar-par",
     "title": "Bulalo Sarkar Tum Apne Dar Par",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Bulalo Sarkar Tum Apne Dar Par, Durood Tum Par Salam Tum Par",
       "Karam Ho Ham Par Bhi Bandaparwar, Durood Tum Par Salam Tum Par"
@@ -826,7 +905,8 @@
     "id": "ghulam-kehta-hai-aaqa-tumhe-salam",
     "title": "Ghulam Kehta Hai Aaqa Tumhe Salam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ghulaam Kehta Hai Aaqa, Tumhe Salaam As Salaam",
       "Ghulaam Kehta Hai Aaqa, Tumhe Salaam As Salaam"
@@ -836,7 +916,8 @@
     "id": "habeeb-e-khuda-ka-nazara-karoon-mein",
     "title": "Habeeb-e-Khuda Ka Nazara Karoon Mein",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Habeeb-e-Khuda ka nazara karoon mein",
       "Dilo jaan unpar nisaaraa karoon mein"
@@ -846,7 +927,8 @@
     "id": "har-waqt-tasawwur-mein-madine-ki-gali-ho",
     "title": "Har Waqt Tasawwur Mein Madine Ki Gali Ho",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Har waqt Tasawwur mein Madine ki gali ho",
       "Aur yaad Muhammed ki mere dil mein basi ho"
@@ -856,7 +938,8 @@
     "id": "kamli-wale-ka-naam-le-le-kar-salam-karte-hain",
     "title": "Kamli Wale Ka Naam Le Le Kar Salam Karte Hain",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Kamli Wale Ka Naam Le Le Kar, Be-Sahaare Salam Karte Hain",
       "Hajiyo Mustafa Se Keh Dena Gham Ke Maare Salam Karte Hain"
@@ -867,6 +950,7 @@
     "title": "Mawla Ya Salli Wa Sallim",
     "category": "Salaam",
     "poet": "Imam Busiri / Traditional",
+    "khawan": "Unknown",
     "preview": [
       "Mawla Ya Salli Wa Sallim Daiman Abadan",
       "Ala Habibika Khairil Khalqi Kullihimi"
@@ -876,7 +960,8 @@
     "id": "meetha-meetha-hai-mere-muhammad-ka-naam",
     "title": "Meetha Meetha Hai Mere Muhammad Ka Naam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Meetha Meetha Hai Mere Muhammad Ka Naam",
       "Un Pe Lakhon Karoron Durood O Salam"
@@ -886,7 +971,8 @@
     "id": "mein-to-khud-unke-dar-ka-ghada-hoon",
     "title": "Mein To Khud Unke Dar Ka Ghada Hoon",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Mein to khud Unke dar ka ghada huun",
       "Apne Aaqa ko mein nazar kya duun"
@@ -896,7 +982,8 @@
     "id": "rahman-ya-rahman",
     "title": "Rahman Ya Rahman",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Mohamed Habib",
     "preview": [
       "Ya Rahman, Ya Rahman",
       "Ya Rahman, Ya Rahman"
@@ -906,7 +993,8 @@
     "id": "sakina-ko-kyun-chorr-kar-jaa-rahe-hain",
     "title": "Sakina Ko Kyun Chorr Kar Jaa Rahe Hain",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Sakina Ko Kyun Chorr Kar Jaa Rahe Hain x 4",
       "Kahaa Roke Baqir Ne Aabid Se Baba"
@@ -916,7 +1004,8 @@
     "id": "shahensha-e-waala-salamun-alaykum",
     "title": "Shahensha-e-Waala Salamun Alaykum",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Shahensha-E-Waala Salamun Alaykum",
       "Do Alam Ke Shaaha Salamun Alaykum"
@@ -926,7 +1015,8 @@
     "id": "subhanallah",
     "title": "SubhanAllah",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Junaid Jamshed",
     "preview": [
       "SubhanAllah, Alhamdulillah, La Ilaha Illallaho Akbar",
       "SubhanAllah, Alhamdulillah, La Ilaha Illallaho Akbar"
@@ -936,7 +1026,8 @@
     "id": "tajdar-e-haram",
     "title": "Tajdar-e-Haram",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Tajdare haram ae Shahensha e deen",
       "Tumpe hardam karodon Duroodo Salam"
@@ -946,7 +1037,8 @@
     "id": "tum-chalo-hum-chale-sab-madine-chale",
     "title": "Tum Chalo Hum Chale Sab Madine Chale",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Tum chalo hum chale sab Madine chale",
       "Jaanibe Taiba sab kai safeenai chale"
@@ -956,7 +1048,8 @@
     "id": "ya-muhammad-noor-e-mujassam",
     "title": "Ya Muhammad Noor-e-Mujassam",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Muhammad Noor-e-Mujassam ya Habibi Ya Maulai",
       "Tasweer-e-Kamal-e-Mohabbat Tanveer-e-Jamal-e-Khudayei"
@@ -966,7 +1059,8 @@
     "id": "ya-mustafa-ya-mujtaba",
     "title": "Ya Mustafa Ya Mujtaba",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Mustafa Ya Mujtaba",
       "Iraham-lana, Iraham-lana"
@@ -976,7 +1070,8 @@
     "id": "ya-shafi-al-wara-salamun-alayk",
     "title": "Ya Shafi-Al-Wara Salamun Alayk",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Shafi-Al-Wara Salamun Alayk",
       "Ya Nabi-Al-Huda Salamun Alayk"
@@ -986,7 +1081,8 @@
     "id": "yeh-karbala-hai",
     "title": "Yeh Karbala Hai",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Zulm-o-Sitam Ki Intaha Hai",
       "Yeh Karbala Hai, Yeh Karbala Hai"
@@ -996,7 +1092,8 @@
     "id": "aaya-hai-bulawa-mujhe-darbar-e-nabi-se",
     "title": "Aaya Hai Bulawa Mujhe Darbar-e-Nabi Se",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Paigham saba layi hai gulzar e Nabi se",
       "Aaya hai bulawa mujhe darbar e Nabi se"
@@ -1007,6 +1104,7 @@
     "title": "Anta Shamsun Anta Badrun",
     "category": "Salaam",
     "poet": "Imam al-Barzanji",
+    "khawan": "Unknown",
     "preview": [
       "Ashraqal-badru alayna",
       "Fakhtafat minhul-buduru"
@@ -1016,7 +1114,8 @@
     "id": "as-subhu-bada",
     "title": "As-Subhu Bada",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Allahu Allahu Allahu Allah",
       "Allahu Allahu Allahu Allah"
@@ -1027,6 +1126,7 @@
     "title": "Awwal Hamd Khuda Da Vird Kijey",
     "category": "Hamd",
     "poet": "Waris Shah",
+    "khawan": "Unknown",
     "preview": [
       "Awwal hamd Khuda da vird kijey",
       "Ishq kita su jag da mol mian"
@@ -1037,17 +1137,18 @@
     "title": "Awwal Hamd Sana-e-Ilahi",
     "category": "Hamd",
     "poet": "Mian Muhammad Bakhsh",
+    "khawan": "Hina Nasarullah",
     "preview": [
       "Awwal hamd sana-e-Ilahi",
       "Jo Malik har har da"
-    ],
-    "khawan": "Hina Nasarullah"
+    ]
   },
   {
     "id": "dil-saheb-e-aulaad-se-insaaf-talab-hai",
     "title": "Dil Saheb-e-Aulaad Se Insaaf Talab Hai",
     "category": "Noha",
     "poet": "Mir Anis",
+    "khawan": "Unknown",
     "preview": [
       "Dil saheb e aulaad se insaaf talab hai",
       "Duniya mein pisar baap ki zeenat ka sabab hai"
@@ -1058,6 +1159,7 @@
     "title": "Ham Khak Hain Aur Khak Hi Mawa Hai Hamara",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Ham Khak Hain Aur Khak Hi Mawa Hai Hamara",
       "Khaki To Woh Aadam Jad-e-Aala Hai Hamara"
@@ -1067,7 +1169,8 @@
     "id": "iltija-meri-ae-khuda",
     "title": "Iltija Meri Ae Khuda",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Moin Niazi Qawwal",
     "preview": [
       "Iltija meri ae Khuda, sun le",
       "Apni rehmat ka wasta, sun le"
@@ -1078,6 +1181,7 @@
     "title": "Jab Naujawan Pisar Shah-e-Deen Se Juda Hua",
     "category": "Noha",
     "poet": "Mir Anis",
+    "khawan": "Unknown",
     "preview": [
       "Jab naujawan pisar Shah e Deen se juda huwa",
       "Roshan qamar sipahre barein se juda huwa"
@@ -1088,6 +1192,7 @@
     "title": "Jab Qata Ki Masafat-e-Shab Aaftab Ne",
     "category": "Noha",
     "poet": "Mir Anis",
+    "khawan": "Unknown",
     "preview": [
       "Jab qata ki masafat e shab aaftab ne",
       "Jalwa kiya sahar ke rukhe behijaab ne"
@@ -1097,7 +1202,8 @@
     "id": "karbala-walon-ne-zinda-kar-diya-islam-ko",
     "title": "Karbala Walon Ne Zinda Kar Diya Islam Ko",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Karbala walon ne zinda kar diya Islam ko",
       "Jan de kar rakh liya baqi Khuda ke naam ko"
@@ -1108,6 +1214,7 @@
     "title": "Kis Sher Ki Amad Hai Ke Rann Kaanp Raha Hai",
     "category": "Noha",
     "poet": "Mirza Dabeer",
+    "khawan": "Unknown",
     "preview": [
       "Kis sher ki amad hai ke rann kaanp raha hai",
       "Rann ek taraf charkhe kohan kaanp raha hai"
@@ -1118,6 +1225,7 @@
     "title": "Lutf Unka Aam Ho Hi Jayega",
     "category": "Naat",
     "poet": "Imam Ahmed Raza Khan",
+    "khawan": "Unknown",
     "preview": [
       "Lutf Unka Aam Ho Hi Jayega",
       "Shaad Har Nakaam Ho Hi Jayega"
@@ -1127,7 +1235,8 @@
     "id": "marhaban-ya-nurul-aini",
     "title": "Marhaban Ya Nurul Aini",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Marhaban marhaban ya nurul-ayni",
       "Marhaban marhaban jaddal-Husaini"
@@ -1137,7 +1246,8 @@
     "id": "mazloom-e-karbala-ya-hussain",
     "title": "Mazloom-e-Karbala - Ya Hussain",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Hussain, Ya Hussain",
       "Ya Hussain khush tae taighe jafa"
@@ -1147,7 +1257,8 @@
     "id": "mujhpe-kyun-band-karte-ho-pani",
     "title": "Mujhpe Kyun Band Karte Ho Pani",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Mujhpe kyun band karte ho pani",
       "Kya Muhammad ka pyara nahi hu"
@@ -1158,6 +1269,7 @@
     "title": "Naimatain Bantata Jis Simt Wo Zeeshan Gaya",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Naimatain Bantata Jis Simt Wo Zeeshan Gaya",
       "Saath He Munshi-e-Rahmat Ka Qalmdan Gaya"
@@ -1167,7 +1279,8 @@
     "id": "nisar-teri-chehel-pehel-par",
     "title": "Nisar Teri Chehel Pehel Par",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Nisar teri chehel pehel par",
       "Hazaron eiden Rabi-ul-Awwal"
@@ -1178,6 +1291,7 @@
     "title": "Phir Ke Gali Gali Tabaah Thokare Sab Ki Khayen Kyun",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Phir Ke Gali Gali Tabaah Thokare Sab Ki Khayen Kyoon",
       "Dil Ko Jo Aql De Khuda Teri Gali Se Jaaye Kyun"
@@ -1188,6 +1302,7 @@
     "title": "Pul Se Utaro Rah Guzar Ko Khabar Na Ho",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Pul Se Utaro Rah Guzar Ko Khabar Na Ho",
       "Jibreel Par Bichhayein Toh Par Ko Khabar Na Ho"
@@ -1197,7 +1312,8 @@
     "id": "qamarun-sidna-nabi-qamarun",
     "title": "Qamarun Sidna Nabi Qamarun",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Qamarun qamarun qamarun sidna-nabi qamarun",
       "Wa-jamil wa-jamil wa-jamil sidna-nabi wa-jamil"
@@ -1208,6 +1324,7 @@
     "title": "Rukh Din Hai Ya Meher Sama Yeh Bhi Nahin Woh Bhi Nahin",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Rukh Din Hai Ya Meher Sama Yeh Bhi Nahin Woh Bhi Nahin",
       "Shab Zulf Ya Mushk-e-Khata Yeh Bhi Nahin Woh Bhi Nahin"
@@ -1217,7 +1334,8 @@
     "id": "salatullah-salamullah",
     "title": "Salatullah Salamullah",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Salatullah salamullah",
       "Ala Taha rasulillah"
@@ -1228,6 +1346,7 @@
     "title": "Sar Ta Ba Qadam Hai Tan E Sultane Zaman Phool",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Sar Ta Ba-Qadam Hai Tan e Sultane Zaman Phool",
       "Lab Phool, Dahan Phool, Zakan Phool, Badan Phool"
@@ -1238,6 +1357,7 @@
     "title": "Sarwar Kahoon Ke Malik O Maula Kahoon Tujhe",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Sarwar Kahoon Ke Malik O Maula Kahon Tujhay",
       "Baagh e Khalil Ka Gul e Ziba Kahon Tujhay"
@@ -1247,18 +1367,19 @@
     "id": "shah-e-madina",
     "title": "Shah-e-Madina",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Milad Raza Qadri",
     "preview": [
       "Shah e Madina, Shah e Madina",
       "Yasrab ke wali, saaray Nabi tere dar ke sawali"
-    ],
-    "khawan": "Milad Raza Qadri"
+    ]
   },
   {
     "id": "sona-jungle-raat-andheri-chai-badli-kaali-hai",
     "title": "Sona Jungle Raat Andheri Chai Badli Kaali Hai",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Sona Jungle Raat Andheri Chai Badli Kaali Hai",
       "Sone Walon Jagte Rahiyo Choron Se Rakhwali Hai"
@@ -1268,7 +1389,8 @@
     "id": "utho-ab-akbar-azan-suna-do",
     "title": "Utho Ab Akbar Azan Suna Do",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Pukari maa aamad e saher hai, utho ab Akbar azan suna do",
       "Bas aakhri raat khatm par hai, utho ab Akbar azan suna do"
@@ -1279,6 +1401,7 @@
     "title": "Woh Sarwar E Kishwar E Risalat",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Woh Sarwar-e-Kishwar-e-Risalat Jo Arsh Par Jalwah Gar Huay Thay",
       "Naye Nirale Tarab Ke Saaman Arab Ke Mehmaan Ke Liye Thay"
@@ -1289,6 +1412,7 @@
     "title": "Wohi Rab Hai Jisne Tujhko Hamatan Karam Banaya",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Wohi Rab Hai Jisne Tujhko Hamatan Karam Banaya",
       "Hamein Bheek Maangne Ko Tira Aastan Bataya"
@@ -1298,7 +1422,8 @@
     "id": "ya-imam-ar-rusli-ya-sanadi",
     "title": "Ya Imam ar-Rusli Ya Sanadi",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya imam ar-rusli ya sanadi",
       "Anta ba'd Allah mu'tamadi"
@@ -1309,6 +1434,7 @@
     "title": "Ya Rab Chaman-e-Nazm Ko Gulzar-e-Eram Kar",
     "category": "Noha",
     "poet": "Mir Anis",
+    "khawan": "Unknown",
     "preview": [
       "Ya Rab chaman e nazm ko gulzar e eram kar",
       "Ay abr e karam khushk zeraat pa karam kar"
@@ -1319,6 +1445,7 @@
     "title": "Man Kunto Maula",
     "category": "Manqabat",
     "poet": "Amir Khusro",
+    "khawan": "Unknown",
     "preview": [
       "Shah e Mardaan, Sher e Yazdaan",
       "Qoowwat e Parwardigaar"
@@ -1329,6 +1456,7 @@
     "title": "Aariz-e-Shams-o-Qamar Se Bhi Hain Anwar Ediyaan",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Owais Raza Qadri",
     "preview": [
       "Aariz-e-shams-o-qamar se bhi hain anwar ediyaan",
       "Arsh ki aankhon ke taare hain wo khushtar ediyaan"
@@ -1339,6 +1467,7 @@
     "title": "Ahle Sirat Rooh-e-Ameen Ko Khabar Kare",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Ahle Sirat Rooh-e-Ameen ko khabar karen",
       "Jaati hai Ummate Nabavi farsh par karen"
@@ -1349,6 +1478,7 @@
     "title": "Aj Sik Mitran Di Vadheri Ye",
     "category": "Naat",
     "poet": "Pir Meher Ali Shah",
+    "khawan": "Unknown",
     "preview": [
       "Aj sik mitran di vadheri ye",
       "Kyun dilri udaas ghaneri ye"
@@ -1358,7 +1488,8 @@
     "id": "aye-bayabaane-arab-teri-bahaaron-ko-salaam",
     "title": "Aye Bayabaane Arab Teri Bahaaron Ko Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aye Bayabaane Arab Teri Bahaaro Ko Salaam",
       "Teri Phoolo Ko Tere Paakiza Khaaron Ko Salaam"
@@ -1368,7 +1499,8 @@
     "id": "aye-habeeb-e-ahmad-e-mujtaba",
     "title": "Aye Habeeb-e-Ahmad-e-Mujtaba",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aye Habeeb e Ahmad e Mujtaba",
       "Dil e Mubtala Ka Salaam Lo"
@@ -1379,6 +1511,7 @@
     "title": "Bay Bismillah Ism Allah Da",
     "category": "Hamd",
     "poet": "Sultan Bahu",
+    "khawan": "Unknown",
     "preview": [
       "Bay Bismillah ism Allah da",
       "Eh bhi kahna bhara hoo"
@@ -1389,6 +1522,7 @@
     "title": "Bulleya Ki Jaana Main Kaun",
     "category": "Hamd",
     "poet": "Bulleh Shah",
+    "khawan": "Unknown",
     "preview": [
       "Bulleya Ki Jaana Main Kaun",
       "Na main momin vich maseetan"
@@ -1398,7 +1532,8 @@
     "id": "chanda-kare-tum-ka-salaam",
     "title": "Chanda Kare Tum Ka Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Chanda Kare Tum ka Salaam Aye Pyare Nabi",
       "Taare Gagan Le Tumra Naam Aye Pyare Nabi"
@@ -1408,7 +1543,8 @@
     "id": "fakhre-isaa-naaz-e-aadam-assalaato-wassalaam",
     "title": "Fakhre Isaa Naaz-e-Aadam Assalaato Wassalaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Fakhre Isaa Naaz e Aadam Assalaato Wassalaam",
       "Roohe Imaan Jaane Aalam Assalaato Wassalaam"
@@ -1419,6 +1555,7 @@
     "title": "Hai Kalaam-e-Ilahi Me Shams-o-Duha",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Hai kalaam-e-Ilahi me Shams-ud-Duha tere chehre noor faza ki qasam",
       "Qasam-e-shab-e-taar me raaz yeh tha ke Habeeb ki zulfe duta ki qasam"
@@ -1428,7 +1565,8 @@
     "id": "ho-imamul-ambiya-par-dam-ba-dam-lakhon-salaam",
     "title": "Ho Imamul Ambiya Par Dam Ba Dam Laakhon Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ho Imamul Ambiya Par Dam Ba Dam Laakhon Salaam",
       "Ho Muhammad Mustafa Par Dam Ba Dam Laakhon Salaam"
@@ -1439,6 +1577,7 @@
     "title": "Ik Nukte Wich Gal Mukdi Ae",
     "category": "Hamd",
     "poet": "Bulleh Shah",
+    "khawan": "Unknown",
     "preview": [
       "Ik Nukte Wich Gal Mukdi Ae",
       "Phadd Nukta, Chodd Hisaabaan Nu"
@@ -1449,6 +1588,7 @@
     "title": "Ilmon Bas Kareen O Yaar",
     "category": "Hamd",
     "poet": "Bulleh Shah",
+    "khawan": "Unknown",
     "preview": [
       "Ilmon Bas Kareen O Yaar",
       "Ikko Alif Tere Darkar"
@@ -1459,6 +1599,7 @@
     "title": "Jo Banon Par Hai Bahaar-e-Chaman Aarai-e-Dost",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Jo banon par hay bahaar-e-chaman aarai-e-dost",
       "Khuld ka naam na le bulbul-e-shaidaayi-e-dost"
@@ -1469,6 +1610,7 @@
     "title": "Kis Ke Jalwe Ki Jhalak Hai Ye Ujala Kya Hai",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Kis ke jalwe ki jhalak hai ye ujala kya hai",
       "Har taraf deed-e-hairatzada takta kya hai"
@@ -1479,6 +1621,7 @@
     "title": "Kiya Poochte Ho Garmi-e-Bazaar-e-Mustafa",
     "category": "Naat",
     "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
     "preview": [
       "Kiya poochte ho garmi-e-bazaar-e-Mustafa",
       "Khud bik rahay hain aa ke khareedar-e-Mustafa"
@@ -1488,7 +1631,8 @@
     "id": "madine-ke-zaair-salaam-unse-kehna",
     "title": "Madine Ke Zaair Salaam Unse Kehna",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Madine Ke Zaair Salaam Unse Kehna",
       "Tadapte Hai Tere Ghulaam Unse Kehna"
@@ -1499,6 +1643,7 @@
     "title": "Meda Ishq Vi Tu",
     "category": "Hamd",
     "poet": "Khwaja Ghulam Farid",
+    "khawan": "Unknown",
     "preview": [
       "Meda Ishq Vi Tu Meda Yaar Vi Tu",
       "Meda Deen Vi Tu Meda Eeman Vi Tu"
@@ -1509,6 +1654,7 @@
     "title": "Nami Danam Chi Manzil",
     "category": "Hamd",
     "poet": "Amir Khusro",
+    "khawan": "Unknown",
     "preview": [
       "Nami danam chi manzil bood shab jaay ki man boodam",
       "Baharsu raqs-e bismil bood shab jaay ki man boodam"
@@ -1519,6 +1665,7 @@
     "title": "Parh Parh Ilm Hazar Kitaban",
     "category": "Hamd",
     "poet": "Sultan Bahu",
+    "khawan": "Unknown",
     "preview": [
       "Parh parh ilm hazar kitaban aalim hoye bhare hoo",
       "Ak harf ishq da parhan na jaanan bhulle phiran bichare hoo"
@@ -1529,6 +1676,7 @@
     "title": "Ser-e-Gulshan Kaun Dekhe Dasht-e-Taiba Chor Kar",
     "category": "Naat",
     "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
     "preview": [
       "Ser-e-gulshan kaun dekhe dasht-e-Taiba chor kar",
       "Sooe Jannat kaun jaaye dar tumhara chor kar"
@@ -1538,7 +1686,8 @@
     "id": "talama-ashku-gharami",
     "title": "Talama Ashku Gharami",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Hadha Qalbi Ya Ilahi",
       "Hadhi Hi Ruhi Ya Ilahi"
@@ -1549,6 +1698,7 @@
     "title": "Tanam Farsooda Jaa Para",
     "category": "Naat",
     "poet": "Maulana Jami",
+    "khawan": "Unknown",
     "preview": [
       "Tanam farsooda jaa para ze hijran ya Rasul Allah",
       "Dilam pazhmurda aawara ze isyan ya Rasul Allah"
@@ -1559,6 +1709,7 @@
     "title": "Tariq Ki Dua",
     "category": "Hamd",
     "poet": "Allama Iqbal",
+    "khawan": "Unknown",
     "preview": [
       "Ye Ghazi, Ye Tere Purisrar Bande",
       "Jinhain Tu Ne Bakhsha Hai Zauq-e-Khudai"
@@ -1568,7 +1719,8 @@
     "id": "ya-badra-timma",
     "title": "Ya Badra Timma",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Badra Timma Haza Kulla Kamal",
       "Madha Yu'abbaru An Ulaka Maqali"
@@ -1578,7 +1730,8 @@
     "id": "ya-rabbi-salli-ala-nabi-muhammadin",
     "title": "Ya Rabbi Salli Ala Nabi Muhammadin",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Rabbi Salli Ala An Nabi Muhammadin",
       "Khayri Al Anami Wa Man Bihi Yutashaffa'u"
@@ -1588,7 +1741,8 @@
     "id": "ya-rasulullahi-salamun-alayk",
     "title": "Ya Rasulullahi Salamun Alayk",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Rasulullahi Salamun Alayk",
       "Ya Rafiish Shaani Wad Daraji"
@@ -1599,6 +1753,7 @@
     "title": "Yaad Me Jiski Nahi Hosh-e-Tan-o-Jaan",
     "category": "Naat",
     "poet": "Ala Hazrat",
+    "khawan": "Unknown",
     "preview": [
       "Yaad me jiski nahi hoshe tano jaan hum ko",
       "Phir dikhade woh rukh aye mehre faroza hum ko"
@@ -1609,17 +1764,18 @@
     "title": "Sare La Makan Se Talab Hui",
     "category": "Naat",
     "poet": "Ambar Warsi",
+    "khawan": "Ghulam Farid Sabri, Hafiz Ahmed Raza Qadri, Rao Ali Hasnain, Aayat Arif",
     "preview": [
       "Sar-e-la-makan se talab hui",
       "Soo-e-muntaha wo chale Nabi"
-    ],
-    "khawan": "Ghulam Farid Sabri, Hafiz Ahmed Raza Qadri, Rao Ali Hasnain, Aayat Arif"
+    ]
   },
   {
     "id": "aaj-rang-hai",
     "title": "Aaj Rang Hai",
     "category": "Manqabat",
     "poet": "Amir Khusro",
+    "khawan": "Unknown",
     "preview": [
       "Aaj rang hai, hey maa rang hai ri",
       "Moray mehboob kay ghar rang hai ri"
@@ -1630,6 +1786,7 @@
     "title": "Chhap Tilak Sab Chhini",
     "category": "Manqabat",
     "poet": "Amir Khusro",
+    "khawan": "Unknown",
     "preview": [
       "Chhap tilak sab chhini re mose naina milaike",
       "Baat agam kah deeni re mose naina milaike"
@@ -1639,7 +1796,8 @@
     "id": "dama-dam-mast-qalandar",
     "title": "Dama Dam Mast Qalandar",
     "category": "Manqabat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ho lal meri pat rakhiyo bala jhoole lalan",
       "Sindhri da sehvan da sakhi shahbaz qalandar"
@@ -1649,7 +1807,8 @@
     "id": "kahin-ishq-ki-dekhi-ibtida",
     "title": "Kahin Ishq Ki Dekhi Ibtida",
     "category": "Hamd",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Kahin ishq ki dekhi ibtida",
       "Kahin ishq ki dekhi inteha"
@@ -1660,6 +1819,7 @@
     "title": "Na Khuda Maseetay Labda",
     "category": "Hamd",
     "poet": "Sultan Bahu",
+    "khawan": "Unknown",
     "preview": [
       "Na khuda maseete labhda",
       "Na khuda vich kaabe"
@@ -1670,6 +1830,7 @@
     "title": "Tere Ishq Nachaya",
     "category": "Hamd",
     "poet": "Bulleh Shah",
+    "khawan": "Unknown",
     "preview": [
       "Tere Ishq Nachaya Kar Ke Thaiya Thaiya",
       "Tere ishq ne dera mere andar keeta"
@@ -1680,6 +1841,7 @@
     "title": "Aasman Gar Tere Talwon Ka Nazara Karta",
     "category": "Naat",
     "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
     "preview": [
       "Aasman Gar Tere Talwon Ka Nazara Karta",
       "Roz Ik Chand Tasadduq Mein Utara Karta"
@@ -1690,17 +1852,18 @@
     "title": "Allah Allah Madina Jo Qareeb Aata Hai",
     "category": "Naat",
     "poet": "Ameer Minai",
+    "khawan": "Nusrat Fateh Ali Khan",
     "preview": [
       "Allah Allah Madina Jo Qareeb Aata Hai",
       "Khud-ba-Khud Sar Pa-e-Tasleem Jhuka Jaata Hai"
-    ],
-    "khawan": "Nusrat Fateh Ali Khan"
+    ]
   },
   {
     "id": "allah-allah-shah-e-kaunain-jalaalat-teri",
     "title": "Allah Allah Shah-e-Kaunain Jalaalat Teri",
     "category": "Naat",
     "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
     "preview": [
       "Allah, Allah! Shah-e-Kaunain Jalaalat Teri",
       "Farsh Kya, Arsh Pe Jaari Hai Hukoomat Teri"
@@ -1711,6 +1874,7 @@
     "title": "Baagh-e-Jannat Mein Niraali Chaman Aaraayi Hai",
     "category": "Naat",
     "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
     "preview": [
       "Baagh-e-Jannat Mein Niraali Chaman Aaraayi Hai",
       "Kya Madina Pe Fida Ho Ke Bahaar Aayi Hai"
@@ -1721,6 +1885,7 @@
     "title": "Be Khud Kiye Dete Hain Andaaz-e-Hijabana",
     "category": "Naat",
     "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
     "preview": [
       "Bekhud Kiye Dete Hain Andaaz-e-Hijabana",
       "Aa Dil Mein Tujhe Rakh Loon Aye Jalwa-e-Janana"
@@ -1731,6 +1896,7 @@
     "title": "Dam-e-Iztiraab Mujh Ko Jo Khayal-e-Yaar Aaye",
     "category": "Naat",
     "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
     "preview": [
       "Dam-e-Iztiraab Mujh Ko Jo Khayal-e-Yaar Aaye",
       "Mere Dil Mein Chain Aaye To Usay Qaraar Aaye"
@@ -1740,7 +1906,8 @@
     "id": "dar-e-nabi-par-para-rahun-ga",
     "title": "Dar-e-Nabi Par Para Rahun Ga",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Dar-e-Nabi par para rahoonga, pare hi rehne se kaam hoga",
       "Kabhi to qismat khulegi meri, kabhi to mera salaam hoga"
@@ -1750,7 +1917,8 @@
     "id": "hamne-aankhon-se-dekha-nahi-hai-magar",
     "title": "Hamne Aankhon Se Dekha Nahi Hai Magar",
     "category": "Naat",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Hamne Aankhon Se Dekha Nahi Hai Magar",
       "Unki Tasveer Seene Mein Maujood Hai"
@@ -1761,6 +1929,7 @@
     "title": "Khalq Ke Sarwar Shafa-e-Mahshar",
     "category": "Naat",
     "poet": "Ameer Minai",
+    "khawan": "Unknown",
     "preview": [
       "Khalq Ke Sarwar Shafa-e-Mahshar Sallallahu Alaihi Wasallam",
       "Mursal-e-Daavar-e-Khaas Payambar Sallallahu Alaihi Wasallam"
@@ -1771,6 +1940,7 @@
     "title": "Tum Ho Hasrat Nikaalne Waale",
     "category": "Naat",
     "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
     "preview": [
       "Tum Ho Hasrat Nikaalne Waale",
       "Na-Muraadon Ke Paalne Waale"
@@ -1780,7 +1950,8 @@
     "id": "deen-e-muhammad-ki-baqa-ya-hussain",
     "title": "Deen-e-Muhammad Ki Baqa Ya Hussain",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Deen-e-Muhammad ki baqa Ya Hussain",
       "Bus woh tera aakhri sajda Hussain"
@@ -1790,7 +1961,8 @@
     "id": "jaate-hain-hum-madine-kubra-yeh-boli-ro-kar",
     "title": "Jaate Hain Hum Madine Kubra Yeh Boli Ro Kar",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Jaate hain hum Madine Kubra yeh boli ro kar",
       "Karbala, Karbala, haye Karbala, Kubra yeh boli ro kar"
@@ -1800,7 +1972,8 @@
     "id": "kaisi-yeh-shaam-aayi-aulaade-sayyada-par",
     "title": "Kaisi Yeh Shaam Aayi Aulaade Sayyada Par",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Kaisi yeh shaam aayi aulaade Sayyada par",
       "Sajjad ro rahe hain, Zainab se moon chhupa kar"
@@ -1810,7 +1983,8 @@
     "id": "kya-bataye-tujhko-zainab-kya-hua-pardes-mein",
     "title": "Kya Bataye Tujhko Zainab Kya Hua Pardes Mein",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Kya bataye tujhko Zainab kya hua pardes mein",
       "Ghar-ka-ghar mara gaya Sughra tera pardes mein"
@@ -1820,7 +1994,8 @@
     "id": "naize-se-girta-khaak-pa-sar-hai",
     "title": "Naize Se Girta Khaak Pa Sar Hai",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Naize se girta khaak pa sar hai",
       "Abbas ka ye kaisa safar hai"
@@ -1830,7 +2005,8 @@
     "id": "pyaasi-hai-sakina",
     "title": "Pyaasi Hai Sakina",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Andheri raat hei, Karbal hei aur udaasi hei",
       "Sakina aaj bhi tanha hei aur pyaasi hei"
@@ -1840,7 +2016,8 @@
     "id": "saahil-ki-taraf-dekh-ke-kehti-thi-zainab",
     "title": "Saahil Ki Taraf Dekh Ke Kehti Thi Zainab",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Saahil ki taraf dekh ke kehti thi ye Zainab",
       "Abbas kahan ho meray Abbas kahan ho"
@@ -1850,7 +2027,8 @@
     "id": "shaheed-hone-ka-duniya-mein-waqt-jab-aaya",
     "title": "Shaheed Hone Ka Duniya Mein Waqt Jab Aaya",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Shaheed hone ka duniya mein waqt jab aaya",
       "Farishta maut ka paigham jis ghadi laya"
@@ -1860,7 +2038,8 @@
     "id": "zainab-yeh-bain-kartin-thin-baba-ab-aaiye",
     "title": "Zainab Yeh Bain Kartin Thin Baba Ab Aaiye",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Zainab yeh bain kartin thin, Baba ab aaiye",
       "Teeron par hai Hussain ka laasha, ab aaiye"
@@ -1870,7 +2049,8 @@
     "id": "zinda-mein-sakina-ye-buka-karti-thi-ro-kar",
     "title": "Zinda Mein Sakina Ye Buka Karti Thi Ro Kar",
     "category": "Noha",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Zinda mein Sakina ye buka karti thi ro kar",
       "Dam ghut-ta hai amma mera, ab ya se chalo ghar"
@@ -1880,7 +2060,8 @@
     "id": "aale-ahmed-ki-azmat-pe-laakhon-salaam",
     "title": "Aale Ahmed Ki Azmat Pe Laakhon Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aale Ahmed Ki Azmat Pe Laakhon Salaam",
       "Ibne Haider Ki Rif'at Pe Laakhon Salaam"
@@ -1890,7 +2071,8 @@
     "id": "aap-shahe-inso-jaan-ho",
     "title": "Aap Shahe Inso Jaan Ho",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Nabi Salam Alayka",
       "Ya Rasool Salam Alayka"
@@ -1900,7 +2082,8 @@
     "id": "assalamu-alayka-ya-rasool-allah",
     "title": "Assalamu Alayka Ya Rasool Allah",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Assalamu alayka ya",
       "Ya Rasool Allah"
@@ -1910,7 +2093,8 @@
     "id": "aye-shaahe-deen-ke-naaib-e-zeeshaan-salaam-lo",
     "title": "Aye Shaahe Deen Ke Naaib e Zeeshaan Salaam Lo",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Aye Shaahe Deen Ke Naaib e Zeeshaa(n) Salaam Lo",
       "Khwaja Moeen Hind Ke Sulta(n) Salaam Lo"
@@ -1920,7 +2104,8 @@
     "id": "badhe-shabbir-jab-ran-mein",
     "title": "Badhe Shabbir Jab Ran Mein",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Badhe Shabbir Jab Ran Mein To Rehmat Ka Salaam Aaya",
       "Shahadat Ne Qadam Choome Imaamat Ka Salaam Aaya"
@@ -1930,7 +2115,8 @@
     "id": "gause-aazam-ki-azmat-pe-laakhon-salaam",
     "title": "Gause Aazam Ki Azmat Pe Laakhon Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Gause Aazam Ki Azmat Pe Laakhon Salaam",
       "Aap Ki Shaan o Shaukat Pe Laakhon Salaam"
@@ -1940,7 +2126,8 @@
     "id": "gause-aazam-lo-mureedon-ka-salaam",
     "title": "Gause Aazam Lo Mureedon Ka Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Gause Aazam Lo Mureedon Ka Salaam",
       "Sar Jhukaye Kehte Hai Saare Ghulaam"
@@ -1950,7 +2137,8 @@
     "id": "khwaja-e-khwajgaan-tum-pe-laakhon-salaam",
     "title": "Khwaja e Khwajgaan Tum Pe Laakhon Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Khwaja e Khwajgaa(n) Tum Pe Laakhon Salaam",
       "Fakhre Hindostaa(n) Tum Pe Laakhon Salaam"
@@ -1960,7 +2148,8 @@
     "id": "laale-khatoon-e-jannat-pe-laakhon-salaam",
     "title": "Laale Khatoon e Jannat Pe Laakhon Salaam",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Laale Khatoon e Jannat Pe Laakhon Salaam",
       "Sibt e Shaah e Risaalat Pe Laakhon Salaam"
@@ -1970,7 +2159,8 @@
     "id": "sayyadi-gause-aazam-salaamun-alaik",
     "title": "Sayyadi Gause Aazam Salaamun 'Alaik",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Sayyadi Gause Aazam Salaamun 'Alaik",
       "Mere Aaqa e Akram Salaamun 'Alaik"
@@ -1981,6 +2171,7 @@
     "title": "Ya Akramal Khalqi",
     "category": "Salaam",
     "poet": "Imam Busiri",
+    "khawan": "Unknown",
     "preview": [
       "Ya Akramal Khalqi Maali Man Aloozubihi",
       "Siwaaka Inda Huloolil Haadisil Amami"
@@ -1990,7 +2181,8 @@
     "id": "ya-sayyidi-irham-lanaa",
     "title": "Ya Sayyidi Irham Lanaa",
     "category": "Salaam",
-    "poet": "Traditional",
+    "poet": "Unknown",
+    "khawan": "Unknown",
     "preview": [
       "Ya Sayyidi Irham Lanaa",
       "In nilta ya reeh as-sabaa yawman ilal aardil haram"

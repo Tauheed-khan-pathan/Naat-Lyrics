@@ -2,7 +2,7 @@
   "id": "dama-dam-mast-qalandar",
   "title": "Dama Dam Mast Qalandar",
   "category": "Manqabat",
-  "poet": "Traditional",
+  "poet": "Unknown",
   "roman": [
     "Ho lal meri pat rakhiyo bala jhoole lalan",
     "Sindhri da sehvan da sakhi shahbaz qalandar",
@@ -26,5 +26,6 @@
     "नाल बाजे घड़ियाल बला झूले लालन",
     "हर दम पीरा तेरी ख़ैर होवे",
     "नाम-ए-अली बेड़ा पार लगा झूले लालन"
-  ]
+  ],
+  "khawan": "Unknown"
 }

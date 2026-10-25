@@ -2,7 +2,7 @@
   "id": "alvida-alvida",
   "title": "Alvida Alvida",
   "category": "Noha",
-  "poet": "Traditional",
+  "poet": "Unknown",
   "roman": [
     "Alvida Alvida Ali Akbar Alvida",
     "Alvida Alvida Ali Asghar Alvida",
@@ -144,5 +144,6 @@
     "जाना भी ज़रूर है",
     "भै अल्विदा",
     "अल्विदा अल्विदा"
-  ]
+  ],
+  "khawan": "Unknown"
 }

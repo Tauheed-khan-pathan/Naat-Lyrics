@@ -1,1 +1,35 @@
-{"category":"Salaam","hindi":["अस्सलामु अलैका या","या रसूल अल्लाह","अस्सलामु अलैका या हबीबी","या नबिय्य अल्लाह","रक़्क़त ऐनाया शौक़न, व लि तैबता थरफ़त इश्क़न","फ़ाअतैतु इला हबीबी, फ़हदा या क़ल्बु व रिफ़्क़न","सल्ली अला मुहम्मद","क़ल्बुन बिल हक़्क़ि तअल्लक़, व बि ग़ारि हिरा तअल्लक़","यब्की यस्अलु ख़ालिक़हू, फ़ाअताहुल वह्यु फ़ाअश्रक़","इक़रा इक़रा या मुहम्मद","या तैबतु जितुकि सब्बा, लि रसूलिल्लाहि मुहिब्बा","बिर्रौदति सकनत रूही, व जिवारिल हादी मुहम्मद"],"id":"assalamu-alayka-ya-rasool-allah","poet":"Traditional","roman":["Assalamu alayka ya","Ya Rasool Allah","Assalamu alayka ya habibi","Ya Nabiyya Allah","Raqqat ainaya shawqan, wa li Taibata tharafat ishqan","Faataytu ila habibi, fahda ya qalbu wa rifqan","Salli ala Muhammad","Qalbun bil Haqqi taallaq, wa bi ghari hiraa taallaq","Yabki yasalu khaliqahu, faatahul wahyu faashraq","Iqra iqra ya Muhammad","Ya Taibatu jituki sabba, li rasoulillahi muhibba","Birrawdhati sakanat rouhi, wa jiwaril hadi Muhammad"],"title":"Assalamu Alayka Ya Rasool Allah"}
+{
+  "category": "Salaam",
+  "hindi": [
+    "अस्सलामु अलैका या",
+    "या रसूल अल्लाह",
+    "अस्सलामु अलैका या हबीबी",
+    "या नबिय्य अल्लाह",
+    "रक़्क़त ऐनाया शौक़न, व लि तैबता थरफ़त इश्क़न",
+    "फ़ाअतैतु इला हबीबी, फ़हदा या क़ल्बु व रिफ़्क़न",
+    "सल्ली अला मुहम्मद",
+    "क़ल्बुन बिल हक़्क़ि तअल्लक़, व बि ग़ारि हिरा तअल्लक़",
+    "यब्की यस्अलु ख़ालिक़हू, फ़ाअताहुल वह्यु फ़ाअश्रक़",
+    "इक़रा इक़रा या मुहम्मद",
+    "या तैबतु जितुकि सब्बा, लि रसूलिल्लाहि मुहिब्बा",
+    "बिर्रौदति सकनत रूही, व जिवारिल हादी मुहम्मद"
+  ],
+  "id": "assalamu-alayka-ya-rasool-allah",
+  "poet": "Unknown",
+  "roman": [
+    "Assalamu alayka ya",
+    "Ya Rasool Allah",
+    "Assalamu alayka ya habibi",
+    "Ya Nabiyya Allah",
+    "Raqqat ainaya shawqan, wa li Taibata tharafat ishqan",
+    "Faataytu ila habibi, fahda ya qalbu wa rifqan",
+    "Salli ala Muhammad",
+    "Qalbun bil Haqqi taallaq, wa bi ghari hiraa taallaq",
+    "Yabki yasalu khaliqahu, faatahul wahyu faashraq",
+    "Iqra iqra ya Muhammad",
+    "Ya Taibatu jituki sabba, li rasoulillahi muhibba",
+    "Birrawdhati sakanat rouhi, wa jiwaril hadi Muhammad"
+  ],
+  "title": "Assalamu Alayka Ya Rasool Allah",
+  "khawan": "Unknown"
+}
