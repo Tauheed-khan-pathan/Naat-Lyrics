@@ -15,8 +15,8 @@
     "category": "Salaam",
     "poet": "Ala Hazrat",
     "preview": [
-      "Mustafa jaan-e-rehmat pe lakhon salaam",
-      "Shama-e-bazm-e-hidayat pe lakhon salaam"
+      "Mustafa Jaan-e-Rehmat Pe Laakhon Salaam",
+      "Shama-e-Bazm-e-Hidaayat Pe Laakhon Salaam"
     ]
   },
   {
@@ -45,8 +45,8 @@
     "category": "Salaam",
     "poet": "Traditional",
     "preview": [
-      "Ya Nabi salam alaika",
-      "Ya Rasool salam alaika"
+      "Ya Nabi Salam Alaika",
+      "Ya Rasool Salam Alaika"
     ]
   },
   {
@@ -197,6 +197,586 @@
     "preview": [
       "Ya Rab! Dil-e-Muslim ko woh zinda tamanna de",
       "Jo qalb ko garma de, jo rooh ko tarpa de"
+    ]
+  },
+  {
+    "id": "ae-sabz-gumbad-wale",
+    "title": "Ae Sabz Gumbad Wale Manzoor Dua Karna",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Ae sabz gumbad wale manzoor dua karna",
+      "Jab waqt-e-naza aaye deedar ata karna"
+    ]
+  },
+  {
+    "id": "arsh-ka-dulha-aaya-hai",
+    "title": "Arsh Ka Dulha Aaya Hai",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "A'alam mein baraat rachi hai",
+      "Arsh ka dulha aaya hai"
+    ]
+  },
+  {
+    "id": "chamak-tujhse-paate-hain",
+    "title": "Chamak Tujhse Paate Hain Sab Paane Wale",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Chamak tujhse paate hain sab paane wale",
+      "Mera dil bhi chamka de chamkane wale"
+    ]
+  },
+  {
+    "id": "hajio-aao-shahenshah-ka-roza-dekho",
+    "title": "Hajio Aao Shahenshah Ka Roza Dekho",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Haajiyo aao Shahenshah ka rauza dekho",
+      "Kaaba to dekh chuke kaabe ka kaaba dekho"
+    ]
+  },
+  {
+    "id": "hum-ko-bulana-ya-rasoolallah",
+    "title": "Hum Ko Bulana Ya Rasoolallah",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Hum ko bulana ya Rasoolallah",
+      "Hum ko bulana ya Habiballah"
+    ]
+  },
+  {
+    "id": "jab-gumbad-e-khazra",
+    "title": "Jab Gumbad E Khazra Pe Woh Pehli Nazar Gayi",
+    "category": "Naat",
+    "poet": "Ubaid",
+    "preview": [
+      "Jab gumbad-e-khazra pe woh pehli nazar gayi",
+      "Aankhon ke raaste mere dil mein utar gayi"
+    ]
+  },
+  {
+    "id": "jashn-e-aamade-rasool",
+    "title": "Jashn E Aamade Rasool",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Jashne amade Rasool Allah hi Allah",
+      "Bibi Amna ke phool Allah hi Allah"
+    ]
+  },
+  {
+    "id": "lam-yati-nazeero",
+    "title": "Lam Yati Nazeero Kafi Nazarin",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Lam yati nazeeruka fee nazarin misle to na shud paida jaana",
+      "Jag raaj ko taaj tore sarso hai tujhko shahe do sara jaana"
+    ]
+  },
+  {
+    "id": "madine-ko-jaaen-yeh-jee-chahta-hai",
+    "title": "Madine Ko Jaaen Yeh Jee Chahta Hai",
+    "category": "Naat",
+    "poet": "Behzad",
+    "preview": [
+      "Madine ko jaaen yeh jee chahta hai",
+      "Muqaddar banae yeh jee chahta hai"
+    ]
+  },
+  {
+    "id": "mai-tu-ummati-hoon",
+    "title": "Mai Tu Ummati Hoon Aye Shah E Umam",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Mai tu ummati hoon aye Shah-e-Umam",
+      "Karden mere Aaqa ab nazr-e-karam"
+    ]
+  },
+  {
+    "id": "mere-sarkar-aaye",
+    "title": "Mere Sarkar Aaye",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Bara Rabi ul Awwal ke din",
+      "Abre bahara chaye"
+    ]
+  },
+  {
+    "id": "nabiyon-ke-nabi",
+    "title": "Nabiyon Ke Nabi",
+    "category": "Naat",
+    "poet": "Muzaffar",
+    "preview": [
+      "Nabiyon ke Nabi",
+      "Ummi laqbi"
+    ]
+  },
+  {
+    "id": "noor-wala-aaya-hai",
+    "title": "Noor Wala Aaya Hai",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Noor wala aaya hai",
+      "Noor lekar aaya hai"
+    ]
+  },
+  {
+    "id": "rounaq-e-bazme-jahan",
+    "title": "Rounaq E Bazme Jahan",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Rounaq-e-bazme jahaan hai aashiqane sokhta",
+      "Keh rahi hai shamma ki goya zabaan-e-sokhta"
+    ]
+  },
+  {
+    "id": "sarkare-do-aalam-ko-nigah",
+    "title": "Sarkare Do Aalam Ko Nigah Mujh Pe Padi Hai",
+    "category": "Naat",
+    "poet": "Shakir",
+    "preview": [
+      "Sarkaare do aalam ko nigah mujh pe padi hai",
+      "Pohncha hoon wahan khulde bareen ki jo gali hai"
+    ]
+  },
+  {
+    "id": "sunte-hain-ke-mehshar-mein",
+    "title": "Sunte Hain Ke Mehshar Mein Sirf Unki Rasai Hai",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Sunte hain ke mehshar mein sirf unki rasai hai",
+      "Gar unki rasai hai lo jab to ban aayi hai"
+    ]
+  },
+  {
+    "id": "unki-mahak-ne-dil-ke-ghunche",
+    "title": "Unki Mahak Ne Dil Ke Ghunche Khila Diye Hain",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Unki mahek ne dil ke ghunche khila diye hain",
+      "Jis raah chal diye hain kooche basa diye hain"
+    ]
+  },
+  {
+    "id": "wah-kya-jood-o-karam",
+    "title": "Wah Kya Jood O Karam Hai Shahe Batha Tera",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Waah kya jood o karam hai Shahe Bat-ha tera",
+      "Nahi sunta hi nahi maangne wala tera"
+    ]
+  },
+  {
+    "id": "wo-kamal-e-husn-e-huzoor",
+    "title": "Wo Kamal E Husn E Huzoor Hai",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Wo kamal-e-husn-e-huzoor hai gumaan-e-nuqs-e-jahaan nahi",
+      "Ye hi phool khaar se door hai ye hi shamma hai ke duhaan nahi"
+    ]
+  },
+  {
+    "id": "ya-nabi-dekha-yeh-rutba",
+    "title": "Ya Nabi Dekha Yeh Rutba Aapki Nalain Ka",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Nabi dekha ye rutba aapki naalein ka",
+      "Arsh ne chooma hai talwa aapki naalein ka"
+    ]
+  },
+  {
+    "id": "aaqa-le-lo-salam-ab-hamara",
+    "title": "Aaqa Le Lo Salam Ab Hamara",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Aaqa Le Lo Salam Ab Hamara",
+      "Saba Tu Madine Ja Ke Kehna Khudara"
+    ]
+  },
+  {
+    "id": "aye-deen-e-haq-ke-rehbar",
+    "title": "Aye Deen E Haq Ke Rehbar Tum Par Salaam Har Dam",
+    "category": "Salaam",
+    "poet": "Hasan Raza Khan",
+    "preview": [
+      "Aye Deen E Haq Ke Rehbar Tum Par Salaam Har Dam",
+      "Mere Shafi E Mehshar Tum Par Salaam Har Dam"
+    ]
+  },
+  {
+    "id": "aye-saba-mustafa-se-keh-dena",
+    "title": "Aye Saba Mustafa Se Keh Dena",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Aye Saba Mustafa Se Keh Dena",
+      "Gham Ke Maare Salam Kehte Hain"
+    ]
+  },
+  {
+    "id": "chaman-ke-mast-nazare-salam-kehte-hain",
+    "title": "Chaman Ke Mast Nazare Salaam Kehte Hain",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Chaman Ke Mast Nazare Salaam Kehte Hain",
+      "Falak Ke Chaand Sitaare Salaam Kehte Hain"
+    ]
+  },
+  {
+    "id": "dil-se-hazaar-baar-madina-tujhe-salam",
+    "title": "Dil Se Hazaar Baar Madina Tujhe Salaam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Dil Se Hazaar Baar Madina Tujhe Salaam",
+      "Aaqa Ka Tu Dayaar Madina Tujhe Salaam"
+    ]
+  },
+  {
+    "id": "hum-be-kason-ka-shahe-madina-salam-lo",
+    "title": "Hum Be Kason Ka Shahe Madina Salam Lo",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Hum Be Kason Ka Shahe Madina Salam Lo",
+      "Hum Aasiyon Ke Dil Ki Sada Hai Salam Lo"
+    ]
+  },
+  {
+    "id": "kaabe-ke-badrudduja",
+    "title": "Kaabe Ke Badrudduja Tum Pe Karodon Durood",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Kaabe Ke Badrudduja Tum Pe Karodon Durood",
+      "Taiba Ke Shamsudduha Tum Pe Karodon Durood"
+    ]
+  },
+  {
+    "id": "khairul-bashar-par-lakho-salam",
+    "title": "Khairul Bashar Par Lakho Salam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Khairul Bashar Par Lakho Salam",
+      "Lakho Darood Aur Lakho Salam"
+    ]
+  },
+  {
+    "id": "madina-tujhe-salam",
+    "title": "Madina Tujhe Salam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Madina Tujhe Salam Madina Tujhe Salam",
+      "Noor Ka Sagar, Noor Ki Mai Hai, Noor Ka Chalka Jaam"
+    ]
+  },
+  {
+    "id": "mehboob-e-kibriya-se-mera-salam-kehna",
+    "title": "Mehboob E Kibriya Se Mera Salaam Kehna",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Mehboob E Kibriya Se Mera Salaam Kehna",
+      "Sultane Ambiya Se Mera Salaam Kehna"
+    ]
+  },
+  {
+    "id": "nabi-wo-aale-nabi-par-salam-ho-mera",
+    "title": "Nabi Wo Aale Nabi Par Salam Ho Mera",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Nabi Wo Aale-Nabi Par, Salam Ho Mera",
+      "Khuda Ke Noor-e-Nazar Par, Salam Ho Mera"
+    ]
+  },
+  {
+    "id": "saba-madine-mein-mustafa-se-salam-kehna",
+    "title": "Saba Madine Mein Mustafa Se Salam Kehna",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Saba Madine Mein Mustafa Se, Hum Bekason Ka Salaam Kehna",
+      "Nahi Hai Koi Bajuz Tumhare, Hamara Itna Payaam Kehna"
+    ]
+  },
+  {
+    "id": "salaat-al-badariyya",
+    "title": "Salaat Al Badariyya - Salatullah Salamullah",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Salatullah Salamullah",
+      "Ala Taha Rasoolillah"
+    ]
+  },
+  {
+    "id": "salam-us-par-ke-jisne",
+    "title": "Salam Us Par Ke Jisne",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Salam Us Par Ke Jisne Be Kason Ki Dastageeri Ki",
+      "Salam Us Par Ke Jisne Badshahi Mein Faqeeri Ki"
+    ]
+  },
+  {
+    "id": "salawatullah-alaika",
+    "title": "Salawatullah Alaika",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Nabi Salam Alaika",
+      "Ya Rasool Salam Alaika"
+    ]
+  },
+  {
+    "id": "shahe-do-aalam-salam-as-salam",
+    "title": "Shahe Do Aalam Salam As Salam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Shahe Do Aalam Salam As Salam",
+      "Ummat Ke Humdum Salam As Salam"
+    ]
+  },
+  {
+    "id": "tala-al-badru-alayna",
+    "title": "Tala Al Badru Alayna",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Tala Al Badru Alayna",
+      "Min Thaniyyat Al Wada"
+    ]
+  },
+  {
+    "id": "ya-rasoolallah-tere-dar-ki-fazaon-ko-salam",
+    "title": "Ya Rasoolallah Tere Dar Ki Fazaon Ko Salam",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Rasool Allah Tere Dar Ki Fazaon Ko Salaam",
+      "Gumbad-e-Khazra Ki Thandi, Thandi Chhaoon Ko Salaam"
+    ]
+  },
+  {
+    "id": "aaj-karbal-main-shabir-mehman-hai",
+    "title": "Aaj Karbal Main Shabir Mehman Hai",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Aaj karbal main Shabir mehman hai, dil ko arman hai",
+      "Hota qatal-e-shah deen ka saman hai, dil ko arman hai"
+    ]
+  },
+  {
+    "id": "aaj-kufay-may-shabbir-o-shabbar-ro-rahe-hain",
+    "title": "Aaj Kufay May Shabbir-o-Shabbar Ro Rahe Hain",
+    "category": "Noha",
+    "poet": "Himayat",
+    "preview": [
+      "Aaj Kufay may Shabbir-o-Shabbar ro rahe hain",
+      "Baap ko apne Zaherra ke Dilbar ro rahe hain"
+    ]
+  },
+  {
+    "id": "aay-sham-e-ghariban",
+    "title": "Aay Sham-e-Ghariban",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Aay Sham-e-Ghariban, Aay Sham-e-Ghariban",
+      "Saadat kay khaimon say uthta hai kyon dhuhan"
+    ]
+  },
+  {
+    "id": "aey-kufiyane-bewafa",
+    "title": "Aey Kufiyane Bewafa",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Ghul Machatey Be Adab Wo Koofiyan e Bad Zaban",
+      "Wehshaton Ke Daeyron Me Theen Ali ki Betiyaan"
+    ]
+  },
+  {
+    "id": "alvida-alvida",
+    "title": "Alvida Alvida",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Alvida Alvida Ali Akbar Alvida",
+      "Alvida Alvida Ali Asghar Alvida"
+    ]
+  },
+  {
+    "id": "aseer-hoti-hai-attharan-bhaiyon-ki-bahen",
+    "title": "Aseer Hoti Hai Attharan Bhaiyon Ki Bahen",
+    "category": "Noha",
+    "poet": "Ishrat Rizvi Lucknowi",
+    "preview": [
+      "Bata rahi hai dilon ki badhi hui dhadkan",
+      "Atash ki aag se ab tak jhulas raha hai badan"
+    ]
+  },
+  {
+    "id": "asghar-ke-baad-chhain-na-aaya-rabaab-ko",
+    "title": "Asghar Ke Baad Chhain Na Aaya Rabaab Ko",
+    "category": "Noha",
+    "poet": "Ishrat Rizvi Lucknowi",
+    "preview": [
+      "Asghar ke baad chhain na aaya Rabaab ko",
+      "Dekha tamaam umr tadapta Rabaab ko"
+    ]
+  },
+  {
+    "id": "athara-baras-ke-ali-akbar-ka-janaza",
+    "title": "Athara Baras Ke Ali Akbar Ka Janaza",
+    "category": "Noha",
+    "poet": "Ishrat Rizvi Lucknowi",
+    "preview": [
+      "Athara baras ke Ali Akbar ka janaza",
+      "Akbar ka janaza"
+    ]
+  },
+  {
+    "id": "beti-ali-ki-turbat-e-zahra-par-aayi-hai",
+    "title": "Beti Ali Ki Turbat-e-Zahra Par Aayi Hai",
+    "category": "Noha",
+    "poet": "Hasan Ali Shivji 'Fughan'",
+    "preview": [
+      "Beti Ali ki Turbat-e-Zehra pe aayee hai",
+      "Kurta Lahoo bahara hua bhai ka layee hai"
+    ]
+  },
+  {
+    "id": "ghar-lut-gaya-rasool-ka-amma-ab-aaye-ho",
+    "title": "Ghar Lut Gaya Rasool Ka, Amma Ab Aaye Ho",
+    "category": "Noha",
+    "poet": "Ishrat Rizvi Lucknowi",
+    "preview": [
+      "Ghar lut gaya Rasool ka, Amma ab aaye ho",
+      "Bhai shaheed ho gaya, Amma ab aaye ho"
+    ]
+  },
+  {
+    "id": "goonj-rahi-hai-ye-sada-ya-hussain",
+    "title": "Goonj Rahi Hai Ye Sada Ya Hussain",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Hussain, Ya Hussain, Ya Hussain, Ya Hussain!",
+      "Goonj rahi hai yeh sada, Ya Hussain"
+    ]
+  },
+  {
+    "id": "haaye-hussain-pyaase-hussain",
+    "title": "Haaye Hussain Pyaase Hussain",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Haaye Hussain pyaase Hussain",
+      "Damishk mai jo gareebeon ka khafela pahoncha"
+    ]
+  },
+  {
+    "id": "haaye-kis-tarha-kati-sham-e-ghariban-zainab",
+    "title": "Haaye Kis Tarha Kati Sham-e-Ghariban Zainab",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Haaye kis tarha kati sham-e-ghariban Zainab",
+      "Kitna purhol tha karbal ka bayabaan Zainab"
+    ]
+  },
+  {
+    "id": "hai-kamar-jhuk-gai",
+    "title": "Hai Kamar Jhuk Gai",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Kartey they sarwar buka",
+      "Haye Kamar jhuk gai"
+    ]
+  },
+  {
+    "id": "illiya-illaya-sakina-sakina",
+    "title": "Illiya Illaya Sakina Sakina",
+    "category": "Noha",
+    "poet": "Ishrat Rizvi Lucknowi",
+    "preview": [
+      "Judaye ka gham tujhko sahna hai Beti",
+      "Bohat kuch tujhse abhi kahna hai beti"
+    ]
+  },
+  {
+    "id": "jab-gulu-e-khush-par-khanjar-chalaya-jaye-ga",
+    "title": "Jab Gulu-e-Khush Par Khanjar Chalaya Jaye Ga",
+    "category": "Noha",
+    "poet": "Hasan Faraz Lucknowi",
+    "preview": [
+      "Jab Gulu e khush par khanjar chalaya jaye ga",
+      "Kis tarhan se Zainab se yeh sadma uthaya jaye ga"
+    ]
+  },
+  {
+    "id": "jab-sakeena-ne-ro-ke-kaha-ai-phupi-ab-madine-chalo",
+    "title": "Jab Sakeena Ne Ro Ke Kaha, Ai Phupi Ab Madine Chalo",
+    "category": "Noha",
+    "poet": "Ishrat Rizvi Lucknowi",
+    "preview": [
+      "Jab Sakeena ne ro ke kaha, Ai Phupi ab Madine chalo",
+      "Ab Madine chalo, Ab Madine chalo, Ab Madine chalo"
+    ]
+  },
+  {
+    "id": "kahtin-thin-ro-kar-zainab-e-kubra",
+    "title": "Kahtin Thin Ro Kar Zainab-e-Kubra",
+    "category": "Noha",
+    "poet": "Ishrat Rizvi Lucknowi",
+    "preview": [
+      "Kahtin thin ro kar Zainab e kubra, Eik dukhiyari meri Sakeena",
+      "Pani ko tarsi, Wa waila, Eik dukhiyari meri Sakeena"
+    ]
+  },
+  {
+    "id": "meri-sakina-is-terha-na-rona",
+    "title": "Meri Sakina Is Terha Na Rona",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Aakhri Salam",
+      "Meri Sakina is terha na rona"
+    ]
+  },
+  {
+    "id": "qatal-al-husain-o-be-karbala",
+    "title": "Qatal Al Husain O-Be Karbala",
+    "category": "Noha",
+    "poet": "Haasil Lucknowi",
+    "preview": [
+      "Qatal-al Husain-o-be Karbala",
+      "Zobeh-al Husain-o-be Karbala"
     ]
   }
 ]
