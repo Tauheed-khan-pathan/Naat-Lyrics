@@ -12,17 +12,9 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <div class="top">
-    <h1>Naat Lyrics</h1>
-    <p class="tagline">Naat • Hamd • Salaam • Noha — Roman Urdu aur Hindi me</p>
-  </div>
-  <div class="searchbox">
-    <input id="search" type="search" placeholder="Kisi bhi Naat ki koi bhi line ya word likho…" autocomplete="off" aria-label="Lyrics search">
-    <p id="count" class="count"></p>
-  </div>
-  <div class="controls">
-    <div id="tabs" role="tablist" aria-label="Categories"></div>
+<header class="site-header">
+  <div class="bar">
+    <a class="logo" href="index.html">Naat Lyrics</a>
     <div class="lang">
       <button data-lang="roman" class="active">Roman</button>
       <button data-lang="hindi">हिन्दी</button>
@@ -31,10 +23,14 @@
     </div>
   </div>
 </header>
+<div class="searchbar">
+  <input id="search" type="search" placeholder="Search lyrics — koi bhi line ya word likho…" autocomplete="off" aria-label="Lyrics search">
+  <p id="count" class="count"></p>
+</div>
+<nav class="tabbar" aria-label="Categories"><div id="tabs" role="tablist"></div></nav>
 <main id="list"></main>
 <footer>
   <p><strong>Naat Lyrics</strong> — Naat, Hamd, Salaam aur Noha, ek hi jagah.</p>
-  <p>Nayi lyric add karni ho to lyrics.json me ek entry jodni hai, bas. Phase 1 free website hai; ads aur monetization Phase 2 me.</p>
 </footer>
 <script src="app.js"></script>
 </body>
