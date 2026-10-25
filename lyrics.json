@@ -2890,6 +2890,10 @@
       "Wa Kam Aghnaita Zal 'Umri",
       "Wa Kam 'Aafaita Zal Wizri",
       "Bi Ahlil Badri Ya Allah",
+      "Laqad Daqat 'Alal Qalbi",
+      "Jamee'al Ardi Ma'a Rahbi",
+      "Fanjuna Minal Balaas Sa'bi",
+      "Bi Ahlil Badri Ya Allah",
       "Ataina Taalibir Rafqi",
       "Wa Jullil Khairi Was Sa'di",
       "Fawassi' Minhatal Aidi",
@@ -2901,6 +2905,18 @@
       "Wa In Tardud Faman Nati",
       "Binaili Jami'e Hajati",
       "Ayaa Jalilul Mulimmaati",
+      "Bi Ahlil Badri Ya Allah",
+      "Ilahi Aghfir Wa Akrimna",
+      "Binaili Matalibin Minna",
+      "Wa Daf'i Masa'atin 'Anna",
+      "Bi Ahlil Badri Ya Allah",
+      "Ilahi Anta Dhu Lutfin",
+      "Wa Dhu Fadlin Wa Dhu 'Atfin",
+      "Wa Kam Min Kurbatin Tanfi",
+      "Bi Ahlil Badri Ya Allah",
+      "Wa Salli 'Alal Nabiyyil Barri",
+      "Bila 'Addin Wa La Hasrin",
+      "Wa Aali Sadatin Ghurrin",
       "Bi Ahlil Badri Ya Allah"
     ],
     "hindi": [
@@ -2932,6 +2948,10 @@
       "व कम अग़नैता ज़ल-उम्रि",
       "व कम आफ़ैता ज़ल-विज़्रि",
       "बि अहलिल-बद्रि या अल्लाह",
+      "लक़द दाक़त अलल-क़ल्बि",
+      "जमीअल-अर्दि मअ रहबि",
+      "फ़न्जुना मिनल-बला अस-सअबि",
+      "बि अहलिल-बद्रि या अल्लाह",
       "अतैना तालिबिर-रफ़्क़ि",
       "व जुल्लिल-ख़ैरि वस-सअदि",
       "फ़वस्सिअ मिन्हतल-अइदि",
@@ -2943,6 +2963,18 @@
       "व इन तरदुद फ़मन्नति",
       "बिनैलि जमीअ हाजति",
       "अया जलीलुल-मुलिम्माति",
+      "बि अहलिल-बद्रि या अल्लाह",
+      "इलाही अग़फ़िर व अक्रिमना",
+      "बिनैलि मतालिबिन मिन्ना",
+      "व दफ़ई मसाअतिन अन्ना",
+      "बि अहलिल-बद्रि या अल्लाह",
+      "इलाही अन्ता ज़ू लुत्फ़िन",
+      "व ज़ू फ़दलिन व ज़ू अत्फ़िन",
+      "व कम मिन कुर्बतिन तन्फ़ी",
+      "बि अहलिल-बद्रि या अल्लाह",
+      "व सल्ली अलल-नबिय्यिल-बर्री",
+      "बिला अद्दिन व ला हस्रिन",
+      "व आली सादातिन ग़ुर्रिन",
       "बि अहलिल-बद्रि या अल्लाह"
     ]
   },
@@ -7013,6 +7045,8 @@
       "Marhaban jud wa-balligh kulla maqsad",
       "Marhaban wahdina nahja sabilih",
       "Marhaban kay bihi nus'ad wa-nurshad",
+      "Robbi Ballighna Bijahih",
+      "Fi Jiwarihi Khoiro Maq'ad",
       "Wa-salatullahi taghsha ashrafar-rusli Muhammad",
       "Wa-salamun mustamirrun kulla heenin yatajaddad"
     ],
@@ -7025,6 +7059,8 @@
       "मरहबन जुद वा-बल्लिग़ कुल्ला मक़्सद",
       "मरहबन वहदिना नहजा सबीलिहि",
       "मरहबन कय बिहि नुसअद वा-नुरशद",
+      "रॉब्बी बल्लिग़ना बिजाहिह",
+      "फ़ी जिवारिहि खोइरो मक़अद",
       "वा-सलातुल्लाहि तग़्शा अशरफ़र-रुस्लि मुहम्मद",
       "वा-सलामुन मुस्तमिर्रुन कुल्ला हीनिन यतजद्दद"
     ]
@@ -9402,7 +9438,9 @@
       "Munyati Aqsa Marami Ahza Bish Shuhud",
       "Wa Ara Babas Salami Ya Zakil Judud",
       "Wa Alaykallahu Salla Rabbi Zul Jalal",
-      "Yakfi Ya Nural Ahillah Inna Hajri Taal"
+      "Yakfi Ya Nural Ahillah Inna Hajri Taal",
+      "Sayyidi Al Umr Walla",
+      "Jud Bil Wasli Jud"
     ],
     "hindi": [
       "हाज़ा क़ल्बी या इलाही",
@@ -9432,7 +9470,9 @@
       "मुन्यति अक़्सा मरामी अह्ज़ा बिश शुहूद",
       "व अरा बाबस सलामि या ज़ाकिल जुदूद",
       "व अलैकल्लाहु सल्ला रब्बि ज़ुल जलाल",
-      "यक्फ़ी या नूरल अहिल्ला इन्ना हज्रि ताल"
+      "यक्फ़ी या नूरल अहिल्ला इन्ना हज्रि ताल",
+      "सैय्यिदि अल-उम्र वल्ला",
+      "जुद बिल-वस्लि जुद"
     ]
   },
   {
