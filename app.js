@@ -57,7 +57,8 @@ function render(){
   }
 }
 const clearBtn=document.getElementById('clearSearch');
-function syncClear(){ if(clearBtn) clearBtn.hidden=!searchEl.value; }
+function syncClear(){ if(clearBtn) clearBtn.classList.toggle('show', !!searchEl.value); }
+syncClear();
 searchEl.oninput=()=>{syncClear(); render();};
 if(clearBtn) clearBtn.onclick=()=>{searchEl.value=''; syncClear(); render(); searchEl.focus();};
 document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
@@ -65,10 +66,10 @@ document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
   document.querySelectorAll('.lang button[data-lang]').forEach(x=>x.classList.toggle('active',x===b));
   render();
 });
-document.getElementById('fontUp').onclick=()=>{size=Math.min(1.4,size+0.1); render();};
-document.getElementById('fontDown').onclick=()=>{size=Math.max(0.9,size-0.1); render();};
+const fontUpBtn=document.getElementById('fontUp'); if(fontUpBtn) fontUpBtn.onclick=()=>{size=Math.min(1.4,size+0.1); render();};
+const fontDownBtn=document.getElementById('fontDown'); if(fontDownBtn) fontDownBtn.onclick=()=>{size=Math.max(0.9,size-0.1); render();};
 
 const darkBtn=document.getElementById('darkToggle');
-function applyDark(){const d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);if(darkBtn)darkBtn.textContent=d?'☀️':'🌙';}
+function applyDark(){const d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);}
 applyDark();
 if(darkBtn)darkBtn.onclick=()=>{localStorage.setItem('naat-dark',document.body.classList.contains('dark')?'0':'1');applyDark();};
