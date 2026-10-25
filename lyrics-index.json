@@ -988,5 +988,325 @@
       "Zulm-o-Sitam Ki Intaha Hai",
       "Yeh Karbala Hai, Yeh Karbala Hai"
     ]
+  },
+  {
+    "id": "aaya-hai-bulawa-mujhe-darbar-e-nabi-se",
+    "title": "Aaya Hai Bulawa Mujhe Darbar-e-Nabi Se",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Paigham saba layi hai gulzar e Nabi se",
+      "Aaya hai bulawa mujhe darbar e Nabi se"
+    ]
+  },
+  {
+    "id": "anta-shamsun-anta-badrun",
+    "title": "Anta Shamsun Anta Badrun",
+    "category": "Salaam",
+    "poet": "Imam al-Barzanji",
+    "preview": [
+      "Ashraqal-badru alayna",
+      "Fakhtafat minhul-buduru"
+    ]
+  },
+  {
+    "id": "as-subhu-bada",
+    "title": "As-Subhu Bada",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Allahu Allahu Allahu Allah",
+      "Allahu Allahu Allahu Allah"
+    ]
+  },
+  {
+    "id": "awwal-hamd-khuda-da-vird-kijey",
+    "title": "Awwal Hamd Khuda Da Vird Kijey",
+    "category": "Hamd",
+    "poet": "Waris Shah",
+    "preview": [
+      "Awwal hamd Khuda da vird kijey",
+      "Ishq kita su jag da mol mian"
+    ]
+  },
+  {
+    "id": "awwal-hamd-sana-e-ilahi",
+    "title": "Awwal Hamd Sana-e-Ilahi",
+    "category": "Hamd",
+    "poet": "Mian Muhammad Bakhsh",
+    "preview": [
+      "Awwal hamd sana-e-Ilahi",
+      "Jo Malik har har da"
+    ]
+  },
+  {
+    "id": "dil-saheb-e-aulaad-se-insaaf-talab-hai",
+    "title": "Dil Saheb-e-Aulaad Se Insaaf Talab Hai",
+    "category": "Noha",
+    "poet": "Mir Anis",
+    "preview": [
+      "Dil saheb e aulaad se insaaf talab hai",
+      "Duniya mein pisar baap ki zeenat ka sabab hai"
+    ]
+  },
+  {
+    "id": "ham-khak-hain-aur-khak-hi-mawa-hai-hamara",
+    "title": "Ham Khak Hain Aur Khak Hi Mawa Hai Hamara",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Ham Khak Hain Aur Khak Hi Mawa Hai Hamara",
+      "Khaki To Woh Aadam Jad-e-Aala Hai Hamara"
+    ]
+  },
+  {
+    "id": "iltija-meri-ae-khuda",
+    "title": "Iltija Meri Ae Khuda",
+    "category": "Hamd",
+    "poet": "Traditional",
+    "preview": [
+      "Iltija meri ae Khuda, sun le",
+      "Apni rehmat ka wasta, sun le"
+    ]
+  },
+  {
+    "id": "jab-naujawan-pisar-shah-e-deen-se-juda-hua",
+    "title": "Jab Naujawan Pisar Shah-e-Deen Se Juda Hua",
+    "category": "Noha",
+    "poet": "Mir Anis",
+    "preview": [
+      "Jab naujawan pisar Shah e Deen se juda huwa",
+      "Roshan qamar sipahre barein se juda huwa"
+    ]
+  },
+  {
+    "id": "jab-qata-ki-masafat-e-shab",
+    "title": "Jab Qata Ki Masafat-e-Shab Aaftab Ne",
+    "category": "Noha",
+    "poet": "Mir Anis",
+    "preview": [
+      "Jab qata ki masafat e shab aaftab ne",
+      "Jalwa kiya sahar ke rukhe behijaab ne"
+    ]
+  },
+  {
+    "id": "karbala-walon-ne-zinda-kar-diya-islam-ko",
+    "title": "Karbala Walon Ne Zinda Kar Diya Islam Ko",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Karbala walon ne zinda kar diya Islam ko",
+      "Jan de kar rakh liya baqi Khuda ke naam ko"
+    ]
+  },
+  {
+    "id": "kis-sher-ki-amad-hai-ke-rann-kaanp-raha-hai",
+    "title": "Kis Sher Ki Amad Hai Ke Rann Kaanp Raha Hai",
+    "category": "Noha",
+    "poet": "Mirza Dabeer",
+    "preview": [
+      "Kis sher ki amad hai ke rann kaanp raha hai",
+      "Rann ek taraf charkhe kohan kaanp raha hai"
+    ]
+  },
+  {
+    "id": "lutf-un-ka-aam-ho-hi-jayega",
+    "title": "Lutf Unka Aam Ho Hi Jayega",
+    "category": "Naat",
+    "poet": "Imam Ahmed Raza Khan",
+    "preview": [
+      "Lutf Unka Aam Ho Hi Jayega",
+      "Shaad Har Nakaam Ho Hi Jayega"
+    ]
+  },
+  {
+    "id": "marhaban-ya-nurul-aini",
+    "title": "Marhaban Ya Nurul Aini",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Marhaban marhaban ya nurul-ayni",
+      "Marhaban marhaban jaddal-Husaini"
+    ]
+  },
+  {
+    "id": "mazloom-e-karbala-ya-hussain",
+    "title": "Mazloom-e-Karbala - Ya Hussain",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Ya Hussain, Ya Hussain",
+      "Ya Hussain khush tae taighe jafa"
+    ]
+  },
+  {
+    "id": "mujhpe-kyun-band-karte-ho-pani",
+    "title": "Mujhpe Kyun Band Karte Ho Pani",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Mujhpe kyun band karte ho pani",
+      "Kya Muhammad ka pyara nahi hu"
+    ]
+  },
+  {
+    "id": "naimatain-baantta-jis-simt-wo-zeeshan-gaya",
+    "title": "Naimatain Bantata Jis Simt Wo Zeeshan Gaya",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Naimatain Bantata Jis Simt Wo Zeeshan Gaya",
+      "Saath He Munshi-e-Rahmat Ka Qalmdan Gaya"
+    ]
+  },
+  {
+    "id": "nisar-teri-chehel-pehel-par",
+    "title": "Nisar Teri Chehel Pehel Par",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Nisar teri chehel pehel par",
+      "Hazaron eiden Rabi-ul-Awwal"
+    ]
+  },
+  {
+    "id": "phir-ke-gali-gali-tabaah-thokare-sab-ki-khayen-kyun",
+    "title": "Phir Ke Gali Gali Tabaah Thokare Sab Ki Khayen Kyun",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Phir Ke Gali Gali Tabaah Thokare Sab Ki Khayen Kyoon",
+      "Dil Ko Jo Aql De Khuda Teri Gali Se Jaaye Kyun"
+    ]
+  },
+  {
+    "id": "pul-se-utaro-rah-guzar-ko-khabar-na-ho",
+    "title": "Pul Se Utaro Rah Guzar Ko Khabar Na Ho",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Pul Se Utaro Rah Guzar Ko Khabar Na Ho",
+      "Jibreel Par Bichhayein Toh Par Ko Khabar Na Ho"
+    ]
+  },
+  {
+    "id": "qamarun-sidna-nabi-qamarun",
+    "title": "Qamarun Sidna Nabi Qamarun",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Qamarun qamarun qamarun sidna-nabi qamarun",
+      "Wa-jamil wa-jamil wa-jamil sidna-nabi wa-jamil"
+    ]
+  },
+  {
+    "id": "rukh-din-hai-ya-meher-sama-yeh-bhi-nahin-woh-bhi-nahin",
+    "title": "Rukh Din Hai Ya Meher Sama Yeh Bhi Nahin Woh Bhi Nahin",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Rukh Din Hai Ya Meher Sama Yeh Bhi Nahin Woh Bhi Nahin",
+      "Shab Zulf Ya Mushk-e-Khata Yeh Bhi Nahin Woh Bhi Nahin"
+    ]
+  },
+  {
+    "id": "salatullah-salamullah",
+    "title": "Salatullah Salamullah",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Salatullah salamullah",
+      "Ala Taha rasulillah"
+    ]
+  },
+  {
+    "id": "sar-ta-ba-qadam-hai-tan-e-sultane-zaman-phool",
+    "title": "Sar Ta Ba Qadam Hai Tan E Sultane Zaman Phool",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Sar Ta Ba-Qadam Hai Tan e Sultane Zaman Phool",
+      "Lab Phool, Dahan Phool, Zakan Phool, Badan Phool"
+    ]
+  },
+  {
+    "id": "sarwar-kahoon-ke-malik-o-maula-kahoon-tujhe",
+    "title": "Sarwar Kahoon Ke Malik O Maula Kahoon Tujhe",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Sarwar Kahoon Ke Malik O Maula Kahon Tujhay",
+      "Baagh e Khalil Ka Gul e Ziba Kahon Tujhay"
+    ]
+  },
+  {
+    "id": "shah-e-madina",
+    "title": "Shah-e-Madina",
+    "category": "Naat",
+    "poet": "Traditional",
+    "preview": [
+      "Shah e Madina, Shah e Madina",
+      "Yasrab ke wali, saaray Nabi tere dar ke sawali"
+    ]
+  },
+  {
+    "id": "sona-jungle-raat-andheri-chai-badli-kaali-hai",
+    "title": "Sona Jungle Raat Andheri Chai Badli Kaali Hai",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Sona Jungle Raat Andheri Chai Badli Kaali Hai",
+      "Sone Walon Jagte Rahiyo Choron Se Rakhwali Hai"
+    ]
+  },
+  {
+    "id": "utho-ab-akbar-azan-suna-do",
+    "title": "Utho Ab Akbar Azan Suna Do",
+    "category": "Noha",
+    "poet": "Traditional",
+    "preview": [
+      "Pukari maa aamad e saher hai, utho ab Akbar azan suna do",
+      "Bas aakhri raat khatm par hai, utho ab Akbar azan suna do"
+    ]
+  },
+  {
+    "id": "woh-sarwar-e-kishwar-e-risalat",
+    "title": "Woh Sarwar E Kishwar E Risalat",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Woh Sarwar-e-Kishwar-e-Risalat Jo Arsh Par Jalwah Gar Huay Thay",
+      "Naye Nirale Tarab Ke Saaman Arab Ke Mehmaan Ke Liye Thay"
+    ]
+  },
+  {
+    "id": "wohi-rab-hai-jisne-tujhko-hamatan-karam-banaya",
+    "title": "Wohi Rab Hai Jisne Tujhko Hamatan Karam Banaya",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "preview": [
+      "Wohi Rab Hai Jisne Tujhko Hamatan Karam Banaya",
+      "Hamein Bheek Maangne Ko Tira Aastan Bataya"
+    ]
+  },
+  {
+    "id": "ya-imam-ar-rusli-ya-sanadi",
+    "title": "Ya Imam ar-Rusli Ya Sanadi",
+    "category": "Salaam",
+    "poet": "Traditional",
+    "preview": [
+      "Ya imam ar-rusli ya sanadi",
+      "Anta ba'd Allah mu'tamadi"
+    ]
+  },
+  {
+    "id": "ya-rab-chaman-e-nazm-ko-gulzar-e-eram-kar",
+    "title": "Ya Rab Chaman-e-Nazm Ko Gulzar-e-Eram Kar",
+    "category": "Noha",
+    "poet": "Mir Anis",
+    "preview": [
+      "Ya Rab chaman e nazm ko gulzar e eram kar",
+      "Ay abr e karam khushk zeraat pa karam kar"
+    ]
   }
 ]
