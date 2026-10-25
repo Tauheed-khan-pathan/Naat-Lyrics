@@ -25,7 +25,11 @@
   </div>
 </header>
 <div class="searchbar">
-  <input id="search" type="search" placeholder="Search lyrics — koi bhi line ya word likho…" autocomplete="off" aria-label="Lyrics search">
+  <div class="searchpill">
+    <span class="sicon" aria-hidden="true">🔍</span>
+    <input id="search" type="search" placeholder="Search lyrics — koi bhi line ya word likho…" autocomplete="off" aria-label="Lyrics search">
+    <button id="clearSearch" class="sclear" aria-label="Search saaf karo" hidden>✕</button>
+  </div>
   <p id="count" class="count"></p>
 </div>
 <nav class="tabbar" aria-label="Categories"><div id="tabs" role="tablist"></div></nav>

@@ -1,4 +1,4 @@
-let all=[], lang='roman', cat='All', size=1.05;
+successfully downloaded text file (SHA: 8e848eb1ecbbf7b8809617a94f094d61ba85f0bc)","type":"text"},{"resource":{"mimeType":"text/plain; charset=utf-8","text":"let all=[], lang='roman', cat='All', size=1.05;
 const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search'), countEl=document.getElementById('count');
 fetch('lyrics.json').then(r=>r.json()).then(d=>{all=d; buildTabs(); render();});
 function buildTabs(){
@@ -16,18 +16,21 @@ function matches(x,q){
 function render(){
   const q=searchEl.value.trim().toLowerCase();
   const items=all.filter(x=>(cat==='All'||x.category===cat) && matches(x,q));
-  countEl.textContent = q ? `${items.length} result mile` : `${all.length} lyrics • ${new Set(all.map(x=>x.category)).size} categories`;
+  countEl.textContent = q ? `${items.length} result mile` : `${all.length} lyrics â¢ ${new Set(all.map(x=>x.category)).size} categories`;
   listEl.innerHTML = items.length ? items.map(x=>{
     const lines=x[lang], preview=lines.slice(0,2).join('\n');
-    return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} • ${x.poet}</div><div class="lines preview" style="font-size:${size}rem">${preview}</div><button class="copy" data-id="${x.id}">Copy karo</button><a class="read" href="lyric.html?id=${x.id}">Poori lyric padho →</a></article>`;
-  }).join('') : '<div class="empty"><p>Koi result nahi mila.</p><p>Doosra word, ya sirf ek line ka hissa try karo — search har line aur har word me chalta hai.</p></div>';
+    return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} â¢ ${x.poet}</div><div class="lines preview" style="font-size:${size}rem">${preview}</div><button class="copy" data-id="${x.id}">Copy karo</button><a class="read" href="lyric.html?id=${x.id}">Poori lyric padho â</a></article>`;
+  }).join('') : '<div class="empty"><p>Koi result nahi mila.</p><p>Doosra word, ya sirf ek line ka hissa try karo â search har line aur har word me chalta hai.</p></div>';
   listEl.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{
     const x=all.find(i=>i.id===b.dataset.id);
     navigator.clipboard.writeText(x.title+'\n'+x[lang].join('\n'));
-    b.textContent='Copy ho gaya ✓'; setTimeout(()=>b.textContent='Copy karo',1500);
+    b.textContent='Copy ho gaya â'; setTimeout(()=>b.textContent='Copy karo',1500);
   });
 }
-searchEl.oninput=render;
+const clearBtn=document.getElementById('clearSearch');
+function syncClear(){ if(clearBtn) clearBtn.hidden=!searchEl.value; }
+searchEl.oninput=()=>{syncClear(); render();};
+if(clearBtn) clearBtn.onclick=()=>{searchEl.value=''; syncClear(); render(); searchEl.focus();};
 document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
   lang=b.dataset.lang;
   document.querySelectorAll('.lang button[data-lang]').forEach(x=>x.classList.toggle('active',x===b));
