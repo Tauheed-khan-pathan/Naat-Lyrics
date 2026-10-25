@@ -26,3 +26,11 @@ main{max-width:960px;margin:0 auto;padding:20px 16px 8px}.card{background:#fff;b
 footer{text-align:center;color:#6b7280;padding:24px 16px 32px;font-size:.95rem}footer p{max-width:700px;margin:6px auto}
 .back{color:#d1d5db;text-decoration:none;font-size:.9rem}
 @media(max-width:600px){.logo{font-size:1.1rem}.bar{padding:8px 12px}.card{padding:16px}#tabs{gap:16px}}
+.section-title{font-size:1.15rem;margin:24px 0 12px;color:#111827}
+.catgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.catbox{background:#0b3d2e;color:#fff;border:0;border-radius:12px;padding:18px 16px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:4px}
+.catbox:nth-child(2){background:#14532d}.catbox:nth-child(3){background:#365314}.catbox:nth-child(4){background:#44403c}
+.catbox strong{font-size:1.05rem}.catbox span{font-size:.85rem;opacity:.85}
+.hscroll{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px}
+.mini-card{flex:0 0 220px;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px;text-decoration:none;color:#111827;display:flex;flex-direction:column;gap:4px}
+.mini-card strong{color:#0b3d2e}.mini-card span{font-size:.85rem;color:#6b7280}
