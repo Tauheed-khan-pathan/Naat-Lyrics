@@ -17,20 +17,15 @@
 <header class="site-header">
   <div class="bar">
     <a class="logo" href="index.html">Naat Lyrics</a>
-    <div class="lang">
-      <button data-lang="roman" class="active">Roman</button>
-      <button data-lang="hindi">हिन्दी</button>
-      <button id="fontUp" title="Increase font">A+</button>
-      <button id="fontDown" title="Decrease font">A−</button>
+    <div class="searchpill header-search">
+      <span class="sicon" aria-hidden="true">🔍</span>
+      <input id="search" type="text" placeholder="Search lyrics — any line or word…" autocomplete="off" aria-label="Lyrics search">
+      <button id="clearSearch" class="sclear" aria-label="Clear search" hidden>✕</button>
     </div>
+    <button id="darkToggle" class="dark-btn" aria-label="Toggle dark mode">🌙</button>
   </div>
 </header>
-<div class="searchbar">
-  <div class="searchpill">
-    <span class="sicon" aria-hidden="true">🔍</span>
-    <input id="search" type="search" placeholder="Search lyrics — any line or word…" autocomplete="off" aria-label="Lyrics search">
-    <button id="clearSearch" class="sclear" aria-label="Clear search" hidden>✕</button>
-  </div>
+<div class="countbar">
   <p id="count" class="count"></p>
 </div>
 <nav class="tabbar" aria-label="Categories"><div id="tabs" role="tablist"></div></nav>

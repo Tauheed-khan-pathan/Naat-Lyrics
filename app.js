@@ -67,3 +67,8 @@ document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
 });
 document.getElementById('fontUp').onclick=()=>{size=Math.min(1.4,size+0.1); render();};
 document.getElementById('fontDown').onclick=()=>{size=Math.max(0.9,size-0.1); render();};
+
+const darkBtn=document.getElementById('darkToggle');
+function applyDark(){const d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);if(darkBtn)darkBtn.textContent=d?'☀️':'🌙';}
+applyDark();
+if(darkBtn)darkBtn.onclick=()=>{localStorage.setItem('naat-dark',document.body.classList.contains('dark')?'0':'1');applyDark();};
