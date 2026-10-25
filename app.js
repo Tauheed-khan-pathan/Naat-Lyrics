@@ -11,7 +11,7 @@ function buildTabs(){
 }
 function matchesIndex(x,q){
   if(!q) return true;
-  return x.title.toLowerCase().includes(q) || x.poet.toLowerCase().includes(q) || x.category.toLowerCase().includes(q) || x.preview.join(' ').toLowerCase().includes(q);
+  return x.title.toLowerCase().includes(q) || x.poet.toLowerCase().includes(q) || x.category.toLowerCase().includes(q) || (x.khawan||'').toLowerCase().includes(q) || x.preview.join(' ').toLowerCase().includes(q);
 }
 function matchesFull(x,q){
   if(!q) return true;

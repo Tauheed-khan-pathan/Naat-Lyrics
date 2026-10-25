@@ -31,7 +31,7 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
   if(!x){el.innerHTML='<div class="empty"><p>Ye lyric nahi mili.</p><p><a href="index.html">Wapas sab lyrics par jao</a></p></div>';return;}
   document.title=x.title+' Lyrics — Naat Lyrics';
   function render(){
-    el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • ${x.poet}</div><div class="lines" style="font-size:${size}rem">${x[lang].join('\n')}</div><button class="copy">Copy karo</button><a class="read" href="index.html">Sab lyrics →</a></article>`;
+    el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • ${x.poet}</div>${x.khawan?`<div class="meta">Naat Khawan: ${x.khawan}</div>`:``}<div class="lines" style="font-size:${size}rem">${x[lang].join('\n')}</div><button class="copy">Copy karo</button><a class="read" href="index.html">Sab lyrics →</a></article>`;
     const b=el.querySelector('.copy');
     b.onclick=()=>{navigator.clipboard.writeText(x.title+'\n'+x[lang].join('\n')); b.textContent='Copy ho gaya ✓'; setTimeout(()=>b.textContent='Copy karo',1500);};
   }
