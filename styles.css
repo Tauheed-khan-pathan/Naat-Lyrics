@@ -97,3 +97,20 @@ body.dark .lyric-back-btn{color:#a7f3d0;border-color:#ffffff40}
 .urdu-lines .u-sher{margin:0 0 2.4em}
 .urdu-lines .u-sher>div{line-height:1.85}
 body.dark .urdu-lines{color:#e5e7eb}
+
+.poet-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.poet-card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;text-decoration:none;color:#111827;display:flex;flex-direction:column;gap:4px}
+.poet-card strong{color:#0b3d2e;font-size:1.05rem}.poet-card span{font-size:.85rem;color:#6b7280}
+.poet-tabs{display:flex;gap:24px;border-bottom:1px solid #e5e7eb;margin:16px 0}
+.poet-tab{background:none;border:none;border-bottom:2px solid transparent;padding:9px 1px;cursor:pointer;font-size:.95rem;color:#6b7280}
+.poet-tab.active{color:#0b3d2e;border-bottom-color:#0b3d2e;font-weight:600}
+.poet-head h1{margin:0;font-size:1.6rem;color:#0b3d2e}.poet-head p{color:#6b7280;margin:4px 0}
+.meta a{color:#0b3d2e}
+body.dark .poet-card{background:#1f2937;border-color:#374151;color:#e5e7eb}
+body.dark .poet-card strong{color:#a7f3d0}
+body.dark .poet-card span,body.dark .poet-head p{color:#9ca3af}
+body.dark .poet-tab{color:#9ca3af}
+body.dark .poet-tab.active{color:#a7f3d0;border-bottom-color:#a7f3d0}
+body.dark .poet-head h1{color:#a7f3d0}
+body.dark .meta a{color:#a7f3d0}
+@media(max-width:600px){.poet-grid{grid-template-columns:1fr}}
