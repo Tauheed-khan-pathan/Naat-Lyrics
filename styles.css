@@ -93,5 +93,7 @@ body.dark .lyric-back-btn{color:#a7f3d0;border-color:#ffffff40}
 .lyric-back-btn{height:32px;padding:0 6px;font-size:.8rem}
 }
 
-.urdu-lines{font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif;line-height:2.4;text-align:right;font-variant-ligatures:normal;font-feature-settings:normal}
+.urdu-lines{font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif;line-height:1.85;word-spacing:0.15em;text-align:right;font-variant-ligatures:normal;font-feature-settings:normal}
+.urdu-lines .u-sher{margin:0 0 2.4em}
+.urdu-lines .u-sher>div{line-height:1.85}
 body.dark .urdu-lines{color:#e5e7eb}
