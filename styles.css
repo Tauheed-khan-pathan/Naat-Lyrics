@@ -3,8 +3,8 @@
 .bar{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .logo{color:#fff;text-decoration:none;font-family:'Marcellus',Georgia,serif;font-size:1.45rem;font-weight:400;letter-spacing:.6px;white-space:nowrap}
 .lang{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end;min-width:0}
-.lang button{background:transparent;color:#d1d5db;border:1px solid #ffffff40;padding:4px 10px;border-radius:6px;cursor:pointer;font-size:.85rem}
-.lang button.active{background:#fff;color:#0b3d2e;border-color:#fff;font-weight:600}
+.lang button{background:transparent;color:#374151;border:1px solid #9ca3af;padding:0 10px;border-radius:6px;cursor:pointer;font-size:.85rem;height:36px;display:inline-flex;align-items:center;justify-content:center}
+.lang button.active{background:#fff;color:#0b3d2e;border-color:#0b3d2e;font-weight:600}
 .searchbar{background:#fff;border-bottom:1px solid #e5e7eb;padding:12px 16px 8px}
 .countbar{background:#fff;border-bottom:1px solid #e5e7eb;padding:8px 16px}
 .header-search{flex:1 1 auto;min-width:0;margin:0;height:44px}
@@ -59,6 +59,8 @@ body.dark .card,body.dark .mini-card,body.dark .empty{background:#1f2937;border-
 body.dark .card h2 a,body.dark .mini-card strong{color:#a7f3d0}
 body.dark .preview{color:#d1d5db}
 body.dark .section-title{color:#f3f4f6}
+body.dark .lang button{color:#d1d5db;border-color:#4b5563}
+body.dark .lang button.active{background:#fff;color:#0b3d2e;border-color:#fff}
 body.dark .tab{color:#9ca3af}
 body.dark .tab.active{color:#a7f3d0;border-bottom-color:#a7f3d0}
 body.dark .copy{background:#1f2937;color:#a7f3d0;border-color:#a7f3d0}
@@ -80,3 +82,12 @@ body.dark .note{color:#9ca3af}
 .lyric-back-btn{background:transparent;color:#0b3d2e;border:1px solid #0b3d2e40;padding:4px 10px;border-radius:6px;cursor:pointer;font-size:.85rem;text-decoration:none;white-space:nowrap;flex:none}
 body.dark .lyric-toolbar{background:#111827;border-color:#374151}
 body.dark .lyric-back-btn{color:#a7f3d0;border-color:#ffffff40}
+
+.lyric-toolbar .lang button{height:36px}
+.lyric-toolbar #fontUp,.lyric-toolbar #fontDown,.lyric-toolbar .dark-btn{width:36px;height:36px;padding:0}
+.lyric-back-btn{height:36px;display:inline-flex;align-items:center;padding:0 10px}
+@media(max-width:600px){
+.lyric-toolbar .lang button{height:32px;padding:0 6px;font-size:.8rem}
+.lyric-toolbar #fontUp,.lyric-toolbar #fontDown,.lyric-toolbar .dark-btn{width:32px;height:32px}
+.lyric-back-btn{height:32px;padding:0 6px;font-size:.8rem}
+}
