@@ -13,13 +13,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Naat Lyrics</title>
+<meta id="metaDesc" name="description" content="Naat, Hamd, Salaam and Noha lyrics in Roman Urdu and Hindi.">
+<meta property="og:title" id="ogTitle" content="Naat Lyrics">
+<meta property="og:description" id="ogDesc" content="Naat, Hamd, Salaam and Noha lyrics in Roman Urdu and Hindi.">
+<meta property="og:type" content="article">
+<meta property="og:url" id="ogUrl" content="https://tauheed-khan-pathan.github.io/Naat-Lyrics/">
 <meta name="description" content="Naat, Hamd, Salaam and Noha lyrics in Roman Urdu and Hindi.">
-<link rel="canonical" href="https://tauheed-khan-pathan.github.io/Naat-Lyrics/">
+<link id="canonicalLink" rel="canonical" href="https://tauheed-khan-pathan.github.io/Naat-Lyrics/">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css?v=6">
+<script type="application/ld+json" id="lyricJsonLd">{"@context":"https://schema.org","@type":"WebPage","name":"Naat Lyrics"}</script>
 </head>
 <body>
 <header class="site-header">
@@ -49,6 +55,17 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
   const el=document.getElementById('one');
   if(!x){el.innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';return;}
   document.title=x.title+' Lyrics — Naat Lyrics';
+  const pageUrl='https://tauheed-khan-pathan.github.io/Naat-Lyrics/lyric.html?id='+encodeURIComponent(x.id);
+  const desc=('Read '+x.title+' lyrics in Roman Urdu and Hindi. Poet: '+x.poet+'. Category: '+x.category+'. '+(x.roman||[]).slice(0,2).join(' ')).slice(0,155);
+  const setMeta=(id,attr,val)=>{const el=document.getElementById(id); if(el) el.setAttribute(attr,val);};
+  setMeta('metaDesc','content',desc);
+  setMeta('ogTitle','content',x.title+' Lyrics — Naat Lyrics');
+  setMeta('ogDesc','content',desc);
+  setMeta('ogUrl','content',pageUrl);
+  setMeta('canonicalLink','href',pageUrl);
+  const schema={"@context":"https://schema.org","@type":"MusicComposition","name":x.title,"genre":x.category,"inLanguage":"ur","lyrics":{"@type":"CreativeWork","text":(x.roman||[]).join('\n')}};
+  if(x.poet && x.poet!=='Unknown') schema.lyricist={"@type":"Person","name":x.poet};
+  const ld=document.getElementById('lyricJsonLd'); if(ld) ld.textContent=JSON.stringify(schema);
   function render(){
     el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • Poet: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines" style="font-size:${size}rem">${x[lang].join('\n')}</div><button class="copy">Copy</button><a class="read" href="index.html">All Lyrics →</a></article>`;
     const b=el.querySelector('.copy');
