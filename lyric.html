@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=7">
+<link rel="stylesheet" href="styles.css?v=8">
 <script type="application/ld+json" id="lyricJsonLd">{"@context":"https://schema.org","@type":"WebPage","name":"Naat Lyrics"}</script>
 </head>
 <body>
@@ -40,7 +40,14 @@
     </div>
   </div>
 </header>
-<div class="searchbar"><a class="back" href="index.html" style="display:block;max-width:960px;margin:0 auto;color:#0b3d2e;text-decoration:none">← All Lyrics</a></div>
+<div class="searchbar lyric-searchbar">
+  <div class="searchpill lyric-search">
+    <svg class="sicon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    <input id="lyricSearch" type="text" placeholder="Search Naat" autocomplete="off" aria-label="Search Naat">
+    <button id="lyricClear" class="sclear" aria-label="Clear search">✕</button>
+  </div>
+  <a class="lyric-back" href="index.html">← All Lyrics</a>
+</div>
 <main id="one"></main>
 <footer class="site-footer"><div class="foot-inner">
   <p class="foot-logo">Naat Lyrics</p>
@@ -66,10 +73,11 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
   const schema={"@context":"https://schema.org","@type":"MusicComposition","name":x.title,"genre":x.category,"inLanguage":"ur","lyrics":{"@type":"CreativeWork","text":(x.roman||[]).join('\n')}};
   if(x.poet && x.poet!=='Unknown') schema.lyricist={"@type":"Person","name":x.poet};
   const ld=document.getElementById('lyricJsonLd'); if(ld) ld.textContent=JSON.stringify(schema);
+  function sherText(lines){const out=[]; for(let i=0;i<lines.length;i+=2){out.push(lines.slice(i,i+2).join('\n'));} return out.join('\n\n');}
   function render(){
-    el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • Poet: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines" style="font-size:${size}rem">${x[lang].join('\n')}</div>${x.note?`<div class="note">${x.note}</div>`:''}<button class="copy">Copy</button><a class="read" href="index.html">All Lyrics →</a></article>`;
+    el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • Shayar: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines" style="font-size:${size}rem">${sherText(x[lang])}</div>${x.note?`<div class="note">${x.note}</div>`:''}<button class="copy">Copy</button><a class="read" href="index.html">All Lyrics →</a></article>`;
     const b=el.querySelector('.copy');
-    b.onclick=()=>{navigator.clipboard.writeText(x.title+'\n'+x[lang].join('\n')); b.textContent='Copied ✓'; setTimeout(()=>b.textContent='Copy',1500);};
+    b.onclick=()=>{navigator.clipboard.writeText(x.title+'\n'+sherText(x[lang])); b.textContent='Copied ✓'; setTimeout(()=>b.textContent='Copy',1500);};
   }
   render();
   document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
@@ -80,6 +88,9 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
   document.getElementById('fontUp').onclick=()=>{size=Math.min(1.4,size+0.1); render();};
   document.getElementById('fontDown').onclick=()=>{size=Math.max(0.9,size-0.1); render();};
 }).catch(()=>{document.getElementById('one').innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';});
+</script>
+<script>
+(function(){var s=document.getElementById('lyricSearch'),c=document.getElementById('lyricClear');if(s){var sync=function(){if(c)c.classList.toggle('show',!!s.value);};s.addEventListener('input',sync);s.addEventListener('keydown',function(e){if(e.key==='Enter'&&s.value.trim()){location.href='index.html?q='+encodeURIComponent(s.value.trim());}});if(c)c.onclick=function(){s.value='';sync();s.focus();};sync();}})();
 </script>
 <script>
 (function(){var b=document.getElementById('darkToggle');function apply(){var d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);}apply();if(b)b.onclick=function(){localStorage.setItem('naat-dark',document.body.classList.contains('dark')?'0':'1');apply();};})();

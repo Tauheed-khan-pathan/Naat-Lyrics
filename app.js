@@ -1,7 +1,7 @@
 let all=[], lang='roman', cat='All', size=1.05, full=null, fullLoading=false;
 const PAGE=20; let shown=PAGE;
 const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search'), countEl=document.getElementById('count');
-fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; buildTabs(); render();});
+fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; const q=new URLSearchParams(location.search).get('q'); if(q){searchEl.value=q; syncClear();} buildTabs(); render();});
 function buildTabs(){
   const cats=['All',...new Set(all.map(x=>x.category))];
   tabsEl.innerHTML=cats.map(c=>{
@@ -20,10 +20,10 @@ function matchesFull(x,q){
 }
 function card(x){
   const preview=x.preview || (x.roman||[]).slice(0,2);
-  return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} • Poet: ${x.poet} • Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines preview" style="font-size:${size}rem">${preview.join('\n')}</div><a class="read" href="lyric.html?id=${x.id}">Read full lyric →</a></article>`;
+  return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} • Shayar: ${x.poet} • Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines preview" style="font-size:${size}rem">${preview.join('\n')}</div><a class="read" href="lyric.html?id=${x.id}">Read full lyric →</a></article>`;
 }
 function miniCard(x){
-  return `<a class="mini-card" href="lyric.html?id=${x.id}"><strong>${x.title}</strong><span>${x.category} • Poet: ${x.poet}</span></a>`;
+  return `<a class="mini-card" href="lyric.html?id=${x.id}"><strong>${x.title}</strong><span>${x.category} • Shayar: ${x.poet}</span></a>`;
 }
 function render(reset=true){
   if(reset) shown=PAGE;
