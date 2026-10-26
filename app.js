@@ -16,7 +16,7 @@ function matchesIndex(x,q){
 }
 function matchesFull(x,q){
   if(!q) return true;
-  return x.title.toLowerCase().includes(q) || x.roman.join(' ').toLowerCase().includes(q) || x.hindi.join(' ').toLowerCase().includes(q);
+  return x.title.toLowerCase().includes(q) || x.roman.join(' ').toLowerCase().includes(q) || x.hindi.join(' ').toLowerCase().includes(q) || (x.urdu||[]).join(' ').toLowerCase().includes(q);
 }
 function card(x){
   const preview=x.preview || (x.roman||[]).slice(0,2);

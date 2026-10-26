@@ -1,3 +1,4 @@
+@font-face{font-family:'Jameel Noori Nastaleeq';src:url('https://cdn.jsdelivr.net/npm/jameel-noori/fonts/jameel-noori-nastaleeq4.woff2') format('woff2');font-display:swap}
 *{box-sizing:border-box}html,body{overflow-x:hidden}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f7f7f5;color:#1f2937;line-height:1.65}
 .site-header{background:#0b3d2e;color:#fff;position:sticky;top:0;z-index:10}
 .bar{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -91,3 +92,6 @@ body.dark .lyric-back-btn{color:#a7f3d0;border-color:#ffffff40}
 .lyric-toolbar #fontUp,.lyric-toolbar #fontDown,.lyric-toolbar .dark-btn{width:32px;height:32px}
 .lyric-back-btn{height:32px;padding:0 6px;font-size:.8rem}
 }
+
+.urdu-lines{font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif;line-height:2.4;text-align:right;font-variant-ligatures:normal;font-feature-settings:normal}
+body.dark .urdu-lines{color:#e5e7eb}

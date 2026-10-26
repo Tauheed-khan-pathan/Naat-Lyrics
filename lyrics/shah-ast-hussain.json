@@ -1,1 +1,24 @@
-{"category":"Manqabat","hindi":["शाह अस्त हुसैन, बादशाह अस्त हुसैन","दीन अस्त हुसैन, दीन पनाह अस्त हुसैन","सरदाद न दाद दस्त दर दस्त-ए-यज़ीद","हक़्क़ा के बिना-ए ला इलाहा अस्त हुसैन"],"id":"shah-ast-hussain","poet":"Khwaja Moinuddin Chishti","roman":["Shah ast Hussain, badshah ast Hussain","Deen ast Hussain, deen panah ast Hussain","Sardad na dad dast dar dast-e-Yazid","Haqqa ke bina-e La ilaha ast Hussain"],"title":"Shah Ast Hussain"}
+{
+  "category": "Manqabat",
+  "hindi": [
+    "शाह अस्त हुसैन, बादशाह अस्त हुसैन",
+    "दीन अस्त हुसैन, दीन पनाह अस्त हुसैन",
+    "सरदाद न दाद दस्त दर दस्त-ए-यज़ीद",
+    "हक़्क़ा के बिना-ए ला इलाहा अस्त हुसैन"
+  ],
+  "id": "shah-ast-hussain",
+  "poet": "Khwaja Moinuddin Chishti",
+  "roman": [
+    "Shah ast Hussain, badshah ast Hussain",
+    "Deen ast Hussain, deen panah ast Hussain",
+    "Sardad na dad dast dar dast-e-Yazid",
+    "Haqqa ke bina-e La ilaha ast Hussain"
+  ],
+  "title": "Shah Ast Hussain",
+  "urdu": [
+    "شاہ است حسین، بادشاہ است حسین",
+    "دین است حسین، دین پناہ است حسین",
+    "سرداد نہ داد دست در دستِ یزید",
+    "حقا کہ بنائے لا الہ است حسین"
+  ]
+}
