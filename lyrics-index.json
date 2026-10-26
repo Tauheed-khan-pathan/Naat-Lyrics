@@ -1035,13 +1035,13 @@
   },
   {
     "id": "tum-chalo-hum-chale-sab-madine-chale",
-    "title": "Tum Chalo Hum Chale Sab Madine Chale",
+    "title": "Sab Madine Chalen",
     "category": "Naat",
-    "poet": "Unknown",
+    "poet": "Akhtar Raza Khan",
     "khawan": "Unknown",
     "preview": [
-      "Tum chalo hum chale sab Madine chale",
-      "Jaanibe Taiba sab kai safeenai chale"
+      "Tum chalo hum chale sab Madine chalen",
+      "Jaanib-e-Taybah sab ke safeene chalen"
     ]
   },
   {
@@ -2191,7 +2191,7 @@
   {
     "id": "chal-qalam-ab-hamde-rab-maqsood-hai",
     "title": "Chal Qalam Ab Hamde Rab Maqsood Hai",
-    "category": "Naat",
+    "category": "Hamd",
     "poet": "Unknown",
     "khawan": "Unknown",
     "preview": [
@@ -2692,6 +2692,831 @@
     "preview": [
       "Aseeron Ke Mushkil Kusha Ghaus e Azam",
       "Faqeeron Ke Haajat Rawa Ghaus e Azam"
+    ]
+  },
+  {
+    "id": "abr-e-karam-gesu-e-muhammad",
+    "title": "Abr-e-Karam Gesu-e-Muhammad",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Abr-e-karam gesu-e-Muhammad",
+      "DonoN haram abroo-e-Muhammad"
+    ]
+  },
+  {
+    "id": "aek-bijlee-chamak-rahi-hay",
+    "title": "Aek Bijlee Chamak Rahi Hay",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Wohi tabassum wohi tarannum wohi nazaakat wohi lataafat",
+      "Wohi hain duz deedah si nigaahein key jis se shoukhi tapak rahi hay"
+    ]
+  },
+  {
+    "id": "aek-nazar-mahr-e-darakhshaan-e-jamaal",
+    "title": "Aek Nazar Mahr-e-Darakhshaan-e-Jamaal",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Is taraf bhi ik nazar mahr-e-darakhshaan-e-jamaal",
+      "Ham bhi rakhtey hain bohat muddat se armaan-e-jamaal"
+    ]
+  },
+  {
+    "id": "apne-dar-pe-jo-bulaao-to-bohat-achcha-ho",
+    "title": "Apne Dar Pe Jo Bulaao To Bohat Achcha Ho",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Apne dar pe jo bulaao to bohat achcha ho",
+      "Meri bigdi jo banaao to bohat achcha ho"
+    ]
+  },
+  {
+    "id": "arabi-naat",
+    "title": "Arabi Naat",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Rasool Allahi Yaa kanzal amaani",
+      "Alaa aataabikum waqfal muaani"
+    ]
+  },
+  {
+    "id": "ashk-e-rawaan",
+    "title": "Ashk-e-Rawaan",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Souz-e-nihaan ashk-e-rawaan aah-o-fughaan dete hain",
+      "Kyun mohabbat ka silaa ahl-e-jahaan dete hain"
+    ]
+  },
+  {
+    "id": "ay-ameen-e-shariat",
+    "title": "Ay Ameen-e-Shari'at",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "ChoRh kar Aap saara jahaaN chal diye",
+      "Ay Ameen-e-Shari'at kahaaN chal diye"
+    ]
+  },
+  {
+    "id": "ay-madine-key-shahr-e-yaar-salaam",
+    "title": "Ay Madine Key Shahr-e-Yaar Salaam",
+    "category": "Salaam",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ay Madine key shahr-e-yaar salaam",
+      "Ay zamaane key tajdaar salaam"
+    ]
+  },
+  {
+    "id": "ay-saba-le-jaa-madine-ko-payaam",
+    "title": "Ay Saba Le Jaa Madine Ko Payaam",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ay saba le jaa Madine ko payaam",
+      "Arz kar dey un se baa sadd ahteraam"
+    ]
+  },
+  {
+    "id": "ayezaa",
+    "title": "Ayezaa",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Baagh-e-tasleem-o-Raza meiN gul khilaatey haiN Hussain",
+      "Yaani hangaam-e-museebat muskuraatey haiN Hussain"
+    ]
+  },
+  {
+    "id": "ayzan",
+    "title": "Ayzan",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Door se aata yahaan har aek tishnaa kaam hay",
+      "Baadah-e-hubb-e-nabi ka is ko milta jaam hay"
+    ]
+  },
+  {
+    "id": "baa-mauqa-wafaat-ummeed-sahab-razavi",
+    "title": "Baa Mauqa Wafaat Ummeed Sahab Razavi",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ye idaaraa jis ko kahiye gulistaan-e-Ilm-o-fann",
+      "Ho gaya rukhsat se teri mourd ranj-o-mohan"
+    ]
+  },
+  {
+    "id": "baadah-e-ishq-e-mustafaa",
+    "title": "Baadah-e-Ishq-e-Mustafaa",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Pee ke jo mast ho gaya baadah-e-ishq-e-mustafaa",
+      "Us ki khudaayi ho gayi aor woh Khuda ka ho gaya"
+    ]
+  },
+  {
+    "id": "bahar-e-be-khizaan",
+    "title": "Bahar-e-Be Khizaan",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Hamaare baagh-e-armaan mein bahaar-e-bekhizaan aaye",
+      "Kabhi jo is taraf khandaan woh jaan-e-gulsitaan aaye"
+    ]
+  },
+  {
+    "id": "basad-adab-pae-tasleem-sar-jhukaaye-falak",
+    "title": "Basad Adab Pae Tasleem Sar Jhukaaye Falak",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jhuke na baar-e-sad ahsaan se kyun binaaye falak",
+      "Tumhare zarre ke par to sitarhaaye falak"
+    ]
+  },
+  {
+    "id": "chaand-se-unke-chehre-par",
+    "title": "Chaand Se Unke Chehre Par",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Chaand se un ke chehrey par gesu-e-mushk faam do",
+      "Aek anoukhi hay seher jis se baham hay shaam do"
+    ]
+  },
+  {
+    "id": "chal-diye-tum-aankh-mein-ashkon-ka-daryaa-chorh-kar",
+    "title": "Chal Diye Tum Aankh Mein Ashkon Ka Daryaa Chorh Kar",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Chal diye turn aankh meiN ashkoN ka darya choRh kar",
+      "Ranj-e-furqat ka har ik seeney meiN shoualaa choRh kar"
+    ]
+  },
+  {
+    "id": "dar-e-ahmad-pe-ab-meri-jabeen-hai",
+    "title": "Dar-e-Ahmad Pe Ab Meri Jabeen Hai",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Dar-e-ahmad pe ab meri jabeen hay",
+      "Mujhey kuch fikr-e-do aalam nahin hay"
+    ]
+  },
+  {
+    "id": "dar-e-jaanan-pe-fidaayi-ko-ajal-aayi-ho",
+    "title": "Dar-e-Jaanan Pe Fidaayi Ko Ajal Aayi Ho",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Dar-e-jaanaan pe fidayi ko ajal aayi ho",
+      "Zindagi aake janaazey pe tamaashayi ho"
+    ]
+  },
+  {
+    "id": "door-ay-dil-rahen-madine-se",
+    "title": "Door Ay Dil Rahen Madine Se",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Door ay dil rahen Madine se",
+      "Maot behtar hai aise jeene se"
+    ]
+  },
+  {
+    "id": "farishtey-jis-ke-zaair-hain",
+    "title": "Farishtey Jis Ke Zaair Hain",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Farishtey jis ke zaair hain Madine mein woh turbat hay",
+      "Ye woh turbat hay jis ko arsh-e-aazam par fazeelat hay"
+    ]
+  },
+  {
+    "id": "furqat-e-taybah-ki-wahshat-dil-se-jaaye-khair-se",
+    "title": "Furqat-e-Taybah Ki Wahshat Dil Se Jaaye Khair Se",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Furqat-e-taybah ki wahshat dil se jaaye khayr se",
+      "Main Madine ko chalun woh din phir aaye khayr se"
+    ]
+  },
+  {
+    "id": "gar-hamein-zauq-e-talab-sa-rehnuma-milta-nahin",
+    "title": "Gar Hamein Zauq-e-Talab Sa Rehnuma Milta Nahin",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Gar hamein zauq-e-talab sa rehnuma milta nahin",
+      "Raastah milta nahin aor muddaa milta nahin"
+    ]
+  },
+  {
+    "id": "gham-e-hasti-ne-hamein-khoon-rulaya-hoga",
+    "title": "Gham-e-Hasti Ne Hamein Khoon Rulaya Hoga",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jab kabhi hum ne gham-e-jaanaan ko bhulaya hoga",
+      "Gham-e-hasti ne hamein khoon rulaya hoga"
+    ]
+  },
+  {
+    "id": "hamen-ab-dekhna-hay-houslah-khursheed-e-mehshar-ka",
+    "title": "Hamen Ab Dekhna Hay Houslah Khursheed-e-Mehshar Ka",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Woh barta saaya-e-rahmat chala zulf-e-muambar ka",
+      "Hamein ab dekhna hai houslah khursheed-e-mehshar ka"
+    ]
+  },
+  {
+    "id": "jaan-e-bahaaraan",
+    "title": "Jaan-e-Bahaaraan",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Shahenshaah-e-do aalam ka karam hay",
+      "Mere dil ko mayassar un ka gham hay"
+    ]
+  },
+  {
+    "id": "jahan-baani-ata-kar-den",
+    "title": "Jahan Baani Ata Kar Den",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jahan baani ata kar den bhari jannat hibaa kar den",
+      "Nabi mukhtaar-e-kul hain jis ko jo chahen ata kar den"
+    ]
+  },
+  {
+    "id": "jamaal-e-hazrat-e-ahmad-raza-ka-aaynaa-tum-ho",
+    "title": "Jamaal-e-Hazrat-e-Ahmad Raza Ka Aaynaa Tum Ho",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "TumheN jis ney bhi dekha keh uthaa Ahmad Raza turn ho",
+      "Jamaal-e-Hazrat-e-Ahmad Raza ka aaynaa turn ho"
+    ]
+  },
+  {
+    "id": "jo-un-ki-taraf-meri-chashm-e-iltefaat-nahin",
+    "title": "Jo Un Ki Taraf Meri Chashm-e-Iltefaat Nahin",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jo un ki taraf meri chashm-e-iltefaat nahin",
+      "Koi ye un se kahe chain saari raat nahin"
+    ]
+  },
+  {
+    "id": "kaash-gumbad-e-khazra-dekhne-ko-mil-jaata",
+    "title": "Kaash Gumbad-e-Khazra Dekhne Ko Mil Jaata",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Daagh-e-furqat-e-Taybah qalb-o-muzmahil jaata",
+      "Kaash gumbad-e-Khazra dekhne ko mil jaata"
+    ]
+  },
+  {
+    "id": "kabhi-rehte-woh-is-ghar-mein",
+    "title": "Kabhi Rehte Woh Is Ghar Mein",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Talaatum hai ye kaisa aansuon ka deedaah-e-tar mein",
+      "Ye kaisi moujen aayi hain tamanna ke samandar mein"
+    ]
+  },
+  {
+    "id": "khwaja-e-hind-woh-darbaar-hai",
+    "title": "Khwaja-e-Hind Woh Darbaar Hai",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Khwaja-e-Hind woh darbaar hai aala teyra",
+      "Khusraw-e-dehar huwa maangney waala teyra"
+    ]
+  },
+  {
+    "id": "kuch-aisaa-kardey-mere",
+    "title": "Kuch Aisaa Kardey Mere",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Kuch aisaa kar dey mere kirdigaar aankhoN meiN",
+      "Ke jalwa gar rahey woh gulzaar aankhoN meiN"
+    ]
+  },
+  {
+    "id": "kuch-karein-apne-yaar-ki-baatein",
+    "title": "Kuch Karein Apne Yaar Ki Baatein",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Kuch karen apne yaar ki baatein",
+      "Kuch dil-e-daaghdar ki baatein"
+    ]
+  },
+  {
+    "id": "laal-e-yaktaa-e-shah-e-ahmad-raza-milta-nahin",
+    "title": "Laal-e-Yaktaa-e-Shah-e-Ahmad Raza Milta Nahin",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Zeenat-e-sajjaadah-o-bazm-e-qazaa milta nahiN",
+      "Laal-e-yaktaa-e-Shah-e-Ahmad Raza milta nahiN"
+    ]
+  },
+  {
+    "id": "lab-e-jaan-bakhsh-ka-sadqa-dey-do",
+    "title": "Lab-e-Jaan Bakhsh Ka Sadqa Dey Do",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Lab-e-jaan bakhsh ka ay jaan mujhe sadqa de do",
+      "Muzdah-e-aysh-e-abad jaan-e-maseehaah de do"
+    ]
+  },
+  {
+    "id": "madinah-aane-waala-hay",
+    "title": "Madinah Aane Waala Hay",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Sambhal jaa ay dil-e-muztar Madinah aane waala hai",
+      "Lutaa ay chashm-e-tar gouhar Madinah aane waala hai"
+    ]
+  },
+  {
+    "id": "mahr-e-anwar-ayediyaan",
+    "title": "Mahr-e-Anwar Ayediyaan",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Arsh par hain un ki har soo jalwah gustar ayediyaan",
+      "Gah ba shakl-e-badr hain gah mah-e-anwar ayediyaan"
+    ]
+  },
+  {
+    "id": "manqabat-dar-shaan-ahsan-ul-ulamaa-maarharwi",
+    "title": "Manqabat Dar Shaan Ahsan-ul-Ulamaa Maarharwi",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Haq pasand-o-haq nawaa-o-haq numaa milta nahiN",
+      "Mustafaa Haidar Hassan ka aaynaa milta nahiN"
+    ]
+  },
+  {
+    "id": "manqabat-dar-shaan-imam-hussain",
+    "title": "Manqabat Dar Shaan Imam Hussain",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Shujaat naaz karti hay jalaalat naaz karti hay",
+      "Woh Sultaan-e-zamaaN haiN un pe shaukat naaz karti hay"
+    ]
+  },
+  {
+    "id": "manqabat-dar-shaan-mufassir-e-azam-hind-2",
+    "title": "Manqabat Dar Shaan Mufassir-e-Azam Hind 2",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Kis ke gham meiN haaye tarhpaata hay dil",
+      "Aor kuch zyaada umanRh aata hay dil"
+    ]
+  },
+  {
+    "id": "manqabat-dar-shaan-mufassir-e-azam-hind",
+    "title": "Manqabat Dar Shaan Mufassir-e-Azam Hind",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Haami-e-deen-e-hudaa the Shaah-e-Jeelaani MiyaaN",
+      "BilyaqeeN mard-e-khuda the Shaah-e-Jeelaani MiyaaN"
+    ]
+  },
+  {
+    "id": "manqabat-dar-shaan-mufti-e-azam-hind",
+    "title": "Manqabat Dar Shaan Mufti-e-Azam Hind",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Mufti-e-Aazam-e-deen-e-khayr-ul-waraa",
+      "Jalwaa-e-shaan-e-Irfaan-e-Ahmad Raza"
+    ]
+  },
+  {
+    "id": "manqabat-dar-shaan-mujaahid-e-millat",
+    "title": "Manqabat Dar Shaan Mujaahid-e-Millat",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Dil ne kaha Mujaahid-e-millat ko dhunRhiye",
+      "Le kar charaagh-e-Shaah-e-wilaayat ko dhunRhiye"
+    ]
+  },
+  {
+    "id": "manqabat-dar-shaan-sayyad-salaar-masood-ghaazi",
+    "title": "Manqabat Dar Shaan Sayyad Salaar Masood Ghaazi",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Hazrat-e-Masood-e-Ghaazi Akhtar-e-burj-e-hudaa",
+      "BekasoN ka hamnawaa woh saalikoN ka muqtadaa"
+    ]
+  },
+  {
+    "id": "manzar-e-islaam",
+    "title": "Manzar-e-Islaam",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Manbaa-e-noor-e-risaalat manzar-e-islaam hay",
+      "Dars gaah-e-ilm-o-sunnat manzar-e-islaam hay"
+    ]
+  },
+  {
+    "id": "mast-may-alast",
+    "title": "Mast May Alast",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Mast may alast hai woh baadshaah-e-waqt hai",
+      "Bandaah-e-dar jo hai tera woh be niyaaz bakht hai"
+    ]
+  },
+  {
+    "id": "mere-allah-ke-nigaar-salaam",
+    "title": "Mere Allah Ke Nigaar Salaam",
+    "category": "Salaam",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Mere Allah ke nigaar salaam",
+      "Dast-e-qudrat key Shaahkaar salaam"
+    ]
+  },
+  {
+    "id": "meri-chashm-kaan-e-gauhar-ho-rahi-hay",
+    "title": "Meri Chashm Kaan-e-Gauhar Ho Rahi Hay",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Nazar pe kisi ki nazar ho rahi hay",
+      "Meri chashm kaan-e-gauhar ho rahi hay"
+    ]
+  },
+  {
+    "id": "munajaat-ki-raat",
+    "title": "Munajaat Ki Raat",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Aaj ki raat ziyaon ki hai baaraat ki raat",
+      "Fazl-e-noushaah-e-do aalam ke bayanaat ki raat"
+    ]
+  },
+  {
+    "id": "munawwar-ho-gaya-aalam",
+    "title": "Munawwar Ho Gaya Aalam",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Tumhare rukh ke jalwon se munawwar hogaya aalam",
+      "Magar kyunkar ghataa gham ki mere dil se nahin chathati"
+    ]
+  },
+  {
+    "id": "mustafa-e-zaat-e-yakta-aap-hain",
+    "title": "Mustafa-e-Zaat-e-Yakta Aap Hain",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Mustafa-e-zaat-e-yakta aap hain",
+      "Yak ne jis ko yak banaaya aap hain"
+    ]
+  },
+  {
+    "id": "naara-e-risaalat",
+    "title": "Naara-e-Risaalat",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Sadr-e-bazm-e-kasrat yaa Rasool Allah",
+      "Raaz daar-e-wahdat yaa Rasool Allah"
+    ]
+  },
+  {
+    "id": "nazaarey-badal-gaye",
+    "title": "Nazaarey Badal Gaye",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ghayr apne hogaye jo hamaare badal gaye",
+      "Nazrein badal gayeen to nazaarey badal gaye"
+    ]
+  },
+  {
+    "id": "noor-hi-noor-hai-ziyaa-hi-hay",
+    "title": "Noor Hi Noor Hai Ziyaa Hi Hay",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Takht-e-zarreen hay na taaj-e-shaahi hay",
+      "Kya faqeeraanah baadshaahi hay"
+    ]
+  },
+  {
+    "id": "qasam-khuda-ki-shahaa-kaamiyaab-ho-jaaun",
+    "title": "Qasam Khuda Ki Shahaa Kaamiyaab Ho Jaaun",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Tumhare dar pe jo main baariyaab ho jaaun",
+      "Qasam Khuda ki shaha kaamiyaab ho jaaun"
+    ]
+  },
+  {
+    "id": "qataa-soya-nahin-main-raat-bhar",
+    "title": "Qataa (Soya Nahin Main Raat Bhar)",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Soya nahin main raat bhar Ishq-e-huzoor mein",
+      "Kaisaa ye rut jagaa raha kayf-o-sarwar mein"
+    ]
+  },
+  {
+    "id": "raah-e-ulfat-mein",
+    "title": "Raah-e-Ulfat Mein",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Nahin jaati kisi soorat pareshaani nahin jaati",
+      "Ilaahi Mere dil ki khaana-e-weeraani nahin jaati"
+    ]
+  },
+  {
+    "id": "saamaan-e-ishrat-kijiye",
+    "title": "Saamaan-e-Ishrat Kijiye",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Apne rindon ki ziyaafat kijiye",
+      "Jaam-e-nazzaarah inaayat kijiye"
+    ]
+  },
+  {
+    "id": "saba-ye-kaisi-chali-aaj-dasht-e-bathaa-se",
+    "title": "Saba Ye Kaisi Chali Aaj Dasht-e-Bathaa Se",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Saba ye kaisi chali aaj dasht-e-bathaa se",
+      "Umang shouq ki uthi hai qalb-e-murdah se"
+    ]
+  },
+  {
+    "id": "sadqey-jaaun-main-anees-e-shab-e-tanhaayi-ke",
+    "title": "Sadqey Jaaun Main Anees-e-Shab-e-Tanhaayi Ke",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Meri khalwat mein mazey anjuman aaraayi ke",
+      "Sadqe jaaun main anees-e-shab-e-tanhaayi ke"
+    ]
+  },
+  {
+    "id": "sarkar-e-do-aalam-ki-mohabbat",
+    "title": "Sarkar-e-Do-Aalam Ki Mohabbat",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Nihaan jis dil me sarkar-e-do aalam ki mohabbat hai",
+      "Woh khalwat khana-e-maulaa hai woh dil rashk-e-jannat hai"
+    ]
+  },
+  {
+    "id": "shameem-e-zulf-e-nabi",
+    "title": "Shameem-e-Zulf-e-Nabi",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Shameem-e-zulf-e-nabi laa saba Madine se",
+      "Mareez-e-hijr ko laa kar soonghaa Madine se"
+    ]
+  },
+  {
+    "id": "taaron-ki-anjuman-mein-ye-baat-ho-rahi-hay",
+    "title": "Taaron Ki Anjuman Mein Ye Baat Ho Rahi Hay",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Taaron ki anjuman mein ye baat ho rahi hay",
+      "Markaz tajalliyon ka khaak-e-dar-e-nabi hay"
+    ]
+  },
+  {
+    "id": "tera-aaqa-shahenshah-e-kounain-hay",
+    "title": "Tera Aaqa Shahenshah-e-Kounain Hay",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Har nazar kaanp uthegi mehshar ke din khouf se har kaleja dehel jaayega",
+      "Par ye naaz unke bande ka dekhen ge sab thaam kar un ka daaman machal jaayega"
+    ]
+  },
+  {
+    "id": "teri-choukhat-pe-jo-sar-apna-jhuka-jaate-hain",
+    "title": "Teri Choukhat Pe Jo Sar Apna Jhuka Jaate Hain",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Teri choukhat pe jo sar apna jhuka jaate hain",
+      "Har bulandi ko wahi neecha dikha jaate hain"
+    ]
+  },
+  {
+    "id": "un-ke-dar-ki-bheek-achchi",
+    "title": "Un Ke Dar Ki Bheek Achchi",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Bui hawas sun seem-o-zar ki bandagi achchi nahin",
+      "Un ke dar ki bheek achchi sarwari achchi nahin"
+    ]
+  },
+  {
+    "id": "wajh-e-nishat-e-zindagi-raahat-e-jaan-tum-hi-to-ho",
+    "title": "Wajh-e-Nishat-e-Zindagi Raahat-e-Jaan Tum Hi To Ho",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Wajh-e-nishat-e-zindagi raahat-e-jaan tum hi to ho",
+      "Rooh-e-rawaan-e-zindagi jaan-e-jahaan tum hi to ho"
+    ]
+  },
+  {
+    "id": "woh-ubla-chashmah-sharbat-ka",
+    "title": "Woh Ubla Chashmah Sharbat Ka",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Lab-e-Kausar hai melaa tishnaah kaamaan-e-mohabbat ka",
+      "Woh ubla dast-e-saaqi se woh ubla chashmah sharbat ka"
+    ]
+  },
+  {
+    "id": "ya-ghaus-almadad",
+    "title": "Ya Ghaus Almadad",
+    "category": "Manqabat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "PeeroN key Aap peer haiN Yaa Ghaus Al Madad",
+      "Ahl-e-safaa key meer haiN Yaa Ghaus Al Madad"
+    ]
+  },
+  {
+    "id": "yaa-mujeebu-yaa-mujaabu",
+    "title": "Yaa Mujeebu Yaa Mujaabu",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Yaa Mujeebu Yaa Mujaabu",
+      "Anta neymal mustanaaboo"
+    ]
+  },
+  {
+    "id": "yaa-rasool-allah-yaa-khayr-ul-anaam",
+    "title": "Yaa Rasool Allah Yaa Khayr-ul-Anaam",
+    "category": "Salaam",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Yaa RasoolAllah Yaa Khayr-ul-anaam",
+      "Dour-e-iftedaah ka lijiye salaam"
+    ]
+  },
+  {
+    "id": "zaari-e-payham-kya-hay",
+    "title": "Zaari-e-Payham Kya Hay",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Meri mayyat pe ye ahbaab ka maatam kya hay",
+      "Shour kaisa hai ye aor zaari-e-payham kya hay"
+    ]
+  },
+  {
+    "id": "zahey-azmat-o-iftekhaar-e-madinah",
+    "title": "Zahey Azmat-o-Iftekhaar-e-Madinah",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Woh chaayi ghata baadah baar-e-Madinah",
+      "Piye jhoom kar jaan nisaar-e-Madinah"
+    ]
+  },
+  {
+    "id": "zindagi-ye-nahin-hay-kisi-key-liye",
+    "title": "Zindagi Ye Nahin Hay Kisi Key Liye",
+    "category": "Naat",
+    "poet": "Akhtar Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Zindagi ye nahiN hay kisi key liye",
+      "Zindagi hay Nabi ki Nabi key liye"
     ]
   }
 ]

@@ -1,0 +1,31 @@
+{
+  "id": "ayezaa",
+  "title": "Ayezaa",
+  "category": "Manqabat",
+  "poet": "Akhtar Raza Khan",
+  "khawan": "Unknown",
+  "roman": [
+    "Baagh-e-tasleem-o-Raza meiN gul khilaatey haiN Hussain",
+    "Yaani hangaam-e-museebat muskuraatey haiN Hussain",
+    "Barq aalam-e-souz ka aalam dikhaatey haiN Hussain",
+    "Muskuraa kar qilaa baatil ka giraatey haiN Hussain",
+    "Marzi-e-Maulaa ki khaatir har sitam ko seh liya",
+    "Kis khushi se gham dil par uthaatey haiN Hussain"
+  ],
+  "hindi": [
+    "बाग़-ए-तस्लीम-ओ-रज़ा में गुल खिलाते हैं हुसैन",
+    "यानी हंगाम-ए-मुसीबत मुस्कुराते हैं हुसैन",
+    "बर्क़ आलम-ए-सोज़ का आलम दिखाते हैं हुसैन",
+    "मुस्कुरा कर क़िला बातिल का गिराते हैं हुसैन",
+    "मर्ज़ी-ए-मौला की ख़ातिर हर सितम को सह लिया",
+    "किस ख़ुशी से ग़म दिल पर उठाते हैं हुसैन"
+  ],
+  "urdu": [
+    "باغِ تسلیم و رضا میں گل کھلاتے ہیں حسین",
+    "یعنی ہنگامِ مصیبت مسکراتے ہیں حسین",
+    "برق عالمِ سوز کا عالم دکھاتے ہیں حسین",
+    "مسکرا کر قلعہ باطل کا گراتے ہیں حسین",
+    "مرضیِ مولا کی خاطر ہر ستم کو سہ لیا",
+    "کس خوشی سے غم دل پر اٹھاتے ہیں حسین"
+  ]
+}
