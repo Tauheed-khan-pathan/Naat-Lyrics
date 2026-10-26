@@ -71,3 +71,6 @@ body.dark .copy{background:#1f2937;color:#a7f3d0;border-color:#a7f3d0}
 .site-footer .foot-cats{color:#a7f3d0}
 .site-footer .foot-copy{color:#9ca3af;font-size:.85rem}
 body.dark .site-footer{background:#052e22;color:#d1d5db}
+
+.note{font-size:.85rem;color:#6b7280;margin-top:16px;font-style:italic}
+body.dark .note{color:#9ca3af}
