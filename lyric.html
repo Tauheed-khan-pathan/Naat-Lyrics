@@ -26,7 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&family=Baloo+2:wght@400;700&family=Merriweather:wght@400;700&family=Lora:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=21">
+<link rel="stylesheet" href="styles.css?v=22">
 <script type="application/ld+json" id="lyricJsonLd">{"@context":"https://schema.org","@type":"WebPage","name":"Naat Lyrics"}</script>
 </head>
 <body class="lyric">
@@ -115,7 +115,7 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
 (function(){var b=document.getElementById('darkToggle');function apply(){var d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);}apply();if(b)b.onclick=function(){localStorage.setItem('naat-dark',document.body.classList.contains('dark')?'0':'1');apply();};})();
 </script>
 <script>
-(function(){var pill=document.querySelector('.font-float');var foot=document.querySelector('.site-footer');if(!pill||!foot) return;var ticking=false;function update(){ticking=false;var fr=foot.getBoundingClientRect();var lift=window.innerHeight-fr.top;if(lift>0){pill.style.bottom='calc('+(lift+18)+'px + env(safe-area-inset-bottom))';}else{pill.style.bottom='';}}function req(){if(!ticking){ticking=true;requestAnimationFrame(update);}}window.addEventListener('scroll',req,{passive:true});window.addEventListener('resize',req);window.__updateFontPill=update;update();})();
+(function(){var pill=document.querySelector('.font-float');var foot=document.querySelector('.site-footer');if(!pill||!foot) return;var footTop=0,last='',ticking=false;function measure(){footTop=foot.getBoundingClientRect().top+window.scrollY;}function update(){ticking=false;var lift=Math.round((window.scrollY+window.innerHeight)-footTop);var t=lift>0?'translateX(-50%) translateY('+(-lift)+'px)':'';if(t!==last){last=t;pill.style.transform=t;}}function req(){if(!ticking){ticking=true;requestAnimationFrame(update);}}window.addEventListener('scroll',req,{passive:true});window.addEventListener('resize',function(){measure();update();});window.addEventListener('load',function(){measure();update();});if(document.fonts&&document.fonts.ready){document.fonts.ready.then(function(){measure();update();});}window.__updateFontPill=function(){measure();update();};measure();update();})();
 </script>
 </body>
 </html>
