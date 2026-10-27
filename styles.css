@@ -140,3 +140,7 @@ body.lyric .font-cycle-btn:active{box-shadow:none}
 body.dark.lyric .font-cycle-btn:active{box-shadow:none}
 body.lyric .font-float:has(> .font-cycle-btn:active){box-shadow:0 6px 20px rgba(0,0,0,.35),0 0 18px rgba(167,243,208,.9)}
 body.dark.lyric .font-float:has(> .font-cycle-btn:active){box-shadow:0 6px 20px rgba(0,0,0,.35),0 0 18px rgba(11,61,46,.65)}
+body.home button,body.home a{-webkit-tap-highlight-color:transparent}
+body.home button:active,body.home a:active{box-shadow:0 0 0 2px rgba(11,61,46,.20),0 0 14px rgba(11,61,46,.45)}
+body.dark.home button:active,body.dark.home a:active{box-shadow:0 0 0 2px rgba(167,243,208,.30),0 0 14px rgba(167,243,208,.60)}
+body.home button:active svg{filter:drop-shadow(0 0 4px currentColor)}
