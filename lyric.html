@@ -26,7 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&family=Baloo+2:wght@400;700&family=Merriweather:wght@400;700&family=Lora:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20">
+<link rel="stylesheet" href="styles.css?v=21">
 <script type="application/ld+json" id="lyricJsonLd">{"@context":"https://schema.org","@type":"WebPage","name":"Naat Lyrics"}</script>
 </head>
 <body class="lyric">
@@ -73,7 +73,7 @@ updateDashes();
 const id=new URLSearchParams(location.search).get('id');
 fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Error('not found'); return r.json();}).then(x=>{
   const el=document.getElementById('one');
-  if(!x){el.innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';const pf=document.querySelector('.font-float'); if(pf) el.appendChild(pf);return;}
+  if(!x){el.innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';if(window.__updateFontPill) window.__updateFontPill();return;}
   document.title=x.title+' Lyrics — Naat Lyrics';
   const pageUrl='https://tauheed-khan-pathan.github.io/Naat-Lyrics/lyric.html?id='+encodeURIComponent(x.id);
   const desc=('Read '+x.title+' lyrics in Roman Urdu and Hindi. Poet: '+x.poet+'. Category: '+x.category+'. '+(x.roman||[]).slice(0,2).join(' ')).slice(0,155);
@@ -88,13 +88,12 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
   const ld=document.getElementById('lyricJsonLd'); if(ld) ld.textContent=JSON.stringify(schema);
   function sherText(lines){const out=[]; for(let i=0;i<lines.length;i+=2){out.push(lines.slice(i,i+2).join('\n'));} return out.join('\n\n');}
   function render(){
-    const pill=document.querySelector('.font-float');
     const lines=x[lang]||x.roman;
     const isUrdu=lang==='urdu';
     const effSize=isUrdu?size+0.4:size;
     const linesHtml=isUrdu?(()=>{const sh=[];for(let i=0;i<lines.length;i+=2){const pr=lines.slice(i,i+2);sh.push(`<div class="u-sher">${pr.map(l=>`<div>${l}</div>`).join('')}</div>`);}return sh.join('');})():sherText(lines);
     el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • Shayar: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines${isUrdu?' urdu-lines':''}" data-lang="${lang}" data-font="${fontIdx}" dir="${isUrdu?'rtl':'ltr'}" style="font-size:${effSize}rem">${linesHtml}</div>${x.note?`<div class="note">${x.note}</div>`:''}</article>`;
-    if(pill) el.appendChild(pill);
+    if(window.__updateFontPill) window.__updateFontPill();
   }
   render();
   document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
@@ -107,13 +106,16 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
   const fontCycleBtn=document.getElementById('fontCycleBtn'); if(fontCycleBtn) fontCycleBtn.onclick=()=>{fontIdx=(fontIdx+1)%((FONT_NAMES[lang]||FONT_NAMES.roman).length); try{localStorage.setItem(fontKey(lang),String(fontIdx));}catch(e){} updateDashes(); render();};
   document.getElementById('fontUp').onclick=()=>{size=Math.min(1.4,size+0.1); render();};
   document.getElementById('fontDown').onclick=()=>{size=Math.max(0.9,size-0.1); render();};
-}).catch(()=>{const o=document.getElementById('one'); o.innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';const pf=document.querySelector('.font-float'); if(pf) o.appendChild(pf);});
+}).catch(()=>{const o=document.getElementById('one'); o.innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';if(window.__updateFontPill) window.__updateFontPill();});
 </script>
 <script>
 (function(){var s=document.getElementById('lyricSearch'),c=document.getElementById('lyricClear');if(s){var sync=function(){if(c)c.classList.toggle('show',!!s.value);};s.addEventListener('input',sync);s.addEventListener('keydown',function(e){if(e.key==='Enter'&&s.value.trim()){location.href='index.html?q='+encodeURIComponent(s.value.trim());}});if(c)c.onclick=function(){s.value='';sync();s.focus();};sync();}})();
 </script>
 <script>
 (function(){var b=document.getElementById('darkToggle');function apply(){var d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);}apply();if(b)b.onclick=function(){localStorage.setItem('naat-dark',document.body.classList.contains('dark')?'0':'1');apply();};})();
+</script>
+<script>
+(function(){var pill=document.querySelector('.font-float');var foot=document.querySelector('.site-footer');if(!pill||!foot) return;var ticking=false;function update(){ticking=false;var fr=foot.getBoundingClientRect();var lift=window.innerHeight-fr.top;if(lift>0){pill.style.bottom='calc('+(lift+18)+'px + env(safe-area-inset-bottom))';}else{pill.style.bottom='';}}function req(){if(!ticking){ticking=true;requestAnimationFrame(update);}}window.addEventListener('scroll',req,{passive:true});window.addEventListener('resize',req);window.__updateFontPill=update;update();})();
 </script>
 </body>
 </html>
