@@ -114,19 +114,22 @@ body.dark .poet-tab.active{color:#a7f3d0;border-bottom-color:#a7f3d0}
 body.dark .poet-head h1{color:#a7f3d0}
 body.dark .meta a{color:#a7f3d0}
 @media(max-width:600px){.poet-grid{grid-template-columns:1fr}}
-.font-select{height:36px;border:1px solid #9ca3af;border-radius:6px;background:transparent;color:#374151;font-size:.85rem;padding:0 6px;cursor:pointer;max-width:160px;flex:none}
-body.dark .font-select{color:#e5e7eb;border-color:#ffffff40;background:#111827}
 .lines[data-lang="roman"][data-font="1"]{font-family:'Merriweather',Georgia,serif}
 .lines[data-lang="roman"][data-font="2"]{font-family:'Lora',Georgia,serif}
 .lines[data-lang="hindi"][data-font="1"]{font-family:'Noto Sans Devanagari',sans-serif}
 .lines[data-lang="hindi"][data-font="2"]{font-family:'Baloo 2',sans-serif}
 .lines.urdu-lines[data-font="1"]{font-family:'Noto Nastaliq Urdu',serif}
 .lines.urdu-lines[data-font="2"]{font-family:'Gulzar','Noto Nastaliq Urdu',serif}
-@media(max-width:600px){.font-select{height:32px;font-size:.8rem;max-width:120px}}
 .font-float{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:100;display:flex;align-items:center;gap:8px;background:#0b3d2e;color:#fff;padding:8px 14px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
-.font-float-label{font-size:1rem;font-weight:600;flex:none}
-.font-float .font-select{height:36px;border:0;background:transparent;color:#fff;max-width:180px}
-body.dark .font-float .font-select{background:transparent}
-.font-float .font-select option{color:#1f2937}
+.font-cycle-btn{background:transparent;border:0;color:inherit;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:5px;padding:2px 8px;font-size:.95rem;font-weight:600;transition:transform .15s ease}
+.font-cycle-btn:active{transform:scale(.93)}
+.font-cycle-dashes{display:flex;gap:5px;align-items:center}
+.fdash{display:block;width:9px;height:3px;border-radius:99px;background:rgba(255,255,255,.35);transition:width .3s ease,background .3s ease,box-shadow .3s ease}
+.fdash.on{width:20px;background:#fff;animation:fdashPulse 1.6s ease-in-out infinite}
+@keyframes fdashPulse{0%,100%{box-shadow:0 0 3px rgba(255,255,255,.5)}50%{box-shadow:0 0 10px rgba(255,255,255,.95)}}
+body.dark .font-float{background:#a7f3d0;color:#0b3d2e}
+body.dark .fdash{background:rgba(11,61,46,.35)}
+body.dark .fdash.on{background:#0b3d2e;animation-name:fdashPulseDark}
+@keyframes fdashPulseDark{0%,100%{box-shadow:0 0 3px rgba(11,61,46,.4)}50%{box-shadow:0 0 10px rgba(11,61,46,.8)}}
 #one{padding-bottom:96px}
-@media(max-width:600px){.font-float{bottom:14px;bottom:calc(14px + env(safe-area-inset-bottom));padding:6px 12px}.font-float .font-select{height:32px;max-width:140px}}
+@media(max-width:600px){.font-float{bottom:14px;bottom:calc(14px + env(safe-area-inset-bottom));padding:6px 12px}.font-cycle-btn{font-size:.9rem}}
