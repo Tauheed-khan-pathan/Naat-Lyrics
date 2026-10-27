@@ -1,4 +1,3 @@
-@font-face{font-family:'Jameel Noori Nastaleeq';src:url('https://cdn.jsdelivr.net/npm/jameel-noori/fonts/jameel-noori-nastaleeq4.woff2') format('woff2');font-display:swap}
 *{box-sizing:border-box}html,body{overflow-x:hidden}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f7f7f5;color:#1f2937;line-height:1.65}
 .site-header{background:#0b3d2e;color:#fff;position:sticky;top:0;z-index:10}
 .bar{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -93,7 +92,7 @@ body.dark .lyric-back-btn{color:#a7f3d0;border-color:#ffffff40}
 .lyric-back-btn{height:32px;padding:0 6px;font-size:.8rem}
 }
 
-.urdu-lines{font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif;line-height:1.85;word-spacing:0.15em;text-align:right;font-variant-ligatures:normal;font-feature-settings:normal}
+.urdu-lines{font-family:inherit;line-height:1.85;word-spacing:0.15em;text-align:right;font-variant-ligatures:normal;font-feature-settings:normal}
 .urdu-lines .u-sher{margin:0 0 2.4em}
 .urdu-lines .u-sher>div{line-height:1.85}
 body.dark .urdu-lines{color:#e5e7eb}
@@ -119,7 +118,6 @@ body.dark .meta a{color:#a7f3d0}
 .lines[data-lang="hindi"][data-font="1"]{font-family:'Noto Sans Devanagari',sans-serif}
 .lines[data-lang="hindi"][data-font="2"]{font-family:'Baloo 2',sans-serif}
 .lines.urdu-lines[data-font="1"]{font-family:'Noto Nastaliq Urdu',serif}
-.lines.urdu-lines[data-font="2"]{font-family:'Gulzar','Noto Nastaliq Urdu',serif}
 .font-float{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:100;display:flex;align-items:center;gap:8px;background:#0b3d2e;color:#fff;padding:8px 14px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
 .font-cycle-btn{background:transparent;border:0;color:inherit;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:5px;padding:2px 8px;font-size:.95rem;font-weight:600;transition:transform .15s ease}
 .font-cycle-btn:active{transform:scale(.93)}
