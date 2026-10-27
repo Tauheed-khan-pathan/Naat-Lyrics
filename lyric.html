@@ -18,15 +18,13 @@
 <meta property="og:description" id="ogDesc" content="Naat, Hamd, Salaam and Noha lyrics in Roman Urdu and Hindi.">
 <meta property="og:type" content="article">
 <meta property="og:url" id="ogUrl" content="https://tauheed-khan-pathan.github.io/Naat-Lyrics/">
-<meta name="description" content="Naat, Hamd, Salaam and Noha lyrics in Roman Urdu and Hindi.">
+
 <link id="canonicalLink" rel="canonical" href="https://tauheed-khan-pathan.github.io/Naat-Lyrics/">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&family=Baloo+2:wght@400;700&family=Merriweather:wght@400;700&family=Lora:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=22">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Baloo+2:wght@400;700&family=Merriweather:wght@400;700&family=Lora:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=23">
 <script type="application/ld+json" id="lyricJsonLd">{"@context":"https://schema.org","@type":"WebPage","name":"Naat Lyrics"}</script>
 </head>
 <body class="lyric">
@@ -92,7 +90,7 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
     const isUrdu=lang==='urdu';
     const effSize=isUrdu?size+0.4:size;
     const linesHtml=isUrdu?(()=>{const sh=[];for(let i=0;i<lines.length;i+=2){const pr=lines.slice(i,i+2);sh.push(`<div class="u-sher">${pr.map(l=>`<div>${l}</div>`).join('')}</div>`);}return sh.join('');})():sherText(lines);
-    el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • Shayar: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines${isUrdu?' urdu-lines':''}" data-lang="${lang}" data-font="${fontIdx}" dir="${isUrdu?'rtl':'ltr'}" style="font-size:${effSize}rem">${linesHtml}</div>${x.note?`<div class="note">${x.note}</div>`:''}</article>`;
+    el.innerHTML=`<article class="card"><h1>${x.title}</h1><div class="meta">${x.category} • Shayar: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines${isUrdu?' urdu-lines':''}" data-lang="${lang}" data-font="${fontIdx}" lang="${lang==='hindi'?'hi':'ur'}" dir="${isUrdu?'rtl':'ltr'}" style="font-size:${effSize}rem">${linesHtml}</div>${x.note?`<div class="note">${x.note}</div>`:''}</article>`;
     if(window.__updateFontPill) window.__updateFontPill();
   }
   render();

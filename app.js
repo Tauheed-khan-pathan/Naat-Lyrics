@@ -1,7 +1,7 @@
-let all=[], poets=[], lang='roman', cat='All', size=1.05, full=null, fullLoading=false;
+let all=[], poets=[], cat='All', size=1.05, full=null, fullLoading=false;
 fetch('poets.json?v=2').then(r=>r.json()).then(d=>{poets=d; if(all.length) render(false);}).catch(()=>{});
 const PAGE=20; let shown=PAGE;
-const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search'), countEl=document.getElementById('count');
+const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search');
 fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; const q=new URLSearchParams(location.search).get('q'); if(q){searchEl.value=q; syncClear();} buildTabs(); render();});
 function buildTabs(){
   const cats=['All',...new Set(all.map(x=>x.category))];
@@ -35,14 +35,12 @@ function render(reset=true){
   if(q && items.length===0 && !full && !fullLoading){
     fullLoading=true;
     fetch('lyrics.json').then(r=>r.json()).then(d=>{full=d; fullLoading=false; render();});
-    if(countEl) countEl.textContent='Searching full lyrics…';
     listEl.innerHTML='<div class="empty"><p>Searching full lyrics, please wait…</p></div>';
     return;
   }
   if(q && full){
     items=full.filter(x=>(cat==='All'||x.category===cat) && matchesFull(x,q));
   }
-  if(countEl) countEl.textContent = q ? `${items.length} results found` : '';
   if(!q && cat==='All'){
     const cats=[...new Set(all.map(x=>x.category))];
     const popular=[...all].slice(0,4);
@@ -69,13 +67,6 @@ function syncClear(){ if(clearBtn) clearBtn.classList.toggle('show', !!searchEl.
 syncClear();
 searchEl.oninput=()=>{syncClear(); render();};
 if(clearBtn) clearBtn.onclick=()=>{searchEl.value=''; syncClear(); render(); searchEl.focus();};
-document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
-  lang=b.dataset.lang;
-  document.querySelectorAll('.lang button[data-lang]').forEach(x=>x.classList.toggle('active',x===b));
-  render(false);
-});
-const fontUpBtn=document.getElementById('fontUp'); if(fontUpBtn) fontUpBtn.onclick=()=>{size=Math.min(1.4,size+0.1); render(false);};
-const fontDownBtn=document.getElementById('fontDown'); if(fontDownBtn) fontDownBtn.onclick=()=>{size=Math.max(0.9,size-0.1); render(false);};
 
 const darkBtn=document.getElementById('darkToggle');
 function applyDark(){const d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);}
