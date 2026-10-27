@@ -123,3 +123,10 @@ body.dark .font-select{color:#e5e7eb;border-color:#ffffff40;background:#111827}
 .lines.urdu-lines[data-font="1"]{font-family:'Noto Nastaliq Urdu',serif}
 .lines.urdu-lines[data-font="2"]{font-family:'Gulzar','Noto Nastaliq Urdu',serif}
 @media(max-width:600px){.font-select{height:32px;font-size:.8rem;max-width:120px}}
+.font-float{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:100;display:flex;align-items:center;gap:8px;background:#0b3d2e;color:#fff;padding:8px 14px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+.font-float-label{font-size:1rem;font-weight:600;flex:none}
+.font-float .font-select{height:36px;border:0;background:transparent;color:#fff;max-width:180px}
+body.dark .font-float .font-select{background:transparent}
+.font-float .font-select option{color:#1f2937}
+#one{padding-bottom:96px}
+@media(max-width:600px){.font-float{bottom:14px;bottom:calc(14px + env(safe-area-inset-bottom));padding:6px 12px}.font-float .font-select{height:32px;max-width:140px}}
