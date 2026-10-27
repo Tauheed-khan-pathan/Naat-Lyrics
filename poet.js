@@ -8,7 +8,7 @@ Promise.all([fetch('poets.json?v=2').then(r=>r.json()).catch(()=>[]), fetch('lyr
 });
 function card(x){
   const preview=x.preview || (x.roman||[]).slice(0,2);
-  return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} • Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines preview" style="font-size:1.05rem">${preview.join('\n')}</div><a class="read" href="lyric.html?id=${x.id}">Read full lyric →</a></article>`;
+  return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} • Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines preview" style="font-size:1.05rem">${preview.join('\n')}</div><a class="read" href="lyric.html?id=${x.id}">Read full ${x.category||'lyric'}</a></article>`;
 }
 function render(){
   const items=all.filter(x=>x.poet===poet.name);
