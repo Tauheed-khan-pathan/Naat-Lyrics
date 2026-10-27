@@ -1,1 +1,162 @@
-[{"bio":["Tajush Shariah Mufti Muhammad Akhtar Raza Khan Azhari Qadri was one of the great scholars and poets of the Raza family of Bareilly Sharif. He received spiritual authorization (Khilafat) from Mufti-e-Azam Hind, his maternal grandfather, who also appointed him as his Ja Nasheen (spiritual successor), and from Hujjat-ul-Islam Maulana Hamid Raza Khan, his paternal grandfather.","For more than five decades he served the Ummah through teaching and fatwa work, heading the Dar-ul-Ifta at Bareilly Sharif and answering questions from across the world.","Like his forefathers, he expressed his love for the Beloved Prophet in poetry. His Hamd, Naat and Manqabat — especially in praise of Ghaus-e-Azam — are collected in his book Safeena-e-Bakhshish. He wrote his first kalaam at the age of nineteen."],"book":"Safeena-e-Bakhshish","facts":{"Book":"Safeena-e-Bakhshish — his collection of Hamd, Naat and Manqabat","Full name":"Mufti Muhammad Akhtar Raza Khan Azhari Qadri","Role":"Head of Dar-ul-Ifta, Bareilly Sharif; spiritual successor (Ja Nasheen) of Mufti-e-Azam Hind","Title":"Tajush Shariah","Wisaal":"2018 (1439 AH)"},"fullName":"Mufti Muhammad Akhtar Raza Khan Azhari Qadri","honorific":"Tajush Shariah","id":"akhtar-raza-khan","name":"Akhtar Raza Khan"}]
+[
+  {
+    "bio": [
+      "Tajush Shariah Mufti Muhammad Akhtar Raza Khan Azhari Qadri was one of the great scholars and poets of the Raza family of Bareilly Sharif. He received spiritual authorization (Khilafat) from Mufti-e-Azam Hind, his maternal grandfather, who also appointed him as his Ja Nasheen (spiritual successor), and from Hujjat-ul-Islam Maulana Hamid Raza Khan, his paternal grandfather.",
+      "For more than five decades he served the Ummah through teaching and fatwa work, heading the Dar-ul-Ifta at Bareilly Sharif and answering questions from across the world.",
+      "Like his forefathers, he expressed his love for the Beloved Prophet in poetry. His Hamd, Naat and Manqabat — especially in praise of Ghaus-e-Azam — are collected in his book Safeena-e-Bakhshish. He wrote his first kalaam at the age of nineteen."
+    ],
+    "book": "Safeena-e-Bakhshish",
+    "facts": {
+      "Book": "Safeena-e-Bakhshish — his collection of Hamd, Naat and Manqabat",
+      "Full name": "Mufti Muhammad Akhtar Raza Khan Azhari Qadri",
+      "Role": "Head of Dar-ul-Ifta, Bareilly Sharif; spiritual successor (Ja Nasheen) of Mufti-e-Azam Hind",
+      "Title": "Tajush Shariah",
+      "Wisaal": "2018 (1439 AH)"
+    },
+    "fullName": "Mufti Muhammad Akhtar Raza Khan Azhari Qadri",
+    "honorific": "Tajush Shariah",
+    "id": "akhtar-raza-khan",
+    "name": "Akhtar Raza Khan"
+  },
+  {
+    "bio": [
+      "Ahmed Raza Khan (1856-1921) of Bareilly Sharif, known as Ala Hazrat, was one of the greatest scholars and poets of the Indian subcontinent. A master of Islamic law, theology and poetry, he is regarded as the Mujaddid (reviver) of his age by his followers.",
+      "His devotional poetry, collected in Hadaiq-e-Bakhshish, includes some of the most recited naats in the world, sung in gatherings across South Asia and the diaspora to this day."
+    ],
+    "book": "Hadaiq-e-Bakhshish",
+    "facts": {
+      "Book": "Hadaiq-e-Bakhshish — his collection of naats and devotional poetry",
+      "Life": "1856-1921",
+      "Place": "Bareilly Sharif, India",
+      "Title": "Imam-e-Ahle Sunnat"
+    },
+    "fullName": "Ahmed Raza Khan Barelvi",
+    "honorific": "Imam-e-Ahle Sunnat",
+    "id": "ala-hazrat",
+    "name": "Ala Hazrat"
+  },
+  {
+    "bio": [
+      "Hasan Raza Khan (1859-1908) was the younger brother of Ala Hazrat Imam Ahmed Raza Khan and a master of Urdu poetry in his own right. His command of the language earned him the title Ustad-e-Zaman (Master of the Age).",
+      "His naats and manqabats, collected in Zauq-e-Naat, are recited in mehfils to this day, including his celebrated manqabat in praise of Ghaus-e-Azam."
+    ],
+    "book": "Zauq-e-Naat",
+    "facts": {
+      "Book": "Zauq-e-Naat",
+      "Family": "Younger brother of Ala Hazrat",
+      "Life": "1859-1908",
+      "Title": "Ustad-e-Zaman"
+    },
+    "fullName": "Hasan Raza Khan Barelvi",
+    "honorific": "Ustad-e-Zaman",
+    "id": "hasan-raza-khan",
+    "name": "Hasan Raza Khan"
+  },
+  {
+    "bio": [
+      "Mustafa Raza Khan (1892-1981), known as Mufti-e-Azam Hind, was the son of Ala Hazrat and one of the leading scholars of his time. He issued thousands of fatwas, collected in Fatawa-e-Mustafawia, and headed the Jamaat Raza-e-Mustafa in Bareilly.",
+      "He was also a poet: his devotional verses are collected in Saman-e-Bakhshish. His grandson and spiritual successor was Tajush Shariah Mufti Akhtar Raza Khan."
+    ],
+    "book": "Saman-e-Bakhshish",
+    "facts": {
+      "Book": "Saman-e-Bakhshish — his collection of devotional poetry",
+      "Family": "Son of Ala Hazrat; grandfather and spiritual guide of Tajush Shariah",
+      "Life": "1892-1981",
+      "Title": "Mufti-e-Azam Hind"
+    },
+    "fullName": "Mustafa Raza Khan Qadri",
+    "honorific": "Mufti-e-Azam Hind",
+    "id": "mustafa-raza-khan",
+    "name": "Mustafa Raza Khan"
+  },
+  {
+    "bio": [
+      "Bedam Shah Warsi was a devoted disciple of Haji Waris Ali Shah of Dewa Sharif and a poet of the Warsi order. His kalaam carries the colour of Sufi love and devotion.",
+      "His naats and sufiana poetry are still recited in gatherings, and his name remains closely linked with the shrine of Dewa Sharif in Barabanki."
+    ],
+    "facts": {
+      "Order": "Warsi — disciple of Haji Waris Ali Shah",
+      "Place": "Dewa Sharif, Barabanki, India"
+    },
+    "fullName": "Bedam Shah Warsi",
+    "honorific": "Warsi Sufi Poet",
+    "id": "bedam-shah-warsi",
+    "name": "Bedam Shah Warsi"
+  },
+  {
+    "bio": [
+      "Pir Naseeruddin Naseer (1949-2009) was the custodian (Sajjada Nashin) of the Golra Sharif shrine in Islamabad and a descendant of Pir Meher Ali Shah. He was a scholar, poet and spiritual leader.",
+      "He wrote poetry in Arabic, Urdu, Punjabi and Persian, and authored more than thirty books. His kalaam became famous across the world through the qawwalis of Nusrat Fateh Ali Khan."
+    ],
+    "facts": {
+      "Languages": "Arabic, Urdu, Punjabi and Persian",
+      "Life": "1949-2009",
+      "Shrine": "Golra Sharif, Islamabad, Pakistan"
+    },
+    "fullName": "Syed Naseeruddin Naseer Gilani",
+    "honorific": "Naseer-e-Millat",
+    "id": "pir-naseeruddin-naseer",
+    "name": "Pir Naseeruddin Naseer"
+  },
+  {
+    "bio": [
+      "Muzaffar Warsi (1933-2011) was one of Pakistan's most celebrated poets. Born in Meerut, he migrated to Lahore after Partition and became famous for his Hamd, Naat, ghazal and film lyrics.",
+      "His Hamd 'Koi To Hai Jo Nizam-e-Hasti Chala Raha Hai' is recited across the world. In 1988 the Government of Pakistan honoured him with the Pride of Performance award."
+    ],
+    "facts": {
+      "Award": "Pride of Performance, 1988",
+      "Famous Hamd": "Koi To Hai Jo Nizam-e-Hasti Chala Raha Hai",
+      "Life": "1933-2011"
+    },
+    "fullName": "Mohammad Muzaffaruddin Siddiqui",
+    "honorific": "Fasih-ul-Hind",
+    "id": "muzaffar-warsi",
+    "name": "Muzaffar Warsi"
+  },
+  {
+    "bio": [
+      "Hafeez Taib (1931-2004) was a Pakistani poet remembered as a trendsetter in naat writing. Where earlier naats mostly followed the traditional style, his naats also spoke about the issues of his own time.",
+      "He taught Punjabi literature at Oriental College, Lahore, and received the Pride of Performance award in 1987 for his literary work."
+    ],
+    "facts": {
+      "Award": "Pride of Performance, 1987",
+      "Known for": "Bringing contemporary themes into naat poetry",
+      "Life": "1931-2004"
+    },
+    "fullName": "Hafeez Taib",
+    "honorific": "Pride of Performance",
+    "id": "hafeez-taib",
+    "name": "Hafeez Taib"
+  },
+  {
+    "bio": [
+      "Mahirul Qadri (1906-1978), whose real name was Manzoor Hussain, was an Urdu poet, writer and novelist. Born in Bulandshahr, he migrated to Karachi after Partition in 1947 and published the journal Faaraan there.",
+      "He wrote in many genres — poetry, essays, novels and literary criticism — and published more than twenty books, including Firdaus and Jazbaat-e-Mahir. He passed away in Jeddah in 1978 while attending a mushaira."
+    ],
+    "facts": {
+      "Books": "Firdaus, Jazbaat-e-Mahir, Aatish-e-Khamosh",
+      "Journal": "Faaraan, Karachi",
+      "Life": "1906-1978",
+      "Real name": "Manzoor Hussain"
+    },
+    "fullName": "Manzoor Hussain",
+    "honorific": "Urdu Poet & Writer",
+    "id": "mahirul-qadri",
+    "name": "Mahirul Qadri"
+  },
+  {
+    "bio": [
+      "Iqbal Azeem (1913-2000) was an Urdu poet and scholar. Born in Meerut, he moved to Bengal in 1950 and headed the Urdu departments of Dhaka College and Chittagong College for twenty years.",
+      "His poetry collections include Mizrab and Lab-Kusha, and his collection of naats is titled Kab-e-Qausain. He spent his last years in Karachi, where he passed away in 2000."
+    ],
+    "facts": {
+      "Career": "Head of Urdu, Dhaka College and Chittagong College",
+      "Life": "1913-2000",
+      "Naat collection": "Kab-e-Qausain"
+    },
+    "fullName": "Syed Iqbal Azeem",
+    "honorific": "Urdu Poet & Scholar",
+    "id": "iqbal-azeem",
+    "name": "Iqbal Azeem"
+  }
+]

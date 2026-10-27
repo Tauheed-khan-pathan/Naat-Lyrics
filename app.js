@@ -1,5 +1,5 @@
 let all=[], poets=[], lang='roman', cat='All', size=1.05, full=null, fullLoading=false;
-fetch('poets.json').then(r=>r.json()).then(d=>{poets=d; if(all.length) render(false);}).catch(()=>{});
+fetch('poets.json?v=2').then(r=>r.json()).then(d=>{poets=d; if(all.length) render(false);}).catch(()=>{});
 const PAGE=20; let shown=PAGE;
 const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search'), countEl=document.getElementById('count');
 fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; const q=new URLSearchParams(location.search).get('q'); if(q){searchEl.value=q; syncClear();} buildTabs(); render();});
