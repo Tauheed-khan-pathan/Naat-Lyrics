@@ -133,3 +133,6 @@ body.dark .fdash.on{background:#0b3d2e;animation-name:fdashPulseDark}
 @keyframes fdashPulseDark{0%,100%{box-shadow:0 0 3px rgba(11,61,46,.4)}50%{box-shadow:0 0 10px rgba(11,61,46,.8)}}
 #one{padding-bottom:96px}
 @media(max-width:600px){.font-float{bottom:14px;bottom:calc(14px + env(safe-area-inset-bottom));padding:6px 12px}.font-cycle-btn{font-size:.9rem}}
+body.home .bar .dark-btn{border:0}
+body.home #list{padding-top:10px}
+body.home #list section:first-of-type .section-title{margin-top:12px}
