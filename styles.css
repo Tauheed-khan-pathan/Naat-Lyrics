@@ -114,3 +114,12 @@ body.dark .poet-tab.active{color:#a7f3d0;border-bottom-color:#a7f3d0}
 body.dark .poet-head h1{color:#a7f3d0}
 body.dark .meta a{color:#a7f3d0}
 @media(max-width:600px){.poet-grid{grid-template-columns:1fr}}
+.font-select{height:36px;border:1px solid #9ca3af;border-radius:6px;background:transparent;color:#374151;font-size:.85rem;padding:0 6px;cursor:pointer;max-width:160px;flex:none}
+body.dark .font-select{color:#e5e7eb;border-color:#ffffff40;background:#111827}
+.lines[data-lang="roman"][data-font="1"]{font-family:'Merriweather',Georgia,serif}
+.lines[data-lang="roman"][data-font="2"]{font-family:'Lora',Georgia,serif}
+.lines[data-lang="hindi"][data-font="1"]{font-family:'Noto Sans Devanagari',sans-serif}
+.lines[data-lang="hindi"][data-font="2"]{font-family:'Baloo 2',sans-serif}
+.lines.urdu-lines[data-font="1"]{font-family:'Noto Nastaliq Urdu',serif}
+.lines.urdu-lines[data-font="2"]{font-family:'Gulzar','Noto Nastaliq Urdu',serif}
+@media(max-width:600px){.font-select{height:32px;font-size:.8rem;max-width:120px}}

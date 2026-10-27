@@ -25,7 +25,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=12">
+<link href="https://fonts.googleapis.com/css2?family=Gulzar&family=Noto+Sans+Devanagari:wght@400;700&family=Baloo+2:wght@400;700&family=Merriweather:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=14">
 <script type="application/ld+json" id="lyricJsonLd">{"@context":"https://schema.org","@type":"WebPage","name":"Naat Lyrics"}</script>
 </head>
 <body>
@@ -45,6 +46,11 @@
         <button data-lang="roman" class="active">Roman</button>
         <button data-lang="hindi">हिन्दी</button>
         <button data-lang="urdu">اردو</button>
+        <select id="fontSelect" class="font-select" aria-label="Change font" title="Change font">
+          <option value="0">Default</option>
+          <option value="1">Merriweather</option>
+          <option value="2">Lora</option>
+        </select>
         <button id="fontUp" title="Increase font">A+</button>
         <button id="fontDown" title="Decrease font">A−</button>
         <button id="darkToggle" class="dark-btn" aria-label="Toggle dark mode"><svg class="dicon icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/></svg><svg class="dicon icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
@@ -62,6 +68,12 @@
 </div></footer>
 <script>
 let lang='roman', size=1.1;
+const FONT_NAMES={roman:['Default','Merriweather','Lora'],hindi:['Default','Noto Sans Devanagari','Baloo 2'],urdu:['Jameel (Default)','Noto Nastaliq','Gulzar']};
+function fontKey(l){return 'naat-font-'+l;}
+function savedFont(l){const v=parseInt(localStorage.getItem(fontKey(l))||'0',10); return [0,1,2].includes(v)?v:0;}
+let fontIdx=savedFont(lang);
+function buildFontOptions(){const s=document.getElementById('fontSelect'); if(!s) return; const names=FONT_NAMES[lang]||FONT_NAMES.roman; s.innerHTML=''; names.forEach((n,i)=>{const o=document.createElement('option'); o.value=String(i); o.textContent=n; s.appendChild(o);}); s.value=String(fontIdx);}
+buildFontOptions();
 const id=new URLSearchParams(location.search).get('id');
 fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Error('not found'); return r.json();}).then(x=>{
   const el=document.getElementById('one');
@@ -84,16 +96,19 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
     const isUrdu=lang==='urdu';
     const effSize=isUrdu?size+0.4:size;
     const linesHtml=isUrdu?(()=>{const sh=[];for(let i=0;i<lines.length;i+=2){const pr=lines.slice(i,i+2);sh.push(`<div class="u-sher">${pr.map(l=>`<div>${l}</div>`).join('')}</div>`);}return sh.join('');})():sherText(lines);
-    el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • Shayar: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines${isUrdu?' urdu-lines':''}" dir="${isUrdu?'rtl':'ltr'}" style="font-size:${effSize}rem">${linesHtml}</div>${x.note?`<div class="note">${x.note}</div>`:''}<button class="copy">Copy</button><a class="read" href="index.html">All Lyrics →</a></article>`;
+    el.innerHTML=`<article class="card"><h2>${x.title}</h2><div class="meta">${x.category} • Shayar: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines${isUrdu?' urdu-lines':''}" data-lang="${lang}" data-font="${fontIdx}" dir="${isUrdu?'rtl':'ltr'}" style="font-size:${effSize}rem">${linesHtml}</div>${x.note?`<div class="note">${x.note}</div>`:''}<button class="copy">Copy</button><a class="read" href="index.html">All Lyrics →</a></article>`;
     const b=el.querySelector('.copy');
     b.onclick=()=>{navigator.clipboard.writeText(x.title+'\n'+sherText(lines)); b.textContent='Copied ✓'; setTimeout(()=>b.textContent='Copy',1500);};
   }
   render();
   document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
     lang=b.dataset.lang;
+    fontIdx=savedFont(lang);
+    buildFontOptions();
     document.querySelectorAll('.lang button[data-lang]').forEach(y=>y.classList.toggle('active',y===b));
     render();
   });
+  const fontSelect=document.getElementById('fontSelect'); if(fontSelect) fontSelect.onchange=()=>{fontIdx=parseInt(fontSelect.value,10)||0; try{localStorage.setItem(fontKey(lang),String(fontIdx));}catch(e){} render();};
   document.getElementById('fontUp').onclick=()=>{size=Math.min(1.4,size+0.1); render();};
   document.getElementById('fontDown').onclick=()=>{size=Math.max(0.9,size-0.1); render();};
 }).catch(()=>{document.getElementById('one').innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';});
