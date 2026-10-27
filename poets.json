@@ -158,5 +158,22 @@
     "honorific": "Urdu Poet & Scholar",
     "id": "iqbal-azeem",
     "name": "Iqbal Azeem"
+  },
+  {
+    "bio": [
+      "Muhammad Ilyas Attar Qadri (born 1950) is the founder of Dawat-e-Islami, a non-political global movement of Sunni Muslims that he established in Karachi in 1981. Known as Ameer-e-Ahle Sunnat and Sheikh-e-Tareeqat, he belongs to the Qadri-Razavi order and guides millions of disciples around the world.",
+      "His devotional poetry — Hamd, Naat and Manqabat — is collected in his book Wasail-e-Bakhshish, named in relation to Ala Hazrat's Hadaiq-e-Bakhshish, for which he has a deep devotion. His kalaam is recited in gatherings across the world, including through the Madani Channel."
+    ],
+    "book": "Wasail-e-Bakhshish",
+    "facts": {
+      "Book": "Wasail-e-Bakhshish — his collection of Hamd, Naat and Manqabat",
+      "Born": "12 July 1950, Karachi, Pakistan",
+      "Movement": "Founder of Dawat-e-Islami (1981)",
+      "Title": "Ameer-e-Ahle Sunnat"
+    },
+    "fullName": "Muhammad Ilyas Attar Qadri",
+    "honorific": "Ameer-e-Ahle Sunnat",
+    "id": "ilyas-attar-qadri",
+    "name": "Ilyas Attar Qadri"
   }
 ]
