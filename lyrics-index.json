@@ -3518,5 +3518,555 @@
       "Zindagi ye nahiN hay kisi key liye",
       "Zindagi hay Nabi ki Nabi key liye"
     ]
+  },
+  {
+    "id": "ahmad-ya-habibi",
+    "title": "Ahmad Ya Habibi",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Ahmad ya habibi habibi",
+      "Habibi salam habibi"
+    ]
+  },
+  {
+    "id": "allahumma-salli-ala-muhammad-durood",
+    "title": "Allahumma Salli Ala Muhammad",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Allahumma Salli Ala Muhammadin Wa Ala Ali Muhammadin",
+      "Kama Sallaita Ala Ibrahima Wa Ala Ali Ibrahima Innaka Hamidun Majid"
+    ]
+  },
+  {
+    "id": "allahumma-salli-fil-awwalin",
+    "title": "Allahumma Salli Fil Awwalin",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Allahumma Sholli Wasallim Wa Barik Alaa Sayyidinaa Wa Maulana Muhammadin Fil Awwalin",
+      "Wa Sholli Wasallim Wa Barik Alaa Sayyidinaa Wa Maulana Muhammadin Fil Akhirin"
+    ]
+  },
+  {
+    "id": "assalatu-wassalamu-alaika",
+    "title": "Assalatu Wassalamu Alaika",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Assalaatu wa's Salaamu 'alaika Yaa Rasul'Allah",
+      "Assalaatu wa's Salaamu 'alaika Yaa Nabiyy'Allah"
+    ]
+  },
+  {
+    "id": "ilahi-lasto-lil-firdausi-ahla",
+    "title": "Ilahi Lasto Lil Firdausi Ahla",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Ilahi Lastu Lil Firdausi Ahla",
+      "Wa La Aqwa Alan Naril Jahimi"
+    ]
+  },
+  {
+    "id": "robbi-lahul-asmaul-husna",
+    "title": "Robbi Lahul Asmaul Husna",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Robbi Lahul Asma Ul Husnaa",
+      "Maa Lanaa Maulan Siwaah"
+    ]
+  },
+  {
+    "id": "salat-al-tunjiya",
+    "title": "Salat al-Tunjiya",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Allahumma Salli Ala Sayyidina Muhammadin",
+      "Salatan Tunjina Biha Min Jamiil Ahwali Wal Afat"
+    ]
+  },
+  {
+    "id": "sallallahu-ala-muhammad-shaam",
+    "title": "Sallallahu Ala Muhammad",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Sallallahu Ala Muhammad Sallallahu Alaihi Wa Sallam",
+      "Hattimu Dhulumal Layali Wasbiqu Rakbal Maali"
+    ]
+  },
+  {
+    "id": "sholawat-nariyah",
+    "title": "Sholawat Nariyah",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Allahumma Salli Salatan Kamilatan",
+      "Wa Sallim Salaman Tamman"
+    ]
+  },
+  {
+    "id": "tasbih-subhanallah",
+    "title": "Tasbih",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "La Ilaha Illallah Wahdahu La Sharika Lahu",
+      "Lahul Mulku Wa Lahul Hamdu Wa Huwa Ala Kulli Shayin Qadir"
+    ]
+  },
+  {
+    "id": "tawassalna-bi-bismillah",
+    "title": "Tawassalna Bi Bismillah",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Tawassalna Bi Bismillah",
+      "Wa Bil Hadi Rasulillah"
+    ]
+  },
+  {
+    "id": "ya-arhamar-rahimin",
+    "title": "Ya Arhamar Rahimin",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Ya Arhamar Rahimin, Farrij Alal Muslimin",
+      "Ya Rabbana Ya Karim, Ya Rabbana Ya Rahim"
+    ]
+  },
+  {
+    "id": "ya-khayra-mawlud",
+    "title": "Ya Khayra Mawlud",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Ya Khayra Mawlud",
+      "Ya Khayra Mawludin Bi Makkata Qad Ata"
+    ]
+  },
+  {
+    "id": "ya-shafi-al-wara",
+    "title": "Ya Shafi Al Wara",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Ya Shafi Al Wara, Salamun Alayk",
+      "Ya Nabiya Al Huda, Salamun Alayk"
+    ]
+  },
+  {
+    "id": "ya-tayba",
+    "title": "Ya Tayba",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Ya Tayba Ya Tayba Ya Dawal Ayana",
+      "Ishtaqnalik Wal Hawa Nadana"
+    ]
+  },
+  {
+    "id": "aamad-e-mustafa-se-hai-phoola-phala-chaman-chaman",
+    "title": "Aamad-e-Mustafa Se Hai Phoola Phala Chaman Chaman",
+    "category": "Naat",
+    "poet": "Akbar Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Aamad-e-Mustafa Se Hai Phoola Phala Chaman Chaman",
+      "Aayi Bahaar Har Taraf Khilne Laga Chaman Chaman"
+    ]
+  },
+  {
+    "id": "aaqa-ka-milad-aaya",
+    "title": "Aaqa Ka Milad Aaya",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Ya Rasulallah Ya Habiballah",
+      "Sallam Alaika Ya Rasulallah"
+    ]
+  },
+  {
+    "id": "ae-shahenshah-e-madina",
+    "title": "Ae Shahenshah-e-Madina",
+    "category": "Salaam",
+    "poet": "Jamil Qadri",
+    "khawan": "Unknown",
+    "preview": [
+      "Ae Shahenshah-e-Madina, Assalat-o-Wassalam",
+      "Zeenat-e-Arsh-e-Mualla, Assalat-o-Wassalam"
+    ]
+  },
+  {
+    "id": "chalo-diyar-e-nabi-ki-janib",
+    "title": "Chalo Diyar-e-Nabi Ki Janib",
+    "category": "Naat",
+    "poet": "Khalid Mehmood",
+    "khawan": "Unknown",
+    "preview": [
+      "Chalo Diyar-e-Nabi Ki Janib Durood Lab Par Saja Saja Kar",
+      "Bahaar Lootain Ge Hum Karam Ki Dilon Ko Daaman Bana Bana Kar"
+    ]
+  },
+  {
+    "id": "durood-e-taj",
+    "title": "Durood-e-Taj",
+    "category": "Salaam",
+    "poet": "Abu Bakr bin Salim",
+    "khawan": "Unknown",
+    "preview": [
+      "Allahumma Salli Ala Sayyidina Wa Maulana Muhammadin",
+      "Sahibit Taji Wal Miraji Wal Buraqi Wal Alam"
+    ]
+  },
+  {
+    "id": "falak-ke-nazaaro",
+    "title": "Falak Ke Nazaaro",
+    "category": "Naat",
+    "poet": "Zahoori",
+    "khawan": "Unknown",
+    "preview": [
+      "Falak Ke Nazaaro, Zameen Ki Bahaaro",
+      "Sub Eidein Manao, Huzoor Aa Gaye Hain"
+    ]
+  },
+  {
+    "id": "khula-hai-sabhi-ke-liye-baab-e-rehmat",
+    "title": "Khula Hai Sabhi Ke Liye Baab-e-Rehmat",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Khula Hai Sabhi Ke Liye Baab-e-Rehmat",
+      "Wahan Koi Rutbe Mein Adna Na Aali"
+    ]
+  },
+  {
+    "id": "khwaja-piya-khwaja-piya",
+    "title": "Khwaja Piya Khwaja Piya",
+    "category": "Manqabat",
+    "poet": "Khalil Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Khwaja Piya Khwaja Piya",
+      "Madad Ke Waste Khwaja Ko Jab Pukara Hai"
+    ]
+  },
+  {
+    "id": "mere-dil-mein-hai-yaad-e-muhammad",
+    "title": "Mere Dil Mein Hai Yaad-e-Muhammad Mere Honton Pe Zikr-e-Madina",
+    "category": "Naat",
+    "poet": "Sikandar Lakhnavi",
+    "khawan": "Unknown",
+    "preview": [
+      "Mere Dil Mein Hai Yaad-e-Muhammad, Mere Honton Pe Zikr-e-Madina",
+      "Tajdar-e-Haram Ke Karam Se Aa Gaya Zindagi Ka Qareena"
+    ]
+  },
+  {
+    "id": "mere-wirde-lab-hai-nabi-nabi",
+    "title": "Mere Wirde Lab Hai Nabi Nabi",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Mere Wirde Lab Hai Nabi Nabi",
+      "Mera Dil Makaane Habeeb Hai"
+    ]
+  },
+  {
+    "id": "meri-janib-bhi-ho-ek-nigah-e-karam",
+    "title": "Meri Janib Bhi Ho Ek Nigah-e-Karam",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Meri Janib Bhi Ho Ek Nigah-e-Karam",
+      "Ae Shafi-ul-Wara Khatam-ul-Anbiya"
+    ]
+  },
+  {
+    "id": "salat-al-fatih",
+    "title": "Salat al-Fatih",
+    "category": "Salaam",
+    "poet": "Muhammad ibn Abi al-Hasan al-Bakri",
+    "khawan": "Unknown",
+    "preview": [
+      "Allahumma Salli Ala Sayyidina Muhammadin",
+      "Al Fatihi Lima Ughiqa"
+    ]
+  },
+  {
+    "id": "tu-shah-e-khuban",
+    "title": "Tu Shah-e-Khuban",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Tu Shah-e-Khuban, Tu Jaan-e-Janaan",
+      "Hai Chehra Umm-ul-Kitab Tera"
+    ]
+  },
+  {
+    "id": "yeh-sab-tumhara-karam-hai",
+    "title": "Yeh Sab Tumhara Karam Hai",
+    "category": "Naat",
+    "poet": "Khalid Mehmood",
+    "khawan": "Unknown",
+    "preview": [
+      "Koi Saleeqa Hai Aarzu Ka, Na Bandagi Meri Bandagi Hai",
+      "Yeh Sab Tumhara Karam Hai Aaqa Ke Baat Ab Tak Bani Hui Hai"
+    ]
+  },
+  {
+    "id": "allah-bara-e-ghaus-e-azam",
+    "title": "Allah Bara E Ghaus E Azam",
+    "category": "Manqabat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Allah Bara-e-Ghaus-e-Azam",
+      "De Mujh Ko Wila-e-Ghaus-e-Azam"
+    ]
+  },
+  {
+    "id": "ay-madinay-ke-taajdaar-salaam",
+    "title": "Ay Madinay Ke Taajdaar Salaam",
+    "category": "Salaam",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ay Madinay Ke Taajdaar Salaam",
+      "Ay Ghareebon Ke Gham-Gusaar Salaam"
+    ]
+  },
+  {
+    "id": "banda-milne-ko-qareeb-hazrat-e-qadir-gaya",
+    "title": "Banda Milne Ko Qareeb Hazrat E Qadir Gaya",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Banda Milne Ko Qareeb-e-Hazrat-e-Qaadir Gaya",
+      "Lamah-e-Baatin Mein Gumne Jalwa-e-Zaahir Gaya"
+    ]
+  },
+  {
+    "id": "banda-qaadir-ka-bhi-qaadir",
+    "title": "Banda Qaadir Ka Bhi Qaadir",
+    "category": "Manqabat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Banda Qaadir Ka Bhi Qaadir Bhi Hai Abdul Qaadir",
+      "Sirr-e-Baatin Bhi Hai Zaahir Bhi Hai Abdul Qaadir"
+    ]
+  },
+  {
+    "id": "dil-mein-hai-khayal-e-rukh-e-neku-e-mohammad",
+    "title": "Dil Mein Hai Khayal E Rukh E Neku E Mohammad",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Dil Mein Hai Khayal-e-Rukh-e-Neku-e-Mohammad",
+      "Allah Ke Ghar Mein Hai Basi Boo-e-Mohammad"
+    ]
+  },
+  {
+    "id": "dil-mein-ho-yaad-teri-gosha-e-tanhaayi-ho",
+    "title": "Dil Mein Ho Yaad Teri Gosha E Tanhaayi Ho",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Dil Mein Ho Yaad Teri Gosha-e-Tanhaayi Ho",
+      "Phir To Khalwat Mein Ajab Anjuman Aaraayi Ho"
+    ]
+  },
+  {
+    "id": "guzre-jis-raah-se-wo-sayyid-e-waala-ho-kar",
+    "title": "Guzre Jis Raah Se Wo Sayyid E Waala Ho Kar",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Guzre Jis Raah Se Wo Sayyid-e-Waala Ho Kar",
+      "Reh Gayi Saari Zameen Ambar-e-Saara Ho Kar"
+    ]
+  },
+  {
+    "id": "hai-paak-rutbah-fikr-se-us-be-niyaaz-ka",
+    "title": "Hai Paak Rutbah Fikr Se Us Be-Niyaaz Ka",
+    "category": "Hamd",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Hai Paak Rutbah Fikr Se Us Be-Niyaaz Ka",
+      "Kuch Dakhl Aql Ka Hai, Na Kaam Imtiyaaz Ka"
+    ]
+  },
+  {
+    "id": "jaate-hain-soo-e-madina-ghar-se-ham",
+    "title": "Jaate Hain Soo E Madina Ghar Se Ham",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jaate Hain Soo-e-Madina Ghar Se Ham",
+      "Baaz Aaye Hind-e-Bad Akhtar Se Ham"
+    ]
+  },
+  {
+    "id": "kaaba-ka-shouq-hai-na-sanam-khana-chahiye",
+    "title": "Kaaba Ka Shouq Hai Na Sanam Khana Chahiye",
+    "category": "Hamd",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Kaaba Ka Shouq Hai Na Sanam Khana Chahiye",
+      "Janana Chahiye Dar-e-Janana Chahiye"
+    ]
+  },
+  {
+    "id": "kya-theek-ho-rukh-e-nabawi-par-misaal-e-gul",
+    "title": "Kya Theek Ho Rukh E Nabawi Par Misaal E Gul",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Kya Theek Ho Rukh-e-Nabawi Par Misaal-e-Gul",
+      "Paamaal Jalwa-e-Kaf-e-Paa Hai Jamaal-e-Gul"
+    ]
+  },
+  {
+    "id": "na-mehrab-e-haram-samjhe-na-jane-taaq-e-butkhana",
+    "title": "Na Mehrab E Haram Samjhe Na Jane Taaq E Butkhana",
+    "category": "Hamd",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Na Mehrab-e-Haram Samjhe Na Jane Taaq-e-Butkhana",
+      "Jahan Dekhi Tajalli Ho Gaya Qurban Parwana"
+    ]
+  },
+  {
+    "id": "naar-e-dozakh-ko-chaman-kar-de-bahaar-e-aariz",
+    "title": "Naar E Dozakh Ko Chaman Kar De Bahaar E Aariz",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Naar-e-Dozakh Ko Chaman Kar De Bahaar-e-Aariz",
+      "Zulmat-e-Hashr Ko Din Kar De Nahaar-e-Aariz"
+    ]
+  },
+  {
+    "id": "nazar-ek-chaman-se-do-char-hai",
+    "title": "Nazar Ek Chaman Se Do Char Hai",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Nazar Ek Chaman Se Do Char Hai Na Chaman Chaman Bhi Nisar Hai",
+      "Azab Uske Gul Ki Bahar Hai Ki Bahar Bulbule Zaar Hai"
+    ]
+  },
+  {
+    "id": "phir-utha-walwala-e-yaad-e-mugheelan-e-arab",
+    "title": "Phir Utha Walwala E Yaad E Mugheelan E Arab",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Phir Utha Walwala-e-Yaad-e-Mugheelan-e-Arab",
+      "Phir Khincha Daaman-e-Dil Sooye Bayaabaan-e-Arab"
+    ]
+  },
+  {
+    "id": "tere-dar-pe-saajid-hai-shaahaan-e-aalam",
+    "title": "Tere Dar Pe Saajid Hai Shaahaan E Aalam",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Tere Dar Pe Saajid Hai Shaahaan-e-Aalam",
+      "Tu Sultaan-e-Aalam Hai Ay Jaan-e-Aalam"
+    ]
+  },
+  {
+    "id": "tum-par-main-laakh-jaan-se-qurbaan-ya-rasool",
+    "title": "Tum Par Main Laakh Jaan Se Qurbaan Ya Rasool",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Tum Par Main Laakh Jaan Se Qurbaan Ya Rasool",
+      "Bar Aaen Mere Dil Ke Bhi Armaan Ya Rasool"
+    ]
+  },
+  {
+    "id": "yeh-achhi-parda-dari-hai",
+    "title": "Yeh Achhi Parda Dari Hai",
+    "category": "Hamd",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Yeh Achhi Parda Dari Hai Yeh Achhi Raaz Dari Hai",
+      "Ke Jo Aaye Tumhari Bazm Mein Deewana Ho Jaye"
+    ]
+  },
+  {
+    "id": "zahe-izzat-o-itla-e-muhammad",
+    "title": "Zahe Izzat O Itla E Muhammad",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Zahe Izzat o Etila e Muhammad",
+      "Ke Hai Arsh e Haq Zer e Paa e Muhammad"
+    ]
+  },
+  {
+    "id": "zahe-naseeb-madina-maqaam-ho-jaae",
+    "title": "Zahe Naseeb Madina Maqaam Ho Jaae",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Zahe Naseeb Madina Maqaam Ho Jaae",
+      "Dar-e-Habiib Pe Apna Salaam Ho Jaae"
+    ]
+  },
+  {
+    "id": "ek-main-hi-nahin-un-par-qurban-zamana-hai",
+    "title": "Ek Main He Nahin Un Par Qurban Zamana Hai",
+    "category": "Naat",
+    "poet": "Pir Naseeruddin Naseer",
+    "khawan": "Unknown",
+    "preview": [
+      "Ek Main He Nahin Un Par Qurban Zamana Hai",
+      "Jo Rab-e-Do-Alam Ka Mehboob-e-Yagana Hai"
+    ]
   }
 ]
