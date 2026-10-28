@@ -111,6 +111,7 @@ body.dark .poet-tab.active{color:#a7f3d0;border-bottom-color:#a7f3d0}
 body.dark .poet-head h1{color:#a7f3d0}
 body.dark .meta a{color:#a7f3d0}
 
+.lines[data-lang="roman"][data-font="0"]{font-family:'Ballmain',cursive}
 .lines[data-lang="roman"][data-font="1"]{font-family:'Merriweather',Georgia,serif}
 .lines[data-lang="roman"][data-font="2"]{font-family:'Lora',Georgia,serif}
 .lines[data-lang="hindi"][data-font="1"]{font-family:'Noto Sans Devanagari',sans-serif}
