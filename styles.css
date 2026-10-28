@@ -2,7 +2,7 @@
 .site-header{background:#0b3d2e;color:#fff;position:sticky;top:0;z-index:10}
 .bar{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .logo{color:#fff;text-decoration:none;font-family:'Marcellus',Georgia,serif;font-size:1.45rem;font-weight:400;letter-spacing:.6px;white-space:nowrap}
-body.home .logo{font-family:'Herr Von Muellerhoff',cursive;font-size:1.9rem;letter-spacing:0}
+body.home .logo{font-family:'Dancing Script',cursive;font-size:1.9rem;letter-spacing:0}
 .lang{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end;min-width:0}
 .lang button{background:transparent;color:#374151;border:1px solid #9ca3af;padding:0 10px;border-radius:6px;cursor:pointer;font-size:.85rem;height:36px;display:inline-flex;align-items:center;justify-content:center}
 .lang button.active{background:#fff;color:#0b3d2e;border-color:#0b3d2e;font-weight:600}
