@@ -73,3 +73,5 @@ const darkBtn=document.getElementById('darkToggle');
 function applyDark(){const d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);}
 applyDark();
 if(darkBtn)darkBtn.onclick=()=>{localStorage.setItem('naat-dark',document.body.classList.contains('dark')?'0':'1');applyDark();};
+window.addEventListener('pageshow',applyDark);
+window.addEventListener('storage',e=>{if(e.key==='naat-dark')applyDark();});
