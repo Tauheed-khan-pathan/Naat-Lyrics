@@ -165,3 +165,18 @@ body.dark .loading-line{background:#9fe2c0}
 
 .site-footer .foot-links a{color:#a7f3d0;text-decoration:none}
 .site-footer .foot-links a:hover{text-decoration:underline}
+
+/* A-Z index page */
+.az-bar{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 20px}
+.az-letter{display:inline-flex;align-items:center;justify-content:center;min-width:32px;height:32px;padding:0 6px;border:1px solid #0b3d2e;border-radius:6px;color:#0b3d2e;text-decoration:none;font-weight:600}
+.az-letter.disabled{opacity:.35;border-color:#9ca3af;color:#6b7280}
+body.dark .az-letter{border-color:#a7f3d0;color:#a7f3d0}
+body.dark .az-letter.disabled{border-color:#4b5563;color:#9ca3af}
+.az-group{margin-top:24px}
+.az-group h2{scroll-margin-top:70px}
+.az-list{list-style:none;padding:0;margin:0 0 8px}
+.az-list li{padding:6px 0;border-bottom:1px solid #e5e7eb}
+.az-list a{color:#0b3d2e;text-decoration:none}
+.az-list a:hover{text-decoration:underline}
+body.dark .az-list li{border-color:#374151}
+body.dark .az-list a{color:#a7f3d0}
