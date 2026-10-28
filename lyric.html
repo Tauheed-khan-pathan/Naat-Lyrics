@@ -64,8 +64,9 @@
 <script>
 let lang='roman', size=1.1;
 const FONT_NAMES={roman:['Ballmain','Merriweather','Lora'],hindi:['Default','Noto Sans Devanagari','Baloo 2'],urdu:['Noto Nastaliq','Scheherazade New','System Default']};
+const FONT_DEFAULT={roman:0,hindi:2,urdu:0};
 function fontKey(l){return 'naat-font-'+l;}
-function savedFont(l){const max=(FONT_NAMES[l]||FONT_NAMES.roman).length; const v=parseInt(localStorage.getItem(fontKey(l))||'0',10); return (v>=0&&v<max)?v:0;}
+function savedFont(l){const max=(FONT_NAMES[l]||FONT_NAMES.roman).length; const def=(FONT_DEFAULT[l]===undefined?0:FONT_DEFAULT[l]); const raw=localStorage.getItem(fontKey(l)); const v=raw===null?def:parseInt(raw,10); return (v>=0&&v<max)?v:def;}
 let fontIdx=savedFont(lang);
 function updateDashes(){const b=document.getElementById('fontCycleBtn'); if(!b) return; const names=FONT_NAMES[lang]||FONT_NAMES.roman; const d=document.getElementById('fontDashes'); if(d){d.innerHTML=''; names.forEach((n,i)=>{const s=document.createElement('span'); s.className='fdash'+(i===fontIdx?' on':''); d.appendChild(s);});} b.setAttribute('aria-label','Change font, current: '+names[fontIdx]);}
 updateDashes();
