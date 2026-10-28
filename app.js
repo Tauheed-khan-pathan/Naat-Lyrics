@@ -2,7 +2,7 @@ let all=[], poets=[], cat='All', size=1.05, full=null, fullLoading=false;
 fetch('poets.json?v=3').then(r=>r.json()).then(d=>{poets=d; if(all.length) render(false);}).catch(()=>{});
 const PAGE=20; let shown=PAGE;
 const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search');
-fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; const q=new URLSearchParams(location.search).get('q'); if(q){searchEl.value=q; syncClear();} buildTabs(); render();}).catch(()=>{if(window.hidePageLoader)window.hidePageLoader();});
+fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; const q=new URLSearchParams(location.search).get('q'); if(q){searchEl.value=q; syncClear();} buildTabs(); render();}).catch(()=>{document.body.classList.remove('loading');});
 function buildTabs(){
   const cats=['All',...new Set(all.map(x=>x.category))];
   tabsEl.innerHTML=cats.map(c=>{
@@ -60,7 +60,7 @@ function render(reset=true){
     listEl.innerHTML = items.length ? items.slice(0,shown).map(card).join('') + (items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:'') : '<div class="empty"><p>No results found.</p><p>Try another word, or just part of a line — search works across every line and word.</p></div>';
   }
   _wireSeeMore();
-  if(window.hidePageLoader)window.hidePageLoader();
+  document.body.classList.remove('loading');
 }
 const _wireSeeMore=()=>{const b=document.getElementById('seeMore'); if(b) b.onclick=()=>{shown+=PAGE; render(false);};};
 const clearBtn=document.getElementById('clearSearch');

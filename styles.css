@@ -148,3 +148,16 @@ body.home button,body.home a{-webkit-tap-highlight-color:transparent}
 body.home button:active,body.home a:active{box-shadow:0 0 0 2px rgba(11,61,46,.20),0 0 14px rgba(11,61,46,.45)}
 body.dark.home button:active,body.dark.home a:active{box-shadow:0 0 0 2px rgba(167,243,208,.30),0 0 14px rgba(167,243,208,.60)}
 body.home button:active svg{filter:drop-shadow(0 0 4px currentColor)}
+
+/* Loading state: header dikhta hai, footer/buttons chhupe hote hain, beech me naam likhne wala animation */
+body.loading .lyric-toolbar-row,body.loading .font-float,body.loading .site-footer{display:none}
+.page-loading{min-height:70vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:24px 16px}
+.loading-name{position:relative;font-family:'Dancing Script',cursive;font-size:clamp(2.4rem,10vw,3.6rem);line-height:1.2;color:#0b3d2e;text-align:center}
+body.dark .loading-name{color:#fff}
+.loading-name .ghost{opacity:.12}
+.loading-name .solid{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;animation:nameWrite 2.8s ease-in-out infinite}
+@keyframes nameWrite{0%{clip-path:inset(0 100% 0 0);opacity:1}55%{clip-path:inset(0 0 0 0);opacity:1}78%{clip-path:inset(0 0 0 0);opacity:1}100%{clip-path:inset(0 0 0 0);opacity:0}}
+.loading-line{height:2px;width:130px;background:#0b3d2e;border-radius:2px;transform-origin:left;transform:scaleX(0);animation:lineDraw 2.8s ease-in-out infinite}
+body.dark .loading-line{background:#9fe2c0}
+@keyframes lineDraw{0%{transform:scaleX(0);opacity:1}55%{transform:scaleX(0);opacity:1}70%{transform:scaleX(1);opacity:1}78%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
+@media (prefers-reduced-motion:reduce){.loading-name .solid{animation:none;clip-path:none}.loading-line{animation:none;transform:scaleX(1)}}

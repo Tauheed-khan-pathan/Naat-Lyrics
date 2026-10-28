@@ -25,29 +25,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Baloo+2:wght@400;700&family=Merriweather:wght@400;700&family=Lora:wght@400;700&family=Scheherazade+New:wght@400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/ballmain" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=31">
-<style>
-#pageLoader{position:fixed;inset:0;z-index:9999;background:#0b3d2e;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;transition:opacity .45s ease,visibility 0s linear .45s}
-#pageLoader.done{opacity:0;visibility:hidden;pointer-events:none}
-.loader-text{font-family:'Dancing Script',cursive;font-size:clamp(2.2rem,9vw,3.2rem);color:#fff;line-height:1.2;text-align:center}
-.loader-text .lw{white-space:nowrap}
-.loader-text .lt{display:inline-block;opacity:0;animation:loaderWrite 2.6s ease-in-out infinite;animation-delay:calc(var(--i)*0.09s)}
-.loader-line{height:2px;width:120px;background:#9fe2c0;border-radius:2px;transform-origin:left;transform:scaleX(0);animation:loaderLine 2.6s ease-in-out infinite;animation-delay:.9s}
-@keyframes loaderWrite{0%{opacity:0;transform:translateY(10px) rotate(3deg);filter:blur(2px)}18%{opacity:1;transform:translateY(0) rotate(0);filter:blur(0)}78%{opacity:1;transform:none;filter:none}100%{opacity:0;transform:translateY(-4px)}}
-@keyframes loaderLine{0%{transform:scaleX(0)}30%{transform:scaleX(1)}78%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
-@media (prefers-reduced-motion:reduce){.loader-text .lt{animation:none;opacity:1}.loader-line{animation:none;transform:scaleX(1)}}
-</style>
-<noscript><style>#pageLoader{display:none}</style></noscript>
+<link rel="stylesheet" href="styles.css?v=32">
 <script type="application/ld+json" id="lyricJsonLd">{"@context":"https://schema.org","@type":"WebPage","name":"Naat Lyrics"}</script>
 </head>
 <body class="lyric">
-<div id="pageLoader" aria-hidden="true">
-  <div class="loader-text"><span class="lw"><span class="lt" style="--i:0">A</span><span class="lt" style="--i:1">l</span><span class="lt" style="--i:2">l</span></span> <span class="lw"><span class="lt" style="--i:3">N</span><span class="lt" style="--i:4">a</span><span class="lt" style="--i:5">a</span><span class="lt" style="--i:6">t</span></span> <span class="lw"><span class="lt" style="--i:7">L</span><span class="lt" style="--i:8">y</span><span class="lt" style="--i:9">r</span><span class="lt" style="--i:10">i</span><span class="lt" style="--i:11">c</span><span class="lt" style="--i:12">s</span></span></div>
-  <div class="loader-line"></div>
-</div>
-<script>
-(function(){var t0=Date.now();var done=false;document.body.style.overflow='hidden';window.hidePageLoader=function(){if(done)return;done=true;var wait=Math.max(0,600-(Date.now()-t0));setTimeout(function(){var l=document.getElementById('pageLoader');if(l)l.classList.add('done');document.body.style.overflow='';},wait);};setTimeout(function(){window.hidePageLoader();},8000);})();
-</script>
+<script>(function(){document.body.classList.add('loading');setTimeout(function(){document.body.classList.remove('loading');},8000);})();</script>
 <header class="site-header">
   <div class="bar">
     <a class="logo" href="index.html">All Naat Lyrics</a>
@@ -73,7 +55,7 @@
 </header>
 
 <div class="font-float"><button id="fontCycleBtn" class="font-cycle-btn" type="button" aria-label="Change font"><span>Font</span><span class="font-cycle-dashes" id="fontDashes" aria-hidden="true"></span></button></div>
-<main id="one"></main>
+<main id="one"><div class="page-loading" aria-hidden="true"><div class="loading-name"><span class="ghost">All Naat Lyrics</span><span class="solid" aria-hidden="true">All Naat Lyrics</span></div><div class="loading-line"></div></div></main>
 <footer class="site-footer"><div class="foot-inner">
   <p class="foot-logo">Naat Lyrics</p>
   <p>Naat, Hamd, Salaam, Noha and Manqabat lyrics in Roman Urdu and Hindi, all in one place.</p>
@@ -112,8 +94,8 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
     const effSize=isUrdu?size+0.4:size;
     const linesHtml=isUrdu?(()=>{const sh=[];for(let i=0;i<lines.length;i+=2){const pr=lines.slice(i,i+2);sh.push(`<div class="u-sher">${pr.map(l=>`<div>${l}</div>`).join('')}</div>`);}return sh.join('');})():sherText(lines);
     el.innerHTML=`<article class="card"><h1>${x.title}</h1><div class="meta">${x.category} • Shayar: ${x.poet}</div><div class="meta">Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines${isUrdu?' urdu-lines':''}" data-lang="${lang}" data-font="${fontIdx}" lang="${lang==='hindi'?'hi':'ur'}" dir="${isUrdu?'rtl':'ltr'}" style="font-size:${effSize}rem">${linesHtml}</div>${x.note?`<div class="note">${x.note}</div>`:''}</article>`;
+    document.body.classList.remove('loading');
     if(window.__updateFontPill) window.__updateFontPill();
-    if(window.hidePageLoader)window.hidePageLoader();
   }
   render();
   document.querySelectorAll('.lang button[data-lang]').forEach(b=>b.onclick=()=>{
@@ -126,7 +108,7 @@ fetch('lyrics/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok) throw new Err
   const fontCycleBtn=document.getElementById('fontCycleBtn'); if(fontCycleBtn) fontCycleBtn.onclick=()=>{fontIdx=(fontIdx+1)%((FONT_NAMES[lang]||FONT_NAMES.roman).length); try{localStorage.setItem(fontKey(lang),String(fontIdx));}catch(e){} updateDashes(); render();};
   document.getElementById('fontUp').onclick=()=>{size=Math.min(1.4,size+0.1); render();};
   document.getElementById('fontDown').onclick=()=>{size=Math.max(0.9,size-0.1); render();};
-}).catch(()=>{const o=document.getElementById('one'); o.innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';if(window.__updateFontPill) window.__updateFontPill();if(window.hidePageLoader)window.hidePageLoader();});
+}).catch(()=>{const o=document.getElementById('one'); o.innerHTML='<div class="empty"><p>This lyric was not found.</p><p><a href="index.html">Back to all lyrics</a></p></div>';document.body.classList.remove('loading');if(window.__updateFontPill) window.__updateFontPill();});
 </script>
 <script>
 (function(){var s=document.getElementById('lyricSearch'),c=document.getElementById('lyricClear');if(s){var sync=function(){if(c)c.classList.toggle('show',!!s.value);};s.addEventListener('input',sync);s.addEventListener('keydown',function(e){if(e.key==='Enter'&&s.value.trim()){location.href='index.html?q='+encodeURIComponent(s.value.trim());}});if(c)c.onclick=function(){s.value='';sync();s.focus();};sync();}})();

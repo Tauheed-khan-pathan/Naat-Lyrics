@@ -24,29 +24,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=30">
-<style>
-#pageLoader{position:fixed;inset:0;z-index:9999;background:#0b3d2e;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;transition:opacity .45s ease,visibility 0s linear .45s}
-#pageLoader.done{opacity:0;visibility:hidden;pointer-events:none}
-.loader-text{font-family:'Dancing Script',cursive;font-size:clamp(2.2rem,9vw,3.2rem);color:#fff;line-height:1.2;text-align:center}
-.loader-text .lw{white-space:nowrap}
-.loader-text .lt{display:inline-block;opacity:0;animation:loaderWrite 2.6s ease-in-out infinite;animation-delay:calc(var(--i)*0.09s)}
-.loader-line{height:2px;width:120px;background:#9fe2c0;border-radius:2px;transform-origin:left;transform:scaleX(0);animation:loaderLine 2.6s ease-in-out infinite;animation-delay:.9s}
-@keyframes loaderWrite{0%{opacity:0;transform:translateY(10px) rotate(3deg);filter:blur(2px)}18%{opacity:1;transform:translateY(0) rotate(0);filter:blur(0)}78%{opacity:1;transform:none;filter:none}100%{opacity:0;transform:translateY(-4px)}}
-@keyframes loaderLine{0%{transform:scaleX(0)}30%{transform:scaleX(1)}78%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
-@media (prefers-reduced-motion:reduce){.loader-text .lt{animation:none;opacity:1}.loader-line{animation:none;transform:scaleX(1)}}
-</style>
-<noscript><style>#pageLoader{display:none}</style></noscript>
+<link rel="stylesheet" href="styles.css?v=32">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Naat Lyrics","url":"https://tauheed-khan-pathan.github.io/Naat-Lyrics/","description":"Naat, Hamd, Salaam and Noha lyrics in Roman Urdu and Hindi.","inLanguage":"ur"}</script>
 </head>
 <body class="home">
-<div id="pageLoader" aria-hidden="true">
-  <div class="loader-text"><span class="lw"><span class="lt" style="--i:0">A</span><span class="lt" style="--i:1">l</span><span class="lt" style="--i:2">l</span></span> <span class="lw"><span class="lt" style="--i:3">N</span><span class="lt" style="--i:4">a</span><span class="lt" style="--i:5">a</span><span class="lt" style="--i:6">t</span></span> <span class="lw"><span class="lt" style="--i:7">L</span><span class="lt" style="--i:8">y</span><span class="lt" style="--i:9">r</span><span class="lt" style="--i:10">i</span><span class="lt" style="--i:11">c</span><span class="lt" style="--i:12">s</span></span></div>
-  <div class="loader-line"></div>
-</div>
-<script>
-(function(){var t0=Date.now();var done=false;document.body.style.overflow='hidden';window.hidePageLoader=function(){if(done)return;done=true;var wait=Math.max(0,600-(Date.now()-t0));setTimeout(function(){var l=document.getElementById('pageLoader');if(l)l.classList.add('done');document.body.style.overflow='';},wait);};setTimeout(function(){window.hidePageLoader();},8000);})();
-</script>
+<script>(function(){document.body.classList.add('loading');setTimeout(function(){document.body.classList.remove('loading');},8000);})();</script>
 <header class="site-header">
   <div class="bar">
     <a class="logo" href="index.html">All Naat Lyrics</a>
@@ -59,13 +41,13 @@
   </div>
 </header>
 <nav class="tabbar" aria-label="Categories"><div id="tabs" role="tablist"></div></nav>
-<main id="list"></main>
+<main id="list"><div class="page-loading" aria-hidden="true"><div class="loading-name"><span class="ghost">All Naat Lyrics</span><span class="solid" aria-hidden="true">All Naat Lyrics</span></div><div class="loading-line"></div></div></main>
 <footer class="site-footer"><div class="foot-inner">
   <p class="foot-logo">Naat Lyrics</p>
   <p>Naat, Hamd, Salaam, Noha and Manqabat lyrics in Roman Urdu and Hindi, all in one place.</p>
   <p class="foot-cats">Naat &bull; Hamd &bull; Salaam &bull; Noha &bull; Manqabat</p>
   <p class="foot-copy">&copy; 2026 Naat Lyrics</p>
 </div></footer>
-<script src="app.js?v=15"></script>
+<script src="app.js?v=16"></script>
 </body>
 </html>
