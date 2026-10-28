@@ -52,7 +52,7 @@ fetch('lyrics-index.json').then(r=>r.json()).then(d=>{
   const groups={}; sorted.forEach(x=>{const L=(x.title.trim()[0]||'#').toUpperCase(); (groups[L]=groups[L]||[]).push(x);});
   const letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
   const bar=letters.map(L=>groups[L]?`<a class="az-letter" href="#letter-${L}">${L}</a>`:`<span class="az-letter disabled" aria-hidden="true">${L}</span>`).join('');
-  const sections=letters.filter(L=>groups[L]).map(L=>`<section class="az-group"><h2 id="letter-${L}">${L}</h2><ul class="az-list">${groups[L].map(x=>`<li><a href="lyric.html?id=${encodeURIComponent(x.id)}">${x.title}</a><span class="meta"> ${x.category} • Shayar: ${x.poet}</span></li>`).join('')}</ul></section>`).join('');
+  const sections=letters.filter(L=>groups[L]).map(L=>`<section class="az-group"><h2 id="letter-${L}">${L}</h2><ul class="az-list">${groups[L].map(x=>`<li><a href="lyric/${encodeURIComponent(x.id)}.html">${x.title}</a><span class="meta"> ${x.category} • Shayar: ${x.poet}</span></li>`).join('')}</ul></section>`).join('');
   document.getElementById('az').innerHTML=`<article class="card"><h1>A–Z Index</h1><p class="meta">${d.length} lyrics, sorted by title.</p><div class="az-bar">${bar}</div>${sections}<p><a href="#top">↑ Back to top</a></p></article>`;
   document.body.classList.remove('loading');
 }).catch(()=>{document.getElementById('az').innerHTML='<div class="empty"><p>Could not load the index. Please try again.</p></div>';document.body.classList.remove('loading');});

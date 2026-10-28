@@ -23,10 +23,10 @@ function card(x){
   const preview=x.preview || (x.roman||[]).slice(0,2);
   const poetObj=poets.find(p=>p.name===x.poet);
   const poetHtml=poetObj?`<a href="poet.html?id=${poetObj.id}">${x.poet}</a>`:x.poet;
-  return `<article class="card"><h2><a href="lyric.html?id=${x.id}">${x.title}</a></h2><div class="meta">${x.category} • Shayar: ${poetHtml} • Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines preview" style="font-size:${size}rem">${preview.join('\n')}</div><a class="read" href="lyric.html?id=${x.id}">Read full ${x.category||'lyric'}</a></article>`;
+  return `<article class="card"><h2><a href="lyric/${x.id}.html">${x.title}</a></h2><div class="meta">${x.category} • Shayar: ${poetHtml} • Naat Khawan: ${x.khawan || 'Unknown'}</div><div class="lines preview" style="font-size:${size}rem">${preview.join('\n')}</div><a class="read" href="lyric/${x.id}.html">Read full ${x.category||'lyric'}</a></article>`;
 }
 function miniCard(x){
-  return `<a class="mini-card" href="lyric.html?id=${x.id}"><strong>${x.title}</strong><span>${x.category} • Shayar: ${x.poet}</span></a>`;
+  return `<a class="mini-card" href="lyric/${x.id}.html"><strong>${x.title}</strong><span>${x.category} • Shayar: ${x.poet}</span></a>`;
 }
 function render(reset=true){
   if(reset) shown=PAGE;
