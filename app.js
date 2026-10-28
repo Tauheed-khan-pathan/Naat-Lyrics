@@ -48,9 +48,8 @@ function render(reset=true){
     const boxes=cats.map(c=>{
       const n=all.filter(x=>x.category===c).length;
       return `<button class="catbox" data-cat="${c}"><strong>${c}</strong><span>${n} lyrics</span></button>`;
-    }).join('');
+    }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z Index</strong></a>`;
     listEl.innerHTML =
-      `<p class="az-home-link"><a href="a-z.html">Browse A–Z Index →</a></p>` +
       `<section><h2 class="section-title">Categories</h2><div class="catgrid">${boxes}</div></section>` +
       `<section><h2 class="section-title">Most Read</h2><div class="hscroll">${popular.map(miniCard).join('')}</div></section>` +
       `<section><h2 class="section-title">Recently Added</h2><div class="hscroll">${recent.map(miniCard).join('')}</div></section>` +
