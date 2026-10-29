@@ -100,3 +100,10 @@ document.getElementById('fontDown').onclick = () => { size = Math.max(0.9, size 
   if (document.fonts && document.fonts.ready) { document.fonts.ready.then(function () { measure(); update(); }); }
   measure(); update();
 })();
+
+// Clear a stale search pill value when the lyric page is restored from the
+// Back/Forward cache: the pill is only a navigation input, so a query typed
+// before leaving must not still sit in the box on return.
+window.addEventListener('pageshow', function (e) {
+  if (e.persisted) { var s = document.getElementById('lyricSearch'); if (s) s.value = ''; }
+});
