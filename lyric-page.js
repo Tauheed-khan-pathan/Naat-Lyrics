@@ -4,7 +4,7 @@
 // the header search pill and the font-pill lifter. No fetch, no loader:
 // a static page renders instantly.
 let lang = 'roman', size = 1.1;
-const FONT_NAMES = {roman: ['Ballmain', 'Merriweather', 'Lora'], hindi: ['Default', 'Noto Sans Devanagari', 'Baloo 2'], urdu: ['Noto Nastaliq', 'Scheherazade New', 'System Default']};
+const FONT_NAMES = {roman: ['Default', 'Ballmain', 'Merriweather', 'Lora'], hindi: ['Default', 'Noto Sans Devanagari', 'Baloo 2'], urdu: ['Noto Nastaliq', 'Scheherazade New', 'System Default']};
 const FONT_DEFAULT = {roman: 0, hindi: 2, urdu: 0};
 function fontKey(l) { return 'naat-font-' + l; }
 function savedFont(l) {
