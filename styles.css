@@ -193,3 +193,13 @@ body.dark .az-list a{color:#a7f3d0}
 .az-home-link{text-align:center;margin:2px 0 16px}
 .az-home-link a{display:inline-block;background:#0b3d2e;color:#fff;padding:9px 22px;border-radius:999px;text-decoration:none;font-weight:600}
 body.dark .az-home-link a{background:#a7f3d0;color:#052e22}
+
+/* Back-to-top button (WhatsApp scroll button jaisa): chhota, bottom-right,
+   sirf scroll karne par dikhta hai. Chhupa hone par us jagah click ka koi
+   asar nahi hota (pointer-events none + visibility hidden). */
+.to-top-btn{position:fixed;right:16px;bottom:20px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:900;width:40px;height:40px;border:0;border-radius:50%;background:#0b3d2e;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(10px);transition:opacity .3s ease,transform .3s ease,visibility .3s;-webkit-tap-highlight-color:transparent}
+.to-top-btn.show{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}
+.to-top-btn:active{transform:scale(.93)}
+.to-top-btn svg{width:22px;height:22px;flex:none}
+body.dark .to-top-btn{background:#a7f3d0;color:#0b3d2e}
+body.loading .to-top-btn{display:none}

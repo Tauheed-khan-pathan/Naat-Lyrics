@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=38">
+<link rel="stylesheet" href="styles.css?v=39">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"A–Z Index — Naat Lyrics","url":"https://tauheed-khan-pathan.github.io/Naat-Lyrics/a-z.html"}</script>
 </head>
 <body class="static" id="top">
@@ -62,6 +62,14 @@ fetch('lyrics-index.json').then(r=>r.json()).then(d=>{
   document.getElementById('az').innerHTML=`<article class="card"><h1>A–Z Index</h1><p class="meta">${d.length} lyrics, sorted by title.</p><div class="az-bar">${bar}</div>${sections}<p><a href="#top">↑ Back to top</a></p></article>`;
   document.body.classList.remove('loading');
 }).catch(()=>{document.getElementById('az').innerHTML='<div class="empty"><p>Could not load the index. Please try again.</p></div>';document.body.classList.remove('loading');});
+</script>
+<script>
+// Back-to-top button (WhatsApp scroll button jaisa): sirf tab dikhta hai jab
+// user thoda neeche scroll kar jaaye; click par smooth scroll se top par le
+// jaata hai; top par pahunchte hi gayab ho jaata hai. Chhupa hone par us
+// jagah click ka koi asar nahi hota (pointer-events none + visibility
+// hidden), aur dikhna/gayab hona animation ke saath hota hai.
+(function(){var b=document.createElement('button');b.className='to-top-btn';b.setAttribute('aria-label','Back to top');b.title='Back to top';b.innerHTML='<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>';b.onclick=function(){window.scrollTo({top:0,behavior:'smooth'});};document.body.appendChild(b);function sync(){b.classList.toggle('show',window.scrollY>300);}window.addEventListener('scroll',sync,{passive:true});window.addEventListener('pageshow',sync);sync();})();
 </script>
 </body>
 </html>

@@ -104,3 +104,22 @@ document.addEventListener('click', e => {
 window.addEventListener('pageshow', e => {
   if (e.persisted && all.length) { buildTabs(); render(false); }
 });
+
+// Back-to-top button (WhatsApp scroll button jaisa): sirf tab dikhta hai jab
+// user thoda neeche scroll kar jaaye; click par smooth scroll se top par le
+// jaata hai; top par pahunchte hi gayab ho jaata hai. Chhupa hone par us
+// jagah click ka koi asar nahi hota (pointer-events none + visibility
+// hidden), aur dikhna/gayab hona animation ke saath hota hai.
+(function () {
+  const b = document.createElement('button');
+  b.className = 'to-top-btn';
+  b.setAttribute('aria-label', 'Back to top');
+  b.title = 'Back to top';
+  b.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg>';
+  b.onclick = () => { window.scrollTo({ top: 0, behavior: 'smooth' }); };
+  document.body.appendChild(b);
+  const sync = () => { b.classList.toggle('show', window.scrollY > 300); };
+  window.addEventListener('scroll', sync, { passive: true });
+  window.addEventListener('pageshow', sync);
+  sync();
+})();
