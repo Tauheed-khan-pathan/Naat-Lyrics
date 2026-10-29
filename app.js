@@ -48,7 +48,7 @@ function render(reset=true){
     const boxes=cats.map(c=>{
       const n=all.filter(x=>x.category===c).length;
       return `<button class="catbox" data-cat="${c}"><strong>${c}</strong><span>${n} lyrics</span></button>`;
-    }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z Index</strong></a>`;
+    }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z</strong></a>`;
     listEl.innerHTML =
       `<section><h2 class="section-title">Categories</h2><div class="catgrid">${boxes}</div></section>` +
       `<section><h2 class="section-title">Most Read</h2><div class="hscroll">${popular.map(miniCard).join('')}</div></section>` +
@@ -75,3 +75,32 @@ applyDark();
 if(darkBtn)darkBtn.onclick=()=>{localStorage.setItem('naat-dark',document.body.classList.contains('dark')?'0':'1');applyDark();};
 window.addEventListener('pageshow',applyDark);
 window.addEventListener('storage',e=>{if(e.key==='naat-dark')applyDark();});
+
+// Logo click from a search (?q=) page replaces the search entry instead of
+// stacking a plain homepage on top of it, so browser Back never returns to
+// a stale "No results found" search page.
+const logoLink = document.querySelector('.logo');
+if (logoLink) logoLink.addEventListener('click', e => {
+  if (new URLSearchParams(location.search).get('q')) { e.preventDefault(); location.replace(logoLink.getAttribute('href')); }
+});
+
+// A-Z link click (Categories box or footer): clean the homepage entry
+// BEFORE leaving for a-z.html, so browser Back from the Index page returns
+// to a clean homepage — not to a search / "No results found" state.
+// The click itself is left to navigate normally; clearing the input and
+// the ?q= URL here is what the Back/Forward cache restores on return.
+document.addEventListener('click', e => {
+  const a = e.target && e.target.closest ? e.target.closest('a[href="a-z.html"]') : null;
+  if (!a) return;
+  searchEl.value = '';
+  cat = 'All';
+  syncClear();
+  if (location.search) { try { history.replaceState(null, '', 'index.html'); } catch (err) {} }
+});
+
+// When the homepage is restored from the Back/Forward cache, re-render
+// from the (now clean) search/category state instead of showing the frozen
+// "No results found" list left behind by a search before the A-Z visit.
+window.addEventListener('pageshow', e => {
+  if (e.persisted && all.length) { buildTabs(); render(false); }
+});
