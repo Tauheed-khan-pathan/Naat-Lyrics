@@ -13,10 +13,10 @@ function card(x){
 function render(){
   const items=all.filter(x=>x.poet===poet.name);
   const facts=Object.entries(poet.facts||{}).map(([k,v])=>`<p><strong>${k}:</strong> ${v}</p>`).join('');
-  const lyricsHtml=items.length ? items.map(card).join('') : '<div class="empty"><p>Lyrics by this poet are being added and will appear here.</p></div>';
+  const lyricsHtml=items.length ? items.map(card).join('') : '<div class="empty"><p>Kalaam by this poet are being added and will appear here.</p></div>';
   const aboutHtml=`<div class="card about-block">${(poet.bio||[]).map(p=>`<p>${p}</p>`).join('')}${facts}</div>`;
-  el.innerHTML=`<div class="poet-head"><h1>${poet.name}</h1><p>${poet.honorific||''} • ${poet.fullName||''}</p><p>${items.length} lyrics on this site</p></div>` +
-    `<nav class="poet-tabs"><button class="poet-tab ${tab==='lyrics'?'active':''}" data-tab="lyrics">Lyrics (${items.length})</button><button class="poet-tab ${tab==='about'?'active':''}" data-tab="about">About this poet</button></nav>` +
+  el.innerHTML=`<div class="poet-head"><h1>${poet.name}</h1><p>${poet.honorific||''} • ${poet.fullName||''}</p><p>${items.length} kalaam on this site</p></div>` +
+    `<nav class="poet-tabs"><button class="poet-tab ${tab==='lyrics'?'active':''}" data-tab="lyrics">Kalaam (${items.length})</button><button class="poet-tab ${tab==='about'?'active':''}" data-tab="about">About this poet</button></nav>` +
     (tab==='lyrics'?lyricsHtml:aboutHtml);
   el.querySelectorAll('.poet-tab').forEach(b=>b.onclick=()=>{tab=b.dataset.tab; render();});
 }
