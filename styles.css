@@ -163,6 +163,13 @@ body.dark .loading-line{background:#9fe2c0}
 @keyframes lineDraw{0%{transform:scaleX(0);opacity:1}55%{transform:scaleX(0);opacity:1}70%{transform:scaleX(1);opacity:1}78%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
 @media (prefers-reduced-motion:reduce){.loading-name .solid{animation:none;clip-path:none}.loading-line{animation:none;transform:scaleX(1)}}
 
+/* Nav loader overlay: kisi bhi link par click karte hi poori screen par
+   All Naat Lyrics animation dikhta hai, jab tak naya page load na ho.
+   Light mode me safed, dark mode me dark background. */
+.nav-loader{position:fixed;inset:0;z-index:9999;display:none;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:#f7f7f5}
+body.dark .nav-loader{background:#111827}
+.nav-loader.show{display:flex}
+
 .site-footer .foot-links a{color:#a7f3d0;text-decoration:none}
 .site-footer .foot-links a:hover{text-decoration:underline}
 

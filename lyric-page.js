@@ -65,7 +65,7 @@ document.getElementById('fontDown').onclick = () => { size = Math.max(0.9, size 
     var sync = function () { if (c) c.classList.toggle('show', !!s.value); };
     s.addEventListener('input', sync);
     s.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' && s.value.trim()) { location.href = '../index.html?q=' + encodeURIComponent(s.value.trim()); }
+      if (e.key === 'Enter' && s.value.trim()) { var o = document.getElementById('navLoader'); if (o) o.classList.add('show'); location.href = '../index.html?q=' + encodeURIComponent(s.value.trim()); }
     });
     if (c) c.onclick = function () { s.value = ''; sync(); s.focus(); };
     sync();
