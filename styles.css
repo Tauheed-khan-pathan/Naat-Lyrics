@@ -203,3 +203,15 @@ body.dark .az-home-link a{background:#a7f3d0;color:#052e22}
 .to-top-btn svg{width:22px;height:22px;flex:none}
 body.dark .to-top-btn{background:#a7f3d0;color:#0b3d2e}
 body.loading .to-top-btn{display:none}
+
+/* Recommended titles on lyric pages: 10 one-line titles below the
+   lyrics (font button ke neeche wali jagah), har page par alag
+   rotation; click par us lyric ka page khulta hai jisme apne 10 hote hain. */
+.recs{margin:24px 0 96px;padding:0 16px}
+.recs h2{font-size:1.1rem;margin:0 0 10px}
+.recs ul{list-style:none;padding:0;margin:0}
+.recs li{padding:7px 0;border-bottom:1px solid #e5e7eb}
+.recs li a{display:block;color:#0b3d2e;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.recs li a:hover{text-decoration:underline}
+body.dark .recs li{border-color:#374151}
+body.dark .recs li a{color:#a7f3d0}
