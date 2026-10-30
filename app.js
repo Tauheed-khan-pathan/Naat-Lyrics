@@ -11,13 +11,87 @@ function buildTabs(){
   }).join('');
   tabsEl.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render();});
 }
+// ---- Typo-tolerant (fuzzy) search ----
+// Words are split on anything that is not a letter or digit, so
+// "tajdar-e-haram" becomes [tajdar, haram] and glue words (e, ke, ki)
+// are ignored. A query matches when EVERY word (3+ letters) matches
+// some word of the lyric, in any order, either as a substring or
+// within 1-2 edits (Damerau-Levenshtein, transposition counts as 1).
+// Exact-phrase matches keep working exactly as before (fast path).
+function queryWords(q){
+  return q.toLowerCase().split(/[^a-z0-9\u0900-\u097F\u0600-\u06FF]+/).filter(w=>w.length>=3);
+}
+function editDist(a,b){
+  const m=a.length, n=b.length, d=[];
+  for(let i=0;i<=m;i++) d[i]=[i];
+  for(let j=0;j<=n;j++) d[0][j]=j;
+  for(let i=1;i<=m;i++) for(let j=1;j<=n;j++){
+    const cost=a[i-1]===b[j-1]?0:1;
+    let v=Math.min(d[i-1][j]+1, d[i][j-1]+1, d[i-1][j-1]+cost);
+    if(i>1&&j>1&&a[i-1]===b[j-2]&&a[i-2]===b[j-1]) v=Math.min(v, d[i-2][j-2]+1);
+    d[i][j]=v;
+  }
+  return d[m][n];
+}
+function wordMatch(qw, hay){
+  const words=hay.split(/[^a-z0-9\u0900-\u097F\u0600-\u06FF]+/);
+  for(const w of words){
+    if(!w) continue;
+    if(w.includes(qw)) return true;
+    const lim=w.length<=5?1:2;
+    if(Math.abs(w.length-qw.length)>lim) continue;
+    if(editDist(qw,w)<=lim) return true;
+  }
+  return false;
+}
+function fuzzyMatch(text,q){
+  if(!q) return true;
+  const hay=text.toLowerCase();
+  if(hay.includes(q)) return true;
+  const qwords=queryWords(q);
+  if(!qwords.length) return false;
+  return qwords.every(qw=>wordMatch(qw,hay));
+}
+let vocabCache=null, vocabCacheFor=null;
+function getVocab(){
+  const src=full||all;
+  if(vocabCache&&vocabCacheFor===src) return vocabCache;
+  const s=new Set();
+  const texts=full
+    ? full.map(x=>[x.title,...(x.roman||[]),...(x.hindi||[]),...(x.urdu||[])].join(' '))
+    : all.map(x=>[x.title,x.poet,x.category,x.khawan||'',(x.preview||[]).join(' ')].join(' '));
+  for(const t of texts) for(const w of t.toLowerCase().split(/[^a-z0-9\u0900-\u097F\u0600-\u06FF]+/)) if(w.length>=3) s.add(w);
+  vocabCache=s; vocabCacheFor=src; return s;
+}
+// "Did you mean" suggestion: corrects each query word to its nearest
+// vocabulary word (1 edit for short words, 2 for longer ones).
+// Returns the corrected query string, or null when nothing to correct.
+function suggestCorrection(q){
+  const vocab=getVocab();
+  const qwords=queryWords(q);
+  if(!qwords.length) return null;
+  let changed=false;
+  const corrected=qwords.map(qw=>{
+    if(vocab.has(qw)) return qw;
+    const lim=qw.length<=5?1:2;
+    let best=null, bestD=lim+1;
+    for(const w of vocab){
+      if(Math.abs(w.length-qw.length)>lim) continue;
+      const d=editDist(qw,w);
+      if(d<bestD){bestD=d; best=w; if(d===1) break;}
+    }
+    if(best){changed=true; return best;}
+    return qw;
+  });
+  return changed?corrected.join(' '):null;
+}
 function matchesIndex(x,q){
   if(!q) return true;
-  return x.title.toLowerCase().includes(q) || x.poet.toLowerCase().includes(q) || x.category.toLowerCase().includes(q) || (x.khawan||'').toLowerCase().includes(q) || x.preview.join(' ').toLowerCase().includes(q);
+  return fuzzyMatch(x.title+' '+x.poet+' '+x.category+' '+(x.khawan||'')+' '+x.preview.join(' '), q);
 }
 function matchesFull(x,q){
   if(!q) return true;
-  return x.title.toLowerCase().includes(q) || x.roman.join(' ').toLowerCase().includes(q) || x.hindi.join(' ').toLowerCase().includes(q) || (x.urdu||[]).join(' ').toLowerCase().includes(q);
+  return fuzzyMatch(x.title+' '+x.roman.join(' ')+' '+x.hindi.join(' ')+' '+(x.urdu||[]).join(' '), q);
 }
 function card(x){
   const preview=x.preview || (x.roman||[]).slice(0,2);
@@ -57,7 +131,11 @@ function render(reset=true){
       `<section><h2 class="section-title">All Lyrics</h2>${items.slice(0,shown).map(card).join('')}${items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:''}</section>`;
     listEl.querySelectorAll('.catbox').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render(); window.scrollTo({top:0,behavior:'smooth'});});
   } else {
-    listEl.innerHTML = items.length ? items.slice(0,shown).map(card).join('') + (items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:'') : '<div class="empty"><p>No results found.</p><p>Try another word, or just part of a line — search works across every line and word.</p></div>';
+    const sugg=q?suggestCorrection(q):null;
+    const suggHtml=sugg?`<div class="empty"><p>Did you mean: <a href="#" id="didYouMean">${sugg}</a>?</p></div>`:'';
+    listEl.innerHTML = suggHtml + (items.length ? items.slice(0,shown).map(card).join('') + (items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:'') : '<div class="empty"><p>No results found.</p><p>Try another word, or just part of a line — search works across every line and word.</p></div>');
+    const suggLink=document.getElementById('didYouMean');
+    if(suggLink) suggLink.onclick=(e)=>{e.preventDefault(); searchEl.value=sugg; syncClear(); render(); searchEl.focus();};
   }
   _wireSeeMore();
   document.body.classList.remove('loading');
