@@ -30,18 +30,11 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Contact — Naat Lyrics","url":"https://tauheed-khan-pathan.github.io/Naat-Lyrics/contact.html"}</script>
 <style>
 .insta-card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;margin-bottom:20px;text-align:center}
-.insta-avatar{width:96px;height:96px;margin:0 auto 12px;padding:4px;border-radius:50%;background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);position:relative}
-.insta-avatar img{position:absolute;top:4px;left:4px;width:calc(100% - 8px);height:calc(100% - 8px);border-radius:50%;object-fit:cover;border:3px solid #fff;box-sizing:border-box}
-.insta-avatar span{display:flex;align-items:center;justify-content:center;width:100%;height:100%;border-radius:50%;background:#0b3d2e;color:#fff;font-family:'Dancing Script',cursive;font-size:44px;font-weight:700;border:3px solid #fff;box-sizing:border-box}
-.insta-name{font-size:22px;font-weight:700;margin:0 0 2px}
-.insta-handle{margin:0 0 14px;color:#0b3d2e}
-.insta-handle a{color:#0b3d2e;text-decoration:none;font-weight:600}
-.insta-btn{display:inline-block;background:#0b3d2e;color:#fff !important;padding:10px 26px;border-radius:999px;text-decoration:none;font-weight:600}
+.insta-embed{margin:0 auto;max-width:360px;border-radius:16px;overflow:hidden;border:1px solid #e5e7eb;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.insta-embed iframe{width:100%;height:240px;border:0;display:block}
 .insta-about{margin:16px 0 0;text-align:left}
-.insta-embed{margin:20px auto 0;max-width:400px}
-.insta-embed iframe{width:100%;height:620px;border:0;border-radius:12px;display:block}
 body.dark .insta-card{background:#1f2937;border-color:#374151}
-body.dark .insta-handle,body.dark .insta-handle a{color:#a7f3d0}
+body.dark .insta-embed{border-color:#374151}
 </style>
 </head>
 <body class="static">
@@ -55,13 +48,10 @@ body.dark .insta-handle,body.dark .insta-handle a{color:#a7f3d0}
 </header>
 <main>
 <section class="insta-card">
-<div class="insta-avatar"><img src="tauheed-profile.jpg" alt="Tauheed Khan" onerror="this.remove()"><span>T</span></div>
-<p class="insta-name">Tauheed Khan</p>
-<p class="insta-handle"><a href="https://www.instagram.com/tauheed_khan_pathan/" target="_blank" rel="noopener">@tauheed_khan_pathan</a></p>
+<div class="insta-embed"><iframe src="https://www.instagram.com/tauheed_khan_pathan/embed/" title="Tauheed Khan on Instagram" allowtransparency="true"></iframe></div>
 <p class="insta-about">Tauheed Khan, a 23-year-old full-stack web developer, made this website.</p>
 <p class="insta-about">All Naat Lyrics brings naat, hamd, salaam, noha and manqabat lyrics together in Roman, Hindi and Urdu, so everyone can read and search them in one place.</p>
 <p class="insta-about">Tauheed made this website together with his friend ksma.</p>
-<div class="insta-embed"><iframe src="https://www.instagram.com/tauheed_khan_pathan/embed/" title="Tauheed Khan on Instagram" allowtransparency="true"></iframe></div>
 </section>
 <article class="card">
 <h1>Contact</h1>
@@ -82,5 +72,6 @@ body.dark .insta-handle,body.dark .insta-handle a{color:#a7f3d0}
 <script>
 (function(){var b=document.getElementById('darkToggle');function apply(){var d=localStorage.getItem('naat-dark')==='1';document.body.classList.toggle('dark',d);}apply();if(b)b.onclick=function(){localStorage.setItem('naat-dark',document.body.classList.contains('dark')?'0':'1');apply();};window.addEventListener('pageshow',apply);window.addEventListener('storage',function(e){if(e.key==='naat-dark')apply();});})();
 </script>
+<script>(function(){function s(){var f=document.querySelector('.insta-embed iframe');if(!f)return;f.style.height=(120+Math.round(f.clientWidth/3))+'px';}window.addEventListener('load',s);window.addEventListener('resize',s);s();})();</script>
 </body>
 </html>
