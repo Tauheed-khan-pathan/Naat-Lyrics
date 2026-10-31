@@ -11537,5 +11537,445 @@
       "Pyara Pyara Siddik hai",
       "Meri Aan Meri Jaan Mere Siddike Akbar"
     ]
+  },
+  {
+    "id": "siddiq-hai-pehla",
+    "title": "Siddiq Hai Pehla",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Hafiz Tahir Qadri",
+    "preview": [
+      "siddiq hai pehla siddiq hai pehla",
+      "siddiq hai pehla siddiq hai pehla"
+    ]
+  },
+  {
+    "id": "siddiq-maula-mere",
+    "title": "Siddiq Maula Mere",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Hafiz Tahir Qadri",
+    "preview": [
+      "siddiq-e-akbar, siddiq-e-akbar",
+      "siddiq-e-akbar, siddiq-e-akbar"
+    ]
+  },
+  {
+    "id": "wo-aaya-halima",
+    "title": "Wo Aaya Halima ki Aankhon ka Taara",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Zahra Abbasi",
+    "preview": [
+      "Wo Aaya Halima ki Aankhon ka Taara",
+      "Bana Jis Ki Khatir Zamana Ye Sara"
+    ]
+  },
+  {
+    "id": "ab-to-bas-ek-hi-dhun-hai-ke-madina-dekhun",
+    "title": "Ab To Bas Ek Hi Dhun Hai Ke Madina Dekhun",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Hafiz Ahmad Raza Qadri",
+    "preview": [
+      "aakhri umar me.n kya ronak-e-duniya dekhu.n",
+      "yehi dhun hai yehi dhun hai"
+    ]
+  },
+  {
+    "id": "dare-nabi-par-ye-umar-beete",
+    "title": "Dare Nabi Par Ye Umar Beete",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Nisar Ahmed Marfani",
+    "preview": [
+      "Dare Nabi par Ye Umar beete",
+      "Ho Ham pe Lutfe Tamam Aesa"
+    ]
+  },
+  {
+    "id": "hai-be-sabri-badi-dil-nu-dua-mangyo-sabar-aawe",
+    "title": "Hai Be Sabri Badi Dil Nu Dua Mangyo Sabar Aawe",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "hai be sabri badi dil nu",
+      "dua mangyo sabar aawe"
+    ]
+  },
+  {
+    "id": "mere-madani-jeya-koi-pyara-ee-nain",
+    "title": "Mere Madani Jeya Koi Pyara Ee Nain",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Fozia Khadim",
+    "preview": [
+      "Mere Madani jeya koi pyara ee nain",
+      "Rukhe Aaqa jeya koi nazara bhi nain"
+    ]
+  },
+  {
+    "id": "mere-nabi-da-rutbaa-aala",
+    "title": "Mere Nabi Da Rutbaa Aala",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Mufti Saeed Arshad Al Hussaini",
+    "preview": [
+      "Mere Nabi da Rutbaa aala, Sallalallahu Alayhi Wa Sallam",
+      "Sohniyaan Unchiyaan Shaana waala, Sallalallahu Alayhi Wa Sallam"
+    ]
+  },
+  {
+    "id": "mere-nabi-mere-nabi-aa-gaye-aa-gaye",
+    "title": "Mere Nabi Mere Nabi Aa Gaye Aa Gaye",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "mere nabi aa gaye, marhaba ya mustafa",
+      "aaqa aa gaye aaqa aa gaye"
+    ]
+  },
+  {
+    "id": "muhammad-mustafa-aaye-bahar-andar-bahar-aayi",
+    "title": "Muhammad Mustafa Aaye Bahar Andar Bahar Aayi",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "muhammad mustafa aaye bahar andar bahar aayi",
+      "(muhammad mustafa aaye baharon par bahar aayi)"
+    ]
+  },
+  {
+    "id": "musallam-hai-zamaane-mein-wafaa-siddiqe-akbar-ki",
+    "title": "Musallam Hai Zamaane Mein Wafaa Siddiqe Akbar Ki",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Maulana Bilal Raza Qadri",
+    "preview": [
+      "Musallam hai Zamaane mein Wafaa Siddiqe Akbar ki",
+      "Rizaa-e-Mustafa hi hai Rizaa Siddiqe Akbar ki"
+    ]
+  },
+  {
+    "id": "ya-rasulallah-madine-mein-hame-bulwaiye",
+    "title": "Ya Rasulallah Madine Mein Hame Bulwaiye",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Hafiz Tahir Qadri",
+    "preview": [
+      "Mere Aaqa Tayba Wale",
+      "Mere Aaqa Tayba Wale"
+    ]
+  },
+  {
+    "id": "ya-rasulallah-tere-dar-ki-fazaon-ko-salam",
+    "title": "Ya Rasulallah Tere Dar Ki Fazaon Ko Salam",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "ya rasool allah tere dar ki fazaao.n ko salaam",
+      "gumbad-e-khazra ki thandi thandi chhaao.n ko salaam"
+    ]
+  },
+  {
+    "id": "salle-ala-nabiyena-salle-ala-muhammadin",
+    "title": "Salle Ala Nabiyena Salle Ala Muhammadin",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Milad Raza Qadri",
+    "preview": [
+      "Salle Ala Nabiyena Salle Ala Muhammadin",
+      "Salle Ala Nabiyena Salle Ala Muhammadin"
+    ]
+  },
+  {
+    "id": "sarkar-e-dono-aalam-nazar-e-karam-ho-jaana",
+    "title": "Sarkar e Dono Aalam Nazar e Karam Ho Jaana",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Sarkar e dono aalam nazar e karam ho jaana",
+      "Aariz hoon aarzoo hai dar per mujhe bulana"
+    ]
+  },
+  {
+    "id": "shaahe-madina-tayba-ke-waali",
+    "title": "Shaahe Madina Tayba Ke Waali",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Abdul Raoof Rufi",
+    "preview": [
+      "Shaahe Madina Shaahe Madina",
+      "Shaahe Madina Shaahe Madina"
+    ]
+  },
+  {
+    "id": "jo-dil-mein-ulfat-e-jaan-e-maseeha-le-ke-baithe-hein",
+    "title": "Jo Dil Mein Ulfat-e-Jaan-e-Maseeha Le Ke Baithe Hein",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "jo dil mein ulfat-e-jaan-e-maseeha le ke baithe hein",
+      "wahi dar-asl bakhshish ka sahaara le ke baithe hein"
+    ]
+  },
+  {
+    "id": "main-miladi-bacha",
+    "title": "Main Miladi Bacha Haan Main Milad Manaawaanga",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "main milaadi bacha haa.n",
+      "main milaad manaawaanga"
+    ]
+  },
+  {
+    "id": "maula-mera-vi-ghar-howe",
+    "title": "Maula Mera Vi Ghar Howe",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Usman Ubaid Qadri",
+    "preview": [
+      "Tu Sab da Malik Khalik Aye",
+      "Do Jag da Tu Sultan aye"
+    ]
+  },
+  {
+    "id": "mein-hun-sarkar-e-madina-ka-gada",
+    "title": "Mein Hun Sarkar-e-Madina Ka Gada",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Mein hun Sarkar-e-Madina ka gada",
+      "Jobhi mangu Mujhe Sarkar Ata karte hein"
+    ]
+  },
+  {
+    "id": "paani-band-kar-diya-baaba",
+    "title": "Paani Band Kar Diya Baaba",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Huda Sisters",
+    "preview": [
+      "Bibi Zaynab ne kaha Baaba se Karbobalaa mein",
+      "Paani band kar diya Baaba"
+    ]
+  },
+  {
+    "id": "pandra-so-ma-ye-jashn-e-aamad-e-sarkar-hai",
+    "title": "Pandra So Ma Ye Jashn-e-Aamad-e-Sarkar Hai",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "marhaba mere aaqa, marhaba mere aaqa",
+      "marhaba mere aaqa, marhaba mere aaqa"
+    ]
+  },
+  {
+    "id": "apne-dar-par-apne-mangte-ko-bulaaein-gause-paak",
+    "title": "Apne Dar Par Apne Mangte Ko Bulaaein Gause Paak",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "apne dar par, apne mangte ko bulaae.n ghaus-e-paak",
+      "shaah-e-jilaa.n !, peer-e-peeraa.n"
+    ]
+  },
+  {
+    "id": "kaash-ek-roz-ghar-mere-ghaus-ul-wara",
+    "title": "Kaash Ek Roz Ghar Mere Ghaus-ul-Wara",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "kaash! ek roz ghar mere ghaus-ul-wara",
+      "aap tashreef laaein to kya puchhna"
+    ]
+  },
+  {
+    "id": "khila-mere-dil-ki-kali-ghaus-e-aazam",
+    "title": "Khila Mere Dil Ki Kali Ghaus-e-Aazam",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "khila mere dil ki kali ghaus-e-aa'zam",
+      "mita qalb ki bekali ghaus-e-aa'zam"
+    ]
+  },
+  {
+    "id": "mai-bekas-hun-mai-bebas-hun-gause-azam-jilani",
+    "title": "Mai Bekas Hun Mai Bebas Hun Gause Azam Jilani",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Yusuf Memon",
+    "preview": [
+      "mai bekas hun mai bebas hun gause azam jilani",
+      "mai bekas hun mai bebas hun"
+    ]
+  },
+  {
+    "id": "mangenge-mange-jaayenge-munh-mangi-payenge",
+    "title": "Mangenge Mange Jaayenge Munh Mangi Payenge",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "mangenge mange jaayenge munh mangi paayenge",
+      "sarkar mein na 'la' hai na haajat 'agar' ki hai"
+    ]
+  },
+  {
+    "id": "mere-aangan-mein-aao-peeraan-e-peer",
+    "title": "Mere Aangan Mein Aao Peeraan-e-Peer",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "mere aangan mein aao peeraan-e-peer",
+      "qadira sarwara rahnuma dastageer"
+    ]
+  },
+  {
+    "id": "nabi-hamare-bane-hein-dulha",
+    "title": "Nabi Hamare Bane Hein Dulha",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "nabi hamare bane hain dulha",
+      "wo sarwar-e-kishwar-e-risalat"
+    ]
+  },
+  {
+    "id": "sardaar-e-auliya-hein-mere-gaus-piya-jilani",
+    "title": "Sardaar-e-Auliya Hein Mere Gaus Piya Jilani",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "sardaar-e-auliya he.n mere ghaus piya jilaani",
+      "wo mahboob-e-sub'haani shah-baaze la-makaani"
+    ]
+  },
+  {
+    "id": "shaian-lillah-ya-abdul-qadir",
+    "title": "Shai'an-lillah Ya Abdul Qadir",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "shai.an-lillah, ya abdul qadir",
+      "sakin-al-baghdaad ya shaikh al-jilani"
+    ]
+  },
+  {
+    "id": "aa-gaye-aa-gaye-mustafa-aa-gaye-sarkar",
+    "title": "Aa Gaye Aa Gaye Mustafa Aa Gaye",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Thandi thandi hawa rehmaton ki chali",
+      "Banke Moze karam Mustafa aa gaye"
+    ]
+  },
+  {
+    "id": "abdul-qadir-al-jilani",
+    "title": "Abdul Qadir Al Jilani",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Hafiz Ghulam Mustafa Qadri",
+    "preview": [
+      "Abdul Qadir Al Jilani, Abdul Qadir Al Jilani",
+      "Abdul Qadir Al Jilani, Abdul Qadir Al Jilani"
+    ]
+  },
+  {
+    "id": "chashm-mein-firta-hai-meri-wo-mazaar",
+    "title": "Chashm Mein Firta Hai Meri Wo Mazaar",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "haji piya mere haji piya",
+      "haji piya mere haji piya"
+    ]
+  },
+  {
+    "id": "dayare-data-se-ho-kar-jo-mushk-bu-aaye",
+    "title": "Dayare Data Se Ho Kar Jo Mushk Bu Aaye",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "dayaare daata se ho kar jo mushk bu aaye",
+      "saba ko chahiye uske qadam ko chhoo aaye"
+    ]
+  },
+  {
+    "id": "ek-fatima-ke-laal-ko-pani-nahin-diya",
+    "title": "Ek Fatima Ke Laal Ko Pani Nahin Diya",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Hafiz Tahir Qadri",
+    "preview": [
+      "ek fatima ke laal ko paani nahin diya hai",
+      "ek fatima ke laal ko paani nahin diya hai"
+    ]
+  },
+  {
+    "id": "falak-se-duroodo-salam-aa-raha-hai",
+    "title": "Falak Se Duroodo Salam Aa Raha Hai",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Shahana Shaikh",
+    "preview": [
+      "Falak se Duroodo Salam aa raha hai",
+      "Zubaan par Muhammad Naam aa raha hai"
+    ]
+  },
+  {
+    "id": "gause-aazam-waliyon-ke-sultaan",
+    "title": "Gause Aazam Waliyon Ke Sultaan",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Waliyon ke Sultaan hein Meera Waliyon ke Sultaan",
+      "Gause Aazam Waliyon ke Sultaan"
+    ]
+  },
+  {
+    "id": "khwaja-e-khwajgaan-hami-e-bekasaan",
+    "title": "Khwaja-e-Khwajgaan Hami-e-Bekasaan",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "khwaja-e-khwajgaan! haami-e-be-kasaan",
+      "badi door se aaye hein muinuddin!"
+    ]
+  },
+  {
+    "id": "kursi-par-koi-bhi-baithe-raja-to-mera-khwaaja-hai",
+    "title": "Kursi Par Koi Bhi Baithe Raja To Mera Khwaaja Hai",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "kursi par koi bhi baithe, raaja to mera khwaaja hai",
+      "mai.n ghada-e-khwaaja-e-chisht hu.n"
+    ]
   }
 ]
