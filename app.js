@@ -6,7 +6,7 @@ fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; const q=new URLSear
 function buildTabs(){
   const cats=['All',...new Set(all.map(x=>x.category))];
   tabsEl.innerHTML=cats.map(c=>{
-    const n=c==='All'?all.length:all.filter(x=>x.category===c).length;
+    const n=c==='All'?'1K+':all.filter(x=>x.category===c).length;
     return `<button class="tab ${c===cat?'active':''}" data-cat="${c}">${c} (${n})</button>`;
   }).join('');
   tabsEl.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render();});
