@@ -108,7 +108,10 @@ function render(reset=true){
   let items=all.filter(x=>(cat==='All'||x.category===cat) && matchesIndex(x,q));
   if(q && items.length===0 && !full && !fullLoading){
     fullLoading=true;
-    fetch('lyrics.json').then(r=>r.json()).then(d=>{full=d; fullLoading=false; render();});
+    Promise.all([
+      fetch('lyrics-a.json').then(r=>r.json()).catch(()=>[]),
+      fetch('lyrics-b.json').then(r=>r.json()).catch(()=>[])
+    ]).then(parts=>{full=[...parts[0],...parts[1]]; fullLoading=false; render();});
     listEl.innerHTML='<div class="empty"><p>Searching full lyrics, please wait…</p></div>';
     return;
   }
