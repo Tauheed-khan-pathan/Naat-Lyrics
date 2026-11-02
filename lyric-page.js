@@ -1,8 +1,8 @@
 // Shared behaviour for static lyric pages (lyric/<id>.html) — Audit D.
 // The lyric text is already in the HTML (one div per language); this
 // script only toggles languages, font size, font choice, dark mode,
-// the header search pill and the font-pill lifter. No fetch, no loader:
-// a static page renders instantly.
+// the header search pill, the font-pill lifter and the share button.
+// No fetch, no loader: a static page renders instantly.
 let lang = 'roman', size = 1.1;
 const FONT_NAMES = {roman: ['Default', 'Ballmain', 'Merriweather', 'Lora'], hindi: ['Default', 'Noto Sans Devanagari', 'Baloo 2'], urdu: ['Noto Nastaliq', 'Scheherazade New', 'System Default']};
 const FONT_DEFAULT = {roman: 0, hindi: 2, urdu: 0};
@@ -107,6 +107,33 @@ document.getElementById('fontDown').onclick = () => { size = Math.max(0.9, size 
 window.addEventListener('pageshow', function (e) {
   if (e.persisted) { var s = document.getElementById('lyricSearch'); if (s) s.value = ''; }
 });
+
+// Share button (injected into the toolbar, so every static lyric page
+// gets it from this one file — no page regeneration needed). On phones
+// it opens the native share sheet (WhatsApp etc.); elsewhere it opens
+// a WhatsApp share link with the lyric title + page URL.
+(function () {
+  var row = document.querySelector('.lyric-toolbar-row');
+  if (!row) return;
+  var st = document.createElement('style');
+  st.textContent = '.share-btn{background:transparent;color:#374151;border:1px solid #9ca3af;padding:0 10px;border-radius:6px;cursor:pointer;font-size:.85rem;height:36px;display:inline-flex;align-items:center;justify-content:center;gap:6px}body.dark .share-btn{color:#d1d5db;border-color:#4b5563}@media(max-width:600px){.share-btn{height:32px;padding:0 6px;font-size:.8rem}}';
+  document.head.appendChild(st);
+  var b = document.createElement('button');
+  b.className = 'share-btn';
+  b.type = 'button';
+  b.setAttribute('aria-label', 'Share this lyric');
+  b.textContent = '↗ Share';
+  b.onclick = function () {
+    var url = location.href;
+    var text = document.title + ' — ' + url;
+    if (navigator.share) {
+      navigator.share({ title: document.title, text: document.title, url: url }).catch(function () {});
+    } else {
+      window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+    }
+  };
+  row.appendChild(b);
+})();
 
 // Back-to-top button (WhatsApp scroll button jaisa): sirf tab dikhta hai jab
 // title + shuru ke 1-2 ashar upar nikal jaayein; click par smooth scroll se
