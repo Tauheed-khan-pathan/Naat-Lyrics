@@ -87,11 +87,31 @@ function suggestCorrection(q){
 }
 function matchesIndex(x,q){
   if(!q) return true;
-  return fuzzyMatch(x.title+' '+x.poet+' '+x.category+' '+(x.khawan||'')+' '+x.preview.join(' '), q);
+  return fuzzyMatch(indexText(x), q);
+}
+// Strong index match: every query word appears EXACTLY (as a substring)
+// in the title/preview text. Fuzzy-only index hits (e.g. "kardey" for
+// "kareem") must NOT block the full-lyrics search, otherwise a line
+// search whose words merely resemble other titles/previews never
+// reaches the lyric that actually contains the line.
+function strongMatch(text,q){
+  if(!q) return true;
+  const hay=text.toLowerCase();
+  if(hay.includes(q)) return true;
+  const qwords=queryWords(q);
+  if(!qwords.length) return false;
+  const words=hay.split(/[^a-z0-9\u0900-\u097F\u0600-\u06FF]+/);
+  return qwords.every(qw=>words.some(w=>w && w.includes(qw)));
+}
+function indexText(x){
+  return x.title+' '+x.poet+' '+x.category+' '+(x.khawan||'')+' '+x.preview.join(' ');
 }
 function matchesFull(x,q){
   if(!q) return true;
-  return fuzzyMatch(x.title+' '+x.roman.join(' ')+' '+x.hindi.join(' ')+' '+(x.urdu||[]).join(' '), q);
+  return fuzzyMatch(fullText(x), q);
+}
+function fullText(x){
+  return x.title+' '+(x.roman||[]).join(' ')+' '+(x.hindi||[]).join(' ')+' '+((x.urdu)||[]).join(' ');
 }
 function card(x){
   const preview=x.preview || (x.roman||[]).slice(0,2);
@@ -106,7 +126,8 @@ function render(reset=true){
   if(reset) shown=PAGE;
   const q=searchEl.value.trim().toLowerCase();
   let items=all.filter(x=>(cat==='All'||x.category===cat) && matchesIndex(x,q));
-  if(q && items.length===0 && !full && !fullLoading){
+  const strong=!q || items.some(x=>strongMatch(indexText(x),q));
+  if(q && !full && !fullLoading && (items.length===0 || !strong)){
     fullLoading=true;
     Promise.all([
       fetch('lyrics-a.json').then(r=>r.json()).catch(()=>[]),
@@ -116,7 +137,11 @@ function render(reset=true){
     return;
   }
   if(q && full){
-    items=full.filter(x=>(cat==='All'||x.category===cat) && matchesFull(x,q));
+    const fm=full.filter(x=>(cat==='All'||x.category===cat) && matchesFull(x,q));
+    const exact=fm.filter(x=>strongMatch(fullText(x),q));
+    const exactIds=new Set(exact.map(x=>x.id));
+    const indexIds=new Set(items.map(x=>x.id));
+    items=[...exact, ...items.filter(x=>!exactIds.has(x.id)), ...fm.filter(x=>!exactIds.has(x.id) && !indexIds.has(x.id))];
   }
   if(!q && cat==='All'){
     const cats=[...new Set(all.map(x=>x.category))];
