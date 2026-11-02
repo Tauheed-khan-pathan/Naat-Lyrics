@@ -58,7 +58,7 @@ function getVocab(){
   if(vocabCache&&vocabCacheFor===src) return vocabCache;
   const s=new Set();
   const texts=full
-    ? full.map(x=>[x.title,...(x.roman||[]),...(x.hindi||[]),...(x.urdu||[])].join(' '))
+    ? full.map(x=>[x.title,...(x.roman||[]),...(x.hindi||[]),...(x.urdu||[]),...((x.other_version||{}).roman||[]),...((x.other_version||{}).hindi||[]),...((x.other_version||{}).urdu||[])].join(' '))
     : all.map(x=>[x.title,x.poet,x.category,x.khawan||'',(x.preview||[]).join(' ')].join(' '));
   for(const t of texts) for(const w of t.toLowerCase().split(/[^a-z0-9\u0900-\u097F\u0600-\u06FF]+/)) if(w.length>=3) s.add(w);
   vocabCache=s; vocabCacheFor=src; return s;
@@ -111,7 +111,9 @@ function matchesFull(x,q){
   return fuzzyMatch(fullText(x), q);
 }
 function fullText(x){
-  return x.title+' '+(x.roman||[]).join(' ')+' '+(x.hindi||[]).join(' ')+' '+((x.urdu)||[]).join(' ');
+  const ov=x.other_version||{};
+  return x.title+' '+(x.roman||[]).join(' ')+' '+(x.hindi||[]).join(' ')+' '+((x.urdu)||[]).join(' ')
+    +' '+((ov.roman)||[]).join(' ')+' '+((ov.hindi)||[]).join(' ')+' '+((ov.urdu)||[]).join(' ');
 }
 function card(x){
   const preview=x.preview || (x.roman||[]).slice(0,2);
