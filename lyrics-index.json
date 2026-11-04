@@ -27619,5 +27619,2733 @@
       "Ami khudro tai, bujhite pari na",
       "Ogo moha mohiyan,"
     ]
+  },
+  {
+    "id": "ankhein-kholo-zakhmi",
+    "title": "Ankhein Kholo Zakhmi",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zainab ka tha nauha baba mere baba",
+      "mai zainab hoon pehchano zara"
+    ]
+  },
+  {
+    "id": "asghar-haye-asghar",
+    "title": "Asghar Haye Asghar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "asghar haye asghar",
+      "haye baysheer mere reh gaya jaake kahan"
+    ]
+  },
+  {
+    "id": "asghar-ho-tum-kahan",
+    "title": "Asghar Ho Tum Kahan",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay ali asghar",
+      "maqtal may baithi khaak par"
+    ]
+  },
+  {
+    "id": "asghar-ko-leke-godh",
+    "title": "Asghar Ko Leke Godh",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "asghar ko leke godh mein kehti hai karbala",
+      "ye wo ali hai jisko kabhi ghar nahi mila"
+    ]
+  },
+  {
+    "id": "asghar-mai-teri-maa",
+    "title": "Asghar Mai Teri Maa",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "aaja asghar aaja asghar",
+      "asghar mai teri maa hoo"
+    ]
+  },
+  {
+    "id": "asghare-baysheer",
+    "title": "Asghare Baysheer",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ro rahi hai soch kar ummul baneen ye aaj bhi",
+      "asghar e baysheer jaisi qabr hai abbas ki"
+    ]
+  },
+  {
+    "id": "awaaz-to-de-akbar",
+    "title": "Awaaz To De Akbar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kadiyal jawan ki laash par kehta raha rokar padar",
+      "awaaz to de akbar"
+    ]
+  },
+  {
+    "id": "ay-aun-o-mohamad",
+    "title": "Ay Aun O Mohamad",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kehti thi ye zainab yun maa ka maan nibhana",
+      "ay aun o mohamad ay aun o mohamad"
+    ]
+  },
+  {
+    "id": "ay-bhai-hussaina",
+    "title": "Ay Bhai Hussaina",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "bin tere na aaram kahin payegi behna",
+      "ay bhai hussaina ay bhai hussaina"
+    ]
+  },
+  {
+    "id": "ay-jaun-bhai-ho-tum",
+    "title": "Ay Jaun Bhai Ho Tum",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay jaun bhai ho tum mere",
+      "abbas ki qasam tumhe lag jao na galay"
+    ]
+  },
+  {
+    "id": "ay-karbala-ay-karbala",
+    "title": "Ay Karbala Ay Karbala",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay karbala ay karbala",
+      "qatl hui aal e nabi ghar ujad gaya"
+    ]
+  },
+  {
+    "id": "ay-shaam-ke-logon",
+    "title": "Ay Shaam Ke Logon",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay shaam ke logon mai binte ali hoo",
+      "mai waarise tatheer hoo namoose nabi hoo"
+    ]
+  },
+  {
+    "id": "ay-shaam-ke-musafir",
+    "title": "Ay Shaam Ke Musafir",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay shaam ke musafir manzil teri kahan hai",
+      "zanjeer hai badan par zakhmon se khoon rawan hai"
+    ]
+  },
+  {
+    "id": "ay-shamiyon-is-shor",
+    "title": "Ay Shamiyon Is Shor",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay shamiyon is shor ki aadi nahi zainab",
+      "kyun jashn manate ho ke baaghi nahi zainab"
+    ]
+  },
+  {
+    "id": "ay-zahra-ke-baba",
+    "title": "Ay Zahra Ke Baba",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay zahra ke baba ay shaahe madina",
+      "yun beti ko teri sataya gaya hai"
+    ]
+  },
+  {
+    "id": "baap-se-baatein-karo",
+    "title": "Baap Se Baatein Karo",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "haye jawan laal ko maqtal se jab utha ke chale",
+      "hussain rote rahe aur pisar se kehte rahe"
+    ]
+  },
+  {
+    "id": "baba-tumhare-baad",
+    "title": "Baba Tumhare Baad",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sadme utha rahi hoo mai baba tumhare baad",
+      "darbar jaa rahi hoo mai baba tumhare baad"
+    ]
+  },
+  {
+    "id": "bano-ka-ye-nauha",
+    "title": "Bano Ka Ye Nauha",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "bano ka ye nauha tha aajao ali akbar",
+      "aajao mera beta aajao ali akbar"
+    ]
+  },
+  {
+    "id": "batees-baras-waar",
+    "title": "Batees Baras Waar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sar choom ke abbas ka kehte rahe sarwar",
+      "battees baras waar diye char baras par"
+    ]
+  },
+  {
+    "id": "batool-ro-padi",
+    "title": "Batool Ro Padi",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "jo dard fatema ne ali se chupaye hai",
+      "tanhaai may kaneez ko apni sunaye hai"
+    ]
+  },
+  {
+    "id": "bazaar-mein-zainab-ne",
+    "title": "Bazaar Mein Zainab Ne",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "bazaar mein zainab ne marne ki dua maangi",
+      "jab shaam ke logon se abid ne rida maangi"
+    ]
+  },
+  {
+    "id": "bekason-ka-khaafla",
+    "title": "Bekason Ka Khaafla",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "bekason ka khaafla hai shaam ka bazaar hai",
+      "khwahar e abbas e ghazi khaafla salaar hai"
+    ]
+  },
+  {
+    "id": "beta-sajjad-utho",
+    "title": "Beta Sajjad Utho",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "shaam e ghariban mein tha zainab ka nauha",
+      "beta sajjad utho beta sajjad utho"
+    ]
+  },
+  {
+    "id": "bete-ke-qaatilon-se",
+    "title": "Bete Ke Qaatilon Se",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "bete ke qaatilon se ek baap poochta hai",
+      "koi mujhe bata de laasha kahan pada hai"
+    ]
+  },
+  {
+    "id": "bhai-bhai-pukarti",
+    "title": "Bhai Bhai Pukarti",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "amma ruka na shimre layeen mere bayn se",
+      "sattar qadam thi door ye zainab hussain se"
+    ]
+  },
+  {
+    "id": "bhai-ka-laasha",
+    "title": "Bhai Ka Laasha",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "dushman ko bhi na bhai ka matam khuda dikhaye",
+      "logon batao bhai ko bhai kahan se laaye"
+    ]
+  },
+  {
+    "id": "bhaiya-ghareeb-zainab",
+    "title": "Bhaiya Ghareeb Zainab",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "bhaiya ghareeeb zainab tera kafan na laayi",
+      "laashe hussain par hai zainab ki ye duhaai"
+    ]
+  },
+  {
+    "id": "bhaiya-mai-aagayi-hoo",
+    "title": "Bhaiya Mai Aagayi Hoo",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "chehlum ke liye bhaiya aayi hai teri zainab",
+      "ay mere bhai hussain"
+    ]
+  },
+  {
+    "id": "bhare-darbar-may",
+    "title": "Bhare Darbar May",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "bhare darbar may roti rahi khadi zahra",
+      "na jaane kis tarha haq maangti rahi zahra"
+    ]
+  },
+  {
+    "id": "bin-baazuon-ke-utra",
+    "title": "Bin Baazuon Ke Utra",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kulsoom ro ke kehti hai ummul baneen se",
+      "bin baazuon ke utra hai abbas zeen se"
+    ]
+  },
+  {
+    "id": "chaadare-maangi-to",
+    "title": "Chaadare Maangi To",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "chaadare maangi to har shehr se aaye pathar",
+      "binte zehra ne kahan par nahi khaaye pathar"
+    ]
+  },
+  {
+    "id": "chacha-mai-aap-ki",
+    "title": "Chacha Mai Aap Ki",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "jab dafn karne aaye tan e paash paash ko",
+      "abid pukare dekh ke ghazi ki laash ko"
+    ]
+  },
+  {
+    "id": "chadar-dikha-dikha",
+    "title": "Chadar Dikha Dikha",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "chadar na kafan hai door watan",
+      "be parda behan haathon mein rasan"
+    ]
+  },
+  {
+    "id": "darbar-mein-ye",
+    "title": "Darbar Mein Ye",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "darbar mein ye kehti thi zahra ki laadli",
+      "mat maar tu labon pa mere bhai ke chadi"
+    ]
+  },
+  {
+    "id": "dare-zindan-par",
+    "title": "Dare Zindan Par",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "dar e zindan par koi masooma",
+      "padha karti hai ye ro kar nauha"
+    ]
+  },
+  {
+    "id": "darya-se-koi-ja-kar",
+    "title": "Darya Se Koi Ja Kar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "darya se koi jaa kar ghazi ko bula laye",
+      "aisa na ho ghurbat may ghar zehra ka lut jaye"
+    ]
+  },
+  {
+    "id": "dasht-mein-ibne-hasan",
+    "title": "Dasht Mein Ibne Hasan",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "haye qasim haye qasim",
+      "dasht mein ibne hassan par waqt kaisa aa gaya"
+    ]
+  },
+  {
+    "id": "deke-awaaz-baap-ko",
+    "title": "Deke Awaaz Baap Ko",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "haye akbar haye akbar",
+      "baba mere baba"
+    ]
+  },
+  {
+    "id": "dekha-jab-baap-ka",
+    "title": "Dekha Jab Baap Ka",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "dekha jab baap ka laasha to sakina royi",
+      "shimr ne maara jo durra to sakina royi"
+    ]
+  },
+  {
+    "id": "dil-chota-mat-karo",
+    "title": "Dil Chota Mat Karo",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "dil chota mat karo wo bulayenge karbala",
+      "maula hussain sab ko dikhayenge karbala"
+    ]
+  },
+  {
+    "id": "din-dhala-to-rulane",
+    "title": "Din Dhala To Rulane",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "din dhala to rulaane ko shaam aa gayi",
+      "zulm zainab pe dhaane ko shaam aa gayi"
+    ]
+  },
+  {
+    "id": "do-baar-namaz",
+    "title": "Do Baar Namaz",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "do baar namaz shaheed hui",
+      "ek masjid may ek maqtal may"
+    ]
+  },
+  {
+    "id": "do-hausla-baba",
+    "title": "Do Hausla Baba",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zainab ne kaha ye ro ro kar",
+      "do hausla baba zainab ko"
+    ]
+  },
+  {
+    "id": "ek-nanhi-si-lehad",
+    "title": "Ek Nanhi Si Lehad",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ek nanhi si lehad ran may banate hai hussain",
+      "khaak may doosre mohsin ko chupate hai hussain"
+    ]
+  },
+  {
+    "id": "faras-ki-zeen-se",
+    "title": "Faras Ki Zeen Se",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "faras ki zeen se beshak utar gaye hai hussain",
+      "zameen dhoond rahi hai kidhar gaye hai hussain"
+    ]
+  },
+  {
+    "id": "fatema-ke-dono-pisar",
+    "title": "Fatema Ke Dono Pisar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "haye hassan haye hussain",
+      "ajeeb haal may hai fatema ke dono pisar"
+    ]
+  },
+  {
+    "id": "gham-sakina-ko-mile",
+    "title": "Gham Sakina Ko Mile",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "gham sakina ko mile itne musalmano se",
+      "mar gayi par na kabhi haath hatay kaano se"
+    ]
+  },
+  {
+    "id": "ghame-fatema",
+    "title": "Ghame Fatema",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "haye mazlooma fatema zehra",
+      "haye mehrooma fatema zehra"
+    ]
+  },
+  {
+    "id": "ghar-mein-aaya-hai",
+    "title": "Ghar Mein Aaya Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "shiddat e sabr se mar jaye na maa akbar ki",
+      "din madine mein wo taqdeer ne dikhlaya hai"
+    ]
+  },
+  {
+    "id": "hai-janaza-hydere",
+    "title": "Hai Janaza Hydere",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "hai janaza hyder e karraar ka",
+      "momino do mil ke kaandha"
+    ]
+  },
+  {
+    "id": "haye-alamdar",
+    "title": "Haye Alamdar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "karte hai matam haram abbas ka",
+      "ho gaya marna sitam abbas ka"
+    ]
+  },
+  {
+    "id": "haye-haye-ali-asghar",
+    "title": "Haye Haye Ali Asghar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "maa ke dulaare ali asghar",
+      "aankhon ke taare ali asghar"
+    ]
+  },
+  {
+    "id": "haye-moosae-kazim",
+    "title": "Haye Moosae Kazim",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "haye moosa-e-kazim",
+      "ek ghareebul watan qaid mein mar gaya"
+    ]
+  },
+  {
+    "id": "haye-qasim",
+    "title": "Haye Qasim",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sehriyan waala qasim",
+      "maa ka dulaara qasim"
+    ]
+  },
+  {
+    "id": "hum-kaise-chale-jaye",
+    "title": "Hum Kaise Chale Jaye",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ashoor ki shab karte thay as'hab ye noha",
+      "hum kaise chale jaye tumhe chod ke maula"
+    ]
+  },
+  {
+    "id": "hum-log-mar-gaye",
+    "title": "Hum Log Mar Gaye",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kaun pahunchayega ab rizq ali zakhmi hai",
+      "aaj kufe ke yateemon ki khuda khair kare"
+    ]
+  },
+  {
+    "id": "hurr-aa-raha-hai",
+    "title": "Hurr Aa Raha Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "hurr ibn e rehaai aaja mere bhai",
+      "hurr aa raha hai akbar seene usay lagao"
+    ]
+  },
+  {
+    "id": "hussain-banke-zamane",
+    "title": "Hussain Banke Zamane",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "hussain ban ke zamane pe chaa gayi zainab",
+      "zubaan e taygh se kufa hila gayi zainab"
+    ]
+  },
+  {
+    "id": "hussain-chup-hai",
+    "title": "Hussain Chup Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ujad gaya hai batool ka ghar hussain chup hai",
+      "khuda ki marzi mein sar jhuka kar hussain chup hai"
+    ]
+  },
+  {
+    "id": "hussain-ruk-jao",
+    "title": "Hussain Ruk Jao",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sadayein deta hai kaaba hussain ruk jao",
+      "na badlo hajj ka iraada hussain ruk jao"
+    ]
+  },
+  {
+    "id": "is-baat-se-zaahir-hai",
+    "title": "Is Baat Se Zaahir Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "is baat se zaahir hai rutba ali akbar ka",
+      "hota hai azaano may charcha ali akbar ka"
+    ]
+  },
+  {
+    "id": "jab-bhi-ho-karbobala",
+    "title": "Jab Bhi Ho Karbobala",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "aakhri baar mera haale musibat sunlo",
+      "bhai sajjad sakina ki wasiyat sunlo"
+    ]
+  },
+  {
+    "id": "jeete-raho-auno",
+    "title": "Jeete Raho Auno",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay mere pyaron raaj dularon",
+      "raazi hui maa khuld sidharo"
+    ]
+  },
+  {
+    "id": "jhoola-hai-ya-taboot",
+    "title": "Jhoola Hai Ya Taboot",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "jhoola hai ya taboot tumhara ali asghar",
+      "maadar ke labon par hai ye nauha ali asghar"
+    ]
+  },
+  {
+    "id": "kab-shamma-jalane",
+    "title": "Kab Shamma Jalane",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay muntakim kab aaoge ay muntazir kab aaoge",
+      "zehra ki andheri turbat pe kab shamma jalane aaoge"
+    ]
+  },
+  {
+    "id": "kadiyal-jawan-ki",
+    "title": "Kadiyal Jawan Ki",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ghode se gir ke jab ali akbar ne di sada",
+      "apni kamar ko thaam ke shabbir ne kaha"
+    ]
+  },
+  {
+    "id": "kafan-mujhko-pinha",
+    "title": "Kafan Mujhko Pinha",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "di thi amma ne jo poshak wo laa do zainab",
+      "apne haathon se kafan mujhko pinha do zainab"
+    ]
+  },
+  {
+    "id": "kar-madad-meri-baqir",
+    "title": "Kar Madad Meri Baqir",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sakina mar gayi zindan may jab ye shor utha",
+      "alam se zard tha us dam har ek ka chehra"
+    ]
+  },
+  {
+    "id": "karbala-walon",
+    "title": "Karbala Walon",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "karbala waalon",
+      "tumhara gham rahe zinda hamesha karbala waalon"
+    ]
+  },
+  {
+    "id": "karbobala-naseeb-se",
+    "title": "Karbobala Naseeb Se",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "uthe hai haath khudaya isi dua ke liye",
+      "naseeb ho safar e ishq karbala ke liye"
+    ]
+  },
+  {
+    "id": "kazim-ka-janaza-hai",
+    "title": "Kazim Ka Janaza Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ya baabe hawaij maula",
+      "mazdooron ke kaandhon par kazim ka janaza hai"
+    ]
+  },
+  {
+    "id": "khafela-roko",
+    "title": "Khafela Roko",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "rahwaare hussani jab tehra aur ek qadam aage na badha",
+      "kuch khaak utha ke haathon mein abbas se ye maula ne kaha"
+    ]
+  },
+  {
+    "id": "khiza-ne-lootli",
+    "title": "Khiza Ne Lootli",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "haye ghareeb haye hussain",
+      "khiza ne loot-li saari bahaar ek din mein"
+    ]
+  },
+  {
+    "id": "khud-baap-jawan",
+    "title": "Khud Baap Jawan",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "khud baap jawan laal ki mayyat ko uthaye",
+      "ya rab kisi dushman pe bhi ye waqt na aaye"
+    ]
+  },
+  {
+    "id": "khuda-khair-kare",
+    "title": "Khuda Khair Kare",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "binte zahra ka khula sar hai khuda khair kare",
+      "aur har haath may pathar hai khuda khair kare"
+    ]
+  },
+  {
+    "id": "khuda-nigehdaar-ya-ali",
+    "title": "Khuda Nigehdaar Ya Ali",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "tha chehra zakhmi shikasta pehlu",
+      "ajab qayamat ki wo ghadi thi"
+    ]
+  },
+  {
+    "id": "kohraam-mach-gaya",
+    "title": "Kohraam Mach Gaya",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "alwida alwida",
+      "qaime mein aake shah ne jab alwida kaha"
+    ]
+  },
+  {
+    "id": "koi-ghaibat-mein",
+    "title": "Koi Ghaibat Mein",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "koi ghaibat mein baitha khoon ke aansu bahata hai",
+      "usay zainab ka jab bazaar jaana yaad aata hai"
+    ]
+  },
+  {
+    "id": "kufe-mein-karbala-ke",
+    "title": "Kufe Mein Karbala Ke",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kufe mein karbala ke hai aasaar ya hussain",
+      "sher e khuda pe chal gayi talwaar ya hussain"
+    ]
+  },
+  {
+    "id": "kya-kare-abbas",
+    "title": "Kya Kare Abbas",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "rasan may haath bandhe hai behan hai be-parda",
+      "sina se sar na giraye to kya kare abbas"
+    ]
+  },
+  {
+    "id": "kya-likha-fatema",
+    "title": "Kya Likha Fatema",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kya likha fatema sughra ne bataya na gaya",
+      "sheh se khat laasha e akbar pe sunaya na gaya"
+    ]
+  },
+  {
+    "id": "kya-mere-jawan-laal",
+    "title": "Kya Mere Jawan Laal",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "jeeti hai wo maa jiske guzar jaane ke din thay",
+      "kya mere jawan laal ke mar jaane ke din thay"
+    ]
+  },
+  {
+    "id": "kya-tum-mere-hussain",
+    "title": "Kya Tum Mere Hussain",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "pathar hata ke laash se zainab ne di sada",
+      "kya tum mere hussain ho"
+    ]
+  },
+  {
+    "id": "la-denge-tumhe",
+    "title": "La Denge Tumhe",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "mere ammu abbas",
+      "jab pyaas badi pani na mila"
+    ]
+  },
+  {
+    "id": "laashe-abbas-par",
+    "title": "Laashe Abbas Par",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "laashe abbas par sheh jo aaye",
+      "haye haye"
+    ]
+  },
+  {
+    "id": "laut-ke-aaja-mere",
+    "title": "Laut Ke Aaja Mere",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "deti thi sughra ye duhaai",
+      "laut ke aaja mere bhai"
+    ]
+  },
+  {
+    "id": "lo-mil-gayi-zindan-se",
+    "title": "Lo Mil Gayi Zindan Se",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "lo mil gayi zindan se sakina ko rehaai",
+      "sajjad ne ye kehte hue laash uthaai"
+    ]
+  },
+  {
+    "id": "logon-mere-hussain",
+    "title": "Logon Mere Hussain",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "logon mere hussain ko dekha hai tumne kya",
+      "aa kar yehi juloos mein kehta hai zuljana"
+    ]
+  },
+  {
+    "id": "maa-ummul-baneen",
+    "title": "Maa Ummul Baneen",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "pahunche sirhane bhai ke jab shahe karbala",
+      "ghazi ne apni aakhri saanson mein di sada"
+    ]
+  },
+  {
+    "id": "madad-karo-fizza",
+    "title": "Madad Karo Fizza",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "madad karo fizza madad karo fizza",
+      "shikasta pehlu se mere ye dar hata do khudara"
+    ]
+  },
+  {
+    "id": "mahe-aza-lo-namudar",
+    "title": "Mahe Aza Lo Namudar",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "arsh ke taare hussain",
+      "zehra ke pyare hussain"
+    ]
+  },
+  {
+    "id": "mai-aa-raha-hoo",
+    "title": "Mai Aa Raha Hoo",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "mai aa raha hoo sakina",
+      "hai bas khatm hone ko har imtehan"
+    ]
+  },
+  {
+    "id": "mai-kinte-teer-nikalu",
+    "title": "Mai Kinte Teer Nikalu",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "lipat ke shaah se kehti hai fatema ro ke",
+      "mere hussain mai kitne teer nikaloo tumko chain milay"
+    ]
+  },
+  {
+    "id": "mai-pardae-ghaibat",
+    "title": "Mai Pardae Ghaibat",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "imam parda e ghaibat se de rahe hai sada",
+      "ana ibne zahra"
+    ]
+  },
+  {
+    "id": "mai-pyasa-hoo-amma",
+    "title": "Mai Pyasa Hoo Amma",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "mai pyasa hoo amma",
+      "hai khushk gala mera aur saamne hai darya"
+    ]
+  },
+  {
+    "id": "mai-qaidi-hoo",
+    "title": "Mai Qaidi Hoo",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "na maaro na maaro",
+      "haye pathar na maaro"
+    ]
+  },
+  {
+    "id": "maqame-sahibaz",
+    "title": "Maqame Sahibaz",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "suno ay ahle aza dard naak ye manzar",
+      "kisi ne poocha jo qayam imam se rokar"
+    ]
+  },
+  {
+    "id": "maqtale-imam-hussain",
+    "title": "Maqtale Imam Hussain",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ghareeb e zehra ki gurbat suno ay ahle aza",
+      "akela reh gaya maqtal mein jab mera maula"
+    ]
+  },
+  {
+    "id": "mar-gaya-zainab-mera",
+    "title": "Mar Gaya Zainab Mera",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "laashe abbas pe pahunche jo ghareeb e zahra",
+      "bhai ki laash pe ek bhai ne nauha ye kiya"
+    ]
+  },
+  {
+    "id": "maula-rote-jaate-hai",
+    "title": "Maula Rote Jaate Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zainab ka chehra dekhte hai",
+      "aur maula rote jaate hai"
+    ]
+  },
+  {
+    "id": "mazloome-karbala-ki",
+    "title": "Mazloome Karbala Ki",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ghairat e mustafa berida aa gayi",
+      "binte sher e khuda berida aa gayi"
+    ]
+  },
+  {
+    "id": "mere-maula-aao",
+    "title": "Mere Maula Aao",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "mere maula aao ke muddat hui hai",
+      "sitam zaalimo ke uthate uthate"
+    ]
+  },
+  {
+    "id": "mud-mud-ke-mujhe",
+    "title": "Mud Mud Ke Mujhe",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "chala jo qaime se marne rasool jaisa pisar",
+      "to peeche peeche ye kehte huwe chale sarwar"
+    ]
+  },
+  {
+    "id": "mujhe-bhi-watan-le",
+    "title": "Mujhe Bhi Watan Le",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "jab reha shaam ke zindan se huwe ahle haram",
+      "kya khushi hoti dubala hua sadaat ka gham"
+    ]
+  },
+  {
+    "id": "musalle-pe-akbar-ki",
+    "title": "Musalle Pe Akbar Ki",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "labon se nikal kar azan ro rahi hai",
+      "musalle pe akbar ki maa ro rahi hai"
+    ]
+  },
+  {
+    "id": "muslim-akela-hai",
+    "title": "Muslim Akela Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kaha shabbir ne ghazi wo dekho jaanib e kufa",
+      "mera muslim akela hai"
+    ]
+  },
+  {
+    "id": "muslim-ka-laasha",
+    "title": "Muslim Ka Laasha",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kufe may phiraya jaata hai",
+      "muslim ka laasha eid ke din"
+    ]
+  },
+  {
+    "id": "muslim-ke-shahzade",
+    "title": "Muslim Ke Shahzade",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "muslim ke shahzade",
+      "haye ibrahim haye mohamed"
+    ]
+  },
+  {
+    "id": "nikla-hai-janaza-koi",
+    "title": "Nikla Hai Janaza Koi",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "nikla hai janaza koi allah ke ghar se",
+      "aflaaq mein ek shor hai matam ke asar se"
+    ]
+  },
+  {
+    "id": "paikaan-baras-rahe",
+    "title": "Paikaan Baras Rahe",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "paikaan baras rahe hai taboot par hassan ke",
+      "ummat mita rahi hai aasaar panjetan ke"
+    ]
+  },
+  {
+    "id": "pamaal-laasha-dekh",
+    "title": "Pamaal Laasha Dekh",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "pamaal laasha dekh ke kehti hai bibiyan",
+      "zahra ki tarha tooti hai qasim ki phasliyan"
+    ]
+  },
+  {
+    "id": "pehlu-bhi-shikasta-hai",
+    "title": "Pehlu Bhi Shikasta Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "pehlu bhi shikasta hai turbat bhi shikasta hai",
+      "kya haal ye ummat ne zehra ka banaya hai"
+    ]
+  },
+  {
+    "id": "pursa-hussain-ka",
+    "title": "Pursa Hussain Ka",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zahra qubool kijiye pursa hussain ka",
+      "pyase ka bewatan ka shahe mashraqain ka"
+    ]
+  },
+  {
+    "id": "pyare-nabi-ka-pyara",
+    "title": "Pyare Nabi Ka Pyara",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "pyare nabi ka pyara nawasa",
+      "maara gaya hai raahe khuda mein"
+    ]
+  },
+  {
+    "id": "qabre-zahra-bana-rahe",
+    "title": "Qabre Zahra Bana Rahe",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "qabre zahra bana rahe hai ali",
+      "apni ghurbat chupa rahe hai ali"
+    ]
+  },
+  {
+    "id": "qaid-khane-se",
+    "title": "Qaid Khane Se",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "samajh ke zahra sataya gaya sakina ko",
+      "qadam qadam pe rulaya gaya sakina ko"
+    ]
+  },
+  {
+    "id": "qaim-rahe-ye",
+    "title": "Qaim Rahe Ye",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sada rahega hussain ka gham",
+      "ye shor e girya ye shor e matam"
+    ]
+  },
+  {
+    "id": "riwayate-mukhtar",
+    "title": "Riwayate Mukhtar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay rone waalon hai ye riwayaat mein likha",
+      "jis dam qayam kufe mein mukhtar ne kiya"
+    ]
+  },
+  {
+    "id": "ro-raha-hai-khud",
+    "title": "Ro Raha Hai Khud",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ro raha hai khud andhera shaam ke zindan mein",
+      "reh gayi tanha sakina shaam ke zindan mein"
+    ]
+  },
+  {
+    "id": "sabeele-imam-hussain",
+    "title": "Sabeele Imam Hussain",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "nehre rawan hai faize shahe mashraqain ki",
+      "pyason piyo sabeel hai nazre hussain ki"
+    ]
+  },
+  {
+    "id": "sakina-aur-zahra",
+    "title": "Sakina Aur Zahra",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sakina aur zahra ki musibat ek jaisi hai",
+      "hai tooti phasliyan dono ki halat ek jaisi hai"
+    ]
+  },
+  {
+    "id": "sakina-ka-laasha",
+    "title": "Sakina Ka Laasha",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "inna lilaah ina lilaah",
+      "chale aao abbas dene ko kaandha"
+    ]
+  },
+  {
+    "id": "sakina-so-rahi-hai",
+    "title": "Sakina So Rahi Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sunayi kis ne ye zindan mein lori",
+      "sakina so rahi hai"
+    ]
+  },
+  {
+    "id": "sare-abbas-aata",
+    "title": "Sare Abbas Aata",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kaha zainab ne ye rokar sambhalo bibiyon chadar",
+      "sar e abbas aata hai"
+    ]
+  },
+  {
+    "id": "shaam-ki-aurton-ek",
+    "title": "Shaam Ki Aurton Ek",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "shaam ki aurton ek waada karo",
+      "roz qabre sakina pe aaogi tum"
+    ]
+  },
+  {
+    "id": "shaam-ne-maar-diya",
+    "title": "Shaam Ne Maar Diya",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sham ne maar diya mujhe sham ne maar diya",
+      "jab tak bhi rahe zinda sajjad ka nauha tha"
+    ]
+  },
+  {
+    "id": "shaam-walo-na-satao",
+    "title": "Shaam Walo Na Satao",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "shaam walon na satao",
+      "kehta tha muhari ghurbat pe hamari bas kar na rulao"
+    ]
+  },
+  {
+    "id": "shimr-khanjar-na-chala",
+    "title": "Shimr Khanjar Na Chala",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "shimr ne gardane mazloom pe khanjar jo rakha",
+      "kuch qadam door se deti rahi zainab ye sada"
+    ]
+  },
+  {
+    "id": "shimr-ne-pehle-sakina",
+    "title": "Shimr Ne Pehle Sakina",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "shimr ne pehle sakina ko dikhaya khanjar",
+      "baad may gardane sarwar pe chalaya khanjar"
+    ]
+  },
+  {
+    "id": "shireen-mai-aagaya",
+    "title": "Shireen Mai Aagaya",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "lut ke jab khaafla shireen ke makan tak pahuncha",
+      "nok e naiza se ye aane lagi maula ki sada"
+    ]
+  },
+  {
+    "id": "surae-kahaf-sunata",
+    "title": "Surae Kahaf Sunata",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "sura e kahaf sunata hai ye sar kiska hai",
+      "khoon aankhon se bahata hai ye sar kiska hai"
+    ]
+  },
+  {
+    "id": "taboot-uth-raha-hai",
+    "title": "Taboot Uth Raha Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "phir fatema ke ghar mein farshe aza bicha hai",
+      "bemaar e karbala ka taboot uth raha hai"
+    ]
+  },
+  {
+    "id": "teri-ummat-ne-mere",
+    "title": "Teri Ummat Ne Mere",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "teri ummat ne mere dar ko jalaya baba",
+      "phir wo jalta hua dar mujhpe giraya baba"
+    ]
+  },
+  {
+    "id": "teri-zehra-pe-musibat",
+    "title": "Teri Zehra Pe Musibat",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "baba mere baba",
+      "teri zehra pe musibat ki ghadi hai"
+    ]
+  },
+  {
+    "id": "tod-kar-band-e-kafan",
+    "title": "Tod Kar Band E Kafan",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "amma meri amma meri amma",
+      "tod kar band e kafan mujhko bula lo amma"
+    ]
+  },
+  {
+    "id": "tu-agar-hota-to",
+    "title": "Tu Agar Hota To",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ghazi mere ghazi",
+      "aayi jab karbobala laut ke binte zahra"
+    ]
+  },
+  {
+    "id": "umme-laila-sambhaal",
+    "title": "Umme Laila Sambhaal",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ghareeb e zehra pa kya waqt hai ghareebi ka",
+      "gareban chaak hai balon may khaak e karbobala"
+    ]
+  },
+  {
+    "id": "utho-sakina-chale",
+    "title": "Utho Sakina Chale",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zindan se jab reha hue sadaat e karbala",
+      "maa ne lipat ke qabr e sakina pe di sada"
+    ]
+  },
+  {
+    "id": "veerani",
+    "title": "Veerani",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "veerani",
+      "zainab ko aur rulaye"
+    ]
+  },
+  {
+    "id": "wasiyate-bibi-fatema",
+    "title": "Wasiyate Bibi Fatema",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "baad baba ke jo guzri wo musibat sunlo",
+      "ya ali fatema zahra ki wasiyat sunlo"
+    ]
+  },
+  {
+    "id": "wo-waqt-yaqeenan",
+    "title": "Wo Waqt Yaqeenan",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "wo waqt yaqeenan aayega",
+      "kabhi ay haqeeqat e muntazar"
+    ]
+  },
+  {
+    "id": "ya-abal-fazl",
+    "title": "Ya Abal Fazl",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "abbas abbas abbas",
+      "abalfazl abalfazl abalfazl alamdar"
+    ]
+  },
+  {
+    "id": "ya-abbas-ya-abbas",
+    "title": "Ya Abbas Ya Abbas",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ya abbas ya abbas",
+      "ay sher e nayastane hyder abbas"
+    ]
+  },
+  {
+    "id": "ya-fatema-rida-mein",
+    "title": "Ya Fatema Rida Mein",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "maqtal mein gir raha hai sambhalo hussain ko",
+      "ya fatema rida mein chupalo hussain ko"
+    ]
+  },
+  {
+    "id": "ya-mehdi",
+    "title": "Ya Mehdi",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "karbala se yehi aa rahi hai sada",
+      "al-ajal al-ajal warise karbala"
+    ]
+  },
+  {
+    "id": "ye-kaunsi-basti-hai",
+    "title": "Ye Kaunsi Basti Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "shaam haye shaam",
+      "hai sab ki jholiyon may pathar"
+    ]
+  },
+  {
+    "id": "yun-ro-rahe-hai",
+    "title": "Yun Ro Rahe Hai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "yun ro rahe hai dekh ke zainab ko murtaza",
+      "shayad khayal aaya ho bazaar e shaam ka"
+    ]
+  },
+  {
+    "id": "zahra-ki-betiyon",
+    "title": "Zahra Ki Betiyon",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zahra ki betiyon ki ridayein utar gayi",
+      "sajjad ko zaeef sadayein ye kar gayi"
+    ]
+  },
+  {
+    "id": "zahra-se-kiya-wada",
+    "title": "Zahra Se Kiya Wada",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "fizza tujhe salaam",
+      "zahra se kiya waada nibhati rahi fizza"
+    ]
+  },
+  {
+    "id": "zainab-galay-ko",
+    "title": "Zainab Galay Ko",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ruqsat ko aaye qaime mein jab shaah e karbala",
+      "to binte ali ne jod ke haathon ko di sada"
+    ]
+  },
+  {
+    "id": "zainab-sare-uryan",
+    "title": "Zainab Sare Uryan",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zainab sare uryan hai abbas chale aao",
+      "makhdooma pareshan hai abbas chale aao"
+    ]
+  },
+  {
+    "id": "zainab-tera-zakhmi",
+    "title": "Zainab Tera Zakhmi",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "fajr unneeswi ramzan ki tadpati hai",
+      "fatema zehra ki jis waqt sada aati hai"
+    ]
+  },
+  {
+    "id": "zakhm-chupana",
+    "title": "Zakhm Chupana",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "akbar ne sina khaayi hai unko na batana",
+      "baba phupi amma se mera zakhm chupana"
+    ]
+  },
+  {
+    "id": "zamane-aayenge",
+    "title": "Zamane Aayenge",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "bayan kaise ho kufe ka manzar",
+      "ye kehte honge jab beti se hyder"
+    ]
+  },
+  {
+    "id": "aaj-bhi-zainab",
+    "title": "Aaj Bhi Zainab",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "aaj bhi zainab ki aati hai sada bhai hussain",
+      "tera chehra teri aankhein bhool kab payi hussain"
+    ]
+  },
+  {
+    "id": "zameene-karbala",
+    "title": "Zameene Karbala",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "al-ajal al-ajal al-ajal",
+      "aaye kaabe se sada hayya ala khairal amal"
+    ]
+  },
+  {
+    "id": "zara-rok-le-khanjar",
+    "title": "Zara Rok Le Khanjar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zainab ko dekha sheh ne jo nazdeek e qatlgaah",
+      "us dam ghareeb e zehra ne qatil se ye kaha"
+    ]
+  },
+  {
+    "id": "zia-e-khoone",
+    "title": "Zia E Khoone",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "zia e khoon e shaheedan ki dilkashi zainab",
+      "husainiyat ke charaghon ki raushni zainab"
+    ]
+  },
+  {
+    "id": "ay-mere-bhai-raza",
+    "title": "Ay Mere Bhai Raza",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay ghareebul ghurba ay mere bhai raza",
+      "roke masooma e qum qum se deti hai sada"
+    ]
+  },
+  {
+    "id": "ay-muslime-ghareeb",
+    "title": "Ay Muslime Ghareeb",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay muslim e ghareeb",
+      "kar rahi thi laasha e muslim pe ye zahra buka"
+    ]
+  },
+  {
+    "id": "fatema-roti-rahi",
+    "title": "Fatema Roti Rahi",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "kalmago haste rahe fatema roti rahi",
+      "jalte darwaze talay siskiyan leti rahi"
+    ]
+  },
+  {
+    "id": "habeeb-aa-jao",
+    "title": "Habeeb Aa Jao",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ay faqeeh e hussain ay habeeb e hussain",
+      "ye khat may shaah ne likha habeeb aajao"
+    ]
+  },
+  {
+    "id": "phir-baqayya-ko",
+    "title": "Phir Baqayya Ko",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "al ajal ay yusufe zahra",
+      "phir baqayya ko hum banayenge"
+    ]
+  },
+  {
+    "id": "ro-ro-ke-ali",
+    "title": "Ro Ro Ke Ali",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ro ro ke ali kyun lete hai",
+      "zainab ka naam musalle par"
+    ]
+  },
+  {
+    "id": "subhana-rabbi-al-aala",
+    "title": "Subhana Rabbi Al Aala",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "subhana rabbi al aala",
+      "khanjar talay hussain ye dete rahe sada"
+    ]
+  },
+  {
+    "id": "zakhme-akbar-pe",
+    "title": "Zakhme Akbar Pe",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "keh rahe thay ye ro ro ke sarwar",
+      "zakhme akbar pe laila rida daal do"
+    ]
+  },
+  {
+    "id": "zakhmi-hai-fatema",
+    "title": "Zakhmi Hai Fatema",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "dar jal chuka hai yusufe zahra kab aaoge",
+      "zahra sadayein deti hai maula kab aaoge"
+    ]
+  },
+  {
+    "id": "zuljana-hai-kahan",
+    "title": "Zuljana Hai Kahan",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "hai kahan bhai mera ay zuljana",
+      "zuljana zuljana zuljana"
+    ]
+  },
+  {
+    "id": "ay-mere-bezaban",
+    "title": "Ay Mere Bezaban",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "haye asghar mere asghar",
+      "ay raaj dulare asghar"
+    ]
+  },
+  {
+    "id": "labbaik-ya-zainab",
+    "title": "Labbaik Ya Zainab",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "hal min nasir yan surna",
+      "ya zainab ya zainab"
+    ]
+  },
+  {
+    "id": "sare-nabian-da-nabi-tu-imam-sohnya",
+    "title": "Sare Nabian Da Nabi Tu Imam Sohnya",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Qari Shahid Mehmood",
+    "preview": [
+      "Sare Nabiyan da Nabi tu imam soneya",
+      "Lakha tere te durood te salaam soneya"
+    ]
+  },
+  {
+    "id": "sohna-ay-man-mohna-ay",
+    "title": "Sohna Ay Man Mohna Ay",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Amina tera laal nee kaye sadi aware jawan x2",
+      "Edi soni suraat meri, dil wich khubdee jawan"
+    ]
+  },
+  {
+    "id": "tere-dar-utte-aa-gay-sawali-sohneya",
+    "title": "Tere dar utte aa gay Sawali Sohneya",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Sohne ya Sohne ya Sohne ya",
+      "Madine ka Malik Madine mein hoga"
+    ]
+  },
+  {
+    "id": "jahan-sara-to-phir-le-bhaven",
+    "title": "Jahan Sara To Phir Le Bhaven",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Jahaan saara tu fir le bhaawein Madine vergi jaah na milsi",
+      "Jahaan saara tu fir le bhaawein Madine vergi faza na milsi"
+    ]
+  },
+  {
+    "id": "jee-karda-madine-diya-saiyan",
+    "title": "Jee Karda Madine Diya Saiyan",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Je karda Madine dia saiyan",
+      "Madine dian hon galiyan"
+    ]
+  },
+  {
+    "id": "saba-dar-e-mustafa-te-ja-ke",
+    "title": "Saba Dar-e-Mustafa Te Ja Ke",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Saba dar-e-Mustafa ﷺ te jaa ke",
+      "Kawen durood o salaam mera"
+    ]
+  },
+  {
+    "id": "sari-umr-di-eho-kamai-aye",
+    "title": "Sari Umr Di Eho Kamai Aye",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "saari umr di eho kamaai ae",
+      "jag chhad ke saara sohne naal laai ae"
+    ]
+  },
+  {
+    "id": "zindagi-da-maza-aave-sarkar-de-boohe-te",
+    "title": "Zindagi Da Maza Aave Sarkar De Boohe Te",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Zindagi da maza aave sarkar de boohe te",
+      "Maut aave te sar hoye sardar de boohe te"
+    ]
+  },
+  {
+    "id": "dusra-kaun-hai-jahan-tu-hai",
+    "title": "Dusra Kaun Hai, Jahan Tu Hai",
+    "category": "Hamd",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Dusra kaun hai, jahan tu hai",
+      "Kaun janay tujhe kahan tu hai"
+    ]
+  },
+  {
+    "id": "mere-syed-o-sarwar-ae-habib-e-rabbani",
+    "title": "Mere Syed-o-Sarwar Ae Habib-e-Rabbani",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Mere Syed-o-Sarwar ae Habib-e-Rabbani",
+      "Har tarah se tu aala har tarah se lasani"
+    ]
+  },
+  {
+    "id": "salaam-us-par-khuda-ke-baad-jis-ki-shaan-yakta-hai",
+    "title": "Salaam Us Par Khuda Ke Baad Jis Ki Shaan Yakta Hai",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Salaam us par Khuda ke baad jis ki shaan yakta hai",
+      "Sana khwan khud Khuda-e-paak hai, jo sab ka Aaqa hai"
+    ]
+  },
+  {
+    "id": "sukhan-ko-rutba-mila-hai-meri-zaban-ke-liye",
+    "title": "Sukhan Ko Rutba Mila Hai Meri Zaban Ke Liye",
+    "category": "Naat",
+    "poet": "Mohsin Kakorvi",
+    "khawan": "Unknown",
+    "preview": [
+      "Sukhan ko rutba mila hai meri zaban ke liye",
+      "Zaban mili hai mujhe naat ke bayan ke liye"
+    ]
+  },
+  {
+    "id": "aasiyo-ko-dar-tumhara-mil-gaya",
+    "title": "Aasiyo Ko Dar Tumhara Mil Gaya",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Owais Raza Qadri",
+    "preview": [
+      "Aasiyo ko dar tumhara mil gaya",
+      "Be thikano ko thikana mil gaya"
+    ]
+  },
+  {
+    "id": "zameen-o-aasman-mein-hussain-sa-koi-nahin",
+    "title": "Zameen-o-Aasman Mein Hussain Sa Koi Nahin",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Khalid Hasnain Khalid, Zohaib Ashrafi, Hafiz Ahmed Raza Qadri",
+    "preview": [
+      "husain saa koi nahi.n, husain saa koi nahi.n",
+      "zameen-o-aasmaan me.n husain saa koi nahi.n"
+    ]
+  },
+  {
+    "id": "allah-ho-allah-ho-bande-har-dam-allah-ho",
+    "title": "Allah Ho Allah Ho Bande Har Dam Allah Ho",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Allah Ho Allah Ho Bande Har Dam Allah Ho",
+      "Peechay Peechay Maut Hai Teri Aagay Aagay Tu"
+    ]
+  },
+  {
+    "id": "hudood-e-tair-e-sidra-huzoor-jante-hain",
+    "title": "Hudood E Tair E Sidra Huzoor Jante Hain",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Hudood E Tair E Sidra Huzoor Jante Hain",
+      "Kahan Hai Arsh E Mualla Huzoor Jante Hain"
+    ]
+  },
+  {
+    "id": "baaqi-asyaad-ya-sajjad-ya-shaah-e-jawaad",
+    "title": "Baaqi Asyaad Ya Sajjad Ya Shah-e-Jawaad",
+    "category": "Manqabat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Baaqi asyaad Yaa Sajjad Yaa shaah-e-Jawaad",
+      "Khizr-e-irshaad Aadam-e-aal-e-'abaa imdaad kun"
+    ]
+  },
+  {
+    "id": "ummataan-o-siyaah-kaarehaa",
+    "title": "Ummataan-o-Siyaah Kaarehaa",
+    "category": "Naat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Ummataan-o-siyaah kaarehaa",
+      "Shaaf'-e-hashr-o-gham gusaarehaa"
+    ]
+  },
+  {
+    "id": "yaa-shaheed-e-karbala-yaa-daafe-karb-o-bala",
+    "title": "Yaa Shaheed-e-Karbala Yaa Daafe' Karb-o-Bala",
+    "category": "Manqabat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Yaa shaheed-e-Karbala yaa daafe' karb-o-bala",
+      "Gul rukha shehzaada gulgon qaba imdaad kun"
+    ]
+  },
+  {
+    "id": "aah-yaa-ghausaah-yaa-ghaisaah-yaa-imdaad-kun",
+    "title": "Aah Yaa Ghausaah Yaa Ghaisaah Yaa Imdaad Kun",
+    "category": "Manqabat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Aah Yaa Ghausaah Yaa Ghaisaah yaa imdaad kun",
+      "Yaa hayaat al jood-e-yaa roohalmnaa imdaad kun"
+    ]
+  },
+  {
+    "id": "aansu-meri-aankhon-mein-nahin-aae-hue-hain",
+    "title": "Aansu Meri Aankhon Mein Nahin Aae Hue Hain",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Aansu meri aankhon mein nahin aae hue hain",
+      "Dariya teri rahmat ke ye lahrae hue hain"
+    ]
+  },
+  {
+    "id": "kis-ke-aane-ki-falak-par-hai-khabar-aaj-ki-raat",
+    "title": "Kis Ke Aane Ki Falak Par Hai Khabar Aaj Ki Raat",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Kis ke aane ki falak par hai khabar aaj ki raat",
+      "Aankh suraj se milaata hai qamar aaj ki raat"
+    ]
+  },
+  {
+    "id": "kya-gham-meri-madad-pe-agar-gaus-e-paak-hain",
+    "title": "Kya Gham Meri Madad Pe Agar Gaus-e-Paak Hain",
+    "category": "Manqabat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Kya gham meri madad pe agar gaus-e-paak hain",
+      "Allah bhi udhar hai jidhar gaus-e-paak hain"
+    ]
+  },
+  {
+    "id": "phir-dil-mein-mire-aayi-yaad-shah-e-jilani",
+    "title": "Phir Dil Mein Mire Aayi Yaad Shah-e-Jilani",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Phir dil mein mire aayi yaad shah-e-jilani",
+      "Phirne lagi aankhon mein wo surat-e-nurani"
+    ]
+  },
+  {
+    "id": "sartaaj-e-piraan-qutub-e-rabbani",
+    "title": "Sartaaj-e-Piraan Qutub-e-Rabbani",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Sartaaj-e-piraan qutub-e-rabbani",
+      "Miiraan muhiuddin shaikh-e-zamaani"
+    ]
+  },
+  {
+    "id": "shaah-e-barkaat-aye-abul-barkaat-aye-sultaan-e-jood",
+    "title": "Shah-e-Barkaat Aye Abul Barkaat Aye Sultaan-e-Jood",
+    "category": "Manqabat",
+    "poet": "Ala Hazrat",
+    "khawan": "Unknown",
+    "preview": [
+      "Shaah-e-barkaat aay Abul Barkaat aay sultaan-e-jood",
+      "BarakAllah aay Mubarak baadshaah imdaad kun"
+    ]
+  },
+  {
+    "id": "mahbub-e-khaas-e-hazrat-e-subhaan-yahi-to-hai",
+    "title": "Mahbub-e-Khaas-e-Hazrat-e-Subhaan Yahi To Hai",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Mahbub-e-khaas-e-hazrat-e-subhaan yahi to hai",
+      "Jaan-e-jahaan yahi to hai jaanaan yahi to hai"
+    ]
+  },
+  {
+    "id": "main-aap-ka-deewaana-hoon-mahbub-e-ilahi",
+    "title": "Main Aap Ka Deewaana Hoon Mahbub-e-Ilahi",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Main aap ka deewaana hun mahbub-e-ilaahi",
+      "Apne se bhi begaana hun mahbub-e-ilaahi"
+    ]
+  },
+  {
+    "id": "nahin-khalq-hi-mein-ye-galgala-teri-shaan-e-jalla-jalaaluhu",
+    "title": "Nahin Khalq Hi Mein Ye Galgala Teri Shaan-e-Jalla-Jalaaluhu",
+    "category": "Hamd",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Nahin khalq hi mein ye galgala teri shaan-e-jalla-jalaaluhu",
+      "Sar-e-'arsh bhi hai likhaa hua teri shaan-e-jalla-jalaaluhu"
+    ]
+  },
+  {
+    "id": "ruuh-e-ravaan-e-mustafavi-e-jaan-e-auliyaa",
+    "title": "Ruuh-e-Rawaan-e-Mustafavi-e-Jaan-e-Auliyaa",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Ruuh-e-ravaan-e-mustafavi-e-jaan-e-auliyaa",
+      "Maulaa ali bahaar-e-gulistaan-e-auliyaa"
+    ]
+  },
+  {
+    "id": "wahi-dete-hain-mujh-ko-aur-unhin-se-maangta-hoon-main",
+    "title": "Wahi Dete Hain Mujh Ko Aur Unhin Se Maangta Hoon Main",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Wahi dete hain mujh ko aur unhin se maangta hun main",
+      "Nizaamuddin sultaan-ul-mashaaikh ka gada hun main"
+    ]
+  },
+  {
+    "id": "as-salaam-ay-khusru-e-dunya-o-deen",
+    "title": "As Salaam Ay Khusru-e-Dunya o Deen",
+    "category": "Salaam",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "As Salaam Ay Khusru-e-Dunya o Deen",
+      "As Salaam Ay Raahat-e-Jaan-e-Hazeen"
+    ]
+  },
+  {
+    "id": "fikr-asfal-hai-meri-martaba-aala-tera",
+    "title": "Fikr Asfal Hai Meri Martaba Aala Tera",
+    "category": "Hamd",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Fikr Asfal Hai Meri Martaba Aala Tera",
+      "Wasf Kya Khaak Likhay Khaak Ka Putla Tera"
+    ]
+  },
+  {
+    "id": "jinn-o-insaan-o-malak-ko-hai-bharosa-tera",
+    "title": "Jinn o Insaan o Malak Ko Hai Bharosa Tera",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Owais Raza Qadri",
+    "preview": [
+      "Jinn o Insaan o Malak Ko Hai Bharosa Tera",
+      "Sarwar Marja-e-Kul Hai Dar-e-Waala Tera"
+    ]
+  },
+  {
+    "id": "jo-ho-sar-ko-rasaa-i-un-ke-dar-tak",
+    "title": "Jo Ho Sar Ko Rasaa-i Un Ke Dar Tak",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jo Ho Sar Ko Rasaa-i Un Ke Dar Tak",
+      "To Pahunche Taaj-e-'Izzat Apne Sar Tak"
+    ]
+  },
+  {
+    "id": "kahun-kya-haal-zahid-gulshan-e-taibah-ki-nuzhat-ka",
+    "title": "Kahun Kya Haal Zahid Gulshan-e-Taiba Ki Nuzhat Ka",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Kahun Kya Haal Zahid Gulshan-e-Taiba Ki Nuzhat Ka",
+      "Ke Hai Khuld-e-Bareen Chhota Sa Tukda Meri Jannat Ka"
+    ]
+  },
+  {
+    "id": "kya-muzhda-e-jaan-bakhsh-sunaayega-qalam-aaj",
+    "title": "Kya Muzhda-e-Jaan-Bakhsh Sunaayega Qalam Aaj",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Kya Muzhda-e-Jaan-Bakhsh Sunaayega Qalam Aaj",
+      "Kaaghaz Pe Jo Sau Naaz Se Rakhta Hai Qadam Aaj"
+    ]
+  },
+  {
+    "id": "rehmat-na-kis-tarah-ho-gunahgar-ki-taraf",
+    "title": "Rehmat Na Kis Tarah Ho Gunahgar Ki Taraf",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Hafiz Ghulam Mustafa Qadri",
+    "preview": [
+      "Rehmat Na Kis Tarah Ho Gunahgar Ki Taraf",
+      "Rehman Khud Hai Mere Tarafdar Ki Taraf"
+    ]
+  },
+  {
+    "id": "agar-qismat-se-main-un-ki-gali-mein-khaak-ho-jaata",
+    "title": "Agar Qismat Se Main Un Ki Gali Mein Khaak Ho Jaata",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Agar Qismat Se Main Un Ki Gali Mein Khaak Ho Jaata",
+      "Gham-e-Kaunain Ka Saara Bakher'a Paak Ho Jaata"
+    ]
+  },
+  {
+    "id": "dushman-hai-galay-ka-haar-aaqa",
+    "title": "Dushman Hai Galay Ka Haar Aaqa",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Dushman Hai Galay Ka Haar Aaqa",
+      "Lut'tee Hai Meri Bahaar Aaqa"
+    ]
+  },
+  {
+    "id": "mujrim-e-haybat-zada-jab-fard-e-isyaan-le-chala",
+    "title": "Mujrim-e-Haybat-Zada Jab Fard-e-'Isyaan Le Chala",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Mujrim-e-Haybat-Zada Jab Fard-e-'Isyaan Le Chala",
+      "Lutf-e-Shah Taskeen Deta Pesh-e-Yazdaan Le Chala"
+    ]
+  },
+  {
+    "id": "mutiy-e-matlab-tumhaara-haar-ishaara-ho-gaya",
+    "title": "Mu'tiy-e-Matlab Tumhaara Haar Ishaara Ho Gaya",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Mu'tiy-e-Matlab Tumhaara Haar Ishaara Ho Gaya",
+      "Jab Ishaara Ho Gaya Matlab Hamaara Ho Gaya"
+    ]
+  },
+  {
+    "id": "nahin-khush-bakht-muhtaajaan-e-aalam-mein-koyi-ham-sa",
+    "title": "Nahin Khush Bakht Muhtaajaan-e-'Aalam Mein Koyi Ham Sa",
+    "category": "Manqabat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Nahin Khush Bakht Muhtaajaan-e-'Aalam Mein Koyi Ham Sa",
+      "Mila Taqdeer Se Haajat Rawa Farooq-e-A'zam Saa"
+    ]
+  },
+  {
+    "id": "qibla-ka-bhi-kaaba-rukh-e-neeko-nazar-aaya",
+    "title": "Qibla Ka Bhi Kaa'ba Rukh-e-Neeko Nazar Aaya",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Qibla Ka Bhi Kaa'ba Rukh-e-Neeko Nazar Aaya",
+      "Kaa'ba Ka Bhi Qibla Kham-e-Abru Nazar Aaya"
+    ]
+  },
+  {
+    "id": "sar-subh-e-saadat-ne-girebaan-se-nikaala",
+    "title": "Sar Subh-e-Sa'adat Ne Girebaan Se Nikaala",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Sar Subh-e-Sa'adat Ne Girebaan Se Nikaala",
+      "Zulmat Ko Mila 'Aalam-e-Imkaan Se Nikaala"
+    ]
+  },
+  {
+    "id": "agar-chamka-muqaddar-khaak-e-paa-e-rahrawaan-ho-kar",
+    "title": "Agar Chamka Muqaddar Khaak e Paa e Rahrawaan Ho Kar",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Agar Chamka Muqad'dar Khaak e Paa e Rahrawaan Ho Kar",
+      "Chalenenge Bayt'hte Ut'hte Ghubaar e Kaarwaan Ho Kar"
+    ]
+  },
+  {
+    "id": "ay-hubb-e-watan-saath-na-yun-soo-e-najaf-jaa",
+    "title": "Ay Hubb e Watan Saath Na Yun Soo e Najaf Jaa",
+    "category": "Manqabat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ay Hubb e Watan Saath Na Yun Soo e Najaf Jaa",
+      "Ham Awr Taraf Jaate Hain Tu Awr Taraf Jaa"
+    ]
+  },
+  {
+    "id": "ho-agar-madh-e-kaf-e-paa-se-munawwar-kaaghaz",
+    "title": "Ho Agar Madh e Kaf e Paa Se Munawwar Kaaghaz",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ho Agar Madh e Kaf e Paa Se Munawwar Kaaghaz",
+      "'Aariz e Hoor Ki Zeenat Ho Saarasar Kaaghaz"
+    ]
+  },
+  {
+    "id": "jaan-balab-hun-aa-meri-jaan-al-ghiyaath",
+    "title": "Jaan Balab Hun Aa Meri Jaan Al Ghiyaath",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jaan Balab Hun Aa Meri Jaan Al Ghiyaath",
+      "Hote Hain Kuch Awr Saamaan Al Ghiyaath"
+    ]
+  },
+  {
+    "id": "jaanib-e-maghrib-wo-chamka-aaftaab",
+    "title": "Jaanib e Maghrib Wo Chamka Aaftaab",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jaanib e Maghrib Wo Chamka Aaftaab",
+      "Bheek Ko Mashriq Se Nikla Aaftaab"
+    ]
+  },
+  {
+    "id": "jo-noor-baar-huwa-aaftaab-e-husn-e-maleeh",
+    "title": "Jo Noor Baar Huwa Aaftaab e Husn e Maleeh",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jo Noor Baar Huwa Aaftaab e Husn e Maleeh",
+      "Huwe Zameen o Zamaan Kaamiyaab e Husn e Maleeh"
+    ]
+  },
+  {
+    "id": "rang-e-chaman-pasand-na-phoolon-ki-boo-pasand",
+    "title": "Rang e Chaman Pasand Na Phoolon Ki Boo Pasand",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Rang e Chaman Pasand Na Phoolon Ki Boo Pasand",
+      "Sahra e Taibah Hai Dil e Bulbul Ko Tu Pasand"
+    ]
+  },
+  {
+    "id": "zaat-e-waala-pe-baar-baar-durood",
+    "title": "Zaat e Waala Pe Baar-Baar Durood",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Zaat e Waala Pe Baar-Baar Durood",
+      "Baar-Baar Awr Be-Shumaar Durood"
+    ]
+  },
+  {
+    "id": "aey-hussainio-jaag-hutto",
+    "title": "Aey Hussainio Jaag Hutto",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "(Hai waqt karaa sar par aaya, hai chaaron taraf gham ka saaya) x2",
+      "(Phir aaj bani hai karbobala) x2 phir karbobala ne yaad kiya"
+    ]
+  },
+  {
+    "id": "arzu-e-karbala",
+    "title": "Arzu-e-Karbala",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "Arzu-e-karbala",
+      "(Jaraha Hoon Jaraha Hoon) x2"
+    ]
+  },
+  {
+    "id": "as-salaam-ghazi-mere",
+    "title": "As-salaam Ghazi Mere",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "(Assalam Assalam) x2",
+      "(Assalam Ghazi Meray Assalam) x2"
+    ]
+  },
+  {
+    "id": "beemaar-hai-tu-sughra",
+    "title": "Beemaar Hai Tu Sughra",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "haaye sughra haaye haaye sughra",
+      "haaye sughra haaye haaye sughra"
+    ]
+  },
+  {
+    "id": "haaye-mere-hussain",
+    "title": "Haaye Mere Hussain",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "Haaye mere Hussain",
+      "(Haae mere Hussein aaja) x7"
+    ]
+  },
+  {
+    "id": "hussain-tere-lahoo-ki-khushboo",
+    "title": "Hussein Tere Lahoo Ki Khushboo",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "Hussein tere lahoo ki khushboo, Falak ke damand se arahee hai",
+      "Yeh khoon-e-nahak chupega kyunkar"
+    ]
+  },
+  {
+    "id": "khaak-urhaawo",
+    "title": "Khaak Urhaawo",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "(Haae Zainab) x3 Haae Madina",
+      "(Are logo, ab khaak urhaao) x3"
+    ]
+  },
+  {
+    "id": "khabar",
+    "title": "Khabar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "Kisi Nay Aakay Madinay Mein Aam Ki Yeh Khabar",
+      "Safar Say Aatay Hain Ibn-e-Batool Laut Kay Ghar"
+    ]
+  },
+  {
+    "id": "momino-hydere",
+    "title": "Momino Hydere",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Nadeem Sarwar",
+    "preview": [
+      "momino hyder e karrar ka matam kar lo",
+      "haa mohamed ke alamdar ka matam kar lo"
+    ]
+  },
+  {
+    "id": "rehai-qaid-se",
+    "title": "Rehai Qaid Se",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "Haye haye zainab, haye zainab..(2)",
+      "kya beet gayi hogi, zainab ke dil pe logo..(2)"
+    ]
+  },
+  {
+    "id": "abbas-tere-baad",
+    "title": "Abbas Tere Baad",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Haye abbas – 4",
+      "Abbas tere baad sitam ye bhi hua hai"
+    ]
+  },
+  {
+    "id": "baba-aao-na",
+    "title": "Baba Aao Na",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "Eik Bibi Yaad Mein Baba Ki",
+      "Moti Ashkon Kay Piroti Hai"
+    ]
+  },
+  {
+    "id": "khuda-hafiz-aye-karbala-waalo",
+    "title": "Khuda Hafiz Aye Karbala Waalo",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Khuda Hafiz Hai Rukhsat Ki Gharhi Karbala Waalo",
+      "Khuda Hafiz Karbala Waalo"
+    ]
+  },
+  {
+    "id": "mere-baba",
+    "title": "Mere Baba",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Mere baba,main karu kya",
+      "Khaak par neend nahi ati hain (4)"
+    ]
+  },
+  {
+    "id": "muslim-ki-karbala",
+    "title": "Muslim Ki Karbala",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Haye Muslim E Ghareeb As",
+      "Haye Muslim E Ghareeb As"
+    ]
+  },
+  {
+    "id": "taiba-ke-jaane-waale",
+    "title": "Taiba Ke Jaane Waale",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Owais Raza Qadri",
+    "preview": [
+      "Aie Gunbad e Khazra Kay Makeen, Meri Madad Ker",
+      "Ya Phir Yeh Bata, Kon Mera Teray Siwa Hai."
+    ]
+  },
+  {
+    "id": "unki-mehak-ne",
+    "title": "Unki Mehak Ne Dil Ke Gunche Khila Diye Hai",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Owais Raza Qadri",
+    "preview": [
+      "Unki Mehak Ne Dil Ke Gunche Khila Diye Hai",
+      "Jis Raah Chal Diye Kunche Basa Diye Hai."
+    ]
+  },
+  {
+    "id": "ya-baabe-hawaij-asghar",
+    "title": "Ya Baabe Hawaij Asghar",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Ya Baab e Hawaij (2)",
+      "Chhote Hazrat ke Bhateeje, Chhote Shehzade mere (2)"
+    ]
+  },
+  {
+    "id": "yeh-kiss-shahanshah",
+    "title": "Yeh Kiss Shahanshah e Wala ki Amad Aamad Hai",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Owais Raza Qadri",
+    "preview": [
+      "Yeh Kiss Shahanshah e Wala ki Amad Aamad Hai",
+      "Yeh Kiss Shahanshah-e-Wala ki Amad Aamad Hai"
+    ]
+  },
+  {
+    "id": "haye-ali",
+    "title": "Haye Ali",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "HAYE ALI",
+      "QATL E HAIDER WAWAILA"
+    ]
+  },
+  {
+    "id": "karbal-kay-jaaney",
+    "title": "Karbal Kay Jaaney",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Mazloome karbala se mera salam kehna",
+      "As salam o alaika ya aba abdillah"
+    ]
+  },
+  {
+    "id": "karbala-jaana",
+    "title": "Karbala Jaana",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Karbala Jaana (4)",
+      "Kyun Itne Pareshan Ho, Aaye Sheh Ke Azadaron"
+    ]
+  },
+  {
+    "id": "karbala-karbala-hussain",
+    "title": "Karbala Karbala Hussain",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "hussain hussain hussain hussain",
+      "hussaina hussaina hussaina hussaina"
+    ]
+  },
+  {
+    "id": "maa-fatima-zehra",
+    "title": "Maa Fatima Zehra",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Maa Fatima Zehra",
+      "Kiya Ye Zainab o Kulsoom Ne Noha Ae Maa Zehra"
+    ]
+  },
+  {
+    "id": "ye-hai-alam-abbas-ka",
+    "title": "Ye Hai Alam Abbas Ka",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "Aye Logo’n Aao Tumko Batau’n",
+      "Rehmat E Baari Tumko Dikhau’n"
+    ]
   }
 ]
