@@ -30512,5 +30512,82 @@
       "marhaba ya Gaus-e-paak !",
       "marhaba ya Gaus-e-paak !"
     ]
+  },
+  {
+    "id": "abbas-sa-bhai-mir-hassan-mir",
+    "title": "Abbas Sa Bhai",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "jab huye baazu e abbas qalam darya par",
+      "gir ke thanda hua hazrat ka alam darya par"
+    ]
+  },
+  {
+    "id": "shah-ast-hussain-nadeem-sarwar",
+    "title": "Shah Ast Hussain",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Nadeem Sarwar",
+    "preview": [
+      "sha ast hussain badshah ast hussain",
+      "deen ast hussain deen panah ast hussain"
+    ]
+  },
+  {
+    "id": "karbala-chalo-mir-hassan-mir",
+    "title": "Karbala Chalo",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "lo aa gaya bulawa mazloom e karbala ka",
+      "karbala chalo karbala chalo karbala chalo"
+    ]
+  },
+  {
+    "id": "karbala-jaane-walon-mir-hassan-mir",
+    "title": "Karbala Jaane Walon",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "karbala jaane waalon",
+      "jaane waalon dar e abbas pe jab tum jaana"
+    ]
+  },
+  {
+    "id": "mai-hussain-hoo-mir-hassan-mir",
+    "title": "Mai Hussain Hoo",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "goonji ba waqt e asr sada mai hussain hoo",
+      "kaato na mera khushk gala mai hussain hoo"
+    ]
+  },
+  {
+    "id": "ya-ali-adrikni-mir-hassan-mir",
+    "title": "Ya Ali Adrikni",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mir Hassan Mir",
+    "preview": [
+      "ya ali adrikni",
+      "ro ke bazaar may deti thi sada binte ali"
+    ]
+  },
+  {
+    "id": "abal-fazl-mesum-abbas",
+    "title": "Abal Fazl",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Mesum Abbas",
+    "preview": [
+      "ABAL FAZL - 8X",
+      "ABAL FAZL - 8X"
+    ]
   }
 ]
