@@ -134,8 +134,9 @@ function render(reset=true){
     Promise.all([
       fetch('lyrics-a.json').then(r=>r.json()).catch(()=>[]),
       fetch('lyrics-b.json').then(r=>r.json()).catch(()=>[]),
-      fetch('lyrics-c.json').then(r=>r.json()).catch(()=>[])
-    ]).then(parts=>{full=[...parts[0],...parts[1],...parts[2]]; fullLoading=false; render();});
+      fetch('lyrics-c.json').then(r=>r.json()).catch(()=>[]),
+      fetch('lyrics-d.json').then(r=>r.json()).catch(()=>[])
+    ]).then(parts=>{full=[...parts[0],...parts[1],...parts[2],...parts[3]]; fullLoading=false; render();});
     listEl.innerHTML='<div class="empty"><p>Searching full lyrics, please wait…</p></div>';
     return;
   }
