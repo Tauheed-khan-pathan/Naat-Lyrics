@@ -9155,11 +9155,11 @@
     "id": "muraadein-mil-rahi-hain-shaad-shaad-unka-suwali-hai",
     "title": "Muraadein Mil Rahi Hain Shaad Shaad Unka Suwali Hai",
     "category": "Naat",
-    "poet": "Unknown",
+    "poet": "Hasan Raza Khan",
     "khawan": "Unknown",
     "preview": [
-      "Muraadein Mil Rahi Hain Shaad Shaad Unka Suwali Hai",
-      "Labon Par Iltija Hai Haath Mein Rouze Ki Jaali Hai"
+      "Muraaden Mil Rahi Hain Shaad-Shaad Un Ka Sawaali Hai",
+      "Labon Par Iltija Hai, Haath Mein Rozay Ki Jaali Hai"
     ]
   },
   {
@@ -11424,8 +11424,8 @@
     "poet": "Unknown",
     "khawan": "Unknown",
     "preview": [
-      "Mere Allah Tu Kareem hai Mere Allah Tu Raheem hai",
-      "Tere bande hein ham sab"
+      "Karam tera ki be-jauhar nahin main",
+      "Ghulam-e-tughrul-o-sanjar nahin main"
     ]
   },
   {
@@ -17702,11 +17702,11 @@
     "id": "jitna-mere-khuda-ko-hai-mera-nabi-azeez",
     "title": "Jitna Mere Khuda Ko Hai Mera Nabi Azeez",
     "category": "Naat",
-    "poet": "Unknown",
+    "poet": "Hasan Raza Khan",
     "khawan": "Unknown",
     "preview": [
-      "Jitna Mere Khuda Ko Hai Mera Nabi Azeez",
-      "Kaunain Mein Kisi Ko Na Hoga Koi Azeez"
+      "Jitna Mere Khuda Ko Hai Mera Nabi 'Azeez",
+      "Kaunain Mein Kisi Ko Na Hoga Koyi 'Azeez"
     ]
   },
   {
@@ -17727,8 +17727,8 @@
     "poet": "Unknown",
     "khawan": "Unknown",
     "preview": [
-      "Ilahi Teri Chaukhat Par Bhikari Ban Kar Aaya Hoon",
-      "Sarapa Faqr Hoon Ajz O Nadamat Saath Laaya Hoon"
+      "Zahir Ki Aankh Say Na Tamasha Karay Koi",
+      "Ho Dekhna Toh Deeda-e-Dil Waa Karay Koi"
     ]
   },
   {
@@ -31796,8 +31796,8 @@
     "poet": "Hasan Raza Khan",
     "khawan": "Unknown",
     "preview": [
-      "Na kyuñ aaraaisheiñ kartaa khuda duniya ke saamaañ meiñ",
-      "Tumheiñ doolha banaakar bhejna tha bazme e imkaañ meiñ"
+      "Na Kyun Aara-ishen Karta Khuda Dunya Ke Saamaan Mein",
+      "Tumhen Dulha Bana Kar Bhejna Tha Bazm e Imkaan Mein"
     ]
   },
   {
@@ -31807,8 +31807,8 @@
     "poet": "Hasan Raza Khan",
     "khawan": "Unknown",
     "preview": [
-      "Sunlo khuda ke waaste apne gadaa ki arz",
-      "Ye arz hai huzoor bade be nawaa ki arz"
+      "Sun Lo Khuda Ke Waaste Apne Gada Ki 'Arz",
+      "Ye 'Arz Hai Huzoor Bar'ay Be Nawa Ki 'Arz"
     ]
   },
   {
@@ -32062,6 +32062,523 @@
     "preview": [
       "Ya Shaheed-E-Karbala Fariyaad Hai",
       "Ek Mazloom Ko Apne Maghmoom Ko"
+    ]
+  },
+  {
+    "id": "marhaba-izzat-o-kamaal-e-huzoor",
+    "title": "Marhaba 'Izzat o Kamaal e Huzoor",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Marhaba 'Izzat o Kamaal e Huzoor",
+      "Hai Jalaal e Khuda Jalaal e Huzoor"
+    ]
+  },
+  {
+    "id": "hon-jo-yaad-e-rukh-e-purnoor-mein-murghaan-e-qafas",
+    "title": "Hon Jo Yaad e Rukh e Purnoor Mein Murghaan e Qafas",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Hon Jo Yaad e Rukh e Purnoor Mein Murghaan e Qafas",
+      "Chamak Ut'hay Chah e Yusuf Ki Tarah Shaan e Qafas"
+    ]
+  },
+  {
+    "id": "janaab-e-mustafa-hon-jis-se-na-khush",
+    "title": "Janaab e Mustafa Hon Jis Se Na Khush",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Janaab e Mustafa Hon Jis Se Na Khush",
+      "Nahin Mumkin Ke Ho Us Se Khuda Khush"
+    ]
+  },
+  {
+    "id": "khuda-ke-khalq-mein-sab-ambia-khaas",
+    "title": "Khuda Ke Khalq Mein Sab Ambia Khaas",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Khuda Ke Khalq Mein Sab Ambia Khaas",
+      "Giroh e Ambia Mein Mustafa Khaas"
+    ]
+  },
+  {
+    "id": "chashm-e-dil-chaahe-jo-anwaar-se-rabt",
+    "title": "Chashm e Dil, Chaahe Jo Anwaar Se Rabt",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Chashm e Dil, Chaahe Jo Anwaar Se Rabt",
+      "Rakhe Khaak e Dar e Dildaar Se Rabt"
+    ]
+  },
+  {
+    "id": "khaak-e-taibah-ki-agar-dil-mein-hai-waqat-mahfooz",
+    "title": "Khaak e Taibah Ki Agar Dil Mein Hai Waq'at Mahfooz",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Khaak e Taibah Ki Agar Dil Mein Hai Waq'at Mahfooz",
+      "Aib Kori Se Rahe Chashm e Baseerat Mahfooz"
+    ]
+  },
+  {
+    "id": "madina-mein-hai-wo-saamaan-e-bargaah-e-rafi",
+    "title": "Madina Mein Hai Wo Saamaan e Bargaah e Rafi'",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Madina Mein Hai Wo Saamaan e Bargaah e Rafi'",
+      "'Urooj o Awj Hain Qurbaan e Bargaah e Rafi'"
+    ]
+  },
+  {
+    "id": "khushboo-e-dasht-e-taibah-se-bas-jaaye-gar-dimaagh",
+    "title": "Khushboo e Dasht e Taibah Se Bas Jaaye Gar Dimaagh",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Khushboo e Dasht e Taibah Se Bas Jaaye Gar Dimaagh",
+      "Mahkaaye Boo e Khuld Mera Sar Basar Dimaagh"
+    ]
+  },
+  {
+    "id": "kuch-gham-nahin-agar-che-zamaana-ho-bar-khilaaf",
+    "title": "Kuch Gham Nahin Agar Che Zamaana Ho Bar Khilaaf",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Kuch Gham Nahin Agar Che Zamaana Ho Bar Khilaaf",
+      "Un Ke Madad Rahe To Kare Kya Asar Khilaaf"
+    ]
+  },
+  {
+    "id": "toor-ne-to-khoob-dekha-jalwa-e-shaan-e-jamaal",
+    "title": "Toor Ne To Khoob Dekha Jalwa e Shaan e Jamaal",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Toor Ne To Khoob Dekha Jalwa e Shaan e Jamaal",
+      "Is Taraf Bhi Ik Nazar Ay Barq e Taabaan e Jamaal"
+    ]
+  },
+  {
+    "id": "bazm-e-mahshar-munaqid-kar-meer-e-saamaan-e-jamaal",
+    "title": "Bazm e Mahshar Mun'aqid Kar Meer e Saamaan e Jamaal",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Bazm e Mahshar Mun'aqid Kar Meer e Saamaan e Jamaal",
+      "Dil Ke Aa-inon Ko Mud'dat Se Hai Armaan e Jamaal"
+    ]
+  },
+  {
+    "id": "kaun-kehta-hai-ke-zeenat-khuld-ki-achchi-nahin",
+    "title": "Kaun Kehta Hai Ke Zeenat Khuld Ki Ach'chi Nahin",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Kaun Kehta Hai Ke Zeenat Khuld Ki Ach'chi Nahin",
+      "Lekin Ay Dil! Furqat e Koo e Nabi Ach'chi Nahin"
+    ]
+  },
+  {
+    "id": "kya-karen-mehfil-e-dil-daar-ko-kyunkar-dekhen",
+    "title": "Kya Karen, Mehfil e Dil-Daar Ko Kyunkar Dekhen",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Kya Karen, Mehfil e Dil-Daar Ko Kyunkar Dekhen",
+      "Apne Sarkaar Ke Darbaar Ko Kyunkar Dekhen"
+    ]
+  },
+  {
+    "id": "sun-lo-meri-iltija-achche-miyan",
+    "title": "Sun Lo Meri Iltija Ach'che Miyan",
+    "category": "Manqabat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Sun Lo Meri Iltija Ach'che Miyan",
+      "Mein Tasad'duq Mein Fida Ach'che Miyan"
+    ]
+  },
+  {
+    "id": "ay-raahat-e-jaan-jo-tere-qadmon-se-laga-ho",
+    "title": "Ay Raahat e Jaan Jo Tere Qadmon Se Laga Ho",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ay Raahat e Jaan! Jo Tere Qadmon Se Laga Ho",
+      "Kyun Khaak Basar Soorat e Naqsh e Kaf e Paa Ho"
+    ]
+  },
+  {
+    "id": "jaan-se-tang-hain-qaidi-gham-e-tanhaayi-ke",
+    "title": "Jaan Se Tang Hain Qaidi Gham e Tanhaayi Ke",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Jaan Se Tang Hain Qaidi Gham e Tanhaayi Ke",
+      "Sadqe Jaawun Mein Teri Anjuman Aaraayi Ke"
+    ]
+  },
+  {
+    "id": "parday-jis-waqt-uthen-jalwa-e-zaibaayi-ke",
+    "title": "Parday Jis Waqt Ut'hen Jalwa e Zaibaayi Ke",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Parday Jis Waqt Ut'hen Jalwa e Zaibaayi Ke",
+      "Wo Nigahbaan Rahen Chashm e Taman'naayi Ke"
+    ]
+  },
+  {
+    "id": "huzoor-e-kaaba-haazir-hain-haram-ki-khaak-par-sar-hai",
+    "title": "Huzoor e Kaa'ba Haazir Hain, Haram Ki Khaak Par Sar Hai",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Huzoor e Kaa'ba Haazir Hain, Haram Ki Khaak Par Sar Hai",
+      "Bar'i Sarkaar Mein Pahunche, Muqad'dar Yaawari Par Hai"
+    ]
+  },
+  {
+    "id": "sahar-chamki-jamaal-e-fasl-e-gul-araa-ishon-par-hai",
+    "title": "Sahar Chamki Jamaal e Fasl e Gul Araa-ishon Par Hai",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Sahar Chamki Jamaal e Fasl e Gul Araa-ishon Par Hai",
+      "Naseem e Rooh Parwar Se Mashaam e Jaan Mu'attar Hai"
+    ]
+  },
+  {
+    "id": "bahaaron-par-hain-aaj-aarayishen-gulzaar-e-jannat-ki",
+    "title": "Bahaaron Par Hain Aaj Aarayishen Gulzaar e Jannat Ki",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Bahaaron Par Hain Aaj Aarayishen Gulzaar e Jannat Ki",
+      "Sawaari Aane Waali Hai Shaheedaan e Muhab'bat Ki"
+    ]
+  },
+  {
+    "id": "saaqi-kuch-apne-baada-khashon-ki-khabar-bhi-hai",
+    "title": "Saaqi Kuch Apne Baada-Khashon Ki Khabar Bhi Hai",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Saaqi Kuch Apne Baada-Khashon Ki Khabar Bhi Hai",
+      "Ham Bekason Ke Haal Pe Tujh Ko Nazar Bhi Hai"
+    ]
+  },
+  {
+    "id": "ay-kareem-ibn-e-kareem-ay-rahnuma-ay-muqtada",
+    "title": "Ay Kareem Ibn e Kareem Ay Rahnuma Ay Muqtada",
+    "category": "Manqabat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Ay Kareem Ibn e Kareem Ay Rahnuma Ay Muqtada",
+      "Akhtar e Burj e Sakhaawat Gohar e Durj e 'Ata"
+    ]
+  },
+  {
+    "id": "huwa-hun-daad-e-sitam-ko-main-haazir-e-darbaar",
+    "title": "Huwa Hun Daad e Sitam Ko Main Haazir e Darbaar",
+    "category": "Naat",
+    "poet": "Hasan Raza Khan",
+    "khawan": "Unknown",
+    "preview": [
+      "Huwa Hun Daad e Sitam Ko Main Haazir e Darbaar",
+      "Gawah Hain Dil e Mahzoon o Chashm e Darya Baar"
+    ]
+  },
+  {
+    "id": "paimaana-pe-de-bhar-kar-paimaana-muiinuddin",
+    "title": "Paimaana Pe De Bhar Kar Paimaana Mu'iinuddin",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Paimaana Pe De Bhar Kar Paimaana Mu'iinuddin",
+      "Aabaad Rahe Teraa Mai-Khaana Mu'iinuddin"
+    ]
+  },
+  {
+    "id": "haqiiqat-mein-ho-sajda-jubba-saaii-kaa-bahaana-ho",
+    "title": "Haqiiqat Mein Ho Sajda Jubba-Saa'ii Kaa Bahaana Ho",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Haqiiqat Mein Ho Sajda Jubba-Saa'ii Kaa Bahaana Ho",
+      "Ilaahii Meraa Sar Ho Aur Un Kaa Aastaana Ho"
+    ]
+  },
+  {
+    "id": "jaan-par-ban-gaii-ab-aaiye-shaian-lillaah",
+    "title": "Jaan Par Ban Gaii Ab Aaiye Shai'an Lillaah",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Jaan Par Ban Gaii Ab Aaiye Shai'an Lillaah",
+      "Mushkil Aasaan Mirii Farmaa'iye Shai'an Lillaah"
+    ]
+  },
+  {
+    "id": "khvaaja-tiri-khaak-e-aastaana",
+    "title": "Khvaaja Tiri Khaak-e-Aastaana",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Khvaaja Tiri Khaak-e-Aastaana",
+      "Hai Turra-e-Taaj-e-Khusauvaana"
+    ]
+  },
+  {
+    "id": "khidev-kishvar-e-diin-khurav-e-mulak-e-khudaa-daanii",
+    "title": "Khidev Kishvar-e-Diin Khurav-e-Mulak-e-Khudaa-Daanii",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Khidev Kishvar-e-Diin Khurav-e-Mulak-e-Khudaa-Daanii",
+      "Amiir-e-Abul-'Ula Shaahansha-e-Aqliim-e-'Irfaanii"
+    ]
+  },
+  {
+    "id": "nahiin-chain-detaa-zamaana-mohammad",
+    "title": "Nahiin Chain Detaa Zamaana Mohammad",
+    "category": "Naat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Nahiin Chain Detaa Zamaana Mohammad",
+      "Bas Ab Jald Taiba Bulaanaa Mohammad"
+    ]
+  },
+  {
+    "id": "ai-mere-dariyaa-dil-saaqii-miir-e-mai-khaana-abdul-haq",
+    "title": "Ai Mere Dariyaa-Dil Saaqii Miir-e-Mai-Khaana Abdul-Haq",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Ai Mere Dariyaa-Dil Saaqii Miir-e-Mai-Khaana Abdul-Haq",
+      "Apne Mai-Khvaaron Kaa Sadqa Bhar De Paimaana Abdul-Haq"
+    ]
+  },
+  {
+    "id": "tum-shaah-e-vilaayat-ho-amiir-e-dosraa-ho",
+    "title": "Tum Shaah-e-Vilaayat Ho Amiir-e-Dosraa Ho",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Tum Shaah-e-Vilaayat Ho Amiir-e-Dosraa Ho",
+      "Maulaa Ho Mere Qaum Nasiirii Ke Khudaa Ho"
+    ]
+  },
+  {
+    "id": "haft-aasmaan-hain-farsh-e-niaal-e-abul-ula",
+    "title": "Haft-Aasmaan Hain Farsh-e-Ni'aal-e-Abul-'Ula",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Haft-Aasmaan Hain Farsh-e-Ni'aal-e-Abul-'Ula",
+      "Allaah Re Auj-o-Jaah-o-Jalaal Abul-'Ula"
+    ]
+  },
+  {
+    "id": "mujhe-maar-chaahe-jilaa-shaah-e-vaaris",
+    "title": "Mujhe Maar Chaahe Jilaa Shaah-e-Vaaris",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Mujhe Maar Chaahe Jilaa Shaah-e-Vaaris",
+      "Mein Khush Hun Jo Teri Razaa Shaah-e-Vaaris"
+    ]
+  },
+  {
+    "id": "raushan-jahaan-mein-har-jaa-paataa-huun-nuur-teraa",
+    "title": "Raushan Jahaan Mein Har Jaa Paataa Hun Nuur Teraa",
+    "category": "Manqabat",
+    "poet": "Bedam Shah Warsi",
+    "khawan": "Unknown",
+    "preview": [
+      "Raushan Jahaan Mein Har Jaa Paataa Hun Nuur Teraa",
+      "Har Shai Mein Dekhtaa Hun Pyaaraa Zuhuur Teraa"
+    ]
+  },
+  {
+    "id": "tuii-iisaa-jaan-parvar-muiinuddin-ajmerii",
+    "title": "Tu'ii 'Iisaa Jaan-Parvar Mu'iinuddin Ajmerii",
+    "category": "Manqabat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Tu'ii 'Iisaa Jaan-Parvar Mu'iinuddin Ajmerii",
+      "Ba-Haal-e-Zaar-e-Man Ba-Nigar Mu'iinuddin Ajmerii"
+    ]
+  },
+  {
+    "id": "sar-jhukaa-apnaa-jo-siine-kii-taraf",
+    "title": "Sar Jhukaa Apnaa Jo Siine Kii Taraf",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Sar Jhukaa Apnaa Jo Siine Kii Taraf",
+      "Dil Hu'aa Raahii Madiine Kii Taraf"
+    ]
+  },
+  {
+    "id": "yaa-nabii-hind-mein-ham-thokaren-khaaen-kab-tak",
+    "title": "Yaa Nabii Hind Mein Ham Thokaren Khaa'en Kab Tak",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Yaa Nabii Hind Mein Ham Thokaren Khaa'en Kab Tak",
+      "Dekhiye Aap Madiine Mein Bulaa'en Kab Tak"
+    ]
+  },
+  {
+    "id": "ye-aaftaab-hai-garm-us-kii-kibriyaaii-kaa",
+    "title": "Ye Aaftaab Hai Garm Us Kii Kibriyaa'ii Kaa",
+    "category": "Hamd",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Ye Aaftaab Hai Garm Us Kii Kibriyaa'ii Kaa",
+      "Ki Zarra-Zarra Hai Aa'iina Khud-Numaa'ii Kaa"
+    ]
+  },
+  {
+    "id": "siirat-e-ushshaaq-hai-arbaab-e-suurat-se-alag",
+    "title": "Siirat-e-Ushshaaq Hai Arbaab-e-Suurat Se Alag",
+    "category": "Manqabat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Siirat-e-Ushshaaq Hai Arbaab-e-Suurat Se Alag",
+      "Hai Tariiqa Un Kaa Haftaad-o-Do-Millat Se Alag"
+    ]
+  },
+  {
+    "id": "mujhe-kuchh-khauf-isyaan-kaa-nahiin-hai",
+    "title": "Mujhe Kuchh Khauf Isyaan Kaa Nahiin Hai",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Mujhe Kuchh Khauf Isyaan Kaa Nahiin Hai",
+      "Ki Hazrat Saa Shafii'-ul-Muznabiin Hai"
+    ]
+  },
+  {
+    "id": "aankho-n-mein-nuur-teraa-dil-mein-suruur-teraa",
+    "title": "Aankhon Mein Nuur Teraa Dil Mein Suruur Teraa",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Aankhon Mein Nuur Teraa Dil Mein Suruur Teraa",
+      "Darvaaze Se Hai Ghar Tak Saaraa Zuhuur Teraa"
+    ]
+  },
+  {
+    "id": "sikka-e-raaej-jab-se-diin-e-mustafaa-kaa-ho-gayaa",
+    "title": "Sikka-e-Raa'ej Jab Se Diin-e-Mustafaa Kaa Ho Gayaa",
+    "category": "Naat",
+    "poet": "Ameer Minai",
+    "khawan": "Unknown",
+    "preview": [
+      "Sikka-e-Raa'ej Jab Se Diin-e-Mustafaa Kaa Ho Gayaa",
+      "Ghalghala Saarii Khudaa'ii Mein Khudaa Kaa Ho Gayaa"
+    ]
+  },
+  {
+    "id": "jab-sarnigoon-hua-alam-e-kahkashan-e-shab",
+    "title": "Jab Sarnigoon Hua Alam-e-Kahkashan-e-Shab",
+    "category": "Noha",
+    "poet": "Mirza Dabeer",
+    "khawan": "Unknown",
+    "preview": [
+      "Jab Sarnigoon Hua Alam-e-Kahkashan-e-Shab",
+      "Khursheed Ke Nishan Ne Mitaya Nishan-e-Shab"
+    ]
+  },
+  {
+    "id": "paida-shua-e-mehr-ki-miqraz-jab-hui",
+    "title": "Paida Shua-e-Mehr Ki Miqraz Jab Hui",
+    "category": "Noha",
+    "poet": "Mirza Dabeer",
+    "khawan": "Unknown",
+    "preview": [
+      "Paida Shua-e-Mehr Ki Miqraz Jab Hui",
+      "Pinhan Darazi-e-Par-e-Taoos-e-Shab Hui"
+    ]
+  },
+  {
+    "id": "kaisay-darbar-mein-gayi-hogi-hai-nabuwat-ki-abroo-zahra",
+    "title": "Kaisay Darbar Mein Gayi Hogi Hai Nabuwat Ki Abroo Zahra",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "Kaisay Darbar Mein Gaee Hogi Hai Nabuwat Ki Abroo Zahra",
+      "Has Rahay Hain Taman Kalma Go Kerti Ro Ker Jo Guftagoo Zahra"
+    ]
+  },
+  {
+    "id": "kabre-shabber-pa-zinda-se-jab-aayi-zainab",
+    "title": "Kabre Shabber Pa Zinda Se Jab Aayi Zainab",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "HAYE ZAINAB HAYE ZAINAB HAYE ZAINAB",
+      "Kabre Shabber pa Zinda se Jab Aayi Zainab"
+    ]
+  },
+  {
+    "id": "chehalum-jo-karbala-main-bahattar-ka-ho-chuka",
+    "title": "Chehalum Jo Karbala Main Bahattar Ka Ho Chuka",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "chehalum jo karbala main bahattar ka ho chuka",
+      "paivand bekason ke tano sar ka ho chuka"
     ]
   }
 ]
