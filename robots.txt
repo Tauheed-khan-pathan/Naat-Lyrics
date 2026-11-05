@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://tauheed-khan-pathan.github.io/Naat-Lyrics/sitemap.xml
+# Deploy retrigger 2026-11-06 — no content change, re-runs Pages deploy after timeout
