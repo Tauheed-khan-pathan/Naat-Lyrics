@@ -266,5 +266,160 @@
   "fullName": "Bulleh Shah",
   "id": "bulleh-shah",
   "name": "Bulleh Shah"
+ },
+ {
+  "bio": [
+   "Owais Raza Qadri (born 17 October 1969, Pakistan) is a naat khawan (reciter) and poet whose recitations of naats in praise of the Prophet are heard in gatherings across South Asia and the diaspora.",
+   "On naat-hindi.com he is the most-listed khawan, with 347 recitations credited to him, and 43 kalaam listed under his name as poet."
+  ],
+  "facts": {
+   "Born": "17 October 1969, Pakistan",
+   "Role": "Naat khawan (reciter) and poet"
+  },
+  "fullName": "Owais Raza Qadri",
+  "id": "owais-raza-qadri",
+  "name": "Owais Raza Qadri"
+ },
+ {
+  "bio": [
+   "Muhammad Ali Zahoori Qasoori (12 August 1932 – 11 August 1999) was a naat poet from Lahore. He wrote naats in Urdu and Punjabi.",
+   "His kalaam are recited by leading khawans, including Owais Raza Qadri and Rahat Fateh Ali Khan."
+  ],
+  "facts": {
+   "Born": "12 August 1932, Lahore",
+   "Life": "1932–1999"
+  },
+  "fullName": "Muhammad Ali Zahoori Qasoori",
+  "id": "zahoori",
+  "name": "Zahoori"
+ },
+ {
+  "bio": [
+   "Khalid Mahmood Naqshbandi (died December 2018, Karachi, aged 75) was a renowned naat khawan and poet.",
+   "His kalaam 'Ye sab tumhara karam hai Aaqa' is among his best-known naats."
+  ],
+  "facts": {
+   "Died": "December 2018, Karachi (aged 75)",
+   "Known for": "'Ye sab tumhara karam hai Aaqa'"
+  },
+  "fullName": "Khalid Mahmood Naqshbandi",
+  "id": "khalid-mahmood-naqshbandi",
+  "name": "Khalid Mahmood Naqshbandi"
+ },
+ {
+  "bio": [
+   "Adeeb Raipuri (died 2004, Karachi, aged 80) was a prominent naat poet."
+  ],
+  "facts": {
+   "Died": "2004, Karachi (aged 80)"
+  },
+  "fullName": "Adeeb Raipuri",
+  "id": "adeeb-raipuri",
+  "name": "Adeeb Raipuri"
+ },
+ {
+  "bio": [
+   "Allama Saaim Chishti (1932–2000) was a naat poet.",
+   "His kalaam in praise of the Prophet are recited in gatherings to this day."
+  ],
+  "facts": {
+   "Life": "1932–2000"
+  },
+  "fullName": "Allama Saaim Chishti",
+  "id": "saim-chishti",
+  "name": "Saim Chishti"
+ },
+ {
+  "bio": [
+   "Behzad Lakhnavi (1900–1974) was an Urdu poet."
+  ],
+  "facts": {
+   "Life": "1900–1974"
+  },
+  "fullName": "Behzad Lucknavi",
+  "id": "behzad-lakhnavi",
+  "name": "Behzad Lakhnavi"
+ },
+ {
+  "bio": [
+   "Raaz Allahabadi (1929–1996) was an Urdu poet from Allahabad."
+  ],
+  "facts": {
+   "Life": "1929–1996",
+   "Place": "Allahabad"
+  },
+  "fullName": "Raaz Allahabadi",
+  "id": "raaz-allahabadi",
+  "name": "Raaz Allahabadi"
+ },
+ {
+  "bio": [
+   "Wasif Ali Wasif (1929–1993) was a Pakistani writer, poet and Sufi thinker."
+  ],
+  "facts": {
+   "Life": "1929–1993"
+  },
+  "fullName": "Wasif Ali Wasif",
+  "id": "wasif-ali-wasif",
+  "name": "Wasif Ali Wasif"
+ },
+ {
+  "bio": [
+   "Hafiz Mazhar Ud Din Ramdasi (1914–1981), known as Hassan Ul Asar, was a poet from Gurdaspur.",
+   "He is remembered as the author of the Kashmir anthem."
+  ],
+  "facts": {
+   "Life": "1914–1981",
+   "Title": "Hassan Ul Asar"
+  },
+  "fullName": "Hafiz Mazhar Ud Din Ramdasi",
+  "id": "hafiz-mazharuddin",
+  "name": "Hafiz Mazharuddin"
+ },
+ {
+  "bio": [
+   "Allama Arshad Qadri (1925–2002) was a scholar and poet.",
+   "He was born on 5 March 1925 and died on 29 April 2002."
+  ],
+  "facts": {
+   "Life": "1925–2002"
+  },
+  "fullName": "Allama Arshad Qadri",
+  "id": "arshad-qadri",
+  "name": "Arshad Qadri"
+ },
+ {
+  "bio": [
+   "Fana Nizami Kanpuri (1922–1988) was an Urdu poet from Kanpur."
+  ],
+  "facts": {
+   "Life": "1922–1988"
+  },
+  "fullName": "Fana Nizami Kanpuri",
+  "id": "fana-nizami-kanpuri",
+  "name": "Fana Nizami Kanpuri"
+ },
+ {
+  "bio": [
+   "Maulana Kausar Niazi (1934–1994) was a Pakistani religious leader, politician and poet.",
+   "He was born on 21 April 1934 and died in 1994."
+  ],
+  "facts": {
+   "Life": "1934–1994"
+  },
+  "fullName": "Maulana Kausar Niazi",
+  "id": "kausar-niazi",
+  "name": "Kausar Niazi"
+ },
+ {
+  "bio": [
+   "Maulana Abdul Sattar Niazi (1 October 1915 – 2 May 2001) was a Pakistani religious and political figure."
+  ],
+  "facts": {
+   "Life": "1915–2001"
+  },
+  "fullName": "Maulana Abdul Sattar Niazi",
+  "id": "abdul-sattar-niazi",
+  "name": "Abdul Sattar Niazi"
  }
 ]

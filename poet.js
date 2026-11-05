@@ -1,7 +1,7 @@
 let poet=null, all=[], tab='lyrics';
 const el=document.getElementById('poet');
 const id=new URLSearchParams(location.search).get('id');
-Promise.all([fetch('poets.json?v=5').then(r=>r.json()).catch(()=>[]), fetch('lyrics-index.json').then(r=>r.json())]).then(([poets,idx])=>{
+Promise.all([fetch('poets.json?v=6').then(r=>r.json()).catch(()=>[]), fetch('lyrics-index.json').then(r=>r.json())]).then(([poets,idx])=>{
   all=idx; poet=poets.find(p=>p.id===id);
   if(!poet){el.innerHTML='<div class="empty"><p>Poet not found.</p><p><a class="read" href="index.html">Back to home</a></p></div>'; return;}
   render();
