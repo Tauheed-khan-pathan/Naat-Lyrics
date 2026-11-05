@@ -127,7 +127,10 @@ function miniCard(x){
 function render(reset=true){
   if(reset) shown=PAGE;
   const q=searchEl.value.trim().toLowerCase();
-  let items=all.filter(x=>(cat==='All'||x.category===cat) && matchesIndex(x,q));
+  // Exact first: a plain substring scan is cheap; the fuzzy (edit-distance)
+  // scan runs only when no exact match exists, so typing stays fast.
+  let items=all.filter(x=>(cat==='All'||x.category===cat) && (!q || strongMatch(indexText(x),q)));
+  if(q && items.length===0) items=all.filter(x=>(cat==='All'||x.category===cat) && matchesIndex(x,q));
   const strong=!q || items.some(x=>strongMatch(indexText(x),q));
   if(q && !full && !fullLoading && (items.length===0 || !strong)){
     fullLoading=true;
@@ -163,7 +166,9 @@ function render(reset=true){
       `<section><h2 class="section-title">All Lyrics</h2>${items.slice(0,shown).map(card).join('')}${items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:''}</section>`;
     listEl.querySelectorAll('.catbox').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render(); window.scrollTo({top:0,behavior:'smooth'});});
   } else {
-    const sugg=q?suggestCorrection(q):null;
+    // "Did you mean" scans the whole vocabulary — run it only when nothing
+    // matched, not on every keystroke.
+    const sugg=(q && items.length===0)?suggestCorrection(q):null;
     const suggHtml=sugg?`<div class="empty"><p>Did you mean: <a href="#" id="didYouMean">${sugg}</a>?</p></div>`:'';
     listEl.innerHTML = suggHtml + (items.length ? items.slice(0,shown).map(card).join('') + (items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:'') : '<div class="empty"><p>No results found.</p><p>Try another word, or just part of a line — search works across every line and word.</p></div>');
     const suggLink=document.getElementById('didYouMean');
@@ -176,7 +181,10 @@ const _wireSeeMore=()=>{const b=document.getElementById('seeMore'); if(b) b.oncl
 const clearBtn=document.getElementById('clearSearch');
 function syncClear(){ if(clearBtn) clearBtn.classList.toggle('show', !!searchEl.value); }
 syncClear();
-searchEl.oninput=()=>{syncClear(); render();};
+// Debounce: search only after the user pauses typing (250ms), so each
+// keystroke doesn't run a full scan over all 3,114 lyrics.
+let searchTimer=null;
+searchEl.oninput=()=>{syncClear(); clearTimeout(searchTimer); searchTimer=setTimeout(()=>render(),250);};
 if(clearBtn) clearBtn.onclick=()=>{searchEl.value=''; syncClear(); render(); searchEl.focus();};
 
 const darkBtn=document.getElementById('darkToggle');
