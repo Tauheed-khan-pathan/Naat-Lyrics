@@ -125,7 +125,7 @@ window.addEventListener('pageshow', function (e) {
   b.className = 'share-btn';
   b.type = 'button';
   b.setAttribute('aria-label', 'Share this lyric');
-  b.textContent = '↗ Share';
+  b.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share';
   b.onclick = function () {
     var url = location.href;
     var text = document.title + ' — ' + url;
