@@ -216,10 +216,12 @@ body.loading .to-top-btn{display:none}
    lyrics (font button ke neeche wali jagah), har page par alag
    rotation; click par us lyric ka page khulta hai jisme apne 10 hote hain. */
 .recs{margin:24px 0 16px;padding:0 16px}
-.recs h2{font-size:1.1rem;margin:0 0 10px}
-.recs ul{list-style:none;padding:0;margin:0}
-.recs li{padding:7px 0;border-bottom:1px solid #e5e7eb}
-.recs li a{display:block;color:#0b3d2e;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.recs li a:hover{text-decoration:underline}
-body.dark .recs li{border-color:#374151}
-body.dark .recs li a{color:#a7f3d0}
+.recs h2{font-size:1.1rem;margin:0 0 12px}
+.recs ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.recs li{padding:0;border-bottom:0}
+.recs li a{position:relative;display:block;background:#f7f7f5;border:1px solid #e5e7eb;border-radius:10px;padding:10px 32px 10px 12px;color:#0b3d2e;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.recs li a::after{content:"›";position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#0b3d2e;opacity:.45;font-size:1.25rem;line-height:1}
+.recs li a:hover{background:#edf2ed}
+body.dark .recs li a{background:#1f2937;border-color:#374151;color:#a7f3d0}
+body.dark .recs li a::after{color:#a7f3d0}
+body.dark .recs li a:hover{background:#273449}
