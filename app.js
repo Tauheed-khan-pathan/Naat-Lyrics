@@ -215,7 +215,7 @@ function render(reset=true){
     const boxes=cats.map(c=>{
       const n=all.filter(x=>x.category===c).length;
       return `<button class="catbox" data-cat="${c}"><strong>${c}</strong><span>${fmtCount(n)} kalaam</span></button>`;
-    }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z</strong></a>`;
+    }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z</strong><span>Index of ${fmtCount(all.length)} kalaam</span></a>`;
     listEl.innerHTML =
       `<section><h2 class="section-title">Categories</h2><div class="catgrid">${boxes}</div></section>` +
       `<section><div class="section-head"><h2 class="section-title">Most Famous</h2><a class="see-all" href="most-read.html">See All ›</a></div><div class="hscroll">${popular.map(miniCard).join('')}<a class="mini-card see-all-card" href="most-read.html">See All ›</a></div></section>` +
