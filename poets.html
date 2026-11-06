@@ -59,7 +59,7 @@ Promise.all([fetch('poets.json?v=7').then(r=>r.json()).catch(()=>[]), fetch('lyr
     const n=idx.filter(x=>x.poet===pp.name).length;
     return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${[pp.honorific, fmt(n)+' kalaam'].filter(Boolean).join(' • ')}</span></a>`;
   }).join('');
-  document.getElementById('poets').innerHTML=`<article class="card"><h1>Shuara (Poets)</h1><p class="meta">${poets.length} poets, ${fmt(idx.length)} lyrics.</p></article><div class="poets-grid">${cards}</div>`;
+  document.getElementById('poets').innerHTML=`<article class="card"><h1>Shuara (Poets)</h1><p class="meta">${poets.length} poets.</p></article><div class="poets-grid">${cards}</div>`;
   document.body.classList.remove('loading');
 }).catch(()=>{document.getElementById('poets').innerHTML='<div class="empty"><p>Could not load the poets. Please try again.</p></div>';document.body.classList.remove('loading');});
 </script>
