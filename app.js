@@ -210,17 +210,17 @@ function render(reset=true){
   }
   if(!q && cat==='All'){
     const cats=[...new Set(all.map(x=>x.category))];
-    const popular=[...all].slice(0,4);
-    const recent=[...all].slice(-4).reverse();
+    const popular=[...all].slice(0,10);
+    const recent=[...all].slice(-10).reverse();
     const boxes=cats.map(c=>{
       const n=all.filter(x=>x.category===c).length;
       return `<button class="catbox" data-cat="${c}"><strong>${c}</strong><span>${fmtCount(n)} kalaam</span></button>`;
     }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z</strong></a>`;
     listEl.innerHTML =
       `<section><h2 class="section-title">Categories</h2><div class="catgrid">${boxes}</div></section>` +
-      `<section><div class="section-head"><h2 class="section-title">Most Famous</h2><a class="see-all" href="most-read.html">See All ›</a></div><div class="hscroll">${popular.map(miniCard).join('')}</div></section>` +
-      `<section><div class="section-head"><h2 class="section-title">Recently Added</h2><a class="see-all" href="recent.html">See All ›</a></div><div class="hscroll">${recent.map(miniCard).join('')}</div></section>` +
-      (poets.length?`<section><div class="section-head"><h2 class="section-title">Shuara (Poets)</h2><a class="see-all" href="poets.html">See All ›</a></div><div class="hscroll">${poets.map(pp=>{const n=all.filter(x=>x.poet===pp.name).length; return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${pp.honorific||''}</span><span>${fmtCount(n)} kalaam</span></a>`;}).join('')}</div></section>`:'') +
+      `<section><div class="section-head"><h2 class="section-title">Most Famous</h2><a class="see-all" href="most-read.html">See All ›</a></div><div class="hscroll">${popular.map(miniCard).join('')}<a class="mini-card see-all-card" href="most-read.html">See All ›</a></div></section>` +
+      `<section><div class="section-head"><h2 class="section-title">Recently Added</h2><a class="see-all" href="recent.html">See All ›</a></div><div class="hscroll">${recent.map(miniCard).join('')}<a class="mini-card see-all-card" href="recent.html">See All ›</a></div></section>` +
+      (poets.length?`<section><div class="section-head"><h2 class="section-title">Shuara (Poets)</h2><a class="see-all" href="poets.html">See All ›</a></div><div class="hscroll">${poets.slice(0,10).map(pp=>{const n=all.filter(x=>x.poet===pp.name).length; return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${pp.honorific||''}</span><span>${fmtCount(n)} kalaam</span></a>`;}).join('')}<a class="poet-card see-all-card" href="poets.html">See All ›</a></div></section>`:'') +
       `<section><h2 class="section-title">All Lyrics</h2>${items.slice(0,shown).map(x=>card(x,q,fullOnly)).join('')}${items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:''}</section>`;
     listEl.querySelectorAll('.catbox').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render(); window.scrollTo({top:0,behavior:'smooth'});});
   } else {
