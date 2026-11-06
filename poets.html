@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=43">
+<link rel="stylesheet" href="styles.css?v=44">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Shuara (Poets) — Naat Lyrics","url":"https://tauheed-khan-pathan.github.io/Naat-Lyrics/poets.html"}</script>
 </head>
 <body class="static" id="top">
@@ -57,7 +57,7 @@ Promise.all([fetch('poets.json?v=7').then(r=>r.json()).catch(()=>[]), fetch('lyr
   const fmt=n=>n>=1000?Math.floor(n/1000)+'K+':n>=100?Math.floor(n/100)+'00+':String(n);
   const cards=poets.map(pp=>{
     const n=idx.filter(x=>x.poet===pp.name).length;
-    return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${pp.honorific||''}</span><span>${fmt(n)} kalaam</span></a>`;
+    return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${[pp.honorific, fmt(n)+' kalaam'].filter(Boolean).join(' • ')}</span></a>`;
   }).join('');
   document.getElementById('poets').innerHTML=`<article class="card"><h1>Shuara (Poets)</h1><p class="meta">${poets.length} poets, ${fmt(idx.length)} lyrics.</p></article><div class="poets-grid">${cards}</div>`;
   document.body.classList.remove('loading');
