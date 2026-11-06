@@ -117,7 +117,7 @@ window.addEventListener('pageshow', function (e) {
   var card = document.querySelector('article.card');
   if (!card) return;
   var st = document.createElement('style');
-  st.textContent = '.share-row{margin:14px 0 2px;display:flex;justify-content:center}.share-btn{background:transparent;color:#374151;border:1px solid #9ca3af;padding:0 10px;border-radius:6px;cursor:pointer;font-size:.85rem;height:36px;display:inline-flex;align-items:center;justify-content:center;gap:6px}body.dark .share-btn{color:#d1d5db;border-color:#4b5563}@media(max-width:600px){.share-btn{height:32px;padding:0 6px;font-size:.8rem}}';
+  st.textContent = '.share-row{margin:14px 0 2px;display:flex;justify-content:center}.share-btn{background:#0b3d2e;color:#fff;border:1px solid #0b3d2e;padding:0 18px;border-radius:999px;cursor:pointer;font-size:.9rem;font-weight:600;height:40px;display:inline-flex;align-items:center;justify-content:center;gap:6px;box-shadow:0 2px 8px rgba(11,61,46,.25)}.share-btn:hover{filter:brightness(1.15)}body.dark .share-btn{background:#065f46;border-color:#065f46;color:#ecfdf5}@media(max-width:600px){.share-btn{height:38px;padding:0 16px;font-size:.85rem}}';
   document.head.appendChild(st);
   var row = document.createElement('div');
   row.className = 'share-row';
