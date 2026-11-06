@@ -54,7 +54,7 @@
 </script>
 <script>
 fetch('lyrics-index.json').then(r=>r.json()).then(d=>{
-  const list=[...d].reverse();
+  const list=[...d].reverse().slice(0,100);
   const fmt=n=>n>=1000?Math.floor(n/1000)+'K+':n>=100?Math.floor(n/100)+'00+':String(n);
   let shown=20;
   function card(x){
@@ -63,7 +63,7 @@ fetch('lyrics-index.json').then(r=>r.json()).then(d=>{
   }
   function render(){
     const items=list.slice(0,shown);
-    document.getElementById('rc').innerHTML=`<article class="card"><h1>Recently Added</h1><p class="meta">${fmt(d.length)} lyrics.</p></article>`+items.map(card).join('')+(list.length>shown?`<button id="seeMore" class="see-more">See more (${list.length-shown} more)</button>`:'');
+    document.getElementById('rc').innerHTML=`<article class="card"><h1>Recently Added</h1><p class="meta">${list.length} lyrics.</p></article>`+items.map(card).join('')+(list.length>shown?`<button id="seeMore" class="see-more">See more (${list.length-shown} more)</button>`:'');
     const b=document.getElementById('seeMore'); if(b) b.onclick=()=>{shown+=20; render();};
     document.body.classList.remove('loading');
   }

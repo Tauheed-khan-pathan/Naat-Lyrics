@@ -218,7 +218,7 @@ function render(reset=true){
     }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z</strong></a>`;
     listEl.innerHTML =
       `<section><h2 class="section-title">Categories</h2><div class="catgrid">${boxes}</div></section>` +
-      `<section><div class="section-head"><h2 class="section-title">Most Read</h2><a class="see-all" href="most-read.html">See All ›</a></div><div class="hscroll">${popular.map(miniCard).join('')}</div></section>` +
+      `<section><div class="section-head"><h2 class="section-title">Most Famous</h2><a class="see-all" href="most-read.html">See All ›</a></div><div class="hscroll">${popular.map(miniCard).join('')}</div></section>` +
       `<section><div class="section-head"><h2 class="section-title">Recently Added</h2><a class="see-all" href="recent.html">See All ›</a></div><div class="hscroll">${recent.map(miniCard).join('')}</div></section>` +
       (poets.length?`<section><div class="section-head"><h2 class="section-title">Shuara (Poets)</h2><a class="see-all" href="poets.html">See All ›</a></div><div class="hscroll">${poets.map(pp=>{const n=all.filter(x=>x.poet===pp.name).length; return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${pp.honorific||''}</span><span>${fmtCount(n)} kalaam</span></a>`;}).join('')}</div></section>`:'') +
       `<section><h2 class="section-title">All Lyrics</h2>${items.slice(0,shown).map(x=>card(x,q,fullOnly)).join('')}${items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:''}</section>`;
