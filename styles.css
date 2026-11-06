@@ -217,8 +217,8 @@ body.loading .to-top-btn{display:none}
    rotation; click par us lyric ka page khulta hai jisme apne 10 hote hain. */
 .recs{margin:24px 0 16px;padding:0 16px}
 .recs h2{font-size:1.1rem;margin:0 0 12px}
-.recs ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
-.recs li{padding:0;border-bottom:0}
+.recs ul{list-style:none;padding:0;margin:0}
+.recs li{padding:0;border-bottom:0;margin-bottom:8px}
 .recs li a{position:relative;display:block;background:#f7f7f5;border:1px solid #e5e7eb;border-radius:10px;padding:10px 32px 10px 12px;color:#0b3d2e;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .recs li a::after{content:"›";position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#0b3d2e;opacity:.45;font-size:1.25rem;line-height:1}
 .recs li a:hover{background:#edf2ed}
