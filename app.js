@@ -3,10 +3,17 @@ fetch('poets.json?v=7').then(r=>r.json()).then(d=>{poets=d; if(all.length) rende
 const PAGE=20; let shown=PAGE;
 const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search');
 fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; const q=new URLSearchParams(location.search).get('q'); if(q){searchEl.value=q; syncClear();} buildTabs(); render();}).catch(()=>{document.body.classList.remove('loading');});
+// Rounded counts (never exact detail above 100): exact below 100,
+// nearest 100+ below 1000, nearest K+ at 1000+ (1, 44, 100+, 200+, 500+, 900+, 1K+, 3K+).
+function fmtCount(n){
+  if(n>=1000) return Math.floor(n/1000)+'K+';
+  if(n>=100) return Math.floor(n/100)+'00+';
+  return String(n);
+}
 function buildTabs(){
   const cats=['All',...new Set(all.map(x=>x.category))];
   tabsEl.innerHTML=cats.map(c=>{
-    const n=c==='All'?'1K+':all.filter(x=>x.category===c).length;
+    const n=fmtCount(c==='All'?all.length:all.filter(x=>x.category===c).length);
     return `<button class="tab ${c===cat?'active':''}" data-cat="${c}">${c} (${n})</button>`;
   }).join('');
   tabsEl.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render();});
@@ -156,13 +163,13 @@ function render(reset=true){
     const recent=[...all].slice(-4).reverse();
     const boxes=cats.map(c=>{
       const n=all.filter(x=>x.category===c).length;
-      return `<button class="catbox" data-cat="${c}"><strong>${c}</strong><span>${n} kalaam</span></button>`;
+      return `<button class="catbox" data-cat="${c}"><strong>${c}</strong><span>${fmtCount(n)} kalaam</span></button>`;
     }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z</strong></a>`;
     listEl.innerHTML =
       `<section><h2 class="section-title">Categories</h2><div class="catgrid">${boxes}</div></section>` +
       `<section><h2 class="section-title">Most Read</h2><div class="hscroll">${popular.map(miniCard).join('')}</div></section>` +
       `<section><h2 class="section-title">Recently Added</h2><div class="hscroll">${recent.map(miniCard).join('')}</div></section>` +
-      (poets.length?`<section><h2 class="section-title">Shuara (Poets)</h2><div class="hscroll">${poets.map(pp=>{const n=all.filter(x=>x.poet===pp.name).length; return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${pp.honorific||''}</span><span>${n} kalaam</span></a>`;}).join('')}</div></section>`:'') +
+      (poets.length?`<section><h2 class="section-title">Shuara (Poets)</h2><div class="hscroll">${poets.map(pp=>{const n=all.filter(x=>x.poet===pp.name).length; return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${pp.honorific||''}</span><span>${fmtCount(n)} kalaam</span></a>`;}).join('')}</div></section>`:'') +
       `<section><h2 class="section-title">All Lyrics</h2>${items.slice(0,shown).map(card).join('')}${items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:''}</section>`;
     listEl.querySelectorAll('.catbox').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render(); window.scrollTo({top:0,behavior:'smooth'});});
   } else {
