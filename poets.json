@@ -1,425 +1,573 @@
 [
- {
-  "bio": [
-   "Tajush Shariah Mufti Muhammad Akhtar Raza Khan Azhari Qadri was one of the great scholars and poets of the Raza family of Bareilly Sharif. He received spiritual authorization (Khilafat) from Mufti-e-Azam Hind, his maternal grandfather, who also appointed him as his Ja Nasheen (spiritual successor), and from Hujjat-ul-Islam Maulana Hamid Raza Khan, his paternal grandfather.",
-   "For more than five decades he served the Ummah through teaching and fatwa work, heading the Dar-ul-Ifta at Bareilly Sharif and answering questions from across the world.",
-   "Like his forefathers, he expressed his love for the Beloved Prophet in poetry. His Hamd, Naat and Manqabat — especially in praise of Ghaus-e-Azam — are collected in his book Safeena-e-Bakhshish. He wrote his first kalaam at the age of nineteen."
-  ],
-  "book": "Safeena-e-Bakhshish",
-  "facts": {
-   "Book": "Safeena-e-Bakhshish — his collection of Hamd, Naat and Manqabat",
-   "Full name": "Mufti Muhammad Akhtar Raza Khan Azhari Qadri",
-   "Role": "Head of Dar-ul-Ifta, Bareilly Sharif; spiritual successor (Ja Nasheen) of Mufti-e-Azam Hind",
-   "Title": "Tajush Shariah",
-   "Wisaal": "2018 (1439 AH)"
+  {
+    "bio": [
+      "Tajush Shariah Mufti Muhammad Akhtar Raza Khan Azhari Qadri was one of the great scholars and poets of the Raza family of Bareilly Sharif. He received spiritual authorization (Khilafat) from Mufti-e-Azam Hind, his maternal grandfather, who also appointed him as his Ja Nasheen (spiritual successor), and from Hujjat-ul-Islam Maulana Hamid Raza Khan, his paternal grandfather.",
+      "For more than five decades he served the Ummah through teaching and fatwa work, heading the Dar-ul-Ifta at Bareilly Sharif and answering questions from across the world.",
+      "Like his forefathers, he expressed his love for the Beloved Prophet in poetry. His Hamd, Naat and Manqabat — especially in praise of Ghaus-e-Azam — are collected in his book Safeena-e-Bakhshish. He wrote his first kalaam at the age of nineteen."
+    ],
+    "book": "Safeena-e-Bakhshish",
+    "facts": {
+      "Book": "Safeena-e-Bakhshish — his collection of Hamd, Naat and Manqabat",
+      "Full name": "Mufti Muhammad Akhtar Raza Khan Azhari Qadri",
+      "Role": "Head of Dar-ul-Ifta, Bareilly Sharif; spiritual successor (Ja Nasheen) of Mufti-e-Azam Hind",
+      "Title": "Tajush Shariah",
+      "Wisaal": "2018 (1439 AH)"
+    },
+    "fullName": "Mufti Muhammad Akhtar Raza Khan Azhari Qadri",
+    "honorific": "Tajush Shariah",
+    "id": "akhtar-raza-khan",
+    "name": "Akhtar Raza Khan"
   },
-  "fullName": "Mufti Muhammad Akhtar Raza Khan Azhari Qadri",
-  "honorific": "Tajush Shariah",
-  "id": "akhtar-raza-khan",
-  "name": "Akhtar Raza Khan"
- },
- {
-  "bio": [
-   "Ahmed Raza Khan (1856-1921) of Bareilly Sharif, known as Ala Hazrat, was one of the greatest scholars and poets of the Indian subcontinent. A master of Islamic law, theology and poetry, he is regarded as the Mujaddid (reviver) of his age by his followers.",
-   "His devotional poetry, collected in Hadaiq-e-Bakhshish, includes some of the most recited naats in the world, sung in gatherings across South Asia and the diaspora to this day."
-  ],
-  "book": "Hadaiq-e-Bakhshish",
-  "facts": {
-   "Book": "Hadaiq-e-Bakhshish — his collection of naats and devotional poetry",
-   "Life": "1856-1921",
-   "Place": "Bareilly Sharif, India",
-   "Title": "Imam-e-Ahle Sunnat"
+  {
+    "bio": [
+      "Ahmed Raza Khan (1856-1921) of Bareilly Sharif, known as Ala Hazrat, was one of the greatest scholars and poets of the Indian subcontinent. A master of Islamic law, theology and poetry, he is regarded as the Mujaddid (reviver) of his age by his followers.",
+      "His devotional poetry, collected in Hadaiq-e-Bakhshish, includes some of the most recited naats in the world, sung in gatherings across South Asia and the diaspora to this day."
+    ],
+    "book": "Hadaiq-e-Bakhshish",
+    "facts": {
+      "Book": "Hadaiq-e-Bakhshish — his collection of naats and devotional poetry",
+      "Life": "1856-1921",
+      "Place": "Bareilly Sharif, India",
+      "Title": "Imam-e-Ahle Sunnat"
+    },
+    "fullName": "Ahmed Raza Khan Barelvi",
+    "honorific": "Imam-e-Ahle Sunnat",
+    "id": "ala-hazrat",
+    "name": "Ala Hazrat"
   },
-  "fullName": "Ahmed Raza Khan Barelvi",
-  "honorific": "Imam-e-Ahle Sunnat",
-  "id": "ala-hazrat",
-  "name": "Ala Hazrat"
- },
- {
-  "bio": [
-   "Hasan Raza Khan (1859-1908) was the younger brother of Ala Hazrat Imam Ahmed Raza Khan and a master of Urdu poetry in his own right. His command of the language earned him the title Ustad-e-Zaman (Master of the Age).",
-   "His naats and manqabats, collected in Zauq-e-Naat, are recited in mehfils to this day, including his celebrated manqabat in praise of Ghaus-e-Azam."
-  ],
-  "book": "Zauq-e-Naat",
-  "facts": {
-   "Book": "Zauq-e-Naat",
-   "Family": "Younger brother of Ala Hazrat",
-   "Life": "1859-1908",
-   "Title": "Ustad-e-Zaman"
+  {
+    "bio": [
+      "Hasan Raza Khan (1859-1908) was the younger brother of Ala Hazrat Imam Ahmed Raza Khan and a master of Urdu poetry in his own right. His command of the language earned him the title Ustad-e-Zaman (Master of the Age).",
+      "His naats and manqabats, collected in Zauq-e-Naat, are recited in mehfils to this day, including his celebrated manqabat in praise of Ghaus-e-Azam."
+    ],
+    "book": "Zauq-e-Naat",
+    "facts": {
+      "Book": "Zauq-e-Naat",
+      "Family": "Younger brother of Ala Hazrat",
+      "Life": "1859-1908",
+      "Title": "Ustad-e-Zaman"
+    },
+    "fullName": "Hasan Raza Khan Barelvi",
+    "honorific": "Ustad-e-Zaman",
+    "id": "hasan-raza-khan",
+    "name": "Hasan Raza Khan"
   },
-  "fullName": "Hasan Raza Khan Barelvi",
-  "honorific": "Ustad-e-Zaman",
-  "id": "hasan-raza-khan",
-  "name": "Hasan Raza Khan"
- },
- {
-  "bio": [
-   "Mustafa Raza Khan (1892-1981), known as Mufti-e-Azam Hind, was the son of Ala Hazrat and one of the leading scholars of his time. He issued thousands of fatwas, collected in Fatawa-e-Mustafawia, and headed the Jamaat Raza-e-Mustafa in Bareilly.",
-   "He was also a poet: his devotional verses are collected in Saman-e-Bakhshish. His grandson and spiritual successor was Tajush Shariah Mufti Akhtar Raza Khan."
-  ],
-  "book": "Saman-e-Bakhshish",
-  "facts": {
-   "Book": "Saman-e-Bakhshish — his collection of devotional poetry",
-   "Family": "Son of Ala Hazrat; grandfather and spiritual guide of Tajush Shariah",
-   "Life": "1892-1981",
-   "Title": "Mufti-e-Azam Hind"
+  {
+    "bio": [
+      "Mustafa Raza Khan (1892-1981), known as Mufti-e-Azam Hind, was the son of Ala Hazrat and one of the leading scholars of his time. He issued thousands of fatwas, collected in Fatawa-e-Mustafawia, and headed the Jamaat Raza-e-Mustafa in Bareilly.",
+      "He was also a poet: his devotional verses are collected in Saman-e-Bakhshish. His grandson and spiritual successor was Tajush Shariah Mufti Akhtar Raza Khan."
+    ],
+    "book": "Saman-e-Bakhshish",
+    "facts": {
+      "Book": "Saman-e-Bakhshish — his collection of devotional poetry",
+      "Family": "Son of Ala Hazrat; grandfather and spiritual guide of Tajush Shariah",
+      "Life": "1892-1981",
+      "Title": "Mufti-e-Azam Hind"
+    },
+    "fullName": "Mustafa Raza Khan Qadri",
+    "honorific": "Mufti-e-Azam Hind",
+    "id": "mustafa-raza-khan",
+    "name": "Mustafa Raza Khan"
   },
-  "fullName": "Mustafa Raza Khan Qadri",
-  "honorific": "Mufti-e-Azam Hind",
-  "id": "mustafa-raza-khan",
-  "name": "Mustafa Raza Khan"
- },
- {
-  "bio": [
-   "Bedam Shah Warsi was a devoted disciple of Haji Waris Ali Shah of Dewa Sharif and a poet of the Warsi order. His kalaam carries the colour of Sufi love and devotion.",
-   "His naats and sufiana poetry are still recited in gatherings, and his name remains closely linked with the shrine of Dewa Sharif in Barabanki."
-  ],
-  "facts": {
-   "Order": "Warsi — disciple of Haji Waris Ali Shah",
-   "Place": "Dewa Sharif, Barabanki, India"
+  {
+    "bio": [
+      "Bedam Shah Warsi was a devoted disciple of Haji Waris Ali Shah of Dewa Sharif and a poet of the Warsi order. His kalaam carries the colour of Sufi love and devotion.",
+      "His naats and sufiana poetry are still recited in gatherings, and his name remains closely linked with the shrine of Dewa Sharif in Barabanki."
+    ],
+    "facts": {
+      "Order": "Warsi — disciple of Haji Waris Ali Shah",
+      "Place": "Dewa Sharif, Barabanki, India"
+    },
+    "fullName": "Bedam Shah Warsi",
+    "honorific": "Warsi Sufi Poet",
+    "id": "bedam-shah-warsi",
+    "name": "Bedam Shah Warsi"
   },
-  "fullName": "Bedam Shah Warsi",
-  "honorific": "Warsi Sufi Poet",
-  "id": "bedam-shah-warsi",
-  "name": "Bedam Shah Warsi"
- },
- {
-  "bio": [
-   "Pir Naseeruddin Naseer (1949-2009) was the custodian (Sajjada Nashin) of the Golra Sharif shrine in Islamabad and a descendant of Pir Meher Ali Shah. He was a scholar, poet and spiritual leader.",
-   "He wrote poetry in Arabic, Urdu, Punjabi and Persian, and authored more than thirty books. His kalaam became famous across the world through the qawwalis of Nusrat Fateh Ali Khan."
-  ],
-  "facts": {
-   "Languages": "Arabic, Urdu, Punjabi and Persian",
-   "Life": "1949-2009",
-   "Shrine": "Golra Sharif, Islamabad, Pakistan"
+  {
+    "bio": [
+      "Pir Naseeruddin Naseer (1949-2009) was the custodian (Sajjada Nashin) of the Golra Sharif shrine in Islamabad and a descendant of Pir Meher Ali Shah. He was a scholar, poet and spiritual leader.",
+      "He wrote poetry in Arabic, Urdu, Punjabi and Persian, and authored more than thirty books. His kalaam became famous across the world through the qawwalis of Nusrat Fateh Ali Khan."
+    ],
+    "facts": {
+      "Languages": "Arabic, Urdu, Punjabi and Persian",
+      "Life": "1949-2009",
+      "Shrine": "Golra Sharif, Islamabad, Pakistan"
+    },
+    "fullName": "Syed Naseeruddin Naseer Gilani",
+    "honorific": "Naseer-e-Millat",
+    "id": "pir-naseeruddin-naseer",
+    "name": "Pir Naseeruddin Naseer"
   },
-  "fullName": "Syed Naseeruddin Naseer Gilani",
-  "honorific": "Naseer-e-Millat",
-  "id": "pir-naseeruddin-naseer",
-  "name": "Pir Naseeruddin Naseer"
- },
- {
-  "bio": [
-   "Muzaffar Warsi (1933-2011) was one of Pakistan's most celebrated poets. Born in Meerut, he migrated to Lahore after Partition and became famous for his Hamd, Naat, ghazal and film lyrics.",
-   "His Hamd 'Koi To Hai Jo Nizam-e-Hasti Chala Raha Hai' is recited across the world. In 1988 the Government of Pakistan honoured him with the Pride of Performance award."
-  ],
-  "facts": {
-   "Award": "Pride of Performance, 1988",
-   "Famous Hamd": "Koi To Hai Jo Nizam-e-Hasti Chala Raha Hai",
-   "Life": "1933-2011"
+  {
+    "bio": [
+      "Muzaffar Warsi (1933-2011) was one of Pakistan's most celebrated poets. Born in Meerut, he migrated to Lahore after Partition and became famous for his Hamd, Naat, ghazal and film lyrics.",
+      "His Hamd 'Koi To Hai Jo Nizam-e-Hasti Chala Raha Hai' is recited across the world. In 1988 the Government of Pakistan honoured him with the Pride of Performance award."
+    ],
+    "facts": {
+      "Award": "Pride of Performance, 1988",
+      "Famous Hamd": "Koi To Hai Jo Nizam-e-Hasti Chala Raha Hai",
+      "Life": "1933-2011"
+    },
+    "fullName": "Mohammad Muzaffaruddin Siddiqui",
+    "honorific": "Fasih-ul-Hind",
+    "id": "muzaffar-warsi",
+    "name": "Muzaffar Warsi"
   },
-  "fullName": "Mohammad Muzaffaruddin Siddiqui",
-  "honorific": "Fasih-ul-Hind",
-  "id": "muzaffar-warsi",
-  "name": "Muzaffar Warsi"
- },
- {
-  "bio": [
-   "Hafeez Taib (1931-2004) was a Pakistani poet remembered as a trendsetter in naat writing. Where earlier naats mostly followed the traditional style, his naats also spoke about the issues of his own time.",
-   "He taught Punjabi literature at Oriental College, Lahore, and received the Pride of Performance award in 1987 for his literary work."
-  ],
-  "facts": {
-   "Award": "Pride of Performance, 1987",
-   "Known for": "Bringing contemporary themes into naat poetry",
-   "Life": "1931-2004"
+  {
+    "bio": [
+      "Hafeez Taib (1931-2004) was a Pakistani poet remembered as a trendsetter in naat writing. Where earlier naats mostly followed the traditional style, his naats also spoke about the issues of his own time.",
+      "He taught Punjabi literature at Oriental College, Lahore, and received the Pride of Performance award in 1987 for his literary work."
+    ],
+    "facts": {
+      "Award": "Pride of Performance, 1987",
+      "Known for": "Bringing contemporary themes into naat poetry",
+      "Life": "1931-2004"
+    },
+    "fullName": "Hafeez Taib",
+    "honorific": "Pride of Performance",
+    "id": "hafeez-taib",
+    "name": "Hafeez Taib"
   },
-  "fullName": "Hafeez Taib",
-  "honorific": "Pride of Performance",
-  "id": "hafeez-taib",
-  "name": "Hafeez Taib"
- },
- {
-  "bio": [
-   "Mahirul Qadri (1906-1978), whose real name was Manzoor Hussain, was an Urdu poet, writer and novelist. Born in Bulandshahr, he migrated to Karachi after Partition in 1947 and published the journal Faaraan there.",
-   "He wrote in many genres — poetry, essays, novels and literary criticism — and published more than twenty books, including Firdaus and Jazbaat-e-Mahir. He passed away in Jeddah in 1978 while attending a mushaira."
-  ],
-  "facts": {
-   "Books": "Firdaus, Jazbaat-e-Mahir, Aatish-e-Khamosh",
-   "Journal": "Faaraan, Karachi",
-   "Life": "1906-1978",
-   "Real name": "Manzoor Hussain"
+  {
+    "bio": [
+      "Mahirul Qadri (1906-1978), whose real name was Manzoor Hussain, was an Urdu poet, writer and novelist. Born in Bulandshahr, he migrated to Karachi after Partition in 1947 and published the journal Faaraan there.",
+      "He wrote in many genres — poetry, essays, novels and literary criticism — and published more than twenty books, including Firdaus and Jazbaat-e-Mahir. He passed away in Jeddah in 1978 while attending a mushaira."
+    ],
+    "facts": {
+      "Books": "Firdaus, Jazbaat-e-Mahir, Aatish-e-Khamosh",
+      "Journal": "Faaraan, Karachi",
+      "Life": "1906-1978",
+      "Real name": "Manzoor Hussain"
+    },
+    "fullName": "Manzoor Hussain",
+    "honorific": "Urdu Poet & Writer",
+    "id": "mahirul-qadri",
+    "name": "Mahirul Qadri"
   },
-  "fullName": "Manzoor Hussain",
-  "honorific": "Urdu Poet & Writer",
-  "id": "mahirul-qadri",
-  "name": "Mahirul Qadri"
- },
- {
-  "bio": [
-   "Iqbal Azeem (1913-2000) was an Urdu poet and scholar. Born in Meerut, he moved to Bengal in 1950 and headed the Urdu departments of Dhaka College and Chittagong College for twenty years.",
-   "His poetry collections include Mizrab and Lab-Kusha, and his collection of naats is titled Kab-e-Qausain. He spent his last years in Karachi, where he passed away in 2000."
-  ],
-  "facts": {
-   "Career": "Head of Urdu, Dhaka College and Chittagong College",
-   "Life": "1913-2000",
-   "Naat collection": "Kab-e-Qausain"
+  {
+    "bio": [
+      "Iqbal Azeem (1913-2000) was an Urdu poet and scholar. Born in Meerut, he moved to Bengal in 1950 and headed the Urdu departments of Dhaka College and Chittagong College for twenty years.",
+      "His poetry collections include Mizrab and Lab-Kusha, and his collection of naats is titled Kab-e-Qausain. He spent his last years in Karachi, where he passed away in 2000."
+    ],
+    "facts": {
+      "Career": "Head of Urdu, Dhaka College and Chittagong College",
+      "Life": "1913-2000",
+      "Naat collection": "Kab-e-Qausain"
+    },
+    "fullName": "Syed Iqbal Azeem",
+    "honorific": "Urdu Poet & Scholar",
+    "id": "iqbal-azeem",
+    "name": "Iqbal Azeem"
   },
-  "fullName": "Syed Iqbal Azeem",
-  "honorific": "Urdu Poet & Scholar",
-  "id": "iqbal-azeem",
-  "name": "Iqbal Azeem"
- },
- {
-  "bio": [
-   "Muhammad Ilyas Attar Qadri (born 1950) is the founder of Dawat-e-Islami, a non-political global movement of Sunni Muslims that he established in Karachi in 1981. Known as Ameer-e-Ahle Sunnat and Sheikh-e-Tareeqat, he belongs to the Qadri-Razavi order and guides millions of disciples around the world.",
-   "His devotional poetry — Hamd, Naat and Manqabat — is collected in his book Wasail-e-Bakhshish, named in relation to Ala Hazrat's Hadaiq-e-Bakhshish, for which he has a deep devotion. His kalaam is recited in gatherings across the world, including through the Madani Channel."
-  ],
-  "book": "Wasail-e-Bakhshish",
-  "facts": {
-   "Book": "Wasail-e-Bakhshish — his collection of Hamd, Naat and Manqabat",
-   "Born": "12 July 1950, Karachi, Pakistan",
-   "Movement": "Founder of Dawat-e-Islami (1981)",
-   "Title": "Ameer-e-Ahle Sunnat"
+  {
+    "bio": [
+      "Muhammad Ilyas Attar Qadri (born 1950) is the founder of Dawat-e-Islami, a non-political global movement of Sunni Muslims that he established in Karachi in 1981. Known as Ameer-e-Ahle Sunnat and Sheikh-e-Tareeqat, he belongs to the Qadri-Razavi order and guides millions of disciples around the world.",
+      "His devotional poetry — Hamd, Naat and Manqabat — is collected in his book Wasail-e-Bakhshish, named in relation to Ala Hazrat's Hadaiq-e-Bakhshish, for which he has a deep devotion. His kalaam is recited in gatherings across the world, including through the Madani Channel."
+    ],
+    "book": "Wasail-e-Bakhshish",
+    "facts": {
+      "Book": "Wasail-e-Bakhshish — his collection of Hamd, Naat and Manqabat",
+      "Born": "12 July 1950, Karachi, Pakistan",
+      "Movement": "Founder of Dawat-e-Islami (1981)",
+      "Title": "Ameer-e-Ahle Sunnat"
+    },
+    "fullName": "Muhammad Ilyas Attar Qadri",
+    "honorific": "Ameer-e-Ahle Sunnat",
+    "id": "ilyas-attar-qadri",
+    "name": "Ilyas Attar Qadri"
   },
-  "fullName": "Muhammad Ilyas Attar Qadri",
-  "honorific": "Ameer-e-Ahle Sunnat",
-  "id": "ilyas-attar-qadri",
-  "name": "Ilyas Attar Qadri"
- },
- {
-  "bio": [
-   "Amir Khusro (1253-1325) was a poet of Delhi in the 13th and 14th centuries and a disciple of the Sufi saint Hazrat Nizamuddin Auliya.",
-   "He wrote in Persian and in Hindavi, and is remembered as one of the founders of the literary tradition of Hindustani. His devotional verse in praise of the Prophet is recited to this day."
-  ],
-  "facts": {
-   "Life": "1253–1325"
+  {
+    "bio": [
+      "Amir Khusro (1253-1325) was a poet of Delhi in the 13th and 14th centuries and a disciple of the Sufi saint Hazrat Nizamuddin Auliya.",
+      "He wrote in Persian and in Hindavi, and is remembered as one of the founders of the literary tradition of Hindustani. His devotional verse in praise of the Prophet is recited to this day."
+    ],
+    "facts": {
+      "Life": "1253–1325"
+    },
+    "fullName": "Ameer Khusrau",
+    "id": "amir-khusro",
+    "name": "Amir Khusro"
   },
-  "fullName": "Ameer Khusrau",
-  "id": "amir-khusro",
-  "name": "Amir Khusro"
- },
- {
-  "bio": [
-   "Allama Muhammad Iqbal (1877-1938) was a poet and philosopher, widely known as Shair-e-Mashriq (Poet of the East). His poetry in Urdu and Persian is read across South Asia and beyond.",
-   "His devotional poetry includes naats in praise of the Prophet Muhammad."
-  ],
-  "facts": {
-   "Life": "1877–1938",
-   "Title": "Shair-e-Mashriq (Poet of the East)"
+  {
+    "bio": [
+      "Allama Muhammad Iqbal (1877-1938) was a poet and philosopher, widely known as Shair-e-Mashriq (Poet of the East). His poetry in Urdu and Persian is read across South Asia and beyond.",
+      "His devotional poetry includes naats in praise of the Prophet Muhammad."
+    ],
+    "facts": {
+      "Life": "1877–1938",
+      "Title": "Shair-e-Mashriq (Poet of the East)"
+    },
+    "fullName": "Allama Muhammad Iqbal",
+    "honorific": "Allama",
+    "id": "allama-iqbal",
+    "name": "Allama Iqbal"
   },
-  "fullName": "Allama Muhammad Iqbal",
-  "honorific": "Allama",
-  "id": "allama-iqbal",
-  "name": "Allama Iqbal"
- },
- {
-  "bio": [
-   "Imam Sharafuddin Busiri (1212-1294) was an Egyptian poet, author of the Qasida Burda Sharif — the Ode of the Mantle.",
-   "The Qasida Burda is among the most recited poems in praise of the Prophet Muhammad in the Muslim world, sung in gatherings for more than seven centuries."
-  ],
-  "book": "Qasida Burda Sharif",
-  "facts": {
-   "Book": "Qasida Burda Sharif — his celebrated ode in praise of the Prophet",
-   "Life": "1212–1294"
+  {
+    "bio": [
+      "Imam Sharafuddin Busiri (1212-1294) was an Egyptian poet, author of the Qasida Burda Sharif — the Ode of the Mantle.",
+      "The Qasida Burda is among the most recited poems in praise of the Prophet Muhammad in the Muslim world, sung in gatherings for more than seven centuries."
+    ],
+    "book": "Qasida Burda Sharif",
+    "facts": {
+      "Book": "Qasida Burda Sharif — his celebrated ode in praise of the Prophet",
+      "Life": "1212–1294"
+    },
+    "fullName": "Imam Sharfuddin Busiri",
+    "honorific": "Imam",
+    "id": "imam-sharafuddin-busiri",
+    "name": "Imam Sharafuddin Busiri"
   },
-  "fullName": "Imam Sharfuddin Busiri",
-  "honorific": "Imam",
-  "id": "imam-sharafuddin-busiri",
-  "name": "Imam Sharafuddin Busiri"
- },
- {
-  "bio": [
-   "Pir Meher Ali Shah (1859-1937) was a Sufi saint and scholar of the Chishti order from Golra Sharif, near Islamabad.",
-   "He is the ancestor of Pir Naseeruddin Naseer, whose page is already on this site. His shrine at Golra Sharif remains a place of devotion."
-  ],
-  "facts": {
-   "Life": "1859–1937"
+  {
+    "bio": [
+      "Pir Meher Ali Shah (1859-1937) was a Sufi saint and scholar of the Chishti order from Golra Sharif, near Islamabad.",
+      "He is the ancestor of Pir Naseeruddin Naseer, whose page is already on this site. His shrine at Golra Sharif remains a place of devotion."
+    ],
+    "facts": {
+      "Life": "1859–1937"
+    },
+    "fullName": "Meher Ali Shah",
+    "id": "pir-meher-ali-shah",
+    "name": "Pir Meher Ali Shah"
   },
-  "fullName": "Meher Ali Shah",
-  "id": "pir-meher-ali-shah",
-  "name": "Pir Meher Ali Shah"
- },
- {
-  "bio": [
-   "Maulana Jami (1414-1492) was a classical Persian poet and Sufi of Herat.",
-   "His devotional poetry in praise of the Prophet is part of the classical Persian tradition and is still read and recited today."
-  ],
-  "facts": {
-   "Life": "1414–1492"
+  {
+    "bio": [
+      "Maulana Jami (1414-1492) was a classical Persian poet and Sufi of Herat.",
+      "His devotional poetry in praise of the Prophet is part of the classical Persian tradition and is still read and recited today."
+    ],
+    "facts": {
+      "Life": "1414–1492"
+    },
+    "fullName": "Maulana Nooruddin Abdurrahman Jami",
+    "id": "maulana-jami",
+    "name": "Maulana Jami"
   },
-  "fullName": "Maulana Nooruddin Abdurrahman Jami",
-  "id": "maulana-jami",
-  "name": "Maulana Jami"
- },
- {
-  "bio": [
-   "Khawaja Ghulam Fareed (c. 1845-1901) was a Punjabi Sufi poet of the Chishti order.",
-   "His devotional kafis in Saraiki and Punjabi are still sung in shrines and gatherings across Punjab."
-  ],
-  "facts": {
-   "Life": "c. 1845–1901",
-   "Book": "Diwan-e-Farid — his collection of Saraiki/Punjabi kafis"
+  {
+    "bio": [
+      "Khawaja Ghulam Fareed (c. 1845-1901) was a Punjabi Sufi poet of the Chishti order.",
+      "His devotional kafis in Saraiki and Punjabi are still sung in shrines and gatherings across Punjab."
+    ],
+    "facts": {
+      "Life": "c. 1845–1901",
+      "Book": "Diwan-e-Farid — his collection of Saraiki/Punjabi kafis"
+    },
+    "fullName": "Khawaja Ghulam Fareed",
+    "id": "khwaja-ghulam-farid",
+    "name": "Khwaja Ghulam Farid",
+    "book": "Diwan-e-Farid"
   },
-  "fullName": "Khawaja Ghulam Fareed",
-  "id": "khwaja-ghulam-farid",
-  "name": "Khwaja Ghulam Farid",
-  "book": "Diwan-e-Farid"
- },
- {
-  "bio": [
-   "Bulleh Shah (c. 1680-1757) was a classical Punjabi Sufi poet.",
-   "His kafis on divine love are among the best-known Punjabi Sufi verse, sung across Punjab to this day."
-  ],
-  "facts": {
-   "Life": "c. 1680–1757"
+  {
+    "bio": [
+      "Bulleh Shah (c. 1680-1757) was a classical Punjabi Sufi poet.",
+      "His kafis on divine love are among the best-known Punjabi Sufi verse, sung across Punjab to this day."
+    ],
+    "facts": {
+      "Life": "c. 1680–1757"
+    },
+    "fullName": "Bulleh Shah",
+    "id": "bulleh-shah",
+    "name": "Bulleh Shah"
   },
-  "fullName": "Bulleh Shah",
-  "id": "bulleh-shah",
-  "name": "Bulleh Shah"
- },
- {
-  "bio": [
-   "Owais Raza Qadri (born 17 October 1969, Pakistan) is a naat khawan (reciter) and poet whose recitations of naats in praise of the Prophet are heard in gatherings across South Asia and the diaspora.",
-   "On naat-hindi.com he is the most-listed khawan, with 347 recitations credited to him, and 43 kalaam listed under his name as poet."
-  ],
-  "facts": {
-   "Born": "17 October 1969, Pakistan",
-   "Role": "Naat khawan (reciter) and poet"
+  {
+    "bio": [
+      "Owais Raza Qadri (born 17 October 1969, Pakistan) is a naat khawan (reciter) and poet whose recitations of naats in praise of the Prophet are heard in gatherings across South Asia and the diaspora.",
+      "On naat-hindi.com he is the most-listed khawan, with 347 recitations credited to him, and 43 kalaam listed under his name as poet."
+    ],
+    "facts": {
+      "Born": "17 October 1969, Pakistan",
+      "Role": "Naat khawan (reciter) and poet"
+    },
+    "fullName": "Owais Raza Qadri",
+    "id": "owais-raza-qadri",
+    "name": "Owais Raza Qadri"
   },
-  "fullName": "Owais Raza Qadri",
-  "id": "owais-raza-qadri",
-  "name": "Owais Raza Qadri"
- },
- {
-  "bio": [
-   "Muhammad Ali Zahoori Qasoori (12 August 1932 – 11 August 1999) was a naat poet from Lahore. He wrote naats in Urdu and Punjabi.",
-   "His kalaam are recited by leading khawans, including Owais Raza Qadri and Rahat Fateh Ali Khan."
-  ],
-  "facts": {
-   "Born": "12 August 1932, Lahore",
-   "Life": "1932–1999"
+  {
+    "bio": [
+      "Muhammad Ali Zahoori Qasoori (12 August 1932 – 11 August 1999) was a naat poet from Lahore. He wrote naats in Urdu and Punjabi.",
+      "His kalaam are recited by leading khawans, including Owais Raza Qadri and Rahat Fateh Ali Khan."
+    ],
+    "facts": {
+      "Born": "12 August 1932, Lahore",
+      "Life": "1932–1999"
+    },
+    "fullName": "Muhammad Ali Zahoori Qasoori",
+    "id": "zahoori",
+    "name": "Zahoori"
   },
-  "fullName": "Muhammad Ali Zahoori Qasoori",
-  "id": "zahoori",
-  "name": "Zahoori"
- },
- {
-  "bio": [
-   "Khalid Mahmood Naqshbandi (died December 2018, Karachi, aged 75) was a renowned naat khawan and poet.",
-   "His kalaam 'Ye sab tumhara karam hai Aaqa' is among his best-known naats."
-  ],
-  "facts": {
-   "Died": "December 2018, Karachi (aged 75)",
-   "Known for": "'Ye sab tumhara karam hai Aaqa'"
+  {
+    "bio": [
+      "Khalid Mahmood Naqshbandi (died December 2018, Karachi, aged 75) was a renowned naat khawan and poet.",
+      "His kalaam 'Ye sab tumhara karam hai Aaqa' is among his best-known naats."
+    ],
+    "facts": {
+      "Died": "December 2018, Karachi (aged 75)",
+      "Known for": "'Ye sab tumhara karam hai Aaqa'"
+    },
+    "fullName": "Khalid Mahmood Naqshbandi",
+    "id": "khalid-mahmood-naqshbandi",
+    "name": "Khalid Mahmood Naqshbandi"
   },
-  "fullName": "Khalid Mahmood Naqshbandi",
-  "id": "khalid-mahmood-naqshbandi",
-  "name": "Khalid Mahmood Naqshbandi"
- },
- {
-  "bio": [
-   "Adeeb Raipuri (died 2004, Karachi, aged 80) was a prominent naat poet."
-  ],
-  "facts": {
-   "Died": "2004, Karachi (aged 80)"
+  {
+    "bio": [
+      "Adeeb Raipuri (died 2004, Karachi, aged 80) was a prominent naat poet."
+    ],
+    "facts": {
+      "Died": "2004, Karachi (aged 80)"
+    },
+    "fullName": "Adeeb Raipuri",
+    "id": "adeeb-raipuri",
+    "name": "Adeeb Raipuri"
   },
-  "fullName": "Adeeb Raipuri",
-  "id": "adeeb-raipuri",
-  "name": "Adeeb Raipuri"
- },
- {
-  "bio": [
-   "Allama Saaim Chishti (1932–2000) was a naat poet.",
-   "His kalaam in praise of the Prophet are recited in gatherings to this day."
-  ],
-  "facts": {
-   "Life": "1932–2000"
+  {
+    "bio": [
+      "Allama Saaim Chishti (1932–2000) was a naat poet.",
+      "His kalaam in praise of the Prophet are recited in gatherings to this day."
+    ],
+    "facts": {
+      "Life": "1932–2000"
+    },
+    "fullName": "Allama Saaim Chishti",
+    "id": "saim-chishti",
+    "name": "Saim Chishti"
   },
-  "fullName": "Allama Saaim Chishti",
-  "id": "saim-chishti",
-  "name": "Saim Chishti"
- },
- {
-  "bio": [
-   "Behzad Lakhnavi (1900–1974) was an Urdu poet."
-  ],
-  "facts": {
-   "Life": "1900–1974"
+  {
+    "bio": [
+      "Behzad Lakhnavi (1900–1974) was an Urdu poet."
+    ],
+    "facts": {
+      "Life": "1900–1974"
+    },
+    "fullName": "Behzad Lucknavi",
+    "id": "behzad-lakhnavi",
+    "name": "Behzad Lakhnavi"
   },
-  "fullName": "Behzad Lucknavi",
-  "id": "behzad-lakhnavi",
-  "name": "Behzad Lakhnavi"
- },
- {
-  "bio": [
-   "Raaz Allahabadi (1929–1996) was an Urdu poet from Allahabad."
-  ],
-  "facts": {
-   "Life": "1929–1996",
-   "Place": "Allahabad"
+  {
+    "bio": [
+      "Raaz Allahabadi (1929–1996) was an Urdu poet from Allahabad."
+    ],
+    "facts": {
+      "Life": "1929–1996",
+      "Place": "Allahabad"
+    },
+    "fullName": "Raaz Allahabadi",
+    "id": "raaz-allahabadi",
+    "name": "Raaz Allahabadi"
   },
-  "fullName": "Raaz Allahabadi",
-  "id": "raaz-allahabadi",
-  "name": "Raaz Allahabadi"
- },
- {
-  "bio": [
-   "Wasif Ali Wasif (1929–1993) was a Pakistani writer, poet and Sufi thinker."
-  ],
-  "facts": {
-   "Life": "1929–1993"
+  {
+    "bio": [
+      "Wasif Ali Wasif (1929–1993) was a Pakistani writer, poet and Sufi thinker."
+    ],
+    "facts": {
+      "Life": "1929–1993"
+    },
+    "fullName": "Wasif Ali Wasif",
+    "id": "wasif-ali-wasif",
+    "name": "Wasif Ali Wasif"
   },
-  "fullName": "Wasif Ali Wasif",
-  "id": "wasif-ali-wasif",
-  "name": "Wasif Ali Wasif"
- },
- {
-  "bio": [
-   "Hafiz Mazhar Ud Din Ramdasi (1914–1981), known as Hassan Ul Asar, was a poet from Gurdaspur.",
-   "He is remembered as the author of the Kashmir anthem."
-  ],
-  "facts": {
-   "Life": "1914–1981",
-   "Title": "Hassan Ul Asar"
+  {
+    "bio": [
+      "Hafiz Mazhar Ud Din Ramdasi (1914–1981), known as Hassan Ul Asar, was a poet from Gurdaspur.",
+      "He is remembered as the author of the Kashmir anthem."
+    ],
+    "facts": {
+      "Life": "1914–1981",
+      "Title": "Hassan Ul Asar"
+    },
+    "fullName": "Hafiz Mazhar Ud Din Ramdasi",
+    "id": "hafiz-mazharuddin",
+    "name": "Hafiz Mazharuddin"
   },
-  "fullName": "Hafiz Mazhar Ud Din Ramdasi",
-  "id": "hafiz-mazharuddin",
-  "name": "Hafiz Mazharuddin"
- },
- {
-  "bio": [
-   "Allama Arshad Qadri (1925–2002) was a scholar and poet.",
-   "He was born on 5 March 1925 and died on 29 April 2002."
-  ],
-  "facts": {
-   "Life": "1925–2002"
+  {
+    "bio": [
+      "Allama Arshad Qadri (1925–2002) was a scholar and poet.",
+      "He was born on 5 March 1925 and died on 29 April 2002."
+    ],
+    "facts": {
+      "Life": "1925–2002"
+    },
+    "fullName": "Allama Arshad Qadri",
+    "id": "arshad-qadri",
+    "name": "Arshad Qadri"
   },
-  "fullName": "Allama Arshad Qadri",
-  "id": "arshad-qadri",
-  "name": "Arshad Qadri"
- },
- {
-  "bio": [
-   "Fana Nizami Kanpuri (1922–1988) was an Urdu poet from Kanpur."
-  ],
-  "facts": {
-   "Life": "1922–1988"
+  {
+    "bio": [
+      "Fana Nizami Kanpuri (1922–1988) was an Urdu poet from Kanpur."
+    ],
+    "facts": {
+      "Life": "1922–1988"
+    },
+    "fullName": "Fana Nizami Kanpuri",
+    "id": "fana-nizami-kanpuri",
+    "name": "Fana Nizami Kanpuri"
   },
-  "fullName": "Fana Nizami Kanpuri",
-  "id": "fana-nizami-kanpuri",
-  "name": "Fana Nizami Kanpuri"
- },
- {
-  "bio": [
-   "Maulana Kausar Niazi (1934–1994) was a Pakistani religious leader, politician and poet.",
-   "He was born on 21 April 1934 and died in 1994."
-  ],
-  "facts": {
-   "Life": "1934–1994"
+  {
+    "bio": [
+      "Maulana Kausar Niazi (1934–1994) was a Pakistani religious leader, politician and poet.",
+      "He was born on 21 April 1934 and died in 1994."
+    ],
+    "facts": {
+      "Life": "1934–1994"
+    },
+    "fullName": "Maulana Kausar Niazi",
+    "id": "kausar-niazi",
+    "name": "Kausar Niazi"
   },
-  "fullName": "Maulana Kausar Niazi",
-  "id": "kausar-niazi",
-  "name": "Kausar Niazi"
- },
- {
-  "bio": [
-   "Maulana Abdul Sattar Niazi (1 October 1915 – 2 May 2001) was a Pakistani religious and political figure."
-  ],
-  "facts": {
-   "Life": "1915–2001"
+  {
+    "bio": [
+      "Maulana Abdul Sattar Niazi (1 October 1915 – 2 May 2001) was a Pakistani religious and political figure."
+    ],
+    "facts": {
+      "Life": "1915–2001"
+    },
+    "fullName": "Maulana Abdul Sattar Niazi",
+    "id": "abdul-sattar-niazi",
+    "name": "Abdul Sattar Niazi"
   },
-  "fullName": "Maulana Abdul Sattar Niazi",
-  "id": "abdul-sattar-niazi",
-  "name": "Abdul Sattar Niazi"
- }
+  {
+    "bio": [
+      "Syed Sabihuddin Rehmani (born 27 June 1965) is a Pakistani naat khawan, poet, and naat literature researcher and critic from Karachi. He writes under the pen name Sabih Rehmani and earned his Bachelor of Arts and Master of Arts degrees from the University of Karachi in 1987 and 1998.",
+      "He is the founder and secretary general of the Naat Research Center in Karachi and the editor of the Naat Rang journal. The Government of Pakistan awarded him the Tamgha-e-Imtiaz, and in 2022 he was elected president of Idara Yadgar-e-Ghalib."
+    ],
+    "facts": {
+      "Award": "Tamgha-e-Imtiaz",
+      "Books": "Maah-e-Taiba, Jada-e-Rehmat, Aiwan-e-Na'at",
+      "Life": "Born 1965",
+      "Place": "Karachi, Pakistan",
+      "Real name": "Syed Sabihuddin Rehmani"
+    },
+    "fullName": "Syed Sabihuddin Rehmani",
+    "honorific": "Naat Poet & Researcher",
+    "id": "sabihuddin-rehmani",
+    "name": "Sabihuddin Rehmani"
+  },
+  {
+    "bio": [
+      "Riyaz-ul-Haq, known by the pen name Riyaaz, was born on 13 October 1942 in Jalandhar. He earned a doctorate and became a professor at the Government College of Faisalabad.",
+      "He wrote ghazals and nazms in Urdu and also wrote poetry in Punjabi. His works include Guzartey Waqt Ki Ibadat, Pas Manzer, Nai Aawazein, a compilation of modern poetry, and Rafhan Me Ek Shaam, and he also wrote Naat Rang Ke Idariyon Ki Tanqidi Jihat, a critical study of the editorials of the naat journal Naat Rang."
+    ],
+    "facts": {
+      "Books": "Guzartey Waqt Ki Ibadat, Pas Manzer, Nai Aawazein, Rafhan Me Ek Shaam",
+      "Life": "Born 1942",
+      "Place": "Born in Jalandhar; professor in Faisalabad, Pakistan",
+      "Real name": "Riyaz-ul-Haq"
+    },
+    "fullName": "Riyaz-ul-Haq",
+    "honorific": "Urdu Poet & Professor",
+    "id": "riaz-majid",
+    "name": "Riaz Majid"
+  },
+  {
+    "bio": [
+      "Ahmad Nadeem Qasmi (20 November 1916 – 10 July 2006) was a Pakistani Urdu poet, journalist, literary critic, dramatist and short-story author. Born Ahmad Shah Awan in the village of Angah in Khushab, Punjab, he was a major figure in contemporary Urdu literature and wrote 50 books on poetry, fiction, criticism, journalism and art.",
+      "He founded the literary magazine Funoon and edited and published it for almost half a century, and he received the Pride of Performance award in 1968 and the Sitara-i-Imtiaz in 1980. He died in Lahore on 10 July 2006 of complications from asthma."
+    ],
+    "book": "Jalal-o-Jamal",
+    "facts": {
+      "Award": "Pride of Performance, 1968; Sitara-i-Imtiaz, 1980",
+      "Books": "Jalal-o-Jamal, Shola-i-Gul, Dasht-e-Wafa, Dawam, Muheet (poetry); Chaupaal, Sannata, Kapaas Ka Phool (short stories)",
+      "Life": "1916–2006",
+      "Place": "Angah, Khushab, Punjab (born); Lahore, Pakistan (died)",
+      "Real name": "Ahmad Shah Awan"
+    },
+    "fullName": "Ahmad Shah Awan",
+    "honorific": "Urdu Poet, Journalist & Writer",
+    "id": "ahmad-nadeem-qasmi",
+    "name": "Ahmad Nadeem Qasmi"
+  },
+  {
+    "bio": [
+      "Arif Abdul Mateen (1923-2001) was a prominent Pakistani poet, literary critic and editor who wrote in Urdu and Punjabi. Born on 1 March 1923 in Amritsar, British India, he moved to Lahore after his early education in Amritsar, and later taught Islamiyat as a lecturer at Government M.A.O. College, Lahore.",
+      "He edited several leading literary journals, including Adab-e-Lateef, Sawera, Javed, Auraq and Mahol, and was counted among the important modern poets of Urdu and Punjabi. His poetry collections include Dida-o-Dil, Aatish-e-Sayyal, Mauj Dar Mauj and Saleeb-e-Gham, and his naat collections Be-Misaal (1985) and Ambar Teri Thaan (1990). In 1992 the Government of Pakistan awarded him the Presidential Pride of Performance."
+    ],
+    "facts": {
+      "Books": "Dida-o-Dil, Aatish-e-Sayyal, Mauj Dar Mauj, Saleeb-e-Gham; naat collections Be-Misaal (1985) and Ambar Teri Thaan (1990)",
+      "Life": "1923-2001",
+      "Place": "Amritsar, British India (later Lahore, Pakistan)"
+    },
+    "fullName": "Arif Abdul Mateen",
+    "honorific": "Urdu & Punjabi Poet, Critic & Editor",
+    "id": "arif-abdul-mateen",
+    "name": "Arif Abdul Mateen"
+  },
+  {
+    "bio": [
+      "Sarshar Siddiqui (1926-2014) was a Pakistani Urdu poet, writer, critic and columnist. Born Asrar Hussain Mohammad Amaan on 25 December 1926 in Kanpur, India, his first ghazal was published in 1944 in the Lucknow journal Nigar, and his first book of poetry, Irtiqa, appeared in 1949. He migrated to Pakistan in 1950 and worked at the National Bank of Pakistan from 1955 until his retirement in 1984.",
+      "His early poetry was sceptical and shaped by the Progressive Writers Movement, with migration and displacement as recurring themes. After performing Umrah in 1984 he turned to religious verse, writing naat — at times in free verse and haiku — and his last book of poetry, Khizaan ki Aakhri Shaam, was published in 1988. He was also a prolific columnist for the Express and Jang newspapers, and died in Karachi on 7 September 2014."
+    ],
+    "facts": {
+      "Books": "Irtiqa (1949), Pathar ki Lakeer, Abjad, Baynaam, Khizaan ki Aakhri Shaam (1988)",
+      "Life": "1926-2014",
+      "Place": "Kanpur, India (later Karachi, Pakistan)",
+      "Real name": "Asrar Hussain Mohammad Amaan"
+    },
+    "fullName": "Asrar Hussain Mohammad Amaan",
+    "honorific": "Urdu Poet, Writer & Columnist",
+    "id": "sarshar-siddiqui",
+    "name": "Sarshar Siddiqui"
+  },
+  {
+    "bio": [
+      "Sikandar Ali Wajd (1914-1983) was an Urdu poet from Aurangabad, Maharashtra, equally skilled in ghazal and nazm. Born Sikandar Ali on 22 January 1914 in Aurangabad, he was selected for the Hyderabad Civil Service in 1935, served as a munsif magistrate, and retired as a sessions judge. In 1972 he was elected to the Rajya Sabha from Maharashtra.",
+      "He was president of the Anjuman Taraqqi-i-Urdu, Maharashtra, and was awarded the Padma Shri in 1970 for his literary services. His poetry collections include Lahu Tarang (1944), Aftab-e-Taza (1952), Auraq-e-Musavvar (1963) — released by Pandit Jawaharlal Nehru — and Bayaz-e-Maryam (1974). His well-known poems include 'Ajanta', 'Ellora', 'Taj Mahal' and 'Karvan-e-Zindagi'. He died in Aurangabad on 16 June 1983."
+    ],
+    "book": "Auraq-e-Musavvar",
+    "facts": {
+      "Books": "Lahu Tarang (1944), Aftab-e-Taza (1952), Auraq-e-Musavvar (1963), Bayaz-e-Maryam (1974)",
+      "Life": "1914-1983",
+      "Place": "Aurangabad, Maharashtra, India",
+      "Real name": "Sikandar Ali"
+    },
+    "fullName": "Sikandar Ali",
+    "honorific": "Urdu Poet & Padma Shri Awardee",
+    "id": "sikandar-ali-wajd",
+    "name": "Sikandar Ali Wajd"
+  },
+  {
+    "bio": [
+      "Ameer Minai (1829–1900) was a 19th-century Indian Urdu poet, born in Lucknow and educated at Farangi Mahal. After the revolt of 1857 he moved to Rampur, where he spent most of his life at the Nawab's court, and he died in Hyderabad in 1900.",
+      "He wrote in Urdu, Persian and Arabic and is best known for his ghazals and for helping to popularise the naat in Urdu poetry. His greatest work was the Urdu dictionary Ameer-ul-Lughaat, planned in eight volumes, of which only two were published, in 1891 and 1892."
+    ],
+    "book": "Ameer-ul-Lughaat",
+    "facts": {
+      "Life": "1829–1900",
+      "Place": "Lucknow, Rampur & Hyderabad",
+      "Real name": "Ameer Ahmad Minai",
+      "Books": "Ameer-ul-Lughaat (1891, 1892)"
+    },
+    "fullName": "Ameer Ahmad Minai",
+    "honorific": "Urdu Poet & Lexicographer",
+    "id": "ameer-minai",
+    "name": "Ameer Minai"
+  },
+  {
+    "bio": [
+      "Jagan Nath Azad (1918–2004) was an Indian Urdu poet, writer and academician, born in Isa Khel in Mianwali district (now in Pakistan). He was a leading authority on the life and works of Allama Iqbal, served as Professor and Head of Urdu at the University of Jammu, and wrote over 70 books.",
+      "He is popularly believed to have written Pakistan's first national anthem at Muhammad Ali Jinnah's request, a claim he himself made shortly before his death. His works include his biography of Iqbal, Roodad-e-Iqbal, and the travelogues Pushkin Ke Des Mein and Columbus Ke Des Mein."
+    ],
+    "facts": {
+      "Books": "Roodad-e-Iqbal, Iqbal: Mind and Art, Pushkin Ke Des Mein",
+      "Life": "1918–2004",
+      "Place": "Isa Khel, Mianwali; New Delhi"
+    },
+    "fullName": "Jagan Nath Azad",
+    "honorific": "Urdu Poet, Writer & Academician",
+    "id": "jagan-nath-azad",
+    "name": "Jagan Nath Azad"
+  },
+  {
+    "bio": [
+      "Sheikh Saadi Shirazi (c. 1210–1291) was a Persian poet and prose writer from Shiraz, one of the greatest poets of the classical Persian tradition. He studied in Baghdad, travelled widely for some thirty years, and returned to Shiraz around 1257.",
+      "His two masterpieces, the Bustan (1257), a book of verse, and the Gulistan (1258), in rhymed prose interspersed with poetry, made him famous across the Persian-speaking world. On this site he is known for Balaghal Ula, the famous opening lines in praise of the Prophet."
+    ],
+    "book": "Gulistan",
+    "facts": {
+      "Life": "c. 1210–1291",
+      "Place": "Shiraz, Persia",
+      "Real name": "Abu-Muhammad Muslih al-Din bin Abdallah Shirazi",
+      "Books": "Gulistan (1258), Bustan (1257)"
+    },
+    "fullName": "Abu-Muhammad Muslih al-Din bin Abdallah Shirazi",
+    "honorific": "Persian Poet & Moralist",
+    "id": "sheikh-saadi-shirazi",
+    "name": "Sheikh Saadi Shirazi"
+  }
 ]
