@@ -77,10 +77,10 @@ body.dark .tab.active{color:#a7f3d0;border-bottom-color:#a7f3d0}
 
 
 .see-more{display:block;width:100%;margin:20px 0;padding:12px;border:1px solid #0b3d2e;border-radius:10px;background:#fff;color:#0b3d2e;font-size:1rem;font-weight:600;cursor:pointer}
-.site-footer{background:#0b3d2e;color:#d1d5db;padding:20px 16px 24px;text-align:center;margin-top:0}
+.site-footer{background:#0b3d2e;color:#d1d5db;padding:12px 16px 14px;text-align:center;margin-top:0}
 .site-footer .foot-inner{max-width:960px;margin:0 auto}
-.site-footer .foot-logo{font-family:'Dancing Script',cursive;font-size:1.4rem;color:#fff;letter-spacing:0;margin:0 auto 8px}
-.site-footer p{margin:6px auto;max-width:700px}
+.site-footer .foot-logo{font-family:'Dancing Script',cursive;font-size:1.4rem;color:#fff;letter-spacing:0;margin:0 auto 4px}
+.site-footer p{margin:4px auto;max-width:700px}
 .site-footer .foot-cats{color:#a7f3d0}
 .site-footer .foot-copy{color:#9ca3af;font-size:.85rem}
 body.dark .site-footer{background:#052e22;color:#d1d5db}
