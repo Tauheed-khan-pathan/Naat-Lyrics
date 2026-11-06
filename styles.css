@@ -32,6 +32,7 @@ body.dark .icon-moon{display:none}
 .searchpill input::-webkit-search-cancel-button,.searchpill input::-ms-clear{display:none}
 main{max-width:960px;margin:0 auto;padding:20px 16px 8px}.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin:16px 0;overflow-wrap:anywhere}
 .card h2{margin:0 0 4px;font-size:1.3rem}.card h1{margin:0 0 4px;font-size:1.3rem}.card h2 a{color:#0b3d2e;text-decoration:none}.card h2 a:hover{text-decoration:underline}
+.card mark{background:#fde047;color:#1f2937;padding:0 2px;border-radius:2px}
 .meta{color:#6b7280;font-size:.9rem}.lines{white-space:pre-line;margin-top:12px;overflow-wrap:anywhere}.preview{color:#374151}
 .read{display:block;margin:14px 8px 0;padding:10px 16px;border-radius:8px;cursor:pointer;font-size:.95rem;font-weight:600;text-decoration:none;text-align:center}
 .read{border:1px solid #0b3d2e;background:#0b3d2e;color:#fff}

@@ -122,11 +122,58 @@ function fullText(x){
   return x.title+' '+(x.roman||[]).join(' ')+' '+(x.hindi||[]).join(' ')+' '+((x.urdu)||[]).join(' ')
     +' '+((ov.roman)||[]).join(' ')+' '+((ov.hindi)||[]).join(' ')+' '+((ov.urdu)||[]).join(' ');
 }
-function card(x){
+// ---- Search highlight ----
+// The matched line (title or a sher line) is marked with a yellow
+// highlighter in the card, like a highlighter pen on a page. It runs ONLY
+// on the cards already rendered (max 20 per page), never during the search
+// scan, so searching stays exactly as fast as before. Words are marked
+// whole (substring or 1-2 edits — the same rule the search itself uses),
+// so a typo hit still highlights its word.
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function highlight(text,q){
+  if(!q) return text;
+  const low=text.toLowerCase();
+  const qwords=queryWords(q);
+  const spans=[];
+  const sep=/[^a-z0-9\u0900-\u097F\u0600-\u06FF]+/g;
+  let m, last=0;
+  const markWord=(w,s,e)=>{ if(w && qwords.some(qw=>wordMatch(qw,w))) spans.push([s,e]); };
+  while((m=sep.exec(low))!==null){ markWord(low.slice(last,m.index),last,m.index); last=sep.lastIndex; }
+  markWord(low.slice(last),last,low.length);
+  // Very short query (no 3+ letter words): fall back to the exact phrase.
+  if(!spans.length && low.includes(q)){ const i=low.indexOf(q); spans.push([i,i+q.length]); }
+  if(!spans.length) return esc(text);
+  spans.sort((a,b)=>a[0]-b[0]);
+  let out='', pos=0;
+  for(const [s,e] of spans){
+    if(s<pos) continue;
+    out+=esc(text.slice(pos,s))+'<mark>'+esc(text.slice(s,e))+'</mark>';
+    pos=e;
+  }
+  return out+esc(text.slice(pos));
+}
+// First lyric line (Roman, then Hindi, Urdu, Other Version) that matches
+// the query — shown as a highlighted snippet when the match is deeper than
+// the card's 2-line preview. Only called for rendered full-text hits.
+function firstMatchLine(x,q){
+  const pools=[...(x.roman||[]),...(x.hindi||[]),...(x.urdu||[])];
+  const ov=x.other_version||{};
+  pools.push(...(ov.roman||[]),...(ov.hindi||[]),...(ov.urdu||[]));
+  for(const line of pools){ if(strongMatch(line,q)) return line; }
+  for(const line of pools){ if(fuzzyMatch(line,q)) return line; }
+  return null;
+}
+function card(x,q,fullOnly){
   const preview=x.preview || (x.roman||[]).slice(0,2);
   const poetObj=poets.find(p=>p.name===x.poet);
-  const poetHtml=poetObj?`<a href="poet.html?id=${poetObj.id}">${x.poet}</a>`:x.poet;
-  return `<article class="card"><h2><a href="lyric/${x.id}.html">${x.title}</a></h2><div class="meta">${x.category} • Shayar: ${poetHtml}</div><div class="lines preview" style="font-size:${size}rem">${preview.join('\n')}</div><a class="read" href="lyric/${x.id}.html">Read full ${x.category||'lyrics'}</a></article>`;
+  const poetName=highlight(x.poet,q||'');
+  const poetHtml=poetObj?`<a href="poet.html?id=${poetObj.id}">${poetName}</a>`:poetName;
+  let snippet='';
+  if(q && fullOnly && fullOnly.has(x.id)){
+    const ml=firstMatchLine(x,q);
+    if(ml && !preview.includes(ml)) snippet=`<div class="lines preview" style="font-size:${size}rem">… ${highlight(ml,q)}</div>`;
+  }
+  return `<article class="card"><h2><a href="lyric/${x.id}.html">${highlight(x.title,q||'')}</a></h2><div class="meta">${highlight(x.category,q||'')} • Shayar: ${poetHtml}</div><div class="lines preview" style="font-size:${size}rem">${preview.map(l=>highlight(l,q||'')).join('\n')}</div>${snippet}<a class="read" href="lyric/${x.id}.html">Read full ${x.category||'lyrics'}</a></article>`;
 }
 function miniCard(x){
   return `<a class="mini-card" href="lyric/${x.id}.html"><strong>${x.title}</strong><span>${x.category} • Shayar: ${x.poet}</span></a>`;
@@ -134,6 +181,7 @@ function miniCard(x){
 function render(reset=true){
   if(reset) shown=PAGE;
   const q=searchEl.value.trim().toLowerCase();
+  let fullOnly=null;
   // Exact first: a plain substring scan is cheap; the fuzzy (edit-distance)
   // scan runs only when no exact match exists, so typing stays fast.
   let items=all.filter(x=>(cat==='All'||x.category===cat) && (!q || strongMatch(indexText(x),q)));
@@ -156,6 +204,9 @@ function render(reset=true){
     const exactIds=new Set(exact.map(x=>x.id));
     const indexIds=new Set(items.map(x=>x.id));
     items=[...exact, ...items.filter(x=>!exactIds.has(x.id)), ...fm.filter(x=>!exactIds.has(x.id) && !indexIds.has(x.id))];
+    // Full-text-only hits (no index match): their matching line may be deeper
+    // than the card preview, so the card shows it as a highlighted snippet.
+    fullOnly=new Set(items.filter(x=>!indexIds.has(x.id)).map(x=>x.id));
   }
   if(!q && cat==='All'){
     const cats=[...new Set(all.map(x=>x.category))];
@@ -170,14 +221,14 @@ function render(reset=true){
       `<section><h2 class="section-title">Most Read</h2><div class="hscroll">${popular.map(miniCard).join('')}</div></section>` +
       `<section><h2 class="section-title">Recently Added</h2><div class="hscroll">${recent.map(miniCard).join('')}</div></section>` +
       (poets.length?`<section><h2 class="section-title">Shuara (Poets)</h2><div class="hscroll">${poets.map(pp=>{const n=all.filter(x=>x.poet===pp.name).length; return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${pp.honorific||''}</span><span>${fmtCount(n)} kalaam</span></a>`;}).join('')}</div></section>`:'') +
-      `<section><h2 class="section-title">All Lyrics</h2>${items.slice(0,shown).map(card).join('')}${items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:''}</section>`;
+      `<section><h2 class="section-title">All Lyrics</h2>${items.slice(0,shown).map(x=>card(x,q,fullOnly)).join('')}${items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:''}</section>`;
     listEl.querySelectorAll('.catbox').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render(); window.scrollTo({top:0,behavior:'smooth'});});
   } else {
     // "Did you mean" scans the whole vocabulary — run it only when nothing
     // matched, not on every keystroke.
     const sugg=(q && items.length===0)?suggestCorrection(q):null;
     const suggHtml=sugg?`<div class="empty"><p>Did you mean: <a href="#" id="didYouMean">${sugg}</a>?</p></div>`:'';
-    listEl.innerHTML = suggHtml + (items.length ? items.slice(0,shown).map(card).join('') + (items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:'') : '<div class="empty"><p>No results found.</p><p>Try another word, or just part of a line — search works across every line and word.</p></div>');
+    listEl.innerHTML = suggHtml + (items.length ? items.slice(0,shown).map(x=>card(x,q,fullOnly)).join('') + (items.length>shown?`<button id="seeMore" class="see-more">See more (${items.length-shown} more)</button>`:'') : '<div class="empty"><p>No results found.</p><p>Try another word, or just part of a line — search works across every line and word.</p></div>');
     const suggLink=document.getElementById('didYouMean');
     if(suggLink) suggLink.onclick=(e)=>{e.preventDefault(); searchEl.value=sugg; syncClear(); render(); searchEl.focus();};
   }
