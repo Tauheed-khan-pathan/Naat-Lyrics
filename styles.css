@@ -132,12 +132,11 @@ body.dark .meta a{color:#a7f3d0}
 .lines.urdu-lines[data-font="0"]{font-family:'Noto Nastaliq Urdu',serif}
 .lines.urdu-lines[data-font="1"]{font-family:'Scheherazade New',serif}
 .lines.urdu-lines[data-font="2"]{font-family:inherit}
-.font-float{position:fixed;left:50%;transform:translateX(-50%);bottom:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:100;display:flex;align-items:center;gap:8px;background:#0b3d2e;color:#fff;padding:8px 14px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+.font-float{position:fixed;left:50%;transform:translateX(-50%) translateY(calc(var(--lift, 0px) * -1));bottom:18px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:100;display:flex;align-items:center;gap:8px;background:#0b3d2e;color:#fff;padding:8px 14px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.35)}
 .font-cycle-btn{background:transparent;border:0;color:inherit;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:5px;padding:2px 8px;font-size:.95rem;font-weight:600;transition:transform .15s ease}
-.font-cycle-btn:active{transform:scale(.93)}
 .font-cycle-dashes{display:flex;gap:5px;align-items:center}
-.fdash{display:block;width:9px;height:3px;border-radius:99px;background:rgba(255,255,255,.35);transition:width .3s ease,background .3s ease,box-shadow .3s ease}
-.fdash.on{width:20px;background:#fff;animation:fdashPulse 1.6s ease-in-out infinite}
+.fdash{display:block;width:9px;height:3px;border-radius:99px;background:rgba(255,255,255,.35);transition:background .3s ease,box-shadow .3s ease}
+.fdash.on{background:#fff;animation:fdashPulse 1.6s ease-in-out infinite}
 @keyframes fdashPulse{0%,100%{box-shadow:0 0 3px rgba(255,255,255,.5)}50%{box-shadow:0 0 10px rgba(255,255,255,.95)}}
 body.dark .font-float{background:#a7f3d0;color:#0b3d2e}
 body.dark .fdash{background:rgba(11,61,46,.35)}
@@ -207,9 +206,8 @@ body.dark .az-home-link a{background:#a7f3d0;color:#052e22}
 /* Back-to-top button (WhatsApp scroll button jaisa): chhota, bottom-right,
    sirf scroll karne par dikhta hai. Chhupa hone par us jagah click ka koi
    asar nahi hota (pointer-events none + visibility hidden). */
-.to-top-btn{position:fixed;right:16px;bottom:20px;bottom:calc(20px + env(safe-area-inset-bottom));z-index:900;width:40px;height:40px;border:0;border-radius:50%;background:#0b3d2e;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(10px);transition:opacity .3s ease,transform .3s ease,visibility .3s;-webkit-tap-highlight-color:transparent}
+.to-top-btn{position:fixed;right:16px;bottom:20px;bottom:calc(20px + var(--lift, 0px) + env(safe-area-inset-bottom));z-index:900;width:40px;height:40px;border:0;border-radius:50%;background:#0b3d2e;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(10px);transition:opacity .3s ease,transform .3s ease,visibility .3s;-webkit-tap-highlight-color:transparent}
 .to-top-btn.show{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}
-.to-top-btn:active{transform:scale(.93)}
 .to-top-btn svg{width:22px;height:22px;flex:none}
 body.dark .to-top-btn{background:#a7f3d0;color:#0b3d2e}
 body.loading .to-top-btn{display:none}

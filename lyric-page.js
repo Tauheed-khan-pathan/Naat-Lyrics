@@ -1,7 +1,7 @@
 // Shared behaviour for static lyric pages (lyric/<id>.html) — Audit D.
 // The lyric text is already in the HTML (one div per language); this
 // script only toggles languages, font size, font choice, dark mode,
-// the header search pill, the font-pill lifter and the share button.
+// the header search pill, the footer-aware button lift and the share button.
 // No fetch, no loader: a static page renders instantly.
 let lang = 'roman', size = 1.1;
 const FONT_NAMES = {roman: ['Default', 'Ballmain', 'Merriweather', 'Lora'], hindi: ['Default', 'Noto Sans Devanagari', 'Baloo 2'], urdu: ['Noto Nastaliq', 'Scheherazade New', 'System Default']};
@@ -41,6 +41,7 @@ function showLang() {
     }
   });
   document.querySelectorAll('.lang button[data-lang]').forEach(y => y.classList.toggle('active', y.dataset.lang === lang));
+  if (window.__updateLift) window.__updateLift();
 }
 showLang();
 document.querySelectorAll('.lang button[data-lang]').forEach(b => b.onclick = () => {
@@ -80,25 +81,28 @@ document.getElementById('fontDown').onclick = () => { size = Math.max(0.9, size 
   window.addEventListener('pageshow', apply);
   window.addEventListener('storage', function (e) { if (e.key === 'naat-dark') apply(); });
 })();
-// Font-pill lifter: keep the pill just above the footer.
+// Footer-aware lift: keep both floating buttons (Font pill + back-to-top)
+// just above the footer — neither may overlap it. The lift is a CSS var
+// (--lift) so both buttons move together and stop on the same line.
+// It is re-measured on every update because font changes reflow the page
+// and move the footer; showLang() calls __updateLift after every change.
 (function () {
-  var pill = document.querySelector('.font-float');
   var foot = document.querySelector('.site-footer');
-  if (!pill || !foot) return;
-  var footTop = 0, last = '', ticking = false;
-  function measure() { footTop = foot.getBoundingClientRect().top + window.scrollY; }
+  if (!foot) return;
+  var last = -1, ticking = false;
   function update() {
     ticking = false;
-    var lift = Math.round((window.scrollY + window.innerHeight) - footTop);
-    var t = lift > 0 ? 'translateX(-50%) translateY(' + (-lift) + 'px)' : '';
-    if (t !== last) { last = t; pill.style.transform = t; }
+    var footTop = foot.getBoundingClientRect().top + window.scrollY;
+    var lift = Math.max(0, Math.round((window.scrollY + window.innerHeight) - footTop));
+    if (lift !== last) { last = lift; document.documentElement.style.setProperty('--lift', lift + 'px'); }
   }
   function req() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
   window.addEventListener('scroll', req, { passive: true });
-  window.addEventListener('resize', function () { measure(); update(); });
-  window.addEventListener('load', function () { measure(); update(); });
-  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(function () { measure(); update(); }); }
-  measure(); update();
+  window.addEventListener('resize', update);
+  window.addEventListener('load', update);
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(update); }
+  window.__updateLift = update;
+  update();
 })();
 
 // Clear a stale search pill value when the lyric page is restored from the
