@@ -1,8 +1,9 @@
+const DV='v=8';
 let all=[], poets=[], cat='All', size=1.05, full=null, fullLoading=false;
-fetch('poets.json?v=7').then(r=>r.json()).then(d=>{poets=d; if(all.length) render(false);}).catch(()=>{});
+fetch('poets.json?'+DV).then(r=>r.json()).then(d=>{poets=d; if(all.length) render(false);}).catch(()=>{});
 const PAGE=20; let shown=PAGE;
 const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search');
-fetch('lyrics-index.json').then(r=>r.json()).then(d=>{all=d; const q=new URLSearchParams(location.search).get('q'); if(q){searchEl.value=q; syncClear();} buildTabs(); render();}).catch(()=>{document.body.classList.remove('loading');});
+fetch('lyrics-index.json?'+DV).then(r=>r.json()).then(d=>{all=d; const q=new URLSearchParams(location.search).get('q'); if(q){searchEl.value=q; syncClear();} buildTabs(); render();}).catch(()=>{document.getElementById('list').innerHTML='<div class="empty"><p>Could not load the index. Please try again.</p></div>';document.body.classList.remove('loading');});
 // Rounded counts (never exact detail above 100): exact below 100,
 // nearest 100+ below 1000, nearest K+ at 1000+ (1, 44, 100+, 200+, 500+, 900+, 1K+, 3K+).
 function fmtCount(n){
@@ -190,11 +191,11 @@ function render(reset=true){
   if(q && !full && !fullLoading && (items.length===0 || !strong)){
     fullLoading=true;
     Promise.all([
-      fetch('lyrics-a.json').then(r=>r.json()).catch(()=>[]),
-      fetch('lyrics-b.json').then(r=>r.json()).catch(()=>[]),
-      fetch('lyrics-c.json').then(r=>r.json()).catch(()=>[]),
-      fetch('lyrics-d.json').then(r=>r.json()).catch(()=>[]),
-      fetch('lyrics-e.json').then(r=>r.json()).catch(()=>[])
+      fetch('lyrics-a.json?'+DV).then(r=>r.json()).catch(()=>[]),
+      fetch('lyrics-b.json?'+DV).then(r=>r.json()).catch(()=>[]),
+      fetch('lyrics-c.json?'+DV).then(r=>r.json()).catch(()=>[]),
+      fetch('lyrics-d.json?'+DV).then(r=>r.json()).catch(()=>[]),
+      fetch('lyrics-e.json?'+DV).then(r=>r.json()).catch(()=>[])
     ]).then(parts=>{full=[...parts[0],...parts[1],...parts[2],...parts[3],...parts[4]]; fullLoading=false; render();});
     listEl.innerHTML='<div class="empty"><p>Searching full lyrics, please wait…</p></div>';
     return;
