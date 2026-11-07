@@ -34835,5 +34835,71 @@
       "Zulm ke andhero mein sabr kee kahaanee hai",
       "Al aatash kee aavaaze door tak na paanee hai"
     ]
+  },
+  {
+    "id": "an-nabi-sallu-alaih",
+    "title": "An Nabi Sallu Alaih",
+    "category": "Naat",
+    "poet": "Owais Raza Qadri",
+    "khawan": "Owais Raza Qadri",
+    "preview": [
+      "An-Nabi Sallu Alaih, Salawatullah Alaih",
+      "Ya Rasoolallah, Ya Rasoolallah"
+    ]
+  },
+  {
+    "id": "dil-karda-allah-allah",
+    "title": "Dil Karda Allah Allah",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Muhammad Umair Zubair Qadri",
+    "preview": [
+      "Meri Ruh Payi Rab Rab Kardi Ay Dil Karda Allah Allah",
+      "Meri Ruh Payi Rab Rab Kardi Ay Dil Karda Ay Allah Allah Hoo"
+    ]
+  },
+  {
+    "id": "jagah-ji-lagane-ki-duniya-nahi-hai",
+    "title": "Jagah Ji Lagane Ki Duniya Nahi Hai",
+    "category": "Hamd",
+    "poet": "Khwaja Azizul Hasan Majzoob",
+    "khawan": "Owais Raza Qadri",
+    "preview": [
+      "Tu Khushi Ke Phool Lega Kab Talak?",
+      "Tu Yahan Zinda Rahega Kab Talak?"
+    ]
+  },
+  {
+    "id": "jalwa-e-jana",
+    "title": "Jalwa-e-Jana",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Junaid Jamshed",
+    "preview": [
+      "Jalwa-e-Janaan, Jalwa-e-Janaan",
+      "Jalwa-e-Janaan, Jalwa-e-Janaan"
+    ]
+  },
+  {
+    "id": "mein-aur-mere-maa-baap-hon-qurban-e-muhammad",
+    "title": "Mein Aur Mere Maa Baap Hon Qurban-e-Muhammad",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Junaid Jamshed",
+    "preview": [
+      "Qurban-e-Muhammad Qurban-e-Muhammad",
+      "Shan-e-Muhammad"
+    ]
+  },
+  {
+    "id": "ye-subh-e-madina",
+    "title": "Ye Subh-e-Madina",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Junaid Jamshed",
+    "preview": [
+      "Ye Subh-e-Madina Ye Sham-e-Madina",
+      "Mubarak Tujhe Ye Qayam-e-Madina"
+    ]
   }
 ]
