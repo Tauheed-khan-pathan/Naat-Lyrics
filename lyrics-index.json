@@ -34901,5 +34901,2469 @@
       "Ye Subh-e-Madina Ye Sham-e-Madina",
       "Mubarak Tujhe Ye Qayam-e-Madina"
     ]
+  },
+  {
+    "id": "meri-zindagi-ke-rahbar-bade-peer-ghaus-e-azam",
+    "title": "Meri Zindagi Ke Rahbar Bade Peer Ghaus-e-Azam",
+    "category": "Manqabat",
+    "poet": "Akhtar Parwaz Naeemi",
+    "khawan": "Akhtar Parwaz Naeemi, Mufti Arif Raza Quraishi",
+    "preview": [
+      "meri zindagi ke rahbar, bade peer ghaus-e-aa'zam!",
+      "nahin tum sa koi behtar, bade peer ghaus-e-aa'zam!"
+    ]
+  },
+  {
+    "id": "betalab-bheek-yahan-milti-hai-aate-jate-ye-wo-dar-hai-jahan-dil-nahin-tode-jate",
+    "title": "Betalab Bheek Yahan Milti Hai Aate Jate | Ye Wo Dar Hai Jahan Dil Nahin Tode Jate",
+    "category": "Naat",
+    "poet": "Syed Altaf Shah Kazmi",
+    "khawan": "Syed Altaf Shah Kazmi, Khalid Hasnain Khalid, Sayyed Abdul Wasi Qadri Razavi",
+    "preview": [
+      "be-talab bheek yahaan milti hai aate jaate",
+      "ye wo dar hai jahaan dil nahin tode jaate"
+    ]
+  },
+  {
+    "id": "rab-de-yaar-da-yaar-siddiq-sunniyan-da-dildar-siddiq",
+    "title": "Rab De Yaar Da Yaar Siddiq | Sunniyan Da Dildar Siddiq",
+    "category": "Manqabat",
+    "poet": "Syed Altaf Shah Kazmi",
+    "khawan": "Syed Altaf Shah Kazmi, Alhaj Sajid Qadri",
+    "preview": [
+      "siddiq-e-akbar! siddiq-e-akbar!",
+      "siddiq-e-akbar! siddiq-e-akbar!"
+    ]
+  },
+  {
+    "id": "apne-halaat-ko-main-bataun-kise-tere-hote-hue-khwaja-e-khwajgan",
+    "title": "Apne Halaat Ko Main Bataun Kise Tere Hote Hue Khwaja-e-Khwajgan",
+    "category": "Manqabat",
+    "poet": "Ashraf Ashrafi",
+    "khawan": "Moinuddin Bulbule Mustajab",
+    "preview": [
+      "apne haalaat ko main bataaun kise",
+      "tere hote hue, khwaja-e-khwaajgaan !"
+    ]
+  },
+  {
+    "id": "mila-ali-ka-gharana-ki-ham-husaini-hain",
+    "title": "Mila Ali Ka Gharana Ki Ham Husaini Hain",
+    "category": "Manqabat",
+    "poet": "Ashraf Ashrafi",
+    "khawan": "Noushad Ali Khan, Parvez Alam Ashrafi",
+    "preview": [
+      "mila ali ka gharaana ki ham husaini hain",
+      "ye keh raha hai zamaana ki ham husaini hain"
+    ]
+  },
+  {
+    "id": "phool-bhi-muskurane-laga-hai-pattiyaan-muskurane-lagi-hain",
+    "title": "Phool Bhi Muskurane Laga Hai Pattiyaan Muskurane Lagi Hain",
+    "category": "Naat",
+    "poet": "Dilbar Shaahi",
+    "khawan": "Dilbar Shaahi",
+    "preview": [
+      "Phool bhi muskurane laga Hai, pattiyaan muskurane lagi Hai",
+      "Aa gayi Hai baharein chaman Mein, titaliyaan muskurane lagi Hai"
+    ]
+  },
+  {
+    "id": "rozy-khuda-ne-di-hai-khilate-hain-mustafa",
+    "title": "Rozy Khuda Ne Di Hai Khilate Hain Mustafa",
+    "category": "Naat",
+    "poet": "Dilbar Shaahi",
+    "khawan": "Dilbar Shaahi, Azam Iqbal Rampuri",
+    "preview": [
+      "Rozy Khuda Ne di Hai, khilate Hai Mustafa",
+      "Duniya Hai Ye Khuda ki, chalate Hai Mustafa"
+    ]
+  },
+  {
+    "id": "aa-gaye-huzoor-aa-gaye",
+    "title": "Aa Gaye Huzoor Aa Gaye",
+    "category": "Naat",
+    "poet": "Habeebullah Faizi",
+    "khawan": "Habeebullaah Faizi, Qari Riyaazuddeen Ashrafi",
+    "preview": [
+      "Jashn-e-eid-e-baarwein mana",
+      "Aa gaye Huzoor Aa gaye"
+    ]
+  },
+  {
+    "id": "aankhon-mein-noor-aa-gaya-hai-jis-ne-madina-dekha-hai",
+    "title": "Aankhon Mein Noor Aa Gaya Hai Jis Ne Madina Dekha Hai",
+    "category": "Naat",
+    "poet": "Habeebullah Faizi",
+    "khawan": "Habibullah Faizi",
+    "preview": [
+      "Aankhon Mein Noor Aa gaya Hai",
+      "Jis Ne Madina dekha Hai"
+    ]
+  },
+  {
+    "id": "chamakne-laga-sunniyat-ka-sitaara-bareilly-mein-ahmad-raza-jab-se-aaye",
+    "title": "Chamakne Laga Sunniyat Ka Sitaara Bareilly Mein Ahmad Raza Jab Se Aaye",
+    "category": "Manqabat",
+    "poet": "Habeebullah Faizi",
+    "khawan": "Habibullah Faizi",
+    "preview": [
+      "Chamakne laga sunniyat ka sitaara, bareilly Mein Ahmad Raza jab se aaye",
+      "Huwa sard fitnon ka Har ik sharaara, bareilly Mein Ahmad Raza jab se aaye"
+    ]
+  },
+  {
+    "id": "hoga-ek-jalsa-hashr-mein-aisa",
+    "title": "Hoga Ek Jalsa Hashr Mein Aisa",
+    "category": "Naat",
+    "poet": "Habeebullah Faizi",
+    "khawan": "Habeebullaah Faizi",
+    "preview": [
+      "Hoga Ek jalsa hashr Mein aisa",
+      "Jis Mein Sarkar ki azmat pe khitaabat hogi"
+    ]
+  },
+  {
+    "id": "mil-gaya-mujh-ko-sharfe-huzoori-agar",
+    "title": "Mil Gaya Mujh Ko Sharfe-Huzoori Agar",
+    "category": "Naat",
+    "poet": "Habeebullah Faizi",
+    "khawan": "Habeebullaah Faizi",
+    "preview": [
+      "Mil gaya Mujh ko sharfe-Huzuri agar",
+      "Main kahoo Kya Kya Sar par utha laaoongaa"
+    ]
+  },
+  {
+    "id": "imam-e-ambiya-habeeb-e-kibriya-mere-huzoor-di-koi-misaal-nain",
+    "title": "Imam-e-Ambiya Habeeb-e-Kibriya Mere Huzoor Di Koi Misaal Nain",
+    "category": "Naat",
+    "poet": "Imran Aajiz",
+    "khawan": "Raao Hassaan Ali Asad",
+    "preview": [
+      "Phire zamane Mein chaar jaanib, nigaar-E-yakta tumhi ko dekha",
+      "Haseen dekhe, jameel dekhe, bas Ek tumsa tumhi ko dekha"
+    ]
+  },
+  {
+    "id": "ya-nabi-ab-madine-bula-lijiye",
+    "title": "Ya Nabi Ab Madine Bula Lijiye",
+    "category": "Naat",
+    "poet": "Imran Aajiz",
+    "khawan": "Ali Raza Noori",
+    "preview": [
+      "Ya Nabi ! ab Madine bula lijiye",
+      "Door reh kar nahin ab guzara"
+    ]
+  },
+  {
+    "id": "lafz-khud-naat-ke-imkaan-mein-aa-jaate-hain",
+    "title": "Lafz Khud Naat Ke Imkaan Mein Aa Jaate Hain",
+    "category": "Naat",
+    "poet": "Khalid Mahboob",
+    "khawan": "Khalid Hasnain Khalid",
+    "preview": [
+      "Lafz khud na't ke imkaan mein aa jaate hain",
+      "Jab bhi sarkaar mere dhyaan mein aa jaate hain"
+    ]
+  },
+  {
+    "id": "ho-mubarak-aa-gaya-hai-hajj-ka-mausam-momino",
+    "title": "Ho Mubarak Aa Gaya Hai Hajj Ka Mausam Momino",
+    "category": "Naat",
+    "poet": "Moulana Latif ur Rehman",
+    "khawan": "Hafiz Amanullah Qazi",
+    "preview": [
+      "ho mubarak aa gaya hai hajj ka mausam momino",
+      "khoob maango ab dua ba-chashm-e-purnam momino"
+    ]
+  },
+  {
+    "id": "falak-se-rahmaton-ka-ik-samandar-bhej-deta-hai",
+    "title": "Falak Se Rahmaton Ka Ik Samandar Bhej Deta Hai",
+    "category": "Hamd",
+    "poet": "Malik Mubashshir Saim Alvi",
+    "khawan": "Athar Jalali, Anzar Jalali, Mazhar Jalali",
+    "preview": [
+      "falak se rehmaton ka ik samandar bhej deta hai",
+      "wo khaaliq roz dharti ka muqaddar bhej deta hai"
+    ]
+  },
+  {
+    "id": "nabi-ka-lab-par-jo-zikr-hai-be-misaal-aaya-kamaal-aaya",
+    "title": "Nabi Ka Lab Par Jo Zikr Hai Be-Misaal Aaya Kamaal Aaya",
+    "category": "Naat",
+    "poet": "Malik Mubashshir Saim Alvi",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "paikar-e-dil-ruba ban ke aaya,",
+      "rooh-e-arz-o-sama ban ke aaya"
+    ]
+  },
+  {
+    "id": "khushbuon-se-dar-o-deewar-sanwar-jate-hain",
+    "title": "Khushbuon Se Dar-o-Deewar Sanwar Jate Hain",
+    "category": "Naat",
+    "poet": "Mumtaaz Tandvi",
+    "khawan": "Mumtaz Tandvi",
+    "preview": [
+      "khushbuon se dar-o-deewaar sanwar jaate hain",
+      "jis gali se mere sarkaar guzar jaate hain"
+    ]
+  },
+  {
+    "id": "shamsheer-karbala-mein-uthai-husain-ne",
+    "title": "Shamsheer Karbala Mein Uthai Husain Ne",
+    "category": "Manqabat",
+    "poet": "Mumtaaz Tandvi",
+    "khawan": "Mumtaz Tandvi",
+    "preview": [
+      "shamsheer karbala mein uthaai husain ne",
+      "azmat nabi ke deen ki bachaai husain ne"
+    ]
+  },
+  {
+    "id": "ya-khuda-mere-murshid-ko-aabaad-rakh-ai-khuda-mere-attar-ko-shaad-rakh",
+    "title": "Ya Khuda ! Mere Murshid Ko Aabaad Rakh | Ai Khuda ! Mere Attar Ko Shaad Rakh",
+    "category": "Manqabat",
+    "poet": "Munawwar Ali Attari",
+    "khawan": "Imran Shaikh Attari",
+    "preview": [
+      "Ya khuda ! mere murshid ko aabaad rakh",
+      "In ke saare qabeela ko bhi shaad rakh"
+    ]
+  },
+  {
+    "id": "main-chithiyan-gham-diyan-nit-roz-pawan-kamli-wale-nun",
+    "title": "Main Chithiyan Gham Diyan Nit Roz Pawan Kamli Wale Nun",
+    "category": "Naat",
+    "poet": "Sayed Naasir Chishti",
+    "khawan": "Asad Raza Attari, Umer Munir Qadri",
+    "preview": [
+      "main chithiyaan gham diyaan nit roz paawaan kamli waale noon",
+      "judaai haal jo keeta, sunaawaan kamli waale noon"
+    ]
+  },
+  {
+    "id": "madine-ki-angoothi-hai-nageena-ghaus-e-aazam-ka",
+    "title": "Madine Ki Angoothi Hai Nageena Ghaus-e-Aazam Ka",
+    "category": "Manqabat",
+    "poet": "Nazmi Miyan",
+    "khawan": "Muhammad Shareef Raza Paali",
+    "preview": [
+      "Madine ki angoothi Hai, nageena Ghaus-E-A'zam ka",
+      "Jahan Mein batta Hai Har-soo khazeena Ghaus-E-A'zam ka"
+    ]
+  },
+  {
+    "id": "ujaala-jis-ka-hai-do-jahan-mein-sallallahu-ala-muhammad",
+    "title": "Ujaala Jis Ka Hai Do Jahan Mein | Sallallahu Ala Muhammad",
+    "category": "Naat",
+    "poet": "Nazmi Miyan",
+    "khawan": "Munaazir Hussain Badaayunee, Qari Rizwan Khan",
+    "preview": [
+      "Sallallahu 'Ala Muhammad",
+      "Sallallahu 'alaihi wa sallam"
+    ]
+  },
+  {
+    "id": "dhoom-har-janib-machi-hai-aap-ke-milad-ki",
+    "title": "Dhoom Har Janib Machi Hai Aap Ke Milad Ki",
+    "category": "Naat",
+    "poet": "Noor Ahmad Noor",
+    "khawan": "Milad Raza Qadri",
+    "preview": [
+      "dhoom har jaanib machi hai aap ke meelaad ki",
+      "har musalmaan ko khushi hai aap ke meelaad ki"
+    ]
+  },
+  {
+    "id": "falak-jis-ka-padhe-khutba-wohi-farooq-e-azam-hain-maula-umar",
+    "title": "Falak Jis Ka Padhe Khutba Wohi Farooq-e-Azam Hain | Maula Umar",
+    "category": "Manqabat",
+    "poet": "Qayam Raza",
+    "khawan": "Hafiz Tahir Qadri, Hafiz Ahsan Qadri",
+    "preview": [
+      "'Umar 'umar ! Maula 'umar 'umar !",
+      "'Umar 'umar ! Maula 'umar 'umar !"
+    ]
+  },
+  {
+    "id": "jaanam-fida-e-umar",
+    "title": "Jaanam Fida-e-Umar",
+    "category": "Manqabat",
+    "poet": "Qayam Raza",
+    "khawan": "Hafiz Tahir Qadri, Hafiz Ahsan Qadri",
+    "preview": [
+      "Jaanam fida-E-umar",
+      "Ya umar ! umar umar"
+    ]
+  },
+  {
+    "id": "mere-khuda-ki-riza-hain-ali-ke-lakht-e-jigar",
+    "title": "Mere Khuda Ki Riza Hain Ali Ke Lakht-e-Jigar",
+    "category": "Manqabat",
+    "poet": "Qayam Raza",
+    "khawan": "Hafiz Tahir Qadri, Hafiz Ahsan Qadri",
+    "preview": [
+      "Tera Hussain, Mera Hussain",
+      "Sab ka Hussain, Maula Hussain"
+    ]
+  },
+  {
+    "id": "saare-waliyon-ke-dil-ki-sada-hai-al-madad-al-madad-ghaus-e-aazam",
+    "title": "Saare Waliyon Ke Dil Ki Sada Hai | al-Madad al-Madad Ghaus-e-Aazam",
+    "category": "Manqabat",
+    "poet": "Qayam Raza",
+    "khawan": "Ghulam Mustafa Qadri",
+    "preview": [
+      "Ghaus-e-azam ba-man-E-Be-Sar-O-samaan madade",
+      "Qibla-e-deen madade, Ka'ba-E-imaan madade"
+    ]
+  },
+  {
+    "id": "ya-khwaja-more-khwaja-laakhon-ki-tere-dar-se-taqdeer-bani-khwaja",
+    "title": "Ya Khwaja More Khwaja | Laakhon Ki Tere Dar Se Taqdeer Bani Khwaja",
+    "category": "Manqabat",
+    "poet": "Qayam Raza",
+    "khawan": "Sayyid Hassaanullaah Husaini",
+    "preview": [
+      "Khwaja jee ! mahaaraaja jee !",
+      "Tum bado Gharib Nawaz"
+    ]
+  },
+  {
+    "id": "hum-dukhiyon-ke-gham-khwar-ho-abdul-qadir-jilani",
+    "title": "Hum Dukhiyon Ke Gham-Khwar Ho Abdul Qadir Jilani",
+    "category": "Manqabat",
+    "poet": "Raahi Bastavi",
+    "khawan": "Raahi Bastavi, Afroz Jamali",
+    "preview": [
+      "ham dukhiyon ke gham-khwaar ho, 'abdul qaadir jeelaani !",
+      "noor-e-nazar-e-sarkaar ho, 'abdul qaadir jeelaani !"
+    ]
+  },
+  {
+    "id": "qurban-khud-ko-kar-ke-musalla-bacha-liya",
+    "title": "Qurban Khud Ko Kar Ke Musalla Bacha Liya",
+    "category": "Manqabat",
+    "poet": "Raahi Bastavi",
+    "khawan": "Raahi Bastavi",
+    "preview": [
+      "qurbaan khud ko kar ke musalla bacha liya",
+      "sar de diya husain ne, sajda bacha liya"
+    ]
+  },
+  {
+    "id": "yahi-ek-beemar-ki-hai-dua-madine-bula-lijiye",
+    "title": "Yahi Ek Beemar Ki Hai Dua Madine Bula Lijiye",
+    "category": "Naat",
+    "poet": "Raahi Bastavi",
+    "khawan": "Raahi Bastavi",
+    "preview": [
+      "yahi ek beemaar ki hai dua,",
+      "madeene bula leejiye"
+    ]
+  },
+  {
+    "id": "nazr-e-karam-de-bajhon-hona-nahin-guzara",
+    "title": "Nazr-e-Karam De Bajhon Hona Nahin Guzara",
+    "category": "Naat",
+    "poet": "Muhammad Rafiq Naqibi",
+    "khawan": "Mahnoor Altaf",
+    "preview": [
+      "Nazre-karam de baajhon hona nahin guzaara ... ya saiyadi",
+      "Ai kaali kamli waale dukhiyaan da tu sahaara"
+    ]
+  },
+  {
+    "id": "huzoor-aisa-koi-intizam-ho-jaye-salaam-ke-liye-haazir-ghulam-ho-jaye",
+    "title": "Huzoor Aisa Koi Intizam Ho Jaye | Salaam Ke Liye Haazir Ghulam Ho Jaye",
+    "category": "Naat",
+    "poet": "Sayed Sabeehuddin Rahmani",
+    "khawan": "Sayyid Sabeehuddeen Sabeeh Rahmaani, Sayyid Faseehuddeen Soharwardi, Hafiz Tahir Qadri, Syed Fasihuddin Soharwardi",
+    "preview": [
+      "Huzoor ! aisa Koi intizam ho jaye",
+      "Salaam Ke liye haazir Ghulaam ho jaye"
+    ]
+  },
+  {
+    "id": "tum-apna-daaman-bichha-ke-maango-huzoor-denge-zaroor-denge",
+    "title": "Tum Apna Daaman Bichha Ke Maango | Huzoor Denge Zaroor Denge",
+    "category": "Naat",
+    "poet": "Sayed Sabeehuddin Rahmani",
+    "khawan": "Sabeeh Rahmaani, Ahmadul Fattah, Allama Hafiz Bilal Qadri",
+    "preview": [
+      "Tum Apna Daaman bichha Ke maango, Huzoor denge, zaroor denge",
+      "Dilon ko kaasa bana Ke maango, Huzoor denge, zaroor denge"
+    ]
+  },
+  {
+    "id": "aaye-pyare-nabi",
+    "title": "Aaye Pyare Nabi",
+    "category": "Naat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Masood Mehdi Qadri Misbaahee",
+    "preview": [
+      "Sarkar aaye, Sarkar aaye",
+      "Sarkar aaye, Sarkar aaye"
+    ]
+  },
+  {
+    "id": "allah-aur-rasool-ke-pyare-muawiya",
+    "title": "Allah Aur Rasool Ke Pyare Muawiya",
+    "category": "Manqabat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Sabatar Akhtaree",
+    "preview": [
+      "Hain aasman-E-rushd Ke taare muawiya",
+      "Allah Or Rasool Ke Pyare muawiya"
+    ]
+  },
+  {
+    "id": "islam-ke-ay-mard-e-mujaahid-tujhe-salaam",
+    "title": "Islam Ke Ay Mard-e-Mujaahid Tujhe Salaam",
+    "category": "Manqabat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Allama Hafiz Bilal Qadri",
+    "preview": [
+      "Islam Ke Aye Mard-E-Mujaahid ! tujhe Salaam",
+      "Ay kaarwaan-E-ishq Ke Murshid ! tujhe Salaam"
+    ]
+  },
+  {
+    "id": "milad-ka-mausam-aaya-hai",
+    "title": "Milad Ka Mausam Aaya Hai",
+    "category": "Naat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Hasnain Raza Attari",
+    "preview": [
+      "Milad ka mausam aaya Hai",
+      "Milad ka mausam aaya Hai"
+    ]
+  },
+  {
+    "id": "millat-ke-rahnuma-hain-hazrat-imam-jaafar-sardar-e-auliya-hain-hazrat-imam-jaafar",
+    "title": "Millat Ke Rahnuma Hain Hazrat Imam Jaafar | Sardar-e-Auliya Hain Hazrat Imam Jaafar",
+    "category": "Manqabat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Hafiz Tahir Qadri",
+    "preview": [
+      "Millat Ke rahnuma Hai Hazrat Imam jaa'far",
+      "Sardar-e-auliya Hai Hazrat Imam jaa'far"
+    ]
+  },
+  {
+    "id": "musallam-us-suboot-hai-fazeelat-e-muawiya",
+    "title": "Musallam-us-Suboot Hai Fazeelat-e-Muawiya",
+    "category": "Manqabat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Owais Raza Qadri, Hafiz Tahir Qadri, Sabatar Akhtaree",
+    "preview": [
+      "Musallam-us-suboot Hai fazeelat-E-muawiya",
+      "'Ayaan Hai Shams ki tarah karamat-E-muawiya"
+    ]
+  },
+  {
+    "id": "razvi-rang-mein-rang-jao-mere-yaar",
+    "title": "Razvi Rang Mein Rang Jao Mere Yaar",
+    "category": "Manqabat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Muhammad Hassan Raza Qadri, Muhammad Saadiq Razvi, Hafiz Ilyas Barkaati",
+    "preview": [
+      "Razvi Rang Mein Rang jao, Mere yaar !",
+      "Razvi Rang Mein Rang jao, Mere yaar !"
+    ]
+  },
+  {
+    "id": "tere-dar-ki-ho-khair-shah-e-ajmer-kar-do-karam-more-khwaja",
+    "title": "Tere Dar Ki Ho Khair Shah-e-Ajmer | Kar Do Karam More Khwaja",
+    "category": "Manqabat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Masood Mehdi Qadri Misbaahee",
+    "preview": [
+      "Kar do Karam, more Khwaja !",
+      "Kar do Karam, more Khwaja !"
+    ]
+  },
+  {
+    "id": "utha-alam-hussain-ka",
+    "title": "Utha Alam Hussain Ka",
+    "category": "Manqabat",
+    "poet": "Salman Fareedi Misbahi",
+    "khawan": "Ahmadul Fattah",
+    "preview": [
+      "Deen ko bachane waala kaun Hai ? Hussain Hai",
+      "Wade ko nibhanay waala kaun Hai ? Hussain Hai"
+    ]
+  },
+  {
+    "id": "dil-ka-armaan-hai-aarzoo-hai-yahi-mera-soya-muqaddar-jaga-dijiye",
+    "title": "Dil Ka Armaan Hai Aarzoo Hai Yahi, Mera Soya Muqaddar Jaga Dijiye",
+    "category": "Naat",
+    "poet": "Shamim Raza Faizi",
+    "khawan": "Shamim Faizi",
+    "preview": [
+      "dil ka armaan hai, aarzoo hai yahi",
+      "mera soya muqaddar jaga dijiye"
+    ]
+  },
+  {
+    "id": "husain-aaj-sar-ko-katane-chale-hain",
+    "title": "Husain Aaj Sar Ko Katane Chale Hain",
+    "category": "Noha",
+    "poet": "Unknown",
+    "khawan": "Shamim Raza Faizi",
+    "preview": [
+      "muhammad pe sab kuchh lutaane chale hain",
+      "husain aaj sar ko kataane chale hain"
+    ]
+  },
+  {
+    "id": "jahaan-pe-mere-payambar-ka-tazkira-hoga-husain-tere-hi-qabze-mein-karbala-hoga",
+    "title": "Jahaan Pe Mere Payambar Ka Tazkira Hoga | Husain Tere Hi Qabze Mein Karbala Hoga",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Shamim Faizi, Saif Raza Kanpuri",
+    "preview": [
+      "jahaan pe mere payambar ka tazkira hoga",
+      "khuda ke fazl ka pehra wahaan laga hoga"
+    ]
+  },
+  {
+    "id": "zamane-ki-nigahon-mein-wo-ruswa-ho-nahin-sakta",
+    "title": "Zamane Ki Nigahon Mein Wo Ruswa Ho Nahin Sakta",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Muhammad Sharif Raza",
+    "preview": [
+      "zamaane ki nigaahon mein wo ruswa ho nahin sakta",
+      "nabi kar dein jise uncha wo neecha ho nahin sakta"
+    ]
+  },
+  {
+    "id": "zindagi-yun-to-sab-jee-rahe-hain-magar-is-tarah-ka-ho-jeena-to-kya-baat-hai",
+    "title": "Zindagi Yun To Sab Jee Rahe Hain Magar Is Tarah Ka Ho Jeena To Kya Baat Hai",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Faheem Akhtar Barelvi, Shamim Raza Faizi, Shoaib Raza Warsi",
+    "preview": [
+      "zindagi yun to sab jee rahe hain magar",
+      "is tarah ka ho jeena to kya baat hai"
+    ]
+  },
+  {
+    "id": "aap-nirale-shaan-niraali-ghaus-e-aazam-jeelani",
+    "title": "Aap Nirale Shaan Niraali Ghaus-e-Aazam Jeelani",
+    "category": "Manqabat",
+    "poet": "Tahir Raza Rampuri",
+    "khawan": "Tahir Raza Raamapuree",
+    "preview": [
+      "Aap nirale, shaan niraali, Ghaus-E-A'zam Jeelani !",
+      "Bhar do Meri jholi khaali, Ghaus-E-A'zam Jeelani !"
+    ]
+  },
+  {
+    "id": "darte-nahin-kisi-se-kabhi-fatema-ke-laal",
+    "title": "Darte Nahin Kisi Se Kabhi Fatema Ke Laal",
+    "category": "Manqabat",
+    "poet": "Tahir Raza Rampuri",
+    "khawan": "Tahir Raza Raamapuree",
+    "preview": [
+      "Darte nahin kisi se kabhi Fatima Ke laal",
+      "Kaise daren ! Hai khoon-E-ali, Fatima Ke laal"
+    ]
+  },
+  {
+    "id": "har-qadam-par-bichhe-hon-farishton-ke-par",
+    "title": "Har Qadam Par Bichhe Hon Farishton Ke Par",
+    "category": "Naat",
+    "poet": "Tahir Raza Rampuri",
+    "khawan": "Tahir Raza Raamapuree, Hafiz Muneer Ahmad",
+    "preview": [
+      "Har qadam par bichhe hon farishton Ke par",
+      "Aisi raah-guzar chahiye to bata"
+    ]
+  },
+  {
+    "id": "le-ke-aasmani-wo-kitaab-aa-gaye",
+    "title": "Le Ke Aasmani Wo Kitaab Aa Gaye",
+    "category": "Naat",
+    "poet": "Tahir Raza Rampuri",
+    "khawan": "Tahir Raza Raamapuree",
+    "preview": [
+      "Le Ke aasmani Wo kitaab Aa gaye",
+      "Kufr Ke savaalon ka jawab Aa gaye"
+    ]
+  },
+  {
+    "id": "nawaza-gaya-hai-mujhe-is-tarah-se",
+    "title": "Nawaza Gaya Hai Mujhe Is Tarah Se",
+    "category": "Manqabat",
+    "poet": "Tahir Raza Rampuri",
+    "khawan": "Tahir Raza Raamapuree",
+    "preview": [
+      "Nawaza gaya Hai Mujhe Is tarah se",
+      "Muqaddar ka Mujh ko dhani kar Diya Hai"
+    ]
+  },
+  {
+    "id": "paikar-e-sabr-o-raza-badshah-e-karbala-wo-hussain-ibn-e-ali",
+    "title": "Paikar-e-Sabr-o-Raza Badshah-e-Karbala Wo Hussain ibn-e-Ali",
+    "category": "Manqabat",
+    "poet": "Tahir Raza Rampuri",
+    "khawan": "Tahir Raza Raamapuree",
+    "preview": [
+      "Fatema ka laadla, Jo 'Ali Ke Ghar pala",
+      "Wo Hussain ibn-E-ali"
+    ]
+  },
+  {
+    "id": "sarkar-ghaus-e-aazam-sarkar-ghaus-e-aazam",
+    "title": "Sarkar Ghaus-e-Aazam Sarkar Ghaus-e-Aazam",
+    "category": "Manqabat",
+    "poet": "Tahir Raza Rampuri",
+    "khawan": "Tahir Raza Raamapuree",
+    "preview": [
+      "Sarkar Ghaus-E-Aazam ! Sarkar Ghaus-E-Aazam !",
+      "Ik baar nahin kehna, so baar Ghaus-E-Aazam !"
+    ]
+  },
+  {
+    "id": "kya-haal-e-dil-sunana-sarkar-jaante-hain",
+    "title": "Kya Haal-e-Dil Sunana Sarkar Jaante Hain",
+    "category": "Naat",
+    "poet": "Tanveerullah Shaakir",
+    "khawan": "Muhammad Azam Qadri, Rao Ali Hasnain",
+    "preview": [
+      "kya haal-e-dil sunaana, sarkaar jaante hain",
+      "mere dard ka fasaana, sarkaar jaante hain"
+    ]
+  },
+  {
+    "id": "ba-wafa-ba-haya-usman-e-ghani",
+    "title": "Ba-Wafa Ba-Haya Usman-e-Ghani",
+    "category": "Manqabat",
+    "poet": "Muhammad Tayyab Naqshbandi",
+    "khawan": "Hafiz Tahir Qadri",
+    "preview": [
+      "taareef teri aaqa se suni, ghani ghani usmaan-e-ghani",
+      "tum shaane sahaaba jaan-e-nabi, ghani ghani usmaan-e-ghani"
+    ]
+  },
+  {
+    "id": "nabi-e-akram-shafi-e-azam-dukhi-dilon-ka-payam-le-lo",
+    "title": "Nabi-e-Akram Shafi-e-Azam Dukhi Dilon Ka Payam Le Lo",
+    "category": "Salaam",
+    "poet": "Muhammad Tayyab Naqshbandi",
+    "khawan": "Tabish Rehan",
+    "preview": [
+      "nabi-e-akram shafi'-e-a'zam !",
+      "dukhi dilon ka payaam le lo"
+    ]
+  },
+  {
+    "id": "zameen-se-arsh-e-aazam-tak-nabi-ka-bol-baala-hai",
+    "title": "Zameen Se Arsh-e-Aazam Tak Nabi Ka Bol-Baala Hai",
+    "category": "Naat",
+    "poet": "Hafiz Tufail Akhtar",
+    "khawan": "Sajjad Al Mubarak, Hajra Khatoon",
+    "preview": [
+      "Zameen se arsh-e-aazam tak nabi ka bol-baala hai",
+      "Unheen ke faiz-e-aali se jahaan bhar mein ujaala hai"
+    ]
+  },
+  {
+    "id": "allah-dikha-kabe-ki-jhalak",
+    "title": "Allah Dikha Kabe Ki Jhalak",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Abdul Kamal Attari",
+    "khawan": "Madani Raza Attari",
+    "preview": [
+      "mushtaaq nazar, pur-nam hai palak",
+      "allah ! dikha kaa'be ki jhalak"
+    ]
+  },
+  {
+    "id": "allah-muaf-kar-de",
+    "title": "Allah Muaf Kar De",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Shabbir Abu Talib",
+    "khawan": "Shabbir Abu Talib",
+    "preview": [
+      "allah ! mu'aaf kar de",
+      "maula ! tu mu'aaf kar de"
+    ]
+  },
+  {
+    "id": "kaba-dikha-de-maula",
+    "title": "Kaba Dikha De Maula",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Shafeeq Allah Yaar Parwan",
+    "khawan": "Syed Hassan Ullah Hussaini, Syeda Areeba Fatima, Ghulam Mustafa Qadri, Zohaib Ashrafi",
+    "preview": [
+      "kaa'ba dikha de, maula ! maula !",
+      "kaa'ba dikha de, maula !"
+    ]
+  },
+  {
+    "id": "karam-tu-kar-de-khudaya-shab-e-barat-aai",
+    "title": "Karam Tu Kar De Khudaya Shab-e-Barat Aai",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Hanif Sani",
+    "khawan": "Nawal Khan",
+    "preview": [
+      "shab-e-baraat hai, tu bakhsh de, maula !",
+      "shab-e-nijaat hai, tu bakhsh de, maula !"
+    ]
+  },
+  {
+    "id": "khudawanda-mujhe-dard-o-alam-se-ab-rihai-de-mujhe-gham-se-rihai-de",
+    "title": "Khudawanda Mujhe Dard-o-Alam Se Ab Rihai De | Mujhe Gham Se Rihai De",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Danish Aasi",
+    "khawan": "Hafiz Zubair",
+    "preview": [
+      "khuda-wanda ! mujhe dard-o-alam se ab rihaai de",
+      "nikalane ki koi to raah ab mujh ko dikhaai de"
+    ]
+  },
+  {
+    "id": "khule-gunahon-ke-hain-nataij-ye-zalzale-rab-muaf-kar-de",
+    "title": "Khule Gunahon Ke Hain Nataij Ye Zalzale Rab Muaf Kar De",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Samiullah Sarim Abbasi",
+    "khawan": "Rizwan Soomro",
+    "preview": [
+      "allah ! allah ! allah ! allah !",
+      "mu'aaf kar de, mu'aaf kar de"
+    ]
+  },
+  {
+    "id": "main-gunahgar-hoon-aye-khuda-bakhsh-de",
+    "title": "Main Gunahgar Hoon Aye Khuda Bakhsh De",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Bint-e-Afzal Shafi",
+    "khawan": "Hafiz Ahmad Mujtaba",
+    "preview": [
+      "main gunaahgaar hoon, ai khuda ! bakhsh de",
+      "aur khata-kaar hoon, ai khuda ! bakhsh de"
+    ]
+  },
+  {
+    "id": "mujh-ko-bhi-kabe-ka-ab-haji-bana-de-maula",
+    "title": "Mujh Ko Bhi Kabe Ka Ab Haji Bana De Maula",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Muhammad Shauqeen Nawaz Shauq Fareedi",
+    "khawan": "Syed Abdul Qadir Al-Qadri",
+    "preview": [
+      "kaa'ba dikha de, maula ! haj pe bula le, maula !",
+      "tere ghar ke phere lagaata rahoon main"
+    ]
+  },
+  {
+    "id": "shikasta-dil-hun-khamosh-lab-hain-jabeen-ko-dar-pe-tere-jhukaya",
+    "title": "Shikasta Dil Hun Khamosh Lab Hain Jabeen Ko Dar Pe Tere Jhukaya",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Zulqarnain Ibn e Sadiq",
+    "khawan": "Hafiz Jalabeeb Qadri",
+    "preview": [
+      "shikasta-dil hoon, khamosh lab hain, jabeen ko dar pe tere jhukaaya",
+      "hain gham musalasal, hain dard paihm, meri bhi sun le sada, khudaaya !"
+    ]
+  },
+  {
+    "id": "tamanna-muddaton-ki-ab-mita-de-ilahi-mujh-ko-bhi-haji-bana-de",
+    "title": "Tamanna Muddaton Ki Ab Mita De | Ilahi Mujh Ko Bhi Haji Bana De",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Shauq Faridi",
+    "khawan": "Syed Moiz Ashrafi",
+    "preview": [
+      "tamanna muddaton ki ab mita de",
+      "ilaahi ! mujh ko bhi haaji bana de"
+    ]
+  },
+  {
+    "id": "apne-malik-ka-main-naam-le-kar-bazm-ki-ibtida-kar-raha-hoon",
+    "title": "Apne Malik Ka Main Naam Le Kar Bazm Ki Ibtida Kar Raha Hoon",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Hafeez ur Rahman",
+    "preview": [
+      "apne maalik ka main naam le kar",
+      "bazm ki ibtida kar raha hoon"
+    ]
+  },
+  {
+    "id": "aye-ilah-mujh-ko-wohi-mera-zamana-de-de",
+    "title": "Aye Ilah Mujh Ko Wohi Mera Zamana De De",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Ameen Geelani",
+    "khawan": "Hamza Awan",
+    "preview": [
+      "ai ilaah ! mujh ko wohi mera zamaana de de",
+      "kab main kehta hoon mujhe taaj-e-shahaana de de"
+    ]
+  },
+  {
+    "id": "gunaahon-se-ham-ko-bacha-mere-maula",
+    "title": "Gunaahon Se Ham Ko Bacha Mere Maula",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Sandali Ahmad",
+    "preview": [
+      "gunaahon se ham ko bacha, mere maula !",
+      "hamein nek insaan bana, mere maula !"
+    ]
+  },
+  {
+    "id": "hajj-pe-hum-ko-bhi-bula-le-aye-mere-parwardigar",
+    "title": "Hajj Pe Hum Ko Bhi Bula Le Aye Mere Parwardigar",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Muhammad Shauqeen Nawaz Shauq Fareedi",
+    "khawan": "Syed Abdul Qadir Al-Qadri",
+    "preview": [
+      "allah ! allah ! allah !",
+      "allah ! allah ! allah !"
+    ]
+  },
+  {
+    "id": "kar-do-karam-maula-kar-do-karam",
+    "title": "Kar Do Karam Maula Kar Do Karam",
+    "category": "Hamd",
+    "poet": "Khadim Hussain",
+    "khawan": "Nabeel Shaukat Ali, Sanam Marvi",
+    "preview": [
+      "bismillaah",
+      "hamd-o-sana rabb-e-zul-jalaal ki"
+    ]
+  },
+  {
+    "id": "rehmat-se-mujhe-apni-itna-to-ata-kar-de-aasi-hoon-mere-maula-har-muaf-khata-kar-de",
+    "title": "Rehmat Se Mujhe Apni Itna To Ata Kar De | Aasi Hoon Mere Maula Har Muaf Khata Kar De",
+    "category": "Hamd",
+    "poet": "Javeria Batool",
+    "khawan": "Hamdard Brothers",
+    "preview": [
+      "maula ! maula ! maula ! mere maula !",
+      "karam karam, maula ! karam karam"
+    ]
+  },
+  {
+    "id": "aasra-mere-dil-ka-la-ilaha-illallah",
+    "title": "Aasra Mere Dil Ka La Ilaha Illallah",
+    "category": "Hamd",
+    "poet": "Naseem Fatehpuri",
+    "khawan": "Unknown",
+    "preview": [
+      "Aasra mere dil ka la ilaaha illallaah",
+      "'arsh pe likha dekha la ilaaha illallaah"
+    ]
+  },
+  {
+    "id": "allah-badshah-maula-badshah",
+    "title": "Allah Badshah Maula Badshah",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "Ya allaahu ! Ya rehmaanu ! Ya ghafoorurrheem !",
+      "Sahar hoti hai taaron se wo taaqat chheen leta hai"
+    ]
+  },
+  {
+    "id": "gada-ko-baadshaah-ya-baadshaahon-ko-gada-kar-de",
+    "title": "Gada Ko Baadshaah Ya Baadshaahon Ko Gada Kar De",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "Gada ko badshah ya baadshaahon ko gada kar de",
+      "Mere maalik ! Tu jab chaahe, kisi ko kya se kya kar de"
+    ]
+  },
+  {
+    "id": "khuda-ka-dil-mein-bas-jana-ye-ik-fazl-e-khudawandi",
+    "title": "Khuda Ka Dil Mein Bas Jana Ye Ik Fazl-e-Khudawandi",
+    "category": "Hamd",
+    "poet": "Rudrud Moradabadi",
+    "khawan": "Unknown",
+    "preview": [
+      "Khuda ka dil mein bas jaana ye ik fazl-e-khudaawndi",
+      "Khuda ka fazl paana bhi Khuda ki mehrbaani hai"
+    ]
+  },
+  {
+    "id": "koi-bataye-dariyaon-ko-aisi-rawani-kis-ne-di",
+    "title": "Koi Bataye Dariyaon Ko Aisi Rawani Kis Ne Di",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Muhammad Anas Nazeer",
+    "preview": [
+      "Koi bataaye dariyaaon ko aisi rawaani kis ne di",
+      "Kis ne chamkta din bakhsha hai raat suhaani kis ne di"
+    ]
+  },
+  {
+    "id": "koi-mayoos-kyun-ho-apni-hajat-mang-kar-tujh-se",
+    "title": "Koi Mayoos Kyun Ho Apni Hajat Mang Kar Tujh Se",
+    "category": "Hamd",
+    "poet": "Qari Abdul Manan",
+    "khawan": "Qari Abdul Manan",
+    "preview": [
+      "Koi maayoos kyun ho apni haajat maang kar tujh se",
+      "Muraadein paate hain sab saakinaan-e-behar-o-bar tujh se"
+    ]
+  },
+  {
+    "id": "mana-ke-gunahon-mein-giraftar-hun-maula",
+    "title": "Mana Ke Gunahon Mein Giraftar Hun Maula",
+    "category": "Hamd",
+    "poet": "Junaid Qasmi",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "Maana ki gunaahon mein giraftaar hoon, Maula !",
+      "Par teri 'ataaon ka talbgaar hoon, Maula !"
+    ]
+  },
+  {
+    "id": "mera-har-gham-mitane-ko-mera-allah-kafi-hai",
+    "title": "Mera Har Gham Mitane Ko Mera Allah Kafi Hai",
+    "category": "Hamd",
+    "poet": "Azmat Raza Bhagalpuri",
+    "khawan": "Azmat Raza Bhagalpuri",
+    "preview": [
+      "Mera har gham mitaane ko mera allaah kaafi hai",
+      "Meri bigri banaane ko mera allaah kaafi hai"
+    ]
+  },
+  {
+    "id": "meri-bigdi-banata-hai-wo-mera-pyara-allah-hai",
+    "title": "Meri Bigdi Banata Hai Wo Mera Pyara Allah Hai",
+    "category": "Hamd",
+    "poet": "Zainulabadeen Zulqurooh",
+    "khawan": "Unknown",
+    "preview": [
+      "Meri bigri banaata hai, wo mera pyaara allaah hai",
+      "Ghamon ko jo mitaata hai, wo mera pyaara allaah hai"
+    ]
+  },
+  {
+    "id": "meri-qismat-jagane-ko-khuda-ka-naam-kafi-hai-ya-mere-allah-ya-mere-allah",
+    "title": "Meri Qismat Jagane Ko Khuda Ka Naam Kafi Hai | Ya Mere Allah Ya Mere Allah",
+    "category": "Hamd",
+    "poet": "Azizullah Ghalib",
+    "khawan": "Unknown",
+    "preview": [
+      "Ya mere allaah ! Ya mere allaah ! Ya mere allaah ! Ya mere allaah !",
+      "Ya mere allaah ! Ya mere allaah ! Ya mere allaah ! Ya mere allaah !"
+    ]
+  },
+  {
+    "id": "allahu-baaqi-min-kulli-faani-allah-hu-allah-hu-bande-har-dam-allah-hu",
+    "title": "Allahu Baaqi Min Kulli Faani | Allah Hu Allah Hu Bande Har Dam Allah Hu",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "Allaah hu ! Allaah hu ! Bande har dam allaah hu !",
+      "Allaah hu ! Allaah hu ! Bande har dam allaah hu !"
+    ]
+  },
+  {
+    "id": "allahu-khudi-ka-sirr-e-nihan",
+    "title": "Allahu (Khudi Ka Sirr e Nihan)",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Danish and Dawar",
+    "preview": [
+      "Ya hayyu, ya qayyoom, ya rehmaano ya Raheem",
+      "Allaahu... Allaahu..."
+    ]
+  },
+  {
+    "id": "ali-ki-yaad-aaye-najaf-ki-yaad-aaye",
+    "title": "Ali Ki Yaad Aaye Najaf Ki Yaad Aaye",
+    "category": "Manqabat",
+    "poet": "Shams Jafri",
+    "khawan": "Unknown",
+    "preview": [
+      "Khusha zamin-e-mu'alla, zahe-faza-e-najaf",
+      "Riyaaz-e-khuld bhi hai shaaiq-e-hawa-e-najaf"
+    ]
+  },
+  {
+    "id": "aye-markaz-e-irfan-fida-tujh-pe-meri-jaan-attar-meri-jaan",
+    "title": "Aye Markaz-e-Irfan Fida Tujh Pe Meri Jaan | Attar Meri Jaan",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Hafiz Anas Raza Attari",
+    "preview": [
+      "'attaar meri jaan ! 'attaar meri jaan !",
+      "'attaar meri jaan ! 'attaar meri jaan !"
+    ]
+  },
+  {
+    "id": "ghaus-piya-ke-pyare-qadam-ka-rutba-hi-kuchh-aisa-hai",
+    "title": "Ghaus Piya Ke Pyare Qadam Ka Rutba Hi Kuchh Aisa Hai",
+    "category": "Manqabat",
+    "poet": "Syed Mohammad Noorani Ashraf Al-Jilani",
+    "khawan": "Syed Mohammad Noorani Ashraf Al-Jilani",
+    "preview": [
+      "Ghaus piya ke pyaare qadam ka rutba hi kuchh aisa hai",
+      "Saare wali gardan pe uthaayen, talwa hi kuchh aisa hai"
+    ]
+  },
+  {
+    "id": "hum-ashab-ke-khadim-unke-naukar-hain-hum-siddiq-o-umar-wale",
+    "title": "Hum Ashab Ke Khadim Unke Naukar Hain | Hum Siddiq-o-Umar Wale",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Hafiz Waseem Muawiya",
+    "preview": [
+      "Ham ashaab ke khaadim un ke naukar hain",
+      "Ahal-e-bait-e-nabi ke dar ke naukar hain"
+    ]
+  },
+  {
+    "id": "hussain-sab-se-azeemtar-hai",
+    "title": "Hussain Sab Se Azeemtar Hai",
+    "category": "Manqabat",
+    "poet": "Shauq Faridi",
+    "khawan": "Sahil Raza Qadri, Muhammad Firdos Qadri",
+    "preview": [
+      "Hai mera Maula ya Husain",
+      "Hai tera Maula ya Husain"
+    ]
+  },
+  {
+    "id": "janasheen-e-nabi-mere-siddiq-hain",
+    "title": "Janasheen-e-Nabi Mere Siddiq Hain",
+    "category": "Manqabat",
+    "poet": "Waheed Zulfiqar Faiz",
+    "khawan": "Unknown",
+    "preview": [
+      "Sahaaba ke afsar abu-bakar pyaare",
+      "Hamaare hain rehbar abu-bakar pyaare"
+    ]
+  },
+  {
+    "id": "mila-hai-mangne-walon-ko-sadqa-ghaus-e-azam-ka",
+    "title": "Mila Hai Mangne Walon Ko Sadqa Ghaus-e-Azam Ka",
+    "category": "Manqabat",
+    "poet": "Jauhar Vaishalvi",
+    "khawan": "Jauhar Vaishalvi",
+    "preview": [
+      "Mila hai maangne waalon ko sadqa Ghaus-e-Azam ka",
+      "Kabhi khaali nahin lauta hai mangta Ghaus-e-Azam ka"
+    ]
+  },
+  {
+    "id": "rab-ne-banaya-hai-kuchh-aisa-rutba-ghaus-e-azam-ka",
+    "title": "Rab Ne Banaya Hai Kuchh Aisa Rutba Ghaus-e-Azam Ka",
+    "category": "Manqabat",
+    "poet": "Syed Shah Gulzar Ismail Wasti Qadri",
+    "khawan": "Sayyed Abdul Wasi Qadri Razavi",
+    "preview": [
+      "Rab ne banaaya hai kuchh aisa rutba Ghaus-e-Azam ka",
+      "Jinn-o-bashar ke lab pe saja hai khutba Ghaus-e-Azam ka"
+    ]
+  },
+  {
+    "id": "tu-rab-ka-wali-hai-tu-haidar-ki-shaan-hai-tu-qutb-e-jahan-hai-mere-ghaus-e-azam",
+    "title": "Tu Rab Ka Wali Hai Tu Haidar Ki Shaan Hai | Tu Qutb-e-Jahan Hai Mere Ghaus-e-Azam",
+    "category": "Manqabat",
+    "poet": "Rizwan Ahmad Mahbubi",
+    "khawan": "Sandali Ahmad",
+    "preview": [
+      "Tu rab ka wali hai, tu haidar ki shaan hai",
+      "Tera rutba ala, mere Ghaus-e-Azam !"
+    ]
+  },
+  {
+    "id": "urs-aaya-hai-waliyon-ke-sultan-ka-marhaba-marhaba-batta-hai-sadqa-khwaja-ke-faizan-ka-marhaba-marhaba",
+    "title": "Urs Aaya Hai Waliyon Ke Sultan Ka Marhaba Marhaba | Batta Hai Sadqa Khwaja Ke Faizan Ka Marhaba Marhaba",
+    "category": "Manqabat",
+    "poet": "Muhammad Asim ul Qadri Moradabadi",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "Ghareeb jaan ke har ik ne mujh ko taala hai",
+      "Tum apne dar se na taalo mujhe, ghareeb nawaaz !"
+    ]
+  },
+  {
+    "id": "bayan-ho-kis-tarah-rutba-mere-tajushshariya-ka",
+    "title": "Bayan Ho Kis Tarah Rutba Mere Tajushshariya Ka",
+    "category": "Manqabat",
+    "poet": "Muhammad Asim ul Qadri Moradabadi",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "Bayaan ho kis tareh rutba mere taajushshri'a ka",
+      "Zamaane bhar mein hai charcha mere taajushshri'a ka"
+    ]
+  },
+  {
+    "id": "charsoo-tera-jalwa-hai-ashraf-piya",
+    "title": "Charsoo Tera Jalwa Hai Ashraf Piya",
+    "category": "Manqabat",
+    "poet": "Mashhood Raza Qadri Balrampuri",
+    "khawan": "Syed Abdul Qadir Al-Qadri",
+    "preview": [
+      "Sarwra shaaha kareema dastgeera ashrfa",
+      "Hurmat-e-rooh-e-payambar yak nazar kun su-e-ma"
+    ]
+  },
+  {
+    "id": "hum-kabhi-na-bhulayenge",
+    "title": "Hum Kabhi Na Bhulayenge",
+    "category": "Manqabat",
+    "poet": "Muhammad Asim Ul Qadri Moradabadi",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "Ai mustfa ke nawaaso !",
+      "'ali ke dildaaro !"
+    ]
+  },
+  {
+    "id": "hussain-ki-ye-mohabbat-hai-aur-musalsal-hai",
+    "title": "Hussain Ki Ye Mohabbat Hai Aur Musalsal Hai",
+    "category": "Manqabat",
+    "poet": "Sayyida Fakhra Batool Naqvi",
+    "khawan": "Master Ali Zamin",
+    "preview": [
+      "Na poochh kaise koi shaah-e-mashriqain bana",
+      "Bashar kahun use, 'aqeedat ka zeb-o-zain bana"
+    ]
+  },
+  {
+    "id": "jahan-sara-sukhan-aara-imam-ahmad-raza-khan-ka",
+    "title": "Jahan Sara Sukhan-Aara Imam Ahmad Raza Khan Ka",
+    "category": "Manqabat",
+    "poet": "Unknown",
+    "khawan": "Madani Raza Attari",
+    "preview": [
+      "Jahaan saara sukhan-aara imaam Ahmad Raza khaan ka",
+      "Kare charcha bohat saara imaam Ahmad Raza khaan ka"
+    ]
+  },
+  {
+    "id": "karbal-mein-aal-e-rasool-aaye-deen-ka-gulshan-bachane-ke-liye",
+    "title": "Karbal Mein Aal-e-Rasool | Aaye Deen Ka Gulshan Bachane Ke Liye",
+    "category": "Manqabat",
+    "poet": "Ehsan Shakir Azmi",
+    "khawan": "Ehsan Shakir Azmi",
+    "preview": [
+      "Karbal mein aal-e-rasool, baagh-e-sayyida ke phool",
+      "Aaye deen ka gulshan bachaane ke liye"
+    ]
+  },
+  {
+    "id": "karbala-ki-khaak-par-kya-aadmi-sajde-mein-hai",
+    "title": "Karbala Ki Khaak Par Kya Aadmi Sajde Mein Hai",
+    "category": "Manqabat",
+    "poet": "Iftikhar Arif",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "Karbla ki khaak par kya aadmi sajde mein hai",
+      "Maut ruswa ho chuki hai, zindagi sajde mein hai"
+    ]
+  },
+  {
+    "id": "main-panjtani-panjtani-panjtani-hoon",
+    "title": "Main Panjtani Panjtani Panjtani Hoon",
+    "category": "Manqabat",
+    "poet": "Junaid Qasmi",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "Bedam ! Yahi to paanch hain maqsood-e-kaainaat",
+      "Khairunnisa, Husain-o-hasan, mustfa, 'ali"
+    ]
+  },
+  {
+    "id": "martaba-aisa-hai-aalishaan-zunnoorain-ka",
+    "title": "Martaba Aisa Hai Aalishaan Zunnoorain Ka",
+    "category": "Manqabat",
+    "poet": "Arfaq Miyan",
+    "khawan": "Milad Raza Attari",
+    "preview": [
+      "Martba aisa hai 'aaleeshaan zunnoorain ka",
+      "Khud Khuda hai madeh-go 'usmaan zunnoorain ka"
+    ]
+  },
+  {
+    "id": "muawiya-ki-azmaton-pe-jaan-o-dil-fida-karo-mere-muawiya",
+    "title": "Muawiya Ki Azmaton Pe Jaan-o-Dil Fida Karo | Mere Muawiya",
+    "category": "Manqabat",
+    "poet": "Sibghatullah Iqbal",
+    "khawan": "Unknown",
+    "preview": [
+      "Mere mu'aaviya ! Pyaare mu'aaviya !",
+      "Mu'aaviya ki 'azmaton pe jaan-o-dil fida karo"
+    ]
+  },
+  {
+    "id": "ab-shan-e-sahaba-pe-main-ashaar-kya-likhun-jannat-ke-shahsawaron-pe-ashaar-kya-likhun",
+    "title": "Ab Shan-e-Sahaba Pe Main Ashaar Kya Likhun | Jannat Ke Shahsawaron Pe Ashaar Kya Likhun",
+    "category": "Manqabat",
+    "poet": "Muhammad Athar Jalali",
+    "khawan": "Unknown",
+    "preview": [
+      "Ab shaan-e-sahaaba pe main asha'aar kya likhun",
+      "Jannat ke sheh-sawaaron pe asha'aar kya likhun"
+    ]
+  },
+  {
+    "id": "bu-bakar-siddiq-jaisa-koi-ho-sakta-nahin",
+    "title": "Bu Bakar Siddiq Jaisa Koi Ho Sakta Nahin",
+    "category": "Manqabat",
+    "poet": "Ghulam Qadir",
+    "khawan": "Waqar Umar Dangraj",
+    "preview": [
+      "Bu-bakar siddeeq jaisa koi ho sakta nahin",
+      "Hai wafa mein be-misal, duniya mein us jaisa nahin"
+    ]
+  },
+  {
+    "id": "dil-bada-beqarar-hai-khwaja",
+    "title": "Dil Bada Beqarar Hai Khwaja",
+    "category": "Manqabat",
+    "poet": "Sayyed Shabahat Hussain",
+    "khawan": "Muhammad Ali Faizi",
+    "preview": [
+      "Dil bara be-qaraar hai, Khwaja !",
+      "Tera hi intizaar hai, Khwaja !"
+    ]
+  },
+  {
+    "id": "haider-haider-maula-ghaus-o-khwaja-ke-lab-par-hai-jin-ke-naam-ka-naara",
+    "title": "Haider Haider Maula | Ghaus-o-Khwaja Ke Lab Par Hai Jin Ke Naam Ka Naara",
+    "category": "Manqabat",
+    "poet": "Maulana Qayyam Raza",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "Dam dam 'ali 'ali dam dam",
+      "Dam dam 'ali 'ali dam dam"
+    ]
+  },
+  {
+    "id": "hum-se-yaar-e-ghaar-ki-kuchh-baat-kar",
+    "title": "Hum Se Yaar-e-Ghaar Ki Kuchh Baat Kar",
+    "category": "Manqabat",
+    "poet": "Mufti Rashid Ali Razavi Attari",
+    "khawan": "Hafiz Ghulam Mustafa Qadri",
+    "preview": [
+      "Mo'tdil sunniyon ki fitrat hai",
+      "Karte hain chaar yaar ki baatein"
+    ]
+  },
+  {
+    "id": "madar-mohe-mori-bigdi-bana-do",
+    "title": "Madar Mohe Mori Bigdi Bana Do",
+    "category": "Manqabat",
+    "poet": "Syed Shajar Ali Makanpuri",
+    "khawan": "Unknown",
+    "preview": [
+      "Aaj hamne unhein pukaara hai",
+      "Be-sahaaron ka jo sahaara hai"
+    ]
+  },
+  {
+    "id": "mere-khwaja-ka-dar-baqi-rahega",
+    "title": "Mere Khwaja Ka Dar Baqi Rahega",
+    "category": "Manqabat",
+    "poet": "Hafiz Shauq Fareedi",
+    "khawan": "Syed Abdul Qadir Al-Qadri, Moinuddin Bulbul-e-Mustajab",
+    "preview": [
+      "Khwaja piya mere Khwaja piya !",
+      "Khwaja piya mere Khwaja piya !"
+    ]
+  },
+  {
+    "id": "nabi-ke-saath-hai-kitni-wafa-siddiq-e-akbar-ki",
+    "title": "Nabi Ke Saath Hai Kitni Wafa Siddiq-e-Akbar Ki",
+    "category": "Manqabat",
+    "poet": "Muhammad Nadeem Ghazi",
+    "khawan": "Muhammad Azam Qadri",
+    "preview": [
+      "Mere siddeeq ! Mere siddeeq !",
+      "Mere siddeeq ! Mere siddeeq !"
+    ]
+  },
+  {
+    "id": "nujoom-e-rushd-mein-misl-e-qamar-siddiq-e-akbar-hain",
+    "title": "Nujoom-e-Rushd Mein Misl-e-Qamar Siddiq-e-Akbar Hain",
+    "category": "Manqabat",
+    "poet": "Maulana Pirzada Yasin Shah Mustafai",
+    "khawan": "Maulana Ahmedraza Qadri",
+    "preview": [
+      "Duniya-e-sadaaqat mein tera naam rahega",
+      "Siddeeq ! Tere naam se islaam rahega"
+    ]
+  },
+  {
+    "id": "sun-le-ye-jahan-sara-ajmer-rahega",
+    "title": "Sun Le Ye Jahan Sara Ajmer Rahega",
+    "category": "Manqabat",
+    "poet": "Hafiz Shauq Fareedi",
+    "khawan": "Unknown",
+    "preview": [
+      "Sun le ye jahaan saara Ajmer rahega",
+      "Ajmer rahega, Ajmer rahega"
+    ]
+  },
+  {
+    "id": "chand-kehta-hai-nahin-koi-tere-jaisa-haseen-ya-madarul-alameen",
+    "title": "Chand Kehta Hai Nahin Koi Tere Jaisa Haseen | Ya Madarul Alameen",
+    "category": "Manqabat",
+    "poet": "Syed Shajar Ali Makanpuri",
+    "khawan": "Syed Shajar Ali Makanpuri",
+    "preview": [
+      "Ya madaar-al-'aalmin ! Mere madaar-ul-'aalmin !",
+      "Ya madaar-al-'aalmin ! Mere madaar-ul-'aalmin !"
+    ]
+  },
+  {
+    "id": "hain-mere-peer-lasani-muhayyuddin-jilani",
+    "title": "Hain Mere Peer Lasani Muhayyuddin Jilani",
+    "category": "Manqabat",
+    "poet": "Mufti Ahmad Yaar Khan Naeemi",
+    "khawan": "Maulana Ubaid Raza Attari",
+    "preview": [
+      "Hain mere Peer laasaani muhayyuddeen jeelaani",
+      "Nabi ki shama'-e-nooraani muhayyuddeen jeelaani"
+    ]
+  },
+  {
+    "id": "mera-dil-qadri-meri-jaan-qadri",
+    "title": "Mera Dil Qadri Meri Jaan Qadri",
+    "category": "Manqabat",
+    "poet": "Sayyed Shabahat Hussain",
+    "khawan": "Muhammad Ali Faizi",
+    "preview": [
+      "Mera dil qadri, meri jaan qadri",
+      "Rooh par meri saare nishaan qadri"
+    ]
+  },
+  {
+    "id": "nabi-ke-noor-ki-barkat-janab-e-zainab-hain",
+    "title": "Nabi Ke Noor Ki Barkat Janab-e-Zainab Hain",
+    "category": "Manqabat",
+    "poet": "Sayyed Shabahat Hussain",
+    "khawan": "Muhammad Ali Faizi",
+    "preview": [
+      "Nabi ke noor ki barkat janaab-e-zainab hain",
+      "'ali ke ghar ki sharaafat janaab-e-zainab hain"
+    ]
+  },
+  {
+    "id": "sarwara-shaha-karima-dastagira-ashrafa-ashrafi-tarana",
+    "title": "Sarwara Shaha Karima Dastagira Ashrafa | Ashrafi Tarana",
+    "category": "Manqabat",
+    "poet": "Sayyed Muhmmad Ashrafi",
+    "khawan": "Parwez Alam Ashrafi, Syed Abdul Qadir Al-Qadri",
+    "preview": [
+      "Sarwra shaaha kareema dastgeera ashrfa",
+      "Hurmat-e-rooh-e-payambar yak nazar kun su-e-ma"
+    ]
+  },
+  {
+    "id": "main-sadqe-ya-rasool-allah",
+    "title": "Main Sadqe Ya Rasool Allah",
+    "category": "Naat",
+    "poet": "Fatima Najeeb",
+    "khawan": "Atif Aslam",
+    "preview": [
+      "nami-daanam kuja raftam, safar sadiyon se jaari hai",
+      "mere aaqa ! mohabbat aap ki is dil pe taari hai"
+    ]
+  },
+  {
+    "id": "teri-yaad-paee-tadpandi-e-la-laiyaan-nainaan-ne-jhadiyaan",
+    "title": "Teri Yaad Paee Tadpandi E La Laiyaan Nainaan Ne Jhadiyaan",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Muhammad Adnaan Shaikh Attari",
+    "preview": [
+      "teri yaad pai tadpaandi ay la laiyaan nainaan ne jhadiyaan",
+      "kadi is raste wi lang maahi ! teri deed di hasartaan heen badiyaan"
+    ]
+  },
+  {
+    "id": "ya-mere-allah",
+    "title": "Ya Mere Allah",
+    "category": "Naat",
+    "poet": "Sagar Shaheen Hazarvi",
+    "khawan": "Hafiz Muhammad Mazhar Jalali",
+    "preview": [
+      "ya mere allah ! ya mere allah ! ya mere allah ! ya mere allah !",
+      "ya mere allah ! ya mere allah ! ya mere allah ! ya mere allah !"
+    ]
+  },
+  {
+    "id": "ya-muhammad-salle-ala",
+    "title": "Ya Muhammad Salle Ala",
+    "category": "Naat",
+    "poet": "Arsalan Azmi",
+    "khawan": "Sibtain Haider",
+    "preview": [
+      "salle 'ala ya mustafa !",
+      "ya mustafa !"
+    ]
+  },
+  {
+    "id": "agarche-koi-nahin-hai-huzoor-aap-to-hain",
+    "title": "Agarche Koi Nahin Hai Huzoor Aap To Hain",
+    "category": "Naat",
+    "poet": "Sayyed Shabahat Hussain",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "agarache koi nahin hai, huzoor ! aap to hain",
+      "ye mera pukhta yaqeen hai, huzoor ! aap to hain"
+    ]
+  },
+  {
+    "id": "bhejo-na-mujhe-wapas-tum-shah-e-ata-ho-kar",
+    "title": "Bhejo Na Mujhe Wapas Tum Shah-e-Ata Ho Kar",
+    "category": "Naat",
+    "poet": "Gulfam Raza Hassani",
+    "khawan": "Gulfam Raza Hassani",
+    "preview": [
+      "bhejo n mujhe waapas tum shah-e-'ata ho kar",
+      "mar jaaunga ro ro kar main tum se juda ho kar"
+    ]
+  },
+  {
+    "id": "chain-bin-zikr-e-nabi-aata-nahin",
+    "title": "Chain Bin Zikr-e-Nabi Aata Nahin",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Syed Hassanullah Husaini",
+    "preview": [
+      "chain bin zikr-e-nabi aata nahin",
+      "koi qissa dil ko behlaata nahin"
+    ]
+  },
+  {
+    "id": "dil-ye-kehta-hai-ki-ab-had-se-guzar-jaunga",
+    "title": "Dil Ye Kehta Hai Ki Ab Had Se Guzar Jaunga",
+    "category": "Naat",
+    "poet": "Ashfaq Bahraichi",
+    "khawan": "Ashfaq Bahraichi",
+    "preview": [
+      "dil ye kehta hai ki ab had se guzar jaaunga",
+      "ab ke tayba nahin jaaunga to mar jaaunga"
+    ]
+  },
+  {
+    "id": "jo-ghulam-e-shah-e-abrar-hua-khoob-hua",
+    "title": "Jo Ghulam-e-Shah-e-Abrar Hua Khoob Hua",
+    "category": "Naat",
+    "poet": "Sufi Khalil",
+    "khawan": "Hussain Yousuf Memon",
+    "preview": [
+      "un ke jo ghulaam ho gaye, waqt ke imaam ho gaye",
+      "un ke jo ghulaam ho gaye, waqt ke imaam ho gaye"
+    ]
+  },
+  {
+    "id": "ruk-gai-hai-zameen-ruk-gaya-aasman",
+    "title": "Ruk Gai Hai Zameen Ruk Gaya Aasman",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Ghulam Mustafa Qadri",
+    "preview": [
+      "laakhon durood aur laakhon salaam",
+      "laakhon durood aur laakhon salaam"
+    ]
+  },
+  {
+    "id": "ya-nabi-ya-nabi-ka-wazifa-karo",
+    "title": "Ya Nabi Ya Nabi Ka Wazifa Karo",
+    "category": "Naat",
+    "poet": "Nadeem Raza Faizi",
+    "khawan": "Nadeem Raza Faizi",
+    "preview": [
+      "ya nabi ya nabi ka wazeefa karo",
+      "rang laayegi ulfat kabhi n kabhi"
+    ]
+  },
+  {
+    "id": "yaad-mein-aaqa-ki-aansu-beh-gaye",
+    "title": "Yaad Mein Aaqa Ki Aansu Beh Gaye",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Sandali Ahmad",
+    "preview": [
+      "yaad mein aaqa ki aansu beh gaye",
+      "sab madeene ko gaye ham reh gaye"
+    ]
+  },
+  {
+    "id": "ye-duniya-kaisi-duniya-hai",
+    "title": "Ye Duniya Kaisi Duniya Hai",
+    "category": "Naat",
+    "poet": "Sagar Ziyai Kalkattavi",
+    "khawan": "Sagar Kalkattavi",
+    "preview": [
+      "ye duniya kaisi duniya hai ! sab apna paraaya karte hain",
+      "ek rehmat-e-aalam hi sab ko seene se lagaaya karte hain"
+    ]
+  },
+  {
+    "id": "jo-na-hota-tera-jamal-hi",
+    "title": "Jo Na Hota Tera Jamal Hi",
+    "category": "Naat",
+    "poet": "Tanveer Naqvi",
+    "khawan": "Zubaida Khanum, Yashfeen Ajmal Shaikh, Syeda Areeba Fatima",
+    "preview": [
+      "jo n hota tera jamaal hi",
+      "sallu 'alaihi w aalihi"
+    ]
+  },
+  {
+    "id": "khudaya-daur-e-rehmat-dekhta-main",
+    "title": "Khudaya Daur-e-Rehmat Dekhta Main",
+    "category": "Naat",
+    "poet": "Azizullah Ghalib",
+    "khawan": "Muhammad Anas Nazeer",
+    "preview": [
+      "khudaaya ! daur-e-rehmat dekhta main",
+      "nabi ka husn-e-tal'at dekhta main"
+    ]
+  },
+  {
+    "id": "nazrein-jhuka-lo-palkein-bichha-lo",
+    "title": "Nazrein Jhuka Lo Palkein Bichha Lo",
+    "category": "Naat",
+    "poet": "Babu Faraz",
+    "khawan": "Nawal Khan",
+    "preview": [
+      "nazrein jhuka lo, palkein bichha lo",
+      "naam-e-muhammad liya ja raha hai"
+    ]
+  },
+  {
+    "id": "aap-ka-main-ummati-hun-ye-meri-qismat-huzoor",
+    "title": "Aap Ka Main Ummati Hun Ye Meri Qismat Huzoor",
+    "category": "Naat",
+    "poet": "Maulana Abu Jafar",
+    "khawan": "Syed Wali Ullah",
+    "preview": [
+      "aap ka main ummati hoon ye meri qismat, huzoor !",
+      "mere jeewan ka hai maqsad aap se ulfat, huzoor !"
+    ]
+  },
+  {
+    "id": "agar-taiba-ki-zeenat-gumbad-e-khazra-nahin-hota",
+    "title": "Agar Taiba Ki Zeenat Gumbad-e-Khazra Nahin Hota",
+    "category": "Naat",
+    "poet": "Shoaib Raza Qadri Jhansi",
+    "khawan": "Shoaib Raza Qadri Jhansi",
+    "preview": [
+      "agar tayba ki zeenat gunbad-e-khazra nahin hota",
+      "to us shehr-e-haseen ka naam bhi tayba nahin hota"
+    ]
+  },
+  {
+    "id": "arzi-hai-yahi-aap-se-sultan-e-madina",
+    "title": "Arzi Hai Yahi Aap Se Sultan-e-Madina",
+    "category": "Naat",
+    "poet": "Shauq Fareedi",
+    "khawan": "Sayed Abdul Qadri Qadri",
+    "preview": [
+      "'arzi hai yahi aap se, sultaan-e-madeena !",
+      "har saal banaayen mujhe mehman-e-madeena"
+    ]
+  },
+  {
+    "id": "kaam-aap-ka-bandon-ko-sada-rab-se-milana",
+    "title": "Kaam Aap Ka Bandon Ko Sada Rab Se Milana",
+    "category": "Naat",
+    "poet": "Abdul Aziz",
+    "khawan": "Ghulam Mustafa Qadri, Sahil Raza Qadri",
+    "preview": [
+      "kaam aap ka bandon ko sada rab se milaana",
+      "sarkaar-e-madeena ! sarkaar-e-madeena !"
+    ]
+  },
+  {
+    "id": "kuchh-der-to-baitho-ahl-e-dil-hum-noor-e-huda-ki-baat-karein",
+    "title": "Kuchh Der To Baitho Ahl-e-Dil Hum Noor-e-Huda Ki Baat Karein",
+    "category": "Naat",
+    "poet": "Fiza Faniya",
+    "khawan": "Mufti Anas Yunus",
+    "preview": [
+      "kuchh der to baitho, ahl-e-dil !",
+      "ham noor-e-huda ki baat karein"
+    ]
+  },
+  {
+    "id": "main-bhi-aaqa-wo-tere-dar-ke-nazare-dekhun",
+    "title": "Main Bhi Aaqa Wo Tere Dar Ke Nazare Dekhun",
+    "category": "Naat",
+    "poet": "Mohammad Shahab Ul Deen Saifi",
+    "khawan": "Umer Munir Qadri",
+    "preview": [
+      "main bhi, aaqa ! wo tere dar ke nazaare dekhoon",
+      "jitne manzar hain madeene ke wo saare dekhoon"
+    ]
+  },
+  {
+    "id": "unke-karam-se-kaam-sara-ho-gaya",
+    "title": "Unke Karam Se Kaam Sara Ho Gaya",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Muhammad Moiz Ashrafi",
+    "preview": [
+      "un ke karam se kaam saara ho gaya",
+      "sabz gunbad ka nazaara ho gaya"
+    ]
+  },
+  {
+    "id": "dhadkane-dil-ki-ruk-jayengi-toot-kar-ye-bikhar-jayega",
+    "title": "Dhadkane Dil Ki Ruk Jayengi Toot Kar Ye Bikhar Jayega",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Usman Raza Manzari",
+    "preview": [
+      "dhadakane dil ki ruk jaayengi, toot kar ye bikhar jaayega",
+      "apna jalwa dikha deejiye, warna deewaana mar jaayega"
+    ]
+  },
+  {
+    "id": "ek-taraf-ek-haseen-ek-taraf-aaina",
+    "title": "Ek Taraf Ek Haseen Ek Taraf Aaina",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Saad Raza Muzaffarpuri",
+    "preview": [
+      "ik taraf ik haseen, ik taraf aaina",
+      "aaina 'ishq ka pehla zeena bana"
+    ]
+  },
+  {
+    "id": "mujh-ko-dikha-de-maula-tayba-ka-wo-nazara",
+    "title": "Mujh Ko Dikha De Maula Tayba Ka Wo Nazara",
+    "category": "Naat",
+    "poet": "Sajjad Ahmad (Typist)",
+    "khawan": "Hafiz Anas Raza Attari",
+    "preview": [
+      "mujh ko dikha de, maula ! tayba ka wo nazaara",
+      "wo sabz pyaara gunbad, dilakash haseen minaara"
+    ]
+  },
+  {
+    "id": "muskurane-lagi-har-taraf-raushani",
+    "title": "Muskurane Lagi Har Taraf Raushani",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Akhtar Kashif",
+    "preview": [
+      "muskuraane lagi har taraf raushni",
+      "zulmaton pe yaqeenan zawaal aa gaya"
+    ]
+  },
+  {
+    "id": "sunehri-jaliyan-gumbad-suhana-yaad-aata-hai",
+    "title": "Sunehri Jaliyan Gumbad Suhana Yaad Aata Hai",
+    "category": "Naat",
+    "poet": "Ahmadul Fattah",
+    "khawan": "Ahmadul Fattah",
+    "preview": [
+      "sunehri jaaliyaan, gunbad suhaana yaad aata hai",
+      "mujhe reh reh ke aaqa ka madeena yaad aata hai"
+    ]
+  },
+  {
+    "id": "jis-ko-kehte-hain-sultan-e-paigambaran",
+    "title": "Jis Ko Kehte Hain Sultan-e-Paigambaran",
+    "category": "Naat",
+    "poet": "Shauq Fareedi",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "jis ko kehte hain sultaan-e-paighanbraan",
+      "wo paighanbar madeene mein maujood hai"
+    ]
+  },
+  {
+    "id": "meri-hasrat-meri-chahat-mita-dete-to-achchha-tha",
+    "title": "Meri Hasrat Meri Chahat Mita Dete To Achchha Tha",
+    "category": "Naat",
+    "poet": "Azmat Raza Bhagalpuri",
+    "khawan": "Azmat Raza Bhagalpuri",
+    "preview": [
+      "meri hasarat, meri chaaht mita dete to achchha tha",
+      "mujhe aaqa madeene mein bula lete to achchha tha"
+    ]
+  },
+  {
+    "id": "nigah-e-rahmat-uthaiye-na-huzoor-mera-nahin-hai-koi",
+    "title": "Nigah-e-Rahmat Uthaiye Na Huzoor Mera Nahin Hai Koi",
+    "category": "Naat",
+    "poet": "Azmat Raza Bhagalpuri",
+    "khawan": "Azmat Raza Bhagalpuri",
+    "preview": [
+      "nigaah-e-rehmat uthaaiye na, huzoor ! mera nahin hai koi",
+      "mujhe bhi tayba bulaaiye na, huzoor ! mera nahin hai koi"
+    ]
+  },
+  {
+    "id": "qareeb-e-dayar-e-habib-e-khuda-mein-mera-ghar-banane-ko-ji-chahta-hai",
+    "title": "Qareeb-e-Dayar-e-Habib-e-Khuda Mein Mera Ghar Banane Ko Ji Chahta Hai",
+    "category": "Naat",
+    "poet": "Shauq Fareedi",
+    "khawan": "Syed Hassanullah Husaini",
+    "preview": [
+      "qareeb-e-dayaar-e-habeeb-e-khuda mein",
+      "mera ghar banaane ko ji chaahta hai"
+    ]
+  },
+  {
+    "id": "shaah-e-deen-mehrban-mustafa-hai",
+    "title": "Shaah-e-Deen Mehrban Mustafa Hai",
+    "category": "Naat",
+    "poet": "Azizullah Ghalib",
+    "khawan": "Hafiz Anas Raza Attari",
+    "preview": [
+      "mustafa ! mustafa ! mustafa ! mustafa !",
+      "shah-e-deen mehrbaan mustafa hai"
+    ]
+  },
+  {
+    "id": "ashkon-ki-guzarish-hai-ye-sarkar-e-madina",
+    "title": "Ashkon Ki Guzarish Hai Ye Sarkar-e-Madina",
+    "category": "Naat",
+    "poet": "Syed Fazil Maysori",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "ya rasoolallaah ! ya rasoolallaah ! ya rasoolallaah !",
+      "gar tum n sunoge to meri kaun sunega"
+    ]
+  },
+  {
+    "id": "bahar-se-theek-thaak-hun-main-par-mere-huzoor",
+    "title": "Bahar Se Theek Thaak Hun Main Par Mere Huzoor",
+    "category": "Naat",
+    "poet": "Danish Ejaz",
+    "khawan": "Muneeb Qureshi, Mahmood Raza Qadri",
+    "preview": [
+      "baahr se theek-thaak hoon main par, mere huzoor !",
+      "kuchh toot-phoot hai mere andar, mere huzoor !"
+    ]
+  },
+  {
+    "id": "barish-e-rahmat-e-kibriya-hai",
+    "title": "Barish-e-Rahmat-e-Kibriya Hai",
+    "category": "Naat",
+    "poet": "Hafiz Shauq Fareedi",
+    "khawan": "Ghulam Mustafa Qadri",
+    "preview": [
+      "sar-e-la-makaan se talab hui",
+      "su-e-muntaha wo chale nabi"
+    ]
+  },
+  {
+    "id": "daman-mein-liye-khair-hai-aai-shab-e-meraj",
+    "title": "Daman Mein Liye Khair Hai Aai Shab-e-Meraj",
+    "category": "Naat",
+    "poet": "Hafiz Shauq Fareedi",
+    "khawan": "Hafiz Anas Raza Attari",
+    "preview": [
+      "daaman mein liye khair hai aai shab-e-me'raaj",
+      "mehroom nahin lautega koi shab-e-me'raaj"
+    ]
+  },
+  {
+    "id": "kyun-chand-mein-khoye-ho-uljhe-ho-sitaron-mein",
+    "title": "Kyun Chand Mein Khoye Ho Uljhe Ho Sitaron Mein",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Tasneem Arif, Syed Rehan Qadri, Jawed Raza",
+    "preview": [
+      "kyun chaand mein khoye ho, uljhe ho sitaaron mein",
+      "aaqa ko mere dhoondo quraaan ke paaron mein"
+    ]
+  },
+  {
+    "id": "bulbul-tere-honton-pe-ye-kis-ka-tarana-hai",
+    "title": "Bulbul Tere Honton Pe Ye Kis Ka Tarana Hai",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Qari Sartaj Alam Sultanpuri, Intesaf Bastavi, Alvida Khatun",
+    "preview": [
+      "bulbul tere honton pe ye kis ka taraana hai",
+      "'ushshaaq ki aamad hai, mausam bhi suhaana hai"
+    ]
+  },
+  {
+    "id": "koo-e-janan-mein-yaar-ja-na-saka",
+    "title": "Koo-e-Janan Mein Yaar Ja Na Saka",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Zakir Ismaili",
+    "preview": [
+      "ku-e-jaanaan mein, yaar ! ja n saka",
+      "zakhm dil ke unhein dikha n saka"
+    ]
+  },
+  {
+    "id": "elaan-khul-ke-karti-hai-ummat-rasool-ki",
+    "title": "Elaan Khul Ke Karti Hai Ummat Rasool Ki",
+    "category": "Naat",
+    "poet": "Mufti Hafizullah Qasmi",
+    "khawan": "Sandali Ahmad",
+    "preview": [
+      "e'laan khul ke karti hai ummat rasool ki",
+      "har dil mein ja-guzeen hai mohabbat rasool ki"
+    ]
+  },
+  {
+    "id": "falak-par-chand-jaisa-hai-nabi-ka-naam-aisa-hai",
+    "title": "Falak Par Chand Jaisa Hai Nabi Ka Naam Aisa Hai",
+    "category": "Naat",
+    "poet": "Abu Ahmad",
+    "khawan": "Hassan Farooq, Mahmud Huzaifa",
+    "preview": [
+      "falak par chaand jaisa hai, nabi ka naam aisa hai",
+      "dilon se gham mitaata hai, muhammad naam aisa hai"
+    ]
+  },
+  {
+    "id": "hidayat-rahnumai-hain-mere-sarkar-ki-baatein",
+    "title": "Hidayat Rahnumai Hain Mere Sarkar Ki Baatein",
+    "category": "Naat",
+    "poet": "Afzaal Siddiqui",
+    "khawan": "Hassan Afzaal Siddiqui",
+    "preview": [
+      "hidaayat raahnumaai hain mere sarkaar ki baatein",
+      "bhalaai hi bhalaai hain mere sarkaar ki baatein"
+    ]
+  },
+  {
+    "id": "madina-pahuncha-hai-jab-diwana-kabhi-idhar-se-kabhi-udhar-se",
+    "title": "Madina Pahuncha Hai Jab Diwana Kabhi Idhar Se Kabhi Udhar Se",
+    "category": "Naat",
+    "poet": "Saif Raza Kanpuri",
+    "khawan": "Saif Raza Kanpuri",
+    "preview": [
+      "madeena pahuncha hai jab diwaana",
+      "kabhi idhar se kabhi udhar se"
+    ]
+  },
+  {
+    "id": "maut-ke-bhanwar-se-ya-nabi-bach-ke-baal-baal-aa-gaya",
+    "title": "Maut Ke Bhanwar Se Ya Nabi Bach Ke Baal Baal Aa Gaya",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Saif Raza Kanpuri",
+    "preview": [
+      "maut ke bhanwar se, ya nabi ! bach ke baal-baal aa gaya",
+      "khair ho gai ki us ghadi aap ka khayaal aa gaya"
+    ]
+  },
+  {
+    "id": "nabi-ki-naat-padhta-hun-dil-e-muztar-machalta-hai",
+    "title": "Nabi Ki Naat Padhta Hun Dil-e-Muztar Machalta Hai",
+    "category": "Naat",
+    "poet": "Rizwan Mehboobi",
+    "khawan": "Sandali Ahmad",
+    "preview": [
+      "nabi ki naa't padhta hoon, dil-e-muztar machalta hai",
+      "khuda ke fazl se mera muqaddar bhi sanwarta hai"
+    ]
+  },
+  {
+    "id": "raunaq-e-arz-o-sama-kuchh-aur-hai",
+    "title": "Raunaq-e-Arz-o-Sama Kuchh Aur Hai",
+    "category": "Naat",
+    "poet": "Mubarak Hussain Mubarak",
+    "khawan": "Mubarak Hussain Mubarak, Ziya Yazdani",
+    "preview": [
+      "raunaq-e-arz-o-sama kuchh aur hai",
+      "shehr-e-tayba ki hawa kuchh aur hai"
+    ]
+  },
+  {
+    "id": "samne-seerat-e-mustafa-dars-hai-rahbari-ke-liye",
+    "title": "Samne Seerat-e-Mustafa Dars Hai Rahbari Ke Liye",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Muhammad Hussain Razvi, Ramzan Siddiqui",
+    "preview": [
+      "saamne seerat-e-mustafa dars hai rehbri ke liye",
+      "phir hamein aur kya chaahiye, momino ! zindagi ke liye"
+    ]
+  },
+  {
+    "id": "tamanna-dil-ki-hai-ab-to-diyar-e-mustafa-dekhun",
+    "title": "Tamanna Dil Ki Hai Ab To Diyar-e-Mustafa Dekhun",
+    "category": "Naat",
+    "poet": "Zaheer Usmani",
+    "khawan": "Zaheer Usmani",
+    "preview": [
+      "soz-e-dil chaahiye, chashm-e-nam chaahiye",
+      "jeene ko ab mujhe bas haram chaahiye"
+    ]
+  },
+  {
+    "id": "zamana-bahut-khubsurat-hai-lekin-madine-ke-bazar-jaisa-nahin-hai",
+    "title": "Zamana Bahut Khubsurat Hai Lekin Madine Ke Bazar Jaisa Nahin Hai",
+    "category": "Naat",
+    "poet": "Shakeel Arfi Farrukhabadi",
+    "khawan": "Shakeel Arfi Farrukhabadi",
+    "preview": [
+      "zamaana bahut khoobsoorat hai lekin",
+      "madeene ke baazaar jaisa nahin hai"
+    ]
+  },
+  {
+    "id": "ghamzadon-ko-hansane-kufr-o-zulmat-mitane-mere-shamsudduha-aa-gaye",
+    "title": "Ghamzadon Ko Hansane Kufr-o-Zulmat Mitane Mere Shamsudduha Aa Gaye",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Raza Hussain Kalkattavi",
+    "preview": [
+      "gham-zadon ko hansaane",
+      "kufr-o-zulmat mitaane"
+    ]
+  },
+  {
+    "id": "mere-dard-e-dil-ki-sada-hai-muhammad",
+    "title": "Mere Dard-e-Dil Ki Sada Hai Muhammad",
+    "category": "Naat",
+    "poet": "Uzma Faheem",
+    "khawan": "Hafiz Hassan Anzar",
+    "preview": [
+      "mere dard-e-dil ki sada hai muhammad",
+      "mere sab dukhon ki dawa hai muhammad"
+    ]
+  },
+  {
+    "id": "karam-kar-do-mere-aaqa-khudara",
+    "title": "Karam Kar Do Mere Aaqa Khudara",
+    "category": "Naat",
+    "poet": "Muhammad Rafiq Zia Qadri",
+    "khawan": "Muhammad Rafiq Zia Qadri, Shakeel Qadri Peeranwala",
+    "preview": [
+      "karam kar do, mere aaqa ! khuda-ra",
+      "sahaara do, sahaara do, sahaara"
+    ]
+  },
+  {
+    "id": "muhammad-naam-aisa-hai-ke-jis-lab-par-ye-naam-aaya",
+    "title": "Muhammad Naam Aisa Hai Ke Jis Lab Par Ye Naam Aaya",
+    "category": "Naat",
+    "poet": "Shakir Farooqi",
+    "khawan": "Jawed Raza Qadri",
+    "preview": [
+      "naam-e-muhammad salle-'ala, naam-e-muhammad salle-'ala",
+      "naam-e-muhammad salle-'ala, naam-e-muhammad salle-'ala"
+    ]
+  },
+  {
+    "id": "mujhe-mustafa-ke-dar-se-bhala-kya-mila-nahin-hai",
+    "title": "Mujhe Mustafa Ke Dar Se Bhala Kya Mila Nahin Hai",
+    "category": "Naat",
+    "poet": "Zamzam Fatehpuri",
+    "khawan": "Zamzam Fatehpuri, Mufti Arif Raza Qureshi",
+    "preview": [
+      "mujhe mustafa ke dar se bhala kya mila nahin hai",
+      "main ghulaam-e-mustafa hoon, mere paas kya nahin hai"
+    ]
+  },
+  {
+    "id": "sar-jhukata-hun-main-khuda-ke-liye",
+    "title": "Sar Jhukata Hun Main Khuda Ke Liye",
+    "category": "Naat",
+    "poet": "Nadeem Raza Faizi",
+    "khawan": "Nadeem Raza Faizi",
+    "preview": [
+      "sar jhukaata hoon main khuda ke liye",
+      "jaan haazir hai mustafa ke liye"
+    ]
+  },
+  {
+    "id": "apne-aansu-bahaunga-main-apne-rab-ko-manaunga-main",
+    "title": "Apne Aansu Bahaunga Main | Apne Rab Ko Manaunga Main",
+    "category": "Hamd",
+    "poet": "Waseem Hijazi",
+    "khawan": "Muhammad Anas Nazeer",
+    "preview": [
+      "apne aansu bahaaunga main",
+      "apne rab ko manaaunga main"
+    ]
+  },
+  {
+    "id": "jashn-e-wiladat-ke-nare-sarkar-ki-aamad-marhaba",
+    "title": "Jashn-e-Wiladat Ke Nare | Sarkar Ki Aamad Marhaba",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "sarkaar ki aamad ! marhaba !",
+      "sardaar ki aamad ! marhaba !"
+    ]
+  },
+  {
+    "id": "judai-ka-koi-beeta-hua-lamha-rulata-hai-to-kaba-yaad-aata-hai-bada-hi-yaad-aata-hai",
+    "title": "Judai Ka Koi Beeta Hua Lamha Rulata Hai | To Kaba Yaad Aata Hai Bada Hi Yaad Aata Hai",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Junaid Qasmi",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "gar tu n sunega to meri kaun sunega",
+      "gar tu n karega to karam kaun karega"
+    ]
+  },
+  {
+    "id": "palestineo-ne-qayamat-mein-aaqa-ko-dukhda-sunaya-to-phir-kya-karoge",
+    "title": "Palestineo Ne Qayamat Mein Aaqa Ko Dukhda Sunaya To Phir Kya Karoge",
+    "category": "Naat",
+    "poet": "Syed Ahmadullah Shah Rifai",
+    "khawan": "Syeda Areeba Fatima",
+    "preview": [
+      "filisteeniyon ne qayamat mein aaqa ko dukhda sunaaya to phir kya karoge",
+      "agar mustafa ne bhi naaraaz ho kar rukh apna phiraaya to phir kya karoge"
+    ]
+  },
+  {
+    "id": "rab-ne-kar-diya-elaan-kullu-man-alaiha-faan",
+    "title": "Rab Ne Kar Diya Elaan Kullu Man Alaiha Faan",
+    "category": "Naat",
+    "poet": "Maulana Abu Jafar",
+    "khawan": "Muhammad Anas Nazeer",
+    "preview": [
+      "rab ne kar diya e'laan, kullu man 'alaiha faan",
+      "baaqi hoga bas rehmaan, kullu man 'alaiha faan"
+    ]
+  },
+  {
+    "id": "ramzan-ke-jaisa-hamein-tohfa-na-milega",
+    "title": "Ramzan Ke Jaisa Hamein Tohfa Na Milega",
+    "category": "Naat",
+    "poet": "Hamdam",
+    "khawan": "Sandali Ahmad, Jawed Raza",
+    "preview": [
+      "ramzaan ke jaisa hamein tohfa n milega",
+      "aisa kabhi achchha hamein mauqa' n milega"
+    ]
+  },
+  {
+    "id": "ramzan-ke-ye-lamhe-ab-door-ho-rahe-hain-al-wada-ramzan-al-wada",
+    "title": "Ramzan Ke Ye Lamhe Ab Door Ho Rahe Hain | Al-Wada Ramzan Al-Wada",
+    "category": "Naat",
+    "poet": "Muhammad Hanif Sani",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "al-wada', ramzaan ! al-wada'",
+      "al-wada', ramzaan ! al-wada'"
+    ]
+  },
+  {
+    "id": "sab-ko-udas-kar-ke-ramzan-ja-raha-hai",
+    "title": "Sab Ko Udas Kar Ke Ramzan Ja Raha Hai",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Nazim Raza Mazhari, Yasmeen Khan",
+    "preview": [
+      "sab ko udaas kar ke ramzaan ja raha hai",
+      "sab pe luta ke apna faizaan ja raha hai"
+    ]
+  },
+  {
+    "id": "sare-musalmano-ko-ramzan-mubarak",
+    "title": "Sare Musalmano Ko Ramzan Mubarak",
+    "category": "Naat",
+    "poet": "Babu Faraz",
+    "khawan": "Nawal Khan",
+    "preview": [
+      "rajab mubaarak, shaabaan mubaarak",
+      "saare musalmaanon ko ramzaan mubaarak"
+    ]
+  },
+  {
+    "id": "tauba-ka-darwaza-khula-hai-tauba-astaghfar-karo",
+    "title": "Tauba Ka Darwaza Khula Hai Tauba Astaghfar Karo",
+    "category": "Hamd",
+    "poet": "Babu Faraz",
+    "khawan": "Nawal Khan",
+    "preview": [
+      "tauba ka darwaza khula hai, tauba astaghfaar karo",
+      "gunaah se nafarat karo hamesha aur neki se pyaar karo"
+    ]
+  },
+  {
+    "id": "aye-mah-e-mubarak-tujhe-alwida-ho-ki-ab-tere-jane-ka-waqt-aa-gaya-hai",
+    "title": "Aye Mah-e-Mubarak Tujhe Alwida Ho Ki Ab Tere Jane Ka Waqt Aa Gaya Hai",
+    "category": "Naat",
+    "poet": "Ashar Bukhari",
+    "khawan": "Asif Muavia, Sandali Ahmad",
+    "preview": [
+      "ai maah-e-mubaarak ! tujhe alwida' ho",
+      "ki ab tere jaane ka waqt aa gaya hai"
+    ]
+  },
+  {
+    "id": "dil-hai-ghamgeen-mera-ashkbaar-hain-aankhen",
+    "title": "Dil Hai Ghamgeen Mera Ashkbaar Hain Aankhen",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Muhammad Asim-ul-Qadri Moradabadi",
+    "khawan": "Ghulam Mustafa Qadri, Syeda Areeba Fatima",
+    "preview": [
+      "ya khuda ! sun sada, ya khuda ! sun sada",
+      "dil hai ghamgeen mera, ashk-baar hain aankhein"
+    ]
+  },
+  {
+    "id": "judai-se-ye-dil-phata-ja-raha-hai-bata-mah-e-ramzan-tu-kyun-ja-raha-hai",
+    "title": "Judai Se Ye Dil Phata Ja Raha Hai | Bata Mah-e-Ramzan Tu Kyun Ja Raha Hai",
+    "category": "Naat",
+    "poet": "Shariq Inami",
+    "khawan": "Shariq Inami, Sandali Ahmad",
+    "preview": [
+      "judaai se ye dil phata ja raha hai",
+      "bata, maah-e-ramzaan ! tu kyun ja raha hai"
+    ]
+  },
+  {
+    "id": "khuda-naraz-hai-hum-se-nabi-naraz-hai-hum-se",
+    "title": "Khuda Naraz Hai Hum Se Nabi Naraz Hai Hum Se",
+    "category": "Naat",
+    "poet": "Hud Hud Ilahabadi",
+    "khawan": "Samiullah Saqi",
+    "preview": [
+      "khuda naaraaz hai ham se, nabi naaraaz hai ham se",
+      "andhere mein khade hain, raushni naaraaz hai ham se"
+    ]
+  },
+  {
+    "id": "khushi-hai-kaisi-ye-kyun-chehre-jagmagae-hain-khuda-ke-fazl-se-ramzan-ke-roze-aaye-hain",
+    "title": "Khushi Hai Kaisi Ye Kyun Chehre Jagmagae Hain | Khuda Ke Fazl Se Ramzan Ke Roze Aaye Hain",
+    "category": "Naat",
+    "poet": "Muhammad Asim-ul-Qadri Moradabadi",
+    "khawan": "Ghulam Mustafa Qadri",
+    "preview": [
+      "maah-e-ramzaan mubaarak ho ! maah-e-ramzaan mubaarak ho !",
+      "maah-e-ramzaan mubaarak ho ! maah-e-ramzaan mubaarak ho !"
+    ]
+  },
+  {
+    "id": "mah-e-ramzan-jalwanuma-ho-gaya",
+    "title": "Mah-e-Ramzan Jalwanuma Ho Gaya",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Zohaib Ashrafi",
+    "preview": [
+      "maah-e-ramzaan jalwa-numa ho gaya",
+      "har taraf noor ka ik samaan ho gaya"
+    ]
+  },
+  {
+    "id": "mubarak-raat-aai-hai-chalo-rab-ko-manate-hain",
+    "title": "Mubarak Raat Aai Hai Chalo Rab Ko Manate Hain",
+    "category": "Hamd",
+    "poet": "Bint-e-Irfan Fazli",
+    "khawan": "Hafiz Jalabeeb Qadri",
+    "preview": [
+      "mubaarak raat aai hai, chalo rab ko manaate hain",
+      "khuda ki wus'at-e-rehmat se ab ham lau lagaate hain"
+    ]
+  },
+  {
+    "id": "ramzan-ke-mahine-ki-kya-baat-momino-ramzan-mehrban-ramzan-mehrban",
+    "title": "Ramzan Ke Mahine Ki Kya Baat Momino | Ramzan Mehrban Ramzan Mehrban",
+    "category": "Naat",
+    "poet": "Hanif Sani",
+    "khawan": "Ajwa Baloch",
+    "preview": [
+      "ramzaan ke maheene ki kya baat, momino !",
+      "laaya hai rehmaton ki ye saughaat, momino !"
+    ]
+  },
+  {
+    "id": "ramzan-mubarak-hai-bada-pyara-mahina",
+    "title": "Ramzan Mubarak Hai Bada Pyara Mahina",
+    "category": "Naat",
+    "poet": "Waseem Ansari",
+    "khawan": "Ayesha Sisters",
+    "preview": [
+      "ramzaan mubaarak hai bada pyaara maheena",
+      "ham sab ko sikhaata hai ye jeene ka qareena"
+    ]
+  },
+  {
+    "id": "sukoon-gayab-hai-aankhon-se-musalsal-ashk-jari-hai",
+    "title": "Sukoon Gayab Hai Aankhon Se Musalsal Ashk Jari Hai",
+    "category": "Naat",
+    "poet": "Mufti Hafizullah Hafiz",
+    "khawan": "Alvida Khatun, Sandali Ahmad",
+    "preview": [
+      "sukoon ghaayab hai aankhon se, musalasal ashk jaari hai",
+      "tere jaane se, ai maah-e-mubaarak ! be-qaraari hai"
+    ]
+  },
+  {
+    "id": "allah-tera-hai-ehsaan-noor-e-ramzaan",
+    "title": "Allah Tera Hai Ehsaan | Noor-e-Ramzaan",
+    "category": "Naat",
+    "poet": "Mir Sajjad",
+    "khawan": "Farhan Ali Waris",
+    "preview": [
+      "shukr-e-khuda karo, meh-e-rehmaan aa gaya",
+      "taqseem karne ne'matein ramzaan aa gaya"
+    ]
+  },
+  {
+    "id": "alvida-aye-mah-e-ramzan-teri-azmat-ko-salam",
+    "title": "Alvida Aye Mah-e-Ramzan Teri Azmat Ko Salam",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Unknown",
+    "preview": [
+      "alwida', ai maah-e-ramzaan ! teri 'azamat ko salaam",
+      "alwida', ai maah-e-ramzaan ! teri 'azamat ko salaam"
+    ]
+  },
+  {
+    "id": "chashm-e-nam-hai-har-ik-ahl-e-imaan-alvida-alvida-mahe-ramzan",
+    "title": "Chashm-e-Nam Hai Har Ik Ahl-e-Imaan | Alvida Alvida Mahe Ramzan",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Tasneem Arif",
+    "preview": [
+      "chashm-e-nam hai har ik ahl-e-eemaan",
+      "ro ro kehta hai har ik musalmaan"
+    ]
+  },
+  {
+    "id": "hai-soch-se-bhi-pyara-kabe-ka-haseen-manzar",
+    "title": "Hai Soch Se Bhi Pyara Kabe Ka Haseen Manzar",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Shafeeq Allah Yaar Parwan",
+    "khawan": "Syed Hassan Ullah Hussaini",
+    "preview": [
+      "labbaik labbaik allaahumm labbaik",
+      "labbaik labbaik allaahumm labbaik"
+    ]
+  },
+  {
+    "id": "jab-dil-ho-pareshan-to-sajda-kiya-karo",
+    "title": "Jab Dil Ho Pareshan To Sajda Kiya Karo",
+    "category": "Hamd",
+    "poet": "Babu",
+    "khawan": "Nawal Khan",
+    "preview": [
+      "jab dil ho pareshaan to sajda kiya karo",
+      "aur us ki baargaah mein tauba kiya karo"
+    ]
+  },
+  {
+    "id": "khel-cricket-na-sharaarat-ke-liye-aaya-hai-maah-e-ramzaan-ibaadat-ke-liye-aaya-hai",
+    "title": "Khel Cricket Na Sharaarat Ke Liye Aaya Hai, Maah-e-Ramzaan Ibaadat Ke Liye Aaya Hai",
+    "category": "Naat",
+    "poet": "Muhammad Asim-ul-Qadri Moradabadi",
+    "khawan": "Ghulam Mustafa Qadri",
+    "preview": [
+      "maah-e-ramzaan ! maah-e-ramzaan !",
+      "maah-e-ramzaan ! maah-e-ramzaan !"
+    ]
+  },
+  {
+    "id": "khwab-e-ghaflat-mein-soe-hue-momino",
+    "title": "Khwab-e-Ghaflat Mein Soe Hue Momino",
+    "category": "Naat",
+    "poet": "Qari Ehsan Mohsin",
+    "khawan": "Qari Ehsan Mohsin",
+    "preview": [
+      "khwaab-e-ghafalat mein soye hue momino !",
+      "'aish-o-'isharat badhaane se kya faaida"
+    ]
+  },
+  {
+    "id": "kya-bharosa-hai-is-zindagi-ka",
+    "title": "Kya Bharosa Hai Is Zindagi Ka",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Sandali Ahmad",
+    "preview": [
+      "kya bharosa hai is zindagi ka",
+      "saath deti nahin ye kisi ka"
+    ]
+  },
+  {
+    "id": "le-ke-sab-rehmatein-le-ke-sab-barkatein-mah-e-ramzan-chala-alwida-alwida",
+    "title": "Le Ke Sab Rehmatein Le Ke Sab Barkatein | Mah-e-Ramzan Chala Alwida Alwida",
+    "category": "Naat",
+    "poet": "Farhan Dil Malegaon",
+    "khawan": "Qari Abdul Mannan, Hafiz Abdul Qayyum",
+    "preview": [
+      "alwida' ! alwida' ! alwida' ! alwida' !",
+      "alwida' ! alwida' ! alwida' ! alwida' !"
+    ]
+  },
+  {
+    "id": "payi-shab-e-barat-ye-qismat-ki-baat-hai-jagunga-saari-raat-ibadat-ki-raat-hai",
+    "title": "Payi Shab-e-Barat Ye Qismat Ki Baat Hai | Jagunga Saari Raat Ibadat Ki Raat Hai",
+    "category": "Hamd",
+    "poet": "Unknown",
+    "khawan": "Rao Ali Hasnain",
+    "preview": [
+      "shab-e-baraat ! shab-e-baraat !",
+      "shab-e-baraat ! shab-e-baraat !"
+    ]
+  },
+  {
+    "id": "chehre-khile-khile-hain-raushan-hai-sab-ka-seena",
+    "title": "Chehre Khile Khile Hain, Raushan Hai Sab Ka Seena",
+    "category": "Naat",
+    "poet": "Unknown",
+    "khawan": "Shakeel Sindhu Qadri, Sandali Ahmad",
+    "preview": [
+      "chehre khile khile hain",
+      "raushan hai sab ka seena"
+    ]
+  },
+  {
+    "id": "ilm-noor-hai-zehni-aazmaish-season-11",
+    "title": "Ilm Noor Hai (Zehni Aazmaish Season 11)",
+    "category": "Dua, Durood, Tasbih",
+    "poet": "Unknown",
+    "khawan": "Junaid Sheikh Attari",
+    "preview": [
+      "gumbade-khazra ki aaghosh-e-sukoon ke waaste",
+      "ilm-o-irfaan ke hamein ya rab dikha de raaste"
+    ]
+  },
+  {
+    "id": "madine-ke-aaqa-madine-ke-sarwar-durood-aap-par-ho-salam-aap-par-ho",
+    "title": "Madine Ke Aaqa Madine Ke Sarwar | Durood Aap Par Ho Salam Aap Par Ho",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Mohammed Nabeel",
+    "preview": [
+      "Madeene ke aaqa, madeene ke sarwar !",
+      "Durood aap par ho, salaam aap par ho"
+    ]
+  },
+  {
+    "id": "mustafa-mujtaba-khatam-ul-ambiya-hon-hazaron-durood-o-salam-aap-par",
+    "title": "Mustafa Mujtaba Khatam-Ul-Ambiya | Hon Hazaron Durood-o-Salam Aap Par",
+    "category": "Salaam",
+    "poet": "Pir Syed Moin ul Haq Gilani",
+    "khawan": "Mahmood ul Hassan Ashrafi",
+    "preview": [
+      "Mustfa mujtba khaatam-ul-anbiya !",
+      "Hon hazaaron durood-o-salaam aap par"
+    ]
+  },
+  {
+    "id": "nabi-ke-roze-pe-jane-walo-mera-bhi-un-ko-salam-kehna",
+    "title": "Nabi Ke Roze Pe Jane Walo Mera Bhi Un Ko Salam Kehna",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Sultan Ateeq Rehman, Safeer Maqsood",
+    "preview": [
+      "Asslaamu 'alaika ya ! Ya rasoolallaah !",
+      "Asslaamu 'alaika ya habeebi ! Ya rasoolallaah !"
+    ]
+  },
+  {
+    "id": "shah-e-karb-o-bala-lelo-lelo-salam-ab-hamara",
+    "title": "Shah-e-Karb-o-Bala Lelo Lelo Salam Ab Hamara",
+    "category": "Salaam",
+    "poet": "Syed Kaukab Jilani",
+    "khawan": "Syed Abdul Qadir Al-Qadri",
+    "preview": [
+      "Ya Husain asslaam ! Ya Husain asslaam !",
+      "Ya Husain asslaam ! Ya Husain asslaam !"
+    ]
+  },
+  {
+    "id": "shah-e-madina-shah-e-do-aalam-le-lo-hamara-salam",
+    "title": "Shah-e-Madina Shah-e-Do Aalam | Le Lo Hamara Salam",
+    "category": "Salaam",
+    "poet": "Kaisar Samastipuri",
+    "khawan": "Chand Afzal Qadri",
+    "preview": [
+      "Shaah-e-madina shaah-e-do-'aalam !",
+      "Ai nabiyon ke imaam nabeeji ! Le lo hamaara salaam"
+    ]
+  },
+  {
+    "id": "shahenshah-e-aala-salamun-alaikum-do-aalam-ke-aaqa-salamun-alaikum",
+    "title": "Shahenshah-e-Aala Salamun Alaikum | Do Aalam Ke Aaqa Salamun Alaikum",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Hafiz Tajuddin Razvi, Qari Muhammad Asadullah, Syed Muhammad Qadri",
+    "preview": [
+      "Shehenshah-e-ala ! Salaamun 'alaikum",
+      "Do 'aalam ke aaqa ! Salaamun 'alaikum"
+    ]
+  },
+  {
+    "id": "suno-aye-chand-ki-kirnon-salam-keh-dena",
+    "title": "Suno Aye Chand Ki Kirnon Salam Keh Dena",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Syed Shah Mehtab and Sajjad Qadri",
+    "preview": [
+      "Suno, ai chaand ki kiranon ! Salaam keh dena",
+      "Dar-e-habeeb pe mera payaam keh dena"
+    ]
+  },
+  {
+    "id": "ya-sayyadi-habibi-khairul-anam-aaqa-apne-salamiyon-ka-le-lo-salam-aaqa",
+    "title": "Ya Sayyadi Habibi Khairul Anam Aaqa | Apne Salamiyon Ka Le Lo Salam Aaqa",
+    "category": "Salaam",
+    "poet": "Unknown",
+    "khawan": "Aziz Naazaan",
+    "preview": [
+      "Ya sayydi habeebi khair-ul-anaam aaqa !",
+      "Apne salaamiyon ka le lo salaam, aaqa !"
+    ]
+  },
+  {
+    "id": "ulfat-mein-teri-aaqa-majnoon-kaha-gaya-hun",
+    "title": "Ulfat Mein Teri, Aaqa ! Majnoon Kaha Gaya Hun",
+    "category": "Naat",
+    "poet": "Maulana Waliullah Wali Qasmi Bastavi",
+    "khawan": "Hafiz Sa'dullah Madani, Shabbir Ahmad Muzaffarpuri",
+    "preview": [
+      "Ulfat mein teri, aaqa ! majnoon kaha gaya hoon",
+      "Deewaana tere dar ka, kehta suna gaya hoon"
+    ]
+  },
+  {
+    "id": "sarkaar-aa-rahe-hain",
+    "title": "Sarkaar Aa Rahe Hain",
+    "category": "Naat",
+    "poet": "Waqar Ahmad Noori",
+    "khawan": "Shadab Raza Manzari",
+    "preview": [
+      "Deewaano ! ghar sajaao, sarkaar aa rahe hain",
+      "Naare sabhi lagaao, sarkaar aa rahe hain"
+    ]
+  },
+  {
+    "id": "ya-nabi-sab-karam-hai-tumhara-ye-jo-ware-niyare-hue-hain",
+    "title": "Ya Nabi Sab Karam Hai Tumhara Ye Jo Ware Niyare Hue Hain",
+    "category": "Naat",
+    "poet": "Zahid Niazi",
+    "khawan": "Prof. Abdul Rauf Roofi, Qari Shahid Mehmood Qadri, Hafiz Tahir Qadri, Asad Raza Attari, Syed Hassanullah Hussaini",
+    "preview": [
+      "Ya nabi ! sab karam hai tumhara, ye jo waare niyaare hue hain",
+      "Ab kami ka tasawwur bhi kaisa, jab se mangte tumhare hue hain"
+    ]
+  },
+  {
+    "id": "nabi-e-muazzam-habib-e-mukarram-ba-sad-shaan-khairul-anaam-aa-raha-hai",
+    "title": "Nabi-e-Muazzam Habib-e-Mukarram Ba-Sad Shaan Khairul-Anaam Aa Raha Hai",
+    "category": "Naat",
+    "poet": "Zamzam Fatehpuri",
+    "khawan": "Zamzam Fatehpuri",
+    "preview": [
+      "nabi-e-muazzam, habeeb-e-mukarram b-sad shaan khairul-anaam aa raha hai",
+      "falak se malak aa gaye hain zameen par, khuda ka durood-o-salaam aa raha hai"
+    ]
   }
 ]
