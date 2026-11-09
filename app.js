@@ -195,8 +195,9 @@ function render(reset=true){
       fetch('lyrics-b.json?'+DV).then(r=>r.json()).catch(()=>[]),
       fetch('lyrics-c.json?'+DV).then(r=>r.json()).catch(()=>[]),
       fetch('lyrics-d.json?'+DV).then(r=>r.json()).catch(()=>[]),
-      fetch('lyrics-e.json?'+DV).then(r=>r.json()).catch(()=>[])
-    ]).then(parts=>{full=[...parts[0],...parts[1],...parts[2],...parts[3],...parts[4]]; fullLoading=false; render();});
+      fetch('lyrics-e.json?'+DV).then(r=>r.json()).catch(()=>[]),
+      fetch('lyrics-f.json?'+DV).then(r=>r.json()).catch(()=>[])
+    ]).then(parts=>{full=[...parts[0],...parts[1],...parts[2],...parts[3],...parts[4],...parts[5]]; fullLoading=false; render();});
     listEl.innerHTML='<div class="empty"><p>Searching full lyrics, please wait…</p></div>';
     return;
   }
