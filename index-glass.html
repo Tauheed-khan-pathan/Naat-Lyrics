@@ -63,8 +63,20 @@ html,body{overflow-x:clip}
    glowing effect: thin bright mint-green border + soft green glow shadow,
    so cards still read as glass on black. Text colours unchanged (mint
    #a7f3d0 / near-white #e5e7eb / #d1d5db) - clearly readable on black.
-   Light mode untouched. Green accent (v7) and 'allnaat.com' branding (v8)
+   Light mode untouched. Green accent (v7) and 'AllNaat.com' branding (v8)
    untouched. */
+/* ===== Liquid Glass v10 — preview only (index-glass.html / lyric/balaghal-ula-glass.html) ===== */
+/* Changes #2-fix + #4 + #6 (11 Nov 2026, Tauheed's one-by-one fixes):
+   (a) Branding text 'allnaat.com' -> 'AllNaat.com' (capital A, capital N),
+   header logo, footer logo, copyright, loader — same Dancing Script style.
+   (b) Ballmain font removed from the Roman font cycle in lyric-page.js
+   (roman is now Default / Merriweather / Lora); styles.css roman
+   data-font indices remapped to match (1=Merriweather, 2=Lora).
+   (c) Floating Font button (.font-float) now matches the Share / back-to-top
+   buttons: same teal-green glossy gradient + painted gloss; the 'Font'
+   label is clean bold sans (not Dancing Script). The _ _ _ dashes below
+   the label are kept (dark-mode dashes made white so they stay visible
+   on the dark-green pill). */
 body.glass{background-color:#ffffff;background-image:radial-gradient(680px 420px at 6% -4%,rgba(52,211,153,.07),rgba(52,211,153,0) 65%),radial-gradient(680px 420px at 96% 2%,rgba(167,243,208,.08),rgba(167,243,208,0) 65%),radial-gradient(900px 480px at 50% 108%,rgba(52,211,153,.05),rgba(52,211,153,0) 65%);background-attachment:fixed;color:#1f2937}
 body.glass .site-header{background-color:rgba(255,255,255,.55);background-image:linear-gradient(180deg,rgba(255,255,255,.9) 0%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:1px solid rgba(255,255,255,.7);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 2px 14px rgba(11,61,46,.05)}
 body.glass .logo{color:#0b3d2e}
@@ -109,7 +121,10 @@ body.glass .lang button{background-color:rgba(255,255,255,.5);background-image:l
 body.glass .lang button.active{background-color:rgba(52,211,153,.3);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(52,211,153,.3) 45%,rgba(52,211,153,.14) 55%,rgba(255,255,255,.55) 100%);color:#064e3b;border-color:rgba(52,211,153,.5);font-weight:600;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(6,95,70,.12)}
 body.glass .lyric-back-btn{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.5) 42%,rgba(255,255,255,.18) 55%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.85);color:#0b3d2e;border-radius:999px;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(11,61,46,.05)}
 body.glass .lyric-toolbar .dark-btn{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.45) 50%,rgba(255,255,255,.6) 100%);border:1px solid rgba(255,255,255,.85);color:#0b3d2e;border-radius:50%;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(11,61,46,.06)}
-body.glass .font-float{background-color:rgba(11,61,46,.88);-webkit-backdrop-filter:blur(16px) saturate(1.3);backdrop-filter:blur(16px) saturate(1.3);border:1px solid rgba(255,255,255,.35);box-shadow:0 4px 16px rgba(11,61,46,.25)}
+body.glass .font-float{background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.35),rgba(255,255,255,0) 70%),linear-gradient(135deg,#34d399,#0d9488 45%,#0b3d2e);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.4);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.55),0 2px 12px rgba(11,61,46,.2);transition:filter .2s ease,box-shadow .2s ease}
+body.glass .font-float:hover{filter:brightness(1.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.55),0 3px 16px rgba(11,61,46,.24)}
+body.glass .font-float:active{filter:brightness(.96);box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 6px rgba(11,61,46,.18)}
+body.glass .font-cycle-btn{font-family:inherit;font-size:.9rem;font-weight:600}
 body.glass .share-btn{background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.32),rgba(255,255,255,0) 70%),linear-gradient(135deg,#34d399,#0d9488 45%,#052e22);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(212,175,55,.65);color:#fff;border-radius:999px;box-shadow:inset 0 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.2),0 3px 16px rgba(11,61,46,.25)}
 body.glass .share-btn:hover{filter:brightness(1.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.2),0 4px 20px rgba(11,61,46,.3)}
 body.glass .recs h2{color:#0b3d2e}
@@ -182,7 +197,11 @@ body.glass.dark .lang button{background-color:rgba(255,255,255,.07);background-i
 body.glass.dark .lang button.active{background-color:rgba(52,211,153,.32);background-image:linear-gradient(180deg,rgba(255,255,255,.35) 0%,rgba(52,211,153,.32) 45%,rgba(52,211,153,.16) 55%,rgba(255,255,255,.1) 100%);color:#d1fae5;border-color:rgba(52,211,153,.4);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 2px 10px rgba(0,0,0,.3)}
 body.glass.dark .lyric-back-btn{background-color:rgba(255,255,255,.07);background-image:linear-gradient(180deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,.08) 45%,rgba(255,255,255,.03) 55%,rgba(255,255,255,.15) 100%);border:1px solid rgba(255,255,255,.18);color:#a7f3d0;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 10px rgba(0,0,0,.25)}
 body.glass.dark .lyric-toolbar .dark-btn{background-color:rgba(255,255,255,.08);background-image:linear-gradient(180deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,.06) 50%,rgba(255,255,255,.14) 100%);border:1px solid rgba(255,255,255,.22);color:#f3f4f6;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 10px rgba(0,0,0,.25)}
-body.glass.dark .font-float{background-color:rgba(52,211,153,.92);color:#064e3b;border:1px solid rgba(255,255,255,.4);box-shadow:0 4px 16px rgba(0,0,0,.35)}
+body.glass.dark .font-float{background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.32),rgba(255,255,255,0) 70%),linear-gradient(135deg,#34d399,#0d9488 45%,#065f46);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.3);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 2px 12px rgba(0,0,0,.3);transition:filter .2s ease,box-shadow .2s ease}
+body.glass.dark .font-float:hover{filter:brightness(1.1)}
+body.glass.dark .font-float:active{filter:brightness(.96);box-shadow:0 1px 6px rgba(0,0,0,.25)}
+body.glass.dark .fdash{background:rgba(255,255,255,.35)}
+body.glass.dark .fdash.on{background:#fff;animation-name:fdashPulse}
 body.glass.dark .share-btn{background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.3),rgba(255,255,255,0) 70%),linear-gradient(135deg,#34d399,#0d9488 45%,#04402e);border:1px solid rgba(212,175,55,.5);color:#ecfdf5;box-shadow:inset 0 1px 0 rgba(255,255,255,.4),inset 0 -1px 0 rgba(255,255,255,.12),0 3px 16px rgba(0,0,0,.35)}
 body.glass.dark .share-btn:hover{filter:brightness(1.12)}
 body.glass.dark .recs h2{color:#f3f4f6}
@@ -200,11 +219,11 @@ body.glass.dark .nav-loader{background:#000000}
 </head>
 <body class="home glass">
 <script>(function(){document.body.classList.add('loading');setTimeout(function(){document.body.classList.remove('loading');},8000);})();</script>
-<div id="navLoader" class="nav-loader" aria-hidden="true"><div class="loading-name"><span class="ghost">allnaat.com</span><span class="solid" aria-hidden="true">allnaat.com</span></div><div class="loading-line"></div></div>
+<div id="navLoader" class="nav-loader" aria-hidden="true"><div class="loading-name"><span class="ghost">AllNaat.com</span><span class="solid" aria-hidden="true">AllNaat.com</span></div><div class="loading-line"></div></div>
 <script>(function(){try{if(localStorage.getItem('naat-dark')==='1')document.body.classList.add('dark');}catch(e){}var o=document.getElementById('navLoader');if(!o)return;document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(!a||a.target==='_blank')return;var h=a.getAttribute('href');if(!h||h.charAt(0)==='#')return;try{if(a.hostname!==location.hostname)return;}catch(err){return;}o.classList.add('show');setTimeout(function(){o.classList.remove('show');},8000);});window.addEventListener('pageshow',function(){o.classList.remove('show');});})();</script>
 <header class="site-header">
   <div class="bar">
-    <a class="logo" href="index.html">allnaat.com</a>
+    <a class="logo" href="index.html">AllNaat.com</a>
     <div class="searchpill header-search">
       <svg class="sicon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
       <input id="search" type="text" placeholder="Search Naat" autocomplete="off" aria-label="Search Naat">
@@ -214,13 +233,13 @@ body.glass.dark .nav-loader{background:#000000}
   </div>
 </header>
 <nav class="tabbar" aria-label="Categories"><div id="tabs" role="tablist"></div></nav>
-<main id="list"><div class="page-loading" aria-hidden="true"><div class="loading-name"><span class="ghost">allnaat.com</span><span class="solid" aria-hidden="true">allnaat.com</span></div><div class="loading-line"></div></div></main>
+<main id="list"><div class="page-loading" aria-hidden="true"><div class="loading-name"><span class="ghost">AllNaat.com</span><span class="solid" aria-hidden="true">AllNaat.com</span></div><div class="loading-line"></div></div></main>
 <footer class="site-footer"><div class="foot-inner">
-  <p class="foot-logo">allnaat.com</p>
+  <p class="foot-logo">AllNaat.com</p>
   <p>Naat, Hamd, Salaam, Noha, Manqabat, Dua, Durood, Tasbih and Sufi Kalam lyrics in Roman Urdu and Hindi, all in one place.</p>
   <p class="foot-cats">Naat &bull; Hamd &bull; Salaam &bull; Noha &bull; Manqabat &bull; Dua, Durood, Tasbih &bull; Sufi Kalam</p>
   <p class="foot-links"><a href="about.html">About</a> &bull; <a href="privacy.html">Privacy Policy</a> &bull; <a href="contact.html">Contact</a> &bull; <a href="a-z.html">A–Z Index</a></p>
-  <p class="foot-copy">&copy; 2026 allnaat.com &bull; All rights reserved. Do not copy or republish this collection or design.</p>
+  <p class="foot-copy">&copy; 2026 AllNaat.com &bull; All rights reserved. Do not copy or republish this collection or design.</p>
 </div></footer>
 <script src="app.js?v=45"></script>
 <script>
