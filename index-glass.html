@@ -33,53 +33,39 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css?v=53">
 <style>
-/* ===== Liquid Glass v4 — preview only (index-glass.html / lyric/balaghal-ula-glass.html) ===== */
-/* True liquid, minimal 3D: v3 read as raised 3D tiles (hard coloured top bars + strong shadows + embossed inset highlights). v4 removes ALL of that — no top bars, no strong drop shadows, no inset emboss, no hover lift. Soft blur 24, faint watery tints, thin 1px borders, diffuse directionless inner glow only. Brand green #0b3d2e for logo/active accents; gold #d4af37 as the smallest highlights. */
-body.glass{background-color:#fbf7f0;background-image:radial-gradient(820px 520px at 6% -8%,rgba(139,92,246,.1),rgba(139,92,246,0) 62%),radial-gradient(640px 420px at 96% 2%,rgba(56,189,248,.1),rgba(56,189,248,0) 62%),radial-gradient(560px 380px at 90% 86%,rgba(52,211,153,.08),rgba(52,211,153,0) 62%),radial-gradient(520px 360px at 4% 78%,rgba(251,146,60,.08),rgba(251,146,60,0) 62%),radial-gradient(760px 520px at 50% 112%,rgba(212,175,55,.07),rgba(212,175,55,0) 62%);background-attachment:fixed;color:#1f2937}
+/* ===== Liquid Glass v5 — preview only (index-glass.html / lyric/balaghal-ula-glass.html) ===== */
+/* Sticky-header fix (preview-only): the live stylesheet sets
+   html,body{overflow-x:hidden}, which DISABLES position:sticky on the header
+   in Chrome (verified: header scrolls away with the page). overflow-x:clip
+   keeps the same no-horizontal-scroll behaviour without creating a scroll
+   container, so the sticky header — and the condense system below — works.
+   If this design ever ships site-wide, styles.css needs this same one line. */
+html,body{overflow-x:clip}
+/* Option 5 (White + Pink Crystal Shine), Tauheed-approved 11 Nov 2026, with his
+   correction: almost NO crystals — no crystal shapes, no sparkles, only a slight
+   LIGHT PINK TEXTURE spread evenly over white. True liquid, minimal 3D: no top
+   bars, no strong drop shadows, no emboss, no hover lift. Soft blur 24, thin 1px
+   borders, diffuse inner glow only. Brand green #0b3d2e for logo/headings; gold
+   #d4af37 as the smallest highlights; soft pink for the active tab / glow. */
+body.glass{background-color:#fffdfd;background-image:radial-gradient(900px 560px at 8% -6%,rgba(244,114,182,.16),rgba(244,114,182,0) 62%),radial-gradient(760px 520px at 94% 4%,rgba(255,183,205,.20),rgba(255,183,205,0) 62%),radial-gradient(820px 600px at 50% 55%,rgba(244,114,182,.09),rgba(244,114,182,0) 65%),radial-gradient(700px 480px at 6% 92%,rgba(255,183,205,.15),rgba(255,183,205,0) 62%),radial-gradient(760px 520px at 92% 96%,rgba(244,114,182,.12),rgba(244,114,182,0) 62%);background-attachment:fixed;color:#1f2937}
 body.glass .site-header{background-color:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:1px solid rgba(255,255,255,.7);box-shadow:0 2px 14px rgba(11,61,46,.05)}
 body.glass .logo{color:#0b3d2e}
 body.glass .bar .dark-btn{background-color:rgba(255,255,255,.5);border:1px solid rgba(255,255,255,.8);color:#0b3d2e;border-radius:50%;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 2px 10px rgba(11,61,46,.06)}
 body.glass .searchpill{background-color:rgba(255,255,255,.6);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.8);box-shadow:0 2px 14px rgba(11,61,46,.06)}
-body.glass .searchpill:focus-within{border-color:rgba(11,61,46,.55);box-shadow:0 0 0 3px rgba(11,61,46,.08),0 2px 14px rgba(11,61,46,.08)}
+body.glass .searchpill:focus-within{border-color:rgba(190,24,93,.45);box-shadow:0 0 0 3px rgba(244,114,182,.14),0 2px 14px rgba(11,61,46,.08)}
 body.glass .searchpill input{color:#1f2937}
 body.glass .searchpill input::placeholder{color:#6b7280}
 body.glass .sicon-svg{color:#0b3d2e}
 body.glass .tabbar{background-color:rgba(255,255,255,.5);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:1px solid rgba(255,255,255,.65)}
 body.glass .tab{color:#5b6b60;border-bottom:2px solid transparent}
-body.glass .tab.active{color:#fff;background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.38),rgba(255,255,255,0) 70%),linear-gradient(135deg,#34d399,#0d9488 45%,#0b3d2e);border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:8px 14px;font-weight:600;box-shadow:0 2px 10px rgba(11,61,46,.2)}
+body.glass .tab.active{color:#831843;background:linear-gradient(135deg,rgba(244,114,182,.32),rgba(255,255,255,.55));border:1px solid rgba(244,114,182,.45);border-radius:999px;padding:8px 14px;font-weight:600;box-shadow:0 2px 10px rgba(190,24,93,.12)}
 body.glass .section-title{color:#0b3d2e}
 body.glass .section-title::after{content:"";display:block;width:28px;height:2px;background:linear-gradient(90deg,rgba(212,175,55,0),rgba(212,175,55,.85),rgba(212,175,55,0));border-radius:2px;margin-top:5px}
 body.glass .see-all{color:#0b3d2e}
-body.glass .catbox{background-color:rgba(255,255,255,.5);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.75);border-radius:16px;box-shadow:0 2px 12px rgba(11,61,46,.05),inset 0 0 28px rgba(255,255,255,.16);transition:filter .2s ease,box-shadow .2s ease}
+body.glass .catbox{background-color:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.75);border-radius:16px;box-shadow:0 2px 12px rgba(11,61,46,.05),inset 0 0 28px rgba(255,255,255,.16);transition:filter .2s ease,box-shadow .2s ease}
 body.glass .catbox:hover{filter:brightness(1.04);box-shadow:0 3px 16px rgba(11,61,46,.07),inset 0 0 28px rgba(255,255,255,.16)}
-body.glass .catbox span{opacity:1}
-body.glass .catbox:nth-child(1){background-color:rgba(139,92,246,.06);border-color:rgba(139,92,246,.22)}
-body.glass .catbox:nth-child(1) strong{color:#5b21b6}
-body.glass .catbox:nth-child(1) span{color:#4c1d95}
-body.glass .catbox:nth-child(2){background-color:rgba(56,189,248,.07);border-color:rgba(56,189,248,.24)}
-body.glass .catbox:nth-child(2) strong{color:#0369a1}
-body.glass .catbox:nth-child(2) span{color:#0c4a6e}
-body.glass .catbox:nth-child(3){background-color:rgba(52,211,153,.07);border-color:rgba(52,211,153,.24)}
-body.glass .catbox:nth-child(3) strong{color:#047857}
-body.glass .catbox:nth-child(3) span{color:#064e3b}
-body.glass .catbox:nth-child(4){background-color:rgba(251,146,60,.06);border-color:rgba(251,146,60,.24)}
-body.glass .catbox:nth-child(4) strong{color:#9a3412}
-body.glass .catbox:nth-child(4) span{color:#7c2d12}
-body.glass .catbox:nth-child(5){background-color:rgba(244,114,182,.06);border-color:rgba(244,114,182,.24)}
-body.glass .catbox:nth-child(5) strong{color:#9d174d}
-body.glass .catbox:nth-child(5) span{color:#831843}
-body.glass .catbox:nth-child(6){background-color:rgba(45,212,191,.06);border-color:rgba(45,212,191,.24)}
-body.glass .catbox:nth-child(6) strong{color:#0f766e}
-body.glass .catbox:nth-child(6) span{color:#134e4a}
-body.glass .catbox:nth-child(7){background-color:rgba(251,191,36,.08);border-color:rgba(251,191,36,.28)}
-body.glass .catbox:nth-child(7) strong{color:#92400e}
-body.glass .catbox:nth-child(7) span{color:#78350f}
-body.glass .catbox:nth-child(8){background-color:rgba(11,61,46,.05);border-color:rgba(11,61,46,.18)}
-body.glass .catbox:nth-child(8) strong{color:#0b3d2e}
-body.glass .catbox:nth-child(8) span{color:#16382c}
-body.glass .catbox:nth-child(9){background-color:rgba(255,255,255,.55);border-color:rgba(212,175,55,.4)}
-body.glass .catbox:nth-child(9) strong{color:#0b3d2e}
-body.glass .catbox:nth-child(9) span{color:#4a4436}
+body.glass .catbox strong{color:#0b3d2e}
+body.glass .catbox span{color:#5b6b60;opacity:1}
 body.glass .card,body.glass .mini-card,body.glass .poet-card,body.glass .empty{background-color:rgba(255,255,255,.5);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.75);border-radius:16px;box-shadow:0 2px 14px rgba(11,61,46,.05),inset 0 0 28px rgba(255,255,255,.16)}
 body.glass #one article.card{background-color:rgba(255,255,255,.58);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-radius:18px;box-shadow:0 3px 18px rgba(11,61,46,.06),inset 0 0 32px rgba(255,255,255,.18)}
 body.glass .card h2 a,body.glass .mini-card strong,body.glass .poet-card strong{color:#0b3d2e}
@@ -97,7 +83,7 @@ body.glass .see-more:hover{background-color:rgba(11,61,46,.08)}
 body.glass .see-all-card{color:#0b3d2e}
 body.glass .lyric-toolbar{background-color:rgba(255,255,255,.5);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:1px solid rgba(255,255,255,.65)}
 body.glass .lang button{background-color:rgba(255,255,255,.5);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.75);color:#1f2937;border-radius:999px;box-shadow:0 2px 10px rgba(11,61,46,.05)}
-body.glass .lang button.active{background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.38),rgba(255,255,255,0) 70%),linear-gradient(135deg,#34d399,#0d9488 45%,#0b3d2e);color:#fff;border-color:rgba(255,255,255,.35);font-weight:600;box-shadow:0 2px 10px rgba(11,61,46,.2)}
+body.glass .lang button.active{background:linear-gradient(135deg,rgba(244,114,182,.32),rgba(255,255,255,.55));color:#831843;border-color:rgba(244,114,182,.45);font-weight:600;box-shadow:0 2px 10px rgba(190,24,93,.12)}
 body.glass .lyric-back-btn{background-color:rgba(255,255,255,.5);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.75);color:#0b3d2e;border-radius:999px;box-shadow:0 2px 10px rgba(11,61,46,.05)}
 body.glass .lyric-toolbar .dark-btn{background-color:rgba(255,255,255,.5);border:1px solid rgba(255,255,255,.8);color:#0b3d2e;border-radius:50%;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:0 2px 10px rgba(11,61,46,.06)}
 body.glass .font-float{background-color:rgba(11,61,46,.88);-webkit-backdrop-filter:blur(16px) saturate(1.3);backdrop-filter:blur(16px) saturate(1.3);border:1px solid rgba(255,255,255,.35);box-shadow:0 4px 16px rgba(11,61,46,.25)}
@@ -111,63 +97,75 @@ body.glass .site-footer{background:linear-gradient(180deg,rgba(11,61,46,.88),rgb
 body.glass .site-footer .foot-cats{color:#e7c86a}
 body.glass .site-footer .foot-links a{color:#a7f3d0}
 body.glass .to-top-btn{background-color:rgba(11,61,46,.9);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.35);box-shadow:0 3px 14px rgba(11,61,46,.22)}
-body.glass .nav-loader{background:#fbf7f0}
-/* ===== dark glass v4: deep, smooth, translucent — no top bars, no strong shadows, no emboss ===== */
-body.glass.dark{background-color:#1f2d28;background-image:radial-gradient(820px 520px at 6% -8%,rgba(139,92,246,.12),rgba(139,92,246,0) 62%),radial-gradient(640px 420px at 96% 2%,rgba(56,189,248,.1),rgba(56,189,248,0) 62%),radial-gradient(560px 380px at 90% 86%,rgba(167,243,208,.08),rgba(167,243,208,0) 62%),radial-gradient(520px 360px at 4% 78%,rgba(251,146,60,.07),rgba(251,146,60,0) 62%),radial-gradient(760px 520px at 50% 112%,rgba(212,175,55,.07),rgba(212,175,55,0) 62%);color:#e5e7eb}
+body.glass .nav-loader{background:#fffdfd}
+/* ===== scroll-condense header (v5): on scroll down the sticky header shrinks
+   into a slim bar — small logo left, search pill beside it, dark button right;
+   scrolling back to top restores the full header. Smooth transitions. ===== */
+body.glass .site-header .bar{transition:padding .25s ease}
+body.glass .site-header .logo{transition:font-size .25s ease}
+body.glass .searchpill{transition:padding .25s ease,height .25s ease}
+body.glass .searchpill input{transition:padding .25s ease}
+body.glass .bar .dark-btn{transition:width .25s ease,height .25s ease}
+body.glass .lyric-toolbar-row{transition:padding .25s ease}
+body.glass-condensed .site-header .bar{padding:5px 16px}
+body.glass-condensed .logo{font-size:1.2rem}
+body.glass-condensed .searchpill input{padding:6px 4px}
+body.glass-condensed .bar .dark-btn{width:32px;height:32px}
+body.glass-condensed .lyric-toolbar-row{padding:5px 16px}
+@media(max-width:600px){
+body.glass-condensed .site-header .bar{padding:4px 10px;gap:6px}
+body.glass-condensed .logo{font-size:1.05rem}
+body.glass-condensed .header-search{height:34px}
+body.glass-condensed .bar .dark-btn{width:32px;height:32px}
+body.glass-condensed .lyric-toolbar-row{padding:4px 10px}
+}
+/* ===== dark glass v5: deep, smooth, translucent, gentle pink glow ===== */
+body.glass.dark{background-color:#1d2723;background-image:radial-gradient(900px 560px at 8% -6%,rgba(244,114,182,.10),rgba(244,114,182,0) 62%),radial-gradient(760px 520px at 94% 4%,rgba(255,183,205,.08),rgba(255,183,205,0) 62%),radial-gradient(820px 600px at 50% 55%,rgba(244,114,182,.06),rgba(244,114,182,0) 65%),radial-gradient(700px 480px at 6% 92%,rgba(255,183,205,.07),rgba(255,183,205,0) 62%),radial-gradient(760px 520px at 92% 96%,rgba(244,114,182,.08),rgba(244,114,182,0) 62%);color:#e5e7eb}
 body.glass.dark .site-header{background-color:rgba(38,54,48,.72);-webkit-backdrop-filter:blur(24px) saturate(1.5);backdrop-filter:blur(24px) saturate(1.5);border-bottom:1px solid rgba(255,255,255,.12);box-shadow:0 2px 14px rgba(0,0,0,.25)}
 body.glass.dark .logo{color:#fff}
 body.glass.dark .bar .dark-btn{background-color:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);color:#f3f4f6;box-shadow:0 2px 10px rgba(0,0,0,.25)}
 body.glass.dark .searchpill{background-color:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.18);box-shadow:0 2px 14px rgba(0,0,0,.25)}
-body.glass.dark .searchpill:focus-within{border-color:rgba(167,243,208,.5);box-shadow:0 0 0 3px rgba(167,243,208,.12),0 2px 14px rgba(0,0,0,.3)}
+body.glass.dark .searchpill:focus-within{border-color:rgba(244,114,182,.5);box-shadow:0 0 0 3px rgba(244,114,182,.12),0 2px 14px rgba(0,0,0,.3)}
 body.glass.dark .searchpill input{color:#f3f4f6}
 body.glass.dark .searchpill input::placeholder{color:#9ca3af}
-body.glass.dark .sicon-svg{color:#a7f3d0}
+body.glass.dark .sicon-svg{color:#f9a8d4}
 body.glass.dark .tabbar{background-color:rgba(38,54,48,.65);-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border-bottom:1px solid rgba(255,255,255,.1)}
 body.glass.dark .tab{color:#9fb3a8}
-body.glass.dark .tab.active{color:#052e22;background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.4),rgba(255,255,255,0) 70%),linear-gradient(135deg,#6ee7b7,#34d399 50%,#0d9488);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:8px 14px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+body.glass.dark .tab.active{color:#fbcfe8;background:linear-gradient(135deg,rgba(244,114,182,.38),rgba(255,255,255,.08));border:1px solid rgba(244,114,182,.4);border-radius:999px;padding:8px 14px;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.3)}
 body.glass.dark .section-title{color:#f3f4f6}
-body.glass.dark .see-all{color:#a7f3d0}
+body.glass.dark .see-all{color:#f9a8d4}
 body.glass.dark .catbox{background-color:rgba(255,255,255,.09);-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.12);border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,.25),inset 0 0 28px rgba(255,255,255,.05)}
 body.glass.dark .catbox strong{color:#f3f4f6}
 body.glass.dark .catbox span{color:#b6c4bd;opacity:1}
-body.glass.dark .catbox:nth-child(1){background-color:rgba(139,92,246,.07)}
-body.glass.dark .catbox:nth-child(2){background-color:rgba(56,189,248,.07)}
-body.glass.dark .catbox:nth-child(3){background-color:rgba(52,211,153,.07)}
-body.glass.dark .catbox:nth-child(4){background-color:rgba(251,146,60,.06)}
-body.glass.dark .catbox:nth-child(5){background-color:rgba(244,114,182,.06)}
-body.glass.dark .catbox:nth-child(6){background-color:rgba(45,212,191,.06)}
-body.glass.dark .catbox:nth-child(7){background-color:rgba(251,191,36,.07)}
-body.glass.dark .catbox:nth-child(8){background-color:rgba(167,243,208,.06)}
-body.glass.dark .catbox:nth-child(9){background-color:rgba(255,255,255,.07);border-color:rgba(212,175,55,.35)}
 body.glass.dark .card,body.glass.dark .mini-card,body.glass.dark .poet-card,body.glass.dark .empty{background-color:rgba(255,255,255,.08);-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.12);box-shadow:0 2px 14px rgba(0,0,0,.25),inset 0 0 28px rgba(255,255,255,.05);color:#e5e7eb}
 body.glass.dark #one article.card{background-color:rgba(255,255,255,.09);box-shadow:0 3px 18px rgba(0,0,0,.3),inset 0 0 32px rgba(255,255,255,.06)}
-body.glass.dark .card h2 a,body.glass.dark .mini-card strong,body.glass.dark .poet-card strong{color:#a7f3d0}
+body.glass.dark .card h2 a,body.glass.dark .mini-card strong,body.glass.dark .poet-card strong{color:#f9a8d4}
 body.glass.dark .mini-card span,body.glass.dark .poet-card span{color:#b6c4bd}
 body.glass.dark .meta{color:#b6c4bd}
-body.glass.dark .meta a{color:#a7f3d0}
+body.glass.dark .meta a{color:#f9a8d4}
 body.glass.dark .preview{color:#d1d5db}
-body.glass.dark #one article.card h1,body.glass.dark #one article.card h2{color:#a7f3d0}
+body.glass.dark #one article.card h1,body.glass.dark #one article.card h2{color:#f9a8d4}
 body.glass.dark .read{background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.32),rgba(255,255,255,0) 70%),linear-gradient(135deg,#34d399,#0d9488 45%,#065f46);border:1px solid rgba(255,255,255,.3);box-shadow:0 2px 12px rgba(0,0,0,.3)}
 body.glass.dark .read:hover{filter:brightness(1.1)}
 body.glass.dark .read:active{filter:brightness(.96);box-shadow:0 1px 6px rgba(0,0,0,.25)}
-body.glass.dark .see-more{background-color:rgba(255,255,255,.07);border:1px solid rgba(167,243,208,.4);color:#a7f3d0;box-shadow:0 2px 10px rgba(0,0,0,.25)}
-body.glass.dark .see-all-card{color:#a7f3d0}
+body.glass.dark .see-more{background-color:rgba(255,255,255,.07);border:1px solid rgba(244,114,182,.4);color:#f9a8d4;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+body.glass.dark .see-all-card{color:#f9a8d4}
 body.glass.dark .lyric-toolbar{background-color:rgba(38,54,48,.65);-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border-bottom:1px solid rgba(255,255,255,.1)}
 body.glass.dark .lang button{background-color:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);color:#d1d5db;box-shadow:0 2px 10px rgba(0,0,0,.25)}
-body.glass.dark .lang button.active{background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.4),rgba(255,255,255,0) 70%),linear-gradient(135deg,#6ee7b7,#34d399 50%,#0d9488);color:#052e22;border-color:rgba(255,255,255,.3);box-shadow:0 2px 10px rgba(0,0,0,.3)}
-body.glass.dark .lyric-back-btn{background-color:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);color:#a7f3d0;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+body.glass.dark .lang button.active{background:linear-gradient(135deg,rgba(244,114,182,.38),rgba(255,255,255,.08));color:#fbcfe8;border-color:rgba(244,114,182,.4);box-shadow:0 2px 10px rgba(0,0,0,.3)}
+body.glass.dark .lyric-back-btn{background-color:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);color:#f9a8d4;box-shadow:0 2px 10px rgba(0,0,0,.25)}
 body.glass.dark .lyric-toolbar .dark-btn{background-color:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);color:#f3f4f6;box-shadow:0 2px 10px rgba(0,0,0,.25)}
-body.glass.dark .font-float{background-color:rgba(167,243,208,.92);color:#052e22;border:1px solid rgba(255,255,255,.4);box-shadow:0 4px 16px rgba(0,0,0,.35)}
+body.glass.dark .font-float{background-color:rgba(244,114,182,.92);color:#831843;border:1px solid rgba(255,255,255,.4);box-shadow:0 4px 16px rgba(0,0,0,.35)}
 body.glass.dark .share-btn{background:radial-gradient(130% 100% at 50% 0%,rgba(255,255,255,.3),rgba(255,255,255,0) 70%),linear-gradient(135deg,#34d399,#0d9488 45%,#04402e);border:1px solid rgba(212,175,55,.5);color:#ecfdf5;box-shadow:0 3px 16px rgba(0,0,0,.35)}
 body.glass.dark .share-btn:hover{filter:brightness(1.12)}
 body.glass.dark .recs h2{color:#f3f4f6}
-body.glass.dark .recs li a{background-color:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:#a7f3d0;box-shadow:0 2px 10px rgba(0,0,0,.25),inset 0 0 24px rgba(255,255,255,.05)}
-body.glass.dark .recs li a::after{color:#a7f3d0;opacity:.65}
-body.glass.dark .recs li a:hover{background-color:rgba(167,243,208,.1)}
+body.glass.dark .recs li a{background-color:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:#f9a8d4;box-shadow:0 2px 10px rgba(0,0,0,.25),inset 0 0 24px rgba(255,255,255,.05)}
+body.glass.dark .recs li a::after{color:#f9a8d4;opacity:.65}
+body.glass.dark .recs li a:hover{background-color:rgba(244,114,182,.1)}
 body.glass.dark .site-footer{background-color:rgba(13,48,38,.82);-webkit-backdrop-filter:blur(20px) saturate(1.3);backdrop-filter:blur(20px) saturate(1.3);border-top:1px solid rgba(255,255,255,.12)}
 body.glass.dark .site-footer .foot-cats{color:#e7c86a}
-body.glass.dark .to-top-btn{background-color:rgba(167,243,208,.92);color:#052e22;border:1px solid rgba(255,255,255,.35);box-shadow:0 3px 14px rgba(0,0,0,.3)}
-body.glass.dark .nav-loader{background:#1f2d28}
+body.glass.dark .to-top-btn{background-color:rgba(244,114,182,.92);color:#831843;border:1px solid rgba(255,255,255,.35);box-shadow:0 3px 14px rgba(0,0,0,.3)}
+body.glass.dark .nav-loader{background:#1d2723}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"All Naat Lyrics","alternateName":"Naat Lyrics","url":"https://tauheed-khan-pathan.github.io/Naat-Lyrics/","description":"Naat, Hamd, Salaam and Noha lyrics in Roman Urdu and Hindi.","inLanguage":"ur"}</script>
 </head>
@@ -196,5 +194,9 @@ body.glass.dark .nav-loader{background:#1f2d28}
   <p class="foot-copy">&copy; 2026 All Naat Lyrics &bull; All rights reserved. Do not copy or republish this collection or design.</p>
 </div></footer>
 <script src="app.js?v=45"></script>
+<script>
+/* ===== Liquid Glass v5 — scroll-condense header (preview only) ===== */
+(function(){var TH=120;function sync(){document.body.classList.toggle('glass-condensed',(window.scrollY||window.pageYOffset)>TH);}window.addEventListener('scroll',sync,{passive:true});sync();})();
+</script>
 </body>
 </html>
