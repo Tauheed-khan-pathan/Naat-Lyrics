@@ -14,8 +14,7 @@ function fmtCount(n){
 function buildTabs(){
   const cats=['All',...new Set(all.map(x=>x.category))];
   tabsEl.innerHTML=cats.map(c=>{
-    const n=fmtCount(c==='All'?all.length:all.filter(x=>x.category===c).length);
-    return `<button class="tab ${c===cat?'active':''}" data-cat="${c}">${c} (${n})</button>`;
+    return `<button class="tab ${c===cat?'active':''}" data-cat="${c}">${c}</button>`;
   }).join('');
   tabsEl.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render();});
 }
