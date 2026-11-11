@@ -17,6 +17,16 @@ function buildTabs(){
     return `<button class="tab ${c===cat?'active':''}" data-cat="${c}">${c}</button>`;
   }).join('');
   tabsEl.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cat=b.dataset.cat; buildTabs(); render();});
+  scrollActiveTabIntoView();
+}
+// Tab auto-scroll (v13): after any tab/category selection, if the active tab is
+// hidden off-screen right (or left) in the scrollable tab row, scroll the row so
+// it is always visible. No scroll when the active tab is already fully visible.
+function scrollActiveTabIntoView(){
+  const t=tabsEl.querySelector('.tab.active');
+  if(!t) return;
+  const r=t.getBoundingClientRect(), c=tabsEl.getBoundingClientRect();
+  if(r.left<c.left||r.right>c.right) t.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});
 }
 // ---- Typo-tolerant (fuzzy) search ----
 // Words are split on anything that is not a letter or digit, so
