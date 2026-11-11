@@ -1,4 +1,4 @@
-*{box-sizing:border-box}html,body{overflow-x:hidden}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f7f7f5;color:#1f2937;line-height:1.65}
+*{box-sizing:border-box}html,body{overflow-x:clip}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f7f7f5;color:#1f2937;line-height:1.65}
 .site-header{background:#0b3d2e;color:#fff;position:sticky;top:0;z-index:10}
 .bar{max-width:960px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .logo{color:#fff;text-decoration:none;font-family:'Marcellus',Georgia,serif;font-size:1.45rem;font-weight:400;letter-spacing:.6px;white-space:nowrap}
@@ -235,11 +235,11 @@ body.dark .recs li a:hover{background:#273449}
    lyric / list / poet pages are untouched. Tabs were already ported (v54). */
 body.home{background-color:#ffffff;background-image:radial-gradient(680px 420px at 6% -4%,rgba(52,211,153,.07),rgba(52,211,153,0) 65%),radial-gradient(680px 420px at 96% 2%,rgba(167,243,208,.08),rgba(167,243,208,0) 65%),radial-gradient(900px 480px at 50% 108%,rgba(52,211,153,.05),rgba(52,211,153,0) 65%);background-attachment:fixed}
 body.home .site-header{background-color:#0b3d2e;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:1px solid rgba(255,255,255,.7);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 2px 14px rgba(11,61,46,.12)}
-body.home .bar .dark-btn{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.45) 50%,rgba(255,255,255,.6) 100%);border:1px solid rgba(255,255,255,.85);color:#0b3d2e;border-radius:50%;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(11,61,46,.06)}
-body.home .searchpill{background-color:#ffffff;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.85);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.4),0 2px 14px rgba(11,61,46,.06)}
-body.home .searchpill:focus-within{border-color:rgba(6,95,70,.45);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 0 0 3px rgba(52,211,153,.14),0 2px 14px rgba(11,61,46,.08)}
-body.home .searchpill input::placeholder{color:#6b7280}
-body.home .sicon-svg{color:#0b3d2e}
+body.home .bar .dark-btn,body.lyric .bar .dark-btn{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.45) 50%,rgba(255,255,255,.6) 100%);border:1px solid rgba(255,255,255,.85);color:#0b3d2e;border-radius:50%;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(11,61,46,.06)}
+body.home .searchpill,body.lyric .searchpill{background-color:#ffffff;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.85);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.4),0 2px 14px rgba(11,61,46,.06)}
+body.home .searchpill:focus-within,body.lyric .searchpill:focus-within{border-color:rgba(6,95,70,.45);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 0 0 3px rgba(52,211,153,.14),0 2px 14px rgba(11,61,46,.08)}
+body.home .searchpill input::placeholder,body.lyric .searchpill input::placeholder{color:#6b7280}
+body.home .sicon-svg,body.lyric .sicon-svg{color:#0b3d2e}
 body.home .section-title{color:#0b3d2e;display:inline-block}
 body.home .section-head .section-title{flex:0 0 auto}
 body.home .section-title::after{content:"";display:block;width:70%;height:2px;background:linear-gradient(90deg,rgba(212,175,55,0),rgba(212,175,55,.85),rgba(212,175,55,0));border-radius:2px;margin-top:5px}
@@ -250,24 +250,24 @@ body.home .catbox strong{color:#fff}
 body.home .catbox span{color:rgba(255,255,255,.85);opacity:1}
 body.home .card,body.home .mini-card,body.home .poet-card,body.home .empty{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.5) 42%,rgba(255,255,255,.18) 55%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.85);border-radius:16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.4),inset 0 0 28px rgba(255,255,255,.18),0 2px 14px rgba(11,61,46,.06)}
 body.home .mini-card span,body.home .poet-card span{color:#5b6b60}
-body.home .meta{color:#5b6b60}
+body.home .meta,body.lyric .meta{color:#5b6b60}
 body.home .read{background:linear-gradient(180deg,rgba(255,255,255,.28) 0%,rgba(255,255,255,.10) 35%,rgba(255,255,255,0) 60%),linear-gradient(135deg,#34d399,#0d9488 45%,#0b3d2e);border:0;border-radius:999px;color:#fff;box-shadow:0 2px 12px rgba(11,61,46,.2);transition:filter .2s ease,box-shadow .2s ease}
 body.home .read:hover{filter:brightness(1.08);box-shadow:0 3px 16px rgba(11,61,46,.24)}
 body.home .read:active{filter:brightness(.96);box-shadow:0 1px 6px rgba(11,61,46,.18)}
 body.home .see-more{background-color:rgba(255,255,255,.55);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.5) 42%,rgba(255,255,255,.18) 55%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border:1px solid rgba(11,61,46,.35);color:#0b3d2e;border-radius:999px;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(11,61,46,.05)}
 body.home .see-more:hover{background-color:rgba(11,61,46,.08)}
-body.home .site-footer{background:linear-gradient(180deg,rgba(11,61,46,.88),rgba(5,46,34,.92));-webkit-backdrop-filter:blur(20px) saturate(1.3);backdrop-filter:blur(20px) saturate(1.3);border-top:1px solid rgba(255,255,255,.2);color:#d1d5db}
-body.home .site-footer .foot-cats{color:#e7c86a}
-body.home .nav-loader{background:#fffdfd}
+body.home .site-footer,body.lyric .site-footer{background:linear-gradient(180deg,rgba(11,61,46,.88),rgba(5,46,34,.92));-webkit-backdrop-filter:blur(20px) saturate(1.3);backdrop-filter:blur(20px) saturate(1.3);border-top:1px solid rgba(255,255,255,.2);color:#d1d5db}
+body.home .site-footer .foot-cats,body.lyric .site-footer .foot-cats{color:#e7c86a}
+body.home .nav-loader,body.lyric .nav-loader{background:#fffdfd}
 /* Homepage dark mode — pure black (v9), glowing mint borders on cards */
 body.home.dark{background-color:#111827;background-image:none;color:#e5e7eb}
 body.home.dark .site-header{background-color:#0b3d2e;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:1px solid rgba(255,255,255,.7);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 2px 14px rgba(11,61,46,.12)}
-body.home.dark .bar .dark-btn{background-color:rgba(255,255,255,.08);background-image:linear-gradient(180deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,.06) 50%,rgba(255,255,255,.14) 100%);border:1px solid rgba(255,255,255,.22);color:#f3f4f6;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 10px rgba(0,0,0,.25)}
-body.home.dark .searchpill{background-color:#111827;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.18);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 14px rgba(0,0,0,.25)}
-body.home.dark .searchpill:focus-within{border-color:rgba(52,211,153,.5);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 0 3px rgba(52,211,153,.12),0 2px 14px rgba(0,0,0,.3)}
-body.home.dark .searchpill input{color:#f3f4f6}
-body.home.dark .searchpill input::placeholder{color:#9ca3af}
-body.home.dark .sicon-svg{color:#a7f3d0}
+body.home.dark .bar .dark-btn,body.lyric.dark .bar .dark-btn{background-color:rgba(255,255,255,.08);background-image:linear-gradient(180deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,.06) 50%,rgba(255,255,255,.14) 100%);border:1px solid rgba(255,255,255,.22);color:#f3f4f6;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 10px rgba(0,0,0,.25)}
+body.home.dark .searchpill,body.lyric.dark .searchpill{background-color:#111827;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.18);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 14px rgba(0,0,0,.25)}
+body.home.dark .searchpill:focus-within,body.lyric.dark .searchpill:focus-within{border-color:rgba(52,211,153,.5);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 0 3px rgba(52,211,153,.12),0 2px 14px rgba(0,0,0,.3)}
+body.home.dark .searchpill input,body.lyric.dark .searchpill input{color:#f3f4f6}
+body.home.dark .searchpill input::placeholder,body.lyric.dark .searchpill input::placeholder{color:#9ca3af}
+body.home.dark .sicon-svg,body.lyric.dark .sicon-svg{color:#a7f3d0}
 body.home.dark .section-title{color:#f3f4f6}
 body.home.dark .catbox{background-color:#1f2937;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(52,211,153,.45);border-radius:16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 18px rgba(52,211,153,.22),0 2px 12px rgba(0,0,0,.4)}
 body.home.dark .catbox:hover{filter:none;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 22px rgba(52,211,153,.28),0 3px 16px rgba(0,0,0,.4)}
@@ -275,11 +275,75 @@ body.home.dark .catbox strong{color:#f3f4f6}
 body.home.dark .catbox span{color:#b6c4bd;opacity:1}
 body.home.dark .card,body.home.dark .mini-card,body.home.dark .poet-card,body.home.dark .empty{background-color:#1f2937;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(52,211,153,.45);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 18px rgba(52,211,153,.22),0 2px 14px rgba(0,0,0,.4);color:#e5e7eb}
 body.home.dark .mini-card span,body.home.dark .poet-card span{color:#b6c4bd}
-body.home.dark .meta{color:#b6c4bd}
+body.home.dark .meta,body.lyric.dark .meta{color:#b6c4bd}
 body.home.dark .read{background:linear-gradient(180deg,rgba(255,255,255,.25) 0%,rgba(255,255,255,.08) 35%,rgba(255,255,255,0) 60%),linear-gradient(135deg,#34d399,#0d9488 45%,#065f46);border:0;box-shadow:0 2px 12px rgba(0,0,0,.3)}
 body.home.dark .read:hover{filter:brightness(1.1)}
 body.home.dark .read:active{filter:brightness(.96);box-shadow:0 1px 6px rgba(0,0,0,.25)}
 body.home.dark .see-more{background-color:rgba(255,255,255,.07);background-image:linear-gradient(180deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,.08) 45%,rgba(255,255,255,.03) 55%,rgba(255,255,255,.15) 100%);border:1px solid rgba(52,211,153,.4);color:#a7f3d0;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 10px rgba(0,0,0,.25)}
-body.home.dark .site-footer{background-color:rgba(0,0,0,.88);-webkit-backdrop-filter:blur(20px) saturate(1.3);backdrop-filter:blur(20px) saturate(1.3);border-top:1px solid rgba(255,255,255,.12)}
-body.home.dark .site-footer .foot-cats{color:#e7c86a}
-body.home.dark .nav-loader{background:#111827}
+body.home.dark .site-footer,body.lyric.dark .site-footer{background-color:rgba(0,0,0,.88);-webkit-backdrop-filter:blur(20px) saturate(1.3);backdrop-filter:blur(20px) saturate(1.3);border-top:1px solid rgba(255,255,255,.12)}
+body.home.dark .site-footer .foot-cats,body.lyric.dark .site-footer .foot-cats{color:#e7c86a}
+body.home.dark .nav-loader,body.lyric.dark .nav-loader{background:#111827}
+
+/* ===== Lyric Glass port (v18) — lyric design live, same clean method as the v17 home port: every rule once, scoped under body.lyric / body.lyric.dark; shared rules merged with body.home; condense header shared as body.condensed. Header border-bottom:0 kills the white line below the toolbar (the toolbar sits INSIDE the header, so the header border drew it). ===== */
+body.lyric{background-color:#ffffff;background-image:radial-gradient(680px 420px at 6% -4%,rgba(52,211,153,.07),rgba(52,211,153,0) 65%),radial-gradient(680px 420px at 96% 2%,rgba(167,243,208,.08),rgba(167,243,208,0) 65%),radial-gradient(900px 480px at 50% 108%,rgba(52,211,153,.05),rgba(52,211,153,0) 65%);background-attachment:fixed;color:#1f2937}
+body.lyric .site-header{background-color:#0b3d2e;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:0;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 2px 14px rgba(11,61,46,.12)}
+body.lyric .searchpill input{color:#1f2937}
+body.lyric #one article.card{background-color:rgba(255,255,255,.58);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.5) 42%,rgba(255,255,255,.18) 55%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-radius:18px;border:1px solid rgba(255,255,255,.85);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.4),inset 0 0 32px rgba(255,255,255,.18),0 3px 18px rgba(11,61,46,.06)}
+body.lyric .meta a{color:#0b3d2e}
+body.lyric #one article.card h1{color:#0b3d2e}
+body.lyric #one article.card h2{color:#0b3d2e}
+body.lyric .lyric-toolbar{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.9) 0%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:0;box-shadow:inset 0 1px 0 rgba(255,255,255,.9)}
+body.lyric .lang button{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.5) 42%,rgba(255,255,255,.18) 55%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.85);color:#1f2937;border-radius:999px;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(11,61,46,.05)}
+body.lyric .lang button.active{background-color:rgba(52,211,153,.3);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(52,211,153,.3) 45%,rgba(52,211,153,.14) 55%,rgba(255,255,255,.55) 100%);color:#064e3b;border-color:rgba(52,211,153,.5);font-weight:600;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(6,95,70,.12)}
+body.lyric .lyric-back-btn{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.5) 42%,rgba(255,255,255,.18) 55%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.85);color:#0b3d2e;border-radius:999px;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(11,61,46,.05)}
+body.lyric .lyric-toolbar .dark-btn{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.45) 50%,rgba(255,255,255,.6) 100%);border:1px solid rgba(255,255,255,.85);color:#0b3d2e;border-radius:50%;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 2px 10px rgba(11,61,46,.06)}
+body.lyric .font-float{background:linear-gradient(180deg,rgba(255,255,255,.28) 0%,rgba(255,255,255,.10) 35%,rgba(255,255,255,0) 60%),linear-gradient(135deg,#34d399,#0d9488 45%,#0b3d2e);border:0;color:#fff;box-shadow:0 2px 12px rgba(11,61,46,.2);transition:filter .2s ease,box-shadow .2s ease}
+body.lyric .font-float:hover{filter:brightness(1.08);box-shadow:0 3px 16px rgba(11,61,46,.24)}
+body.lyric .font-float:active{filter:brightness(.96);box-shadow:0 1px 6px rgba(11,61,46,.18)}
+body.lyric .font-cycle-btn{font-family:inherit;font-size:.9rem;font-weight:600}
+body.lyric .share-btn{background:linear-gradient(180deg,rgba(255,255,255,.25) 0%,rgba(255,255,255,.08) 35%,rgba(255,255,255,0) 60%),linear-gradient(135deg,#34d399,#0d9488 45%,#052e22);border:1px solid #d4af37;color:#fff;border-radius:999px;box-shadow:0 3px 16px rgba(11,61,46,.25)}
+body.lyric .share-btn:hover{filter:brightness(1.1);box-shadow:0 4px 20px rgba(11,61,46,.3)}
+body.lyric .recs h2{color:#0b3d2e}
+body.lyric .recs li a{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.5) 42%,rgba(255,255,255,.18) 55%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(20px) saturate(1.5);backdrop-filter:blur(20px) saturate(1.5);border:1px solid rgba(255,255,255,.85);color:#0b3d2e;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.4),0 2px 10px rgba(11,61,46,.05)}
+body.lyric .recs li a::after{color:#0b3d2e;opacity:.65}
+body.lyric .recs li a:hover{background-color:rgba(11,61,46,.08)}
+body.lyric .site-footer .foot-links a{color:#a7f3d0}
+body.lyric .to-top-btn{background:linear-gradient(180deg,rgba(255,255,255,.28) 0%,rgba(255,255,255,.10) 35%,rgba(255,255,255,0) 60%),linear-gradient(135deg,#34d399,#0d9488 45%,#0b3d2e);border:0;color:#fff;box-shadow:0 2px 12px rgba(11,61,46,.2);transition:filter .2s ease,box-shadow .2s ease}
+body.lyric .to-top-btn:hover{filter:brightness(1.08);box-shadow:0 3px 16px rgba(11,61,46,.24)}
+body.lyric .to-top-btn:active{filter:brightness(.96);box-shadow:0 1px 6px rgba(11,61,46,.18)}
+body.home .site-header .bar,body.lyric .site-header .bar{transition:padding .35s cubic-bezier(.4,0,.2,1)}
+body.home .site-header .logo,body.lyric .site-header .logo{transition:font-size .35s cubic-bezier(.4,0,.2,1)}
+body.home .searchpill,body.lyric .searchpill{transition:padding .35s cubic-bezier(.4,0,.2,1),height .35s cubic-bezier(.4,0,.2,1)}
+body.home .searchpill input,body.lyric .searchpill input{transition:padding .35s cubic-bezier(.4,0,.2,1)}
+body.home .bar .dark-btn,body.lyric .bar .dark-btn{transition:width .35s cubic-bezier(.4,0,.2,1),height .35s cubic-bezier(.4,0,.2,1)}
+body.lyric .lyric-toolbar-row{transition:padding .35s cubic-bezier(.4,0,.2,1)}
+body.condensed .site-header .bar{padding:5px 16px}
+body.condensed .logo{font-size:1.2rem}
+body.condensed .searchpill input{padding:6px 4px}
+body.condensed .bar .dark-btn{width:32px;height:32px}
+body.condensed .lyric-toolbar-row{padding:5px 16px}
+body.lyric.dark{background-color:#111827;background-image:none;color:#e5e7eb}
+body.lyric.dark .site-header{background-color:#0b3d2e;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border-bottom:0;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 2px 14px rgba(11,61,46,.12)}
+body.lyric.dark #one article.card{background-color:#1f2937;background-image:none;border:1px solid rgba(52,211,153,.5);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 22px rgba(52,211,153,.25),0 3px 18px rgba(0,0,0,.4)}
+body.lyric.dark .meta a{color:#a7f3d0}
+body.lyric.dark #one article.card h1{color:#a7f3d0}
+body.lyric.dark .lyric-toolbar{background-color:rgba(0,0,0,.65);background-image:linear-gradient(180deg,rgba(255,255,255,.22) 0%,rgba(255,255,255,.06) 50%,rgba(255,255,255,.12) 100%);-webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);border-bottom:0;box-shadow:inset 0 1px 0 rgba(255,255,255,.22)}
+body.lyric.dark .lang button{background-color:rgba(255,255,255,.07);background-image:linear-gradient(180deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,.08) 45%,rgba(255,255,255,.03) 55%,rgba(255,255,255,.15) 100%);border:1px solid rgba(255,255,255,.18);color:#d1d5db;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 10px rgba(0,0,0,.25)}
+body.lyric.dark .lang button.active{background-color:rgba(52,211,153,.32);background-image:linear-gradient(180deg,rgba(255,255,255,.35) 0%,rgba(52,211,153,.32) 45%,rgba(52,211,153,.16) 55%,rgba(255,255,255,.1) 100%);color:#d1fae5;border-color:rgba(52,211,153,.4);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 2px 10px rgba(0,0,0,.3)}
+body.lyric.dark .lyric-back-btn{background-color:rgba(255,255,255,.07);background-image:linear-gradient(180deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,.08) 45%,rgba(255,255,255,.03) 55%,rgba(255,255,255,.15) 100%);border:1px solid rgba(255,255,255,.18);color:#a7f3d0;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 10px rgba(0,0,0,.25)}
+body.lyric.dark .lyric-toolbar .dark-btn{background-color:rgba(255,255,255,.08);background-image:linear-gradient(180deg,rgba(255,255,255,.3) 0%,rgba(255,255,255,.06) 50%,rgba(255,255,255,.14) 100%);border:1px solid rgba(255,255,255,.22);color:#f3f4f6;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 2px 10px rgba(0,0,0,.25)}
+body.lyric.dark .font-float{background:linear-gradient(180deg,rgba(255,255,255,.25) 0%,rgba(255,255,255,.08) 35%,rgba(255,255,255,0) 60%),linear-gradient(135deg,#34d399,#0d9488 45%,#065f46);border:0;color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.3);transition:filter .2s ease,box-shadow .2s ease}
+body.lyric.dark .font-float:hover{filter:brightness(1.1)}
+body.lyric.dark .font-float:active{filter:brightness(.96);box-shadow:0 1px 6px rgba(0,0,0,.25)}
+body.lyric.dark .fdash{background:rgba(255,255,255,.35)}
+body.lyric.dark .fdash.on{background:#fff;animation-name:fdashPulse}
+body.lyric.dark .share-btn{background:linear-gradient(180deg,rgba(255,255,255,.22) 0%,rgba(255,255,255,.07) 35%,rgba(255,255,255,0) 60%),linear-gradient(135deg,#34d399,#0d9488 45%,#04402e);border:1px solid #d4af37;color:#ecfdf5;box-shadow:0 3px 16px rgba(0,0,0,.35)}
+body.lyric.dark .share-btn:hover{filter:brightness(1.12)}
+body.lyric.dark .recs h2{color:#f3f4f6}
+body.lyric.dark .recs li a{background-color:#1f2937;background-image:none;border:1px solid rgba(52,211,153,.4);color:#a7f3d0;box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 14px rgba(52,211,153,.18),0 2px 10px rgba(0,0,0,.35)}
+body.lyric.dark .recs li a::after{color:#a7f3d0;opacity:.65}
+body.lyric.dark .recs li a:hover{background-color:rgba(52,211,153,.1)}
+body.lyric.dark .to-top-btn{background:linear-gradient(180deg,rgba(255,255,255,.25) 0%,rgba(255,255,255,.08) 35%,rgba(255,255,255,0) 60%),linear-gradient(135deg,#34d399,#0d9488 45%,#065f46);border:0;color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.3);transition:filter .2s ease,box-shadow .2s ease}
+body.lyric.dark .to-top-btn:hover{filter:brightness(1.1)}
+body.lyric.dark .to-top-btn:active{filter:brightness(.96);box-shadow:0 1px 6px rgba(0,0,0,.25)}
+@media(max-width:600px){body.condensed .site-header .bar{padding:4px 10px;gap:6px}body.condensed .logo{font-size:1.05rem}body.condensed .header-search{height:34px}body.condensed .bar .dark-btn{width:32px;height:32px}body.condensed .lyric-toolbar-row{padding:4px 10px}}

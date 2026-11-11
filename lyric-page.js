@@ -121,7 +121,7 @@ window.addEventListener('pageshow', function (e) {
   var card = document.querySelector('article.card');
   if (!card) return;
   var st = document.createElement('style');
-  st.textContent = '.share-row{margin:14px 0 2px;display:flex;justify-content:center}.share-btn{background:#0b3d2e;color:#fff;border:1px solid #0b3d2e;padding:0 18px;border-radius:999px;cursor:pointer;font-size:.9rem;font-weight:600;height:40px;display:inline-flex;align-items:center;justify-content:center;gap:6px;box-shadow:0 2px 8px rgba(11,61,46,.25)}.share-btn:hover{filter:brightness(1.15)}body.dark .share-btn{background:#065f46;border-color:#065f46;color:#ecfdf5}@media(max-width:600px){.share-btn{height:38px;padding:0 16px;font-size:.85rem}}';
+  st.textContent = '.share-row{margin:14px 0 2px;display:flex;justify-content:center}';
   document.head.appendChild(st);
   var row = document.createElement('div');
   row.className = 'share-row';
@@ -160,4 +160,25 @@ window.addEventListener('pageshow', function (e) {
   window.addEventListener('scroll', sync, { passive: true });
   window.addEventListener('pageshow', sync);
   sync();
+})();
+
+// Scroll-condense header (v11, flicker-free): scrolling DOWN past 120px shrinks
+// the sticky header into a slim bar; scrolling back UP above 60px restores it.
+// Direction-aware + hysteresis (60px gap), 5px dead zone, rAF throttle.
+// Shared with app.js (home/list pages) as an identical IIFE — no single JS
+// file is loaded by both page types, so the two entry files each carry it.
+(function () {
+  var DOWN_AT = 120, UP_AT = 60, DEAD = 5, lastY = 0, ticking = false;
+  function apply() {
+    ticking = false;
+    var y = window.scrollY || window.pageYOffset;
+    var dy = y - lastY;
+    if (dy > DEAD && y > DOWN_AT) { document.body.classList.add('condensed'); }
+    else if (dy < -DEAD && y < UP_AT) { document.body.classList.remove('condensed'); }
+    else if (y <= 0) { document.body.classList.remove('condensed'); }
+    lastY = y;
+  }
+  function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(apply); } }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  apply();
 })();
