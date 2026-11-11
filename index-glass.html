@@ -142,12 +142,12 @@ body.glass .nav-loader{background:#fffdfd}
 /* ===== scroll-condense header (v5): on scroll down the sticky header shrinks
    into a slim bar — small logo left, search pill beside it, dark button right;
    scrolling back to top restores the full header. Smooth transitions. ===== */
-body.glass .site-header .bar{transition:padding .25s ease}
-body.glass .site-header .logo{transition:font-size .25s ease}
-body.glass .searchpill{transition:padding .25s ease,height .25s ease}
-body.glass .searchpill input{transition:padding .25s ease}
-body.glass .bar .dark-btn{transition:width .25s ease,height .25s ease}
-body.glass .lyric-toolbar-row{transition:padding .25s ease}
+body.glass .site-header .bar{transition:padding .35s cubic-bezier(.4,0,.2,1)}
+body.glass .site-header .logo{transition:font-size .35s cubic-bezier(.4,0,.2,1)}
+body.glass .searchpill{transition:padding .35s cubic-bezier(.4,0,.2,1),height .35s cubic-bezier(.4,0,.2,1)}
+body.glass .searchpill input{transition:padding .35s cubic-bezier(.4,0,.2,1)}
+body.glass .bar .dark-btn{transition:width .35s cubic-bezier(.4,0,.2,1),height .35s cubic-bezier(.4,0,.2,1)}
+body.glass .lyric-toolbar-row{transition:padding .35s cubic-bezier(.4,0,.2,1)}
 body.glass-condensed .site-header .bar{padding:5px 16px}
 body.glass-condensed .logo{font-size:1.2rem}
 body.glass-condensed .searchpill input{padding:6px 4px}
@@ -245,7 +245,17 @@ body.glass.dark .nav-loader{background:#000000}
 <script src="app.js?v=45"></script>
 <script>
 /* ===== Liquid Glass v6 — scroll-condense header (preview only) ===== */
-(function(){var TH=120;function sync(){document.body.classList.toggle('glass-condensed',(window.scrollY||window.pageYOffset)>TH);}window.addEventListener('scroll',sync,{passive:true});sync();})();
+(function(){/* Liquid Glass v11 — flicker-free scroll-condense header (preview only).
+   Direction-aware + hysteresis: condense only scrolling DOWN past 120px, expand
+   only scrolling UP above 60px. Moves under 5px ignored; one check per frame. */
+var DOWN_AT=120,UP_AT=60,DEAD=5,lastY=0,ticking=false;
+function apply(){ticking=false;var y=window.scrollY||window.pageYOffset;var dy=y-lastY;
+if(dy>DEAD&&y>DOWN_AT){document.body.classList.add('glass-condensed');}
+else if(dy<-DEAD&&y<UP_AT){document.body.classList.remove('glass-condensed');}
+else if(y<=0){document.body.classList.remove('glass-condensed');}
+lastY=y;}
+function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(apply);}}
+window.addEventListener('scroll',onScroll,{passive:true});apply();})();
 /* Tab counts: wrap "(3K+)" in a muted span so the glossy pill reads like the photo's clean pill. */
 (function(){function wrap(){var t=document.getElementById('tabs');if(!t)return;var bs=t.querySelectorAll('.tab');for(var i=0;i<bs.length;i++){var b=bs[i];if(b.querySelector('.tab-count'))continue;var m=b.textContent.match(/^(.*?)\s*(\([^)]*\))\s*$/);if(!m)continue;b.textContent='';b.appendChild(document.createTextNode(m[1]));var s=document.createElement('span');s.className='tab-count';s.textContent=' '+m[2];b.appendChild(s);}}var t=document.getElementById('tabs');if(t){new MutationObserver(wrap).observe(t,{childList:true,subtree:true});wrap();}})();
 </script>
