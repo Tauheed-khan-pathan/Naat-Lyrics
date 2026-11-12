@@ -1,5 +1,9 @@
 const DV='v=8';
 let all=[], poets=[], cat='All', size=1.05, full=null, fullLoading=false;
+// "Other" group (homepage category boxes only): the small categories live
+// under one box, but cards/pages still show their real category.
+const OTHER_SUBS=['Dua','Durood','Tasbih','Tarana'];
+function inCat(x){return cat==='All'||x.category===cat||(cat==='Other'&&OTHER_SUBS.includes(x.category));}
 fetch('poets.json?'+DV).then(r=>r.json()).then(d=>{poets=d; if(all.length) render(false);}).catch(()=>{});
 const PAGE=20; let shown=PAGE;
 const tabsEl=document.getElementById('tabs'), listEl=document.getElementById('list'), searchEl=document.getElementById('search');
@@ -194,8 +198,8 @@ function render(reset=true){
   let fullOnly=null;
   // Exact first: a plain substring scan is cheap; the fuzzy (edit-distance)
   // scan runs only when no exact match exists, so typing stays fast.
-  let items=all.filter(x=>(cat==='All'||x.category===cat) && (!q || strongMatch(indexText(x),q)));
-  if(q && items.length===0) items=all.filter(x=>(cat==='All'||x.category===cat) && matchesIndex(x,q));
+  let items=all.filter(x=>inCat(x) && (!q || strongMatch(indexText(x),q)));
+  if(q && items.length===0) items=all.filter(x=>inCat(x) && matchesIndex(x,q));
   const strong=!q || items.some(x=>strongMatch(indexText(x),q));
   if(q && !full && !fullLoading && (items.length===0 || !strong)){
     fullLoading=true;
@@ -211,7 +215,7 @@ function render(reset=true){
     return;
   }
   if(q && full){
-    const fm=full.filter(x=>(cat==='All'||x.category===cat) && matchesFull(x,q));
+    const fm=full.filter(x=>inCat(x) && matchesFull(x,q));
     const exact=fm.filter(x=>strongMatch(fullText(x),q));
     const exactIds=new Set(exact.map(x=>x.id));
     const indexIds=new Set(items.map(x=>x.id));
@@ -224,12 +228,27 @@ function render(reset=true){
     const cats=[...new Set(all.map(x=>x.category))];
     const popular=[...all].slice(0,10);
     const recent=[...all].slice(-10).reverse();
-    const boxes=cats.map(c=>{
+    // Category boxes: the small categories (Dua/Durood/Tasbih/Tarana) share
+    // one "Other" box at the first sub-category's position, with a sub-count
+    // line under the total. Cards/pages still show the real category.
+    const boxes=[];
+    let otherDone=false;
+    for(const c of cats){
+      if(OTHER_SUBS.includes(c)){
+        if(!otherDone){
+          otherDone=true;
+          const n=OTHER_SUBS.reduce((t,s)=>t+all.filter(x=>x.category===s).length,0);
+          const sub=OTHER_SUBS.map(s=>`${s} ${fmtCount(all.filter(x=>x.category===s).length)}`).join(' • ');
+          boxes.push(`<button class="catbox" data-cat="Other"><strong>Other</strong><span>${fmtCount(n)} kalaam</span><span style="font-size:.78rem;opacity:.75">${sub}</span></button>`);
+        }
+        continue;
+      }
       const n=all.filter(x=>x.category===c).length;
-      return `<button class="catbox" data-cat="${c}"><strong>${c}</strong><span>${fmtCount(n)} kalaam</span></button>`;
-    }).join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z</strong><span>Index of ${fmtCount(all.length)} kalaam</span></a>`;
+      boxes.push(`<button class="catbox" data-cat="${c}"><strong>${c}</strong><span>${fmtCount(n)} kalaam</span></button>`);
+    }
+    const boxesHtml=boxes.join('') + `<a class="catbox" href="a-z.html" style="text-decoration:none"><strong>All A-Z</strong><span>Index of ${fmtCount(all.length)} kalaam</span></a>`;
     listEl.innerHTML =
-      `<section><h2 class="section-title">Categories</h2><div class="catgrid">${boxes}</div></section>` +
+      `<section><h2 class="section-title">Categories</h2><div class="catgrid">${boxesHtml}</div></section>` +
       `<section><div class="section-head"><h2 class="section-title">Most Famous</h2><a class="see-all" href="most-read.html">See All ›</a></div><div class="hscroll">${popular.map(miniCard).join('')}<a class="mini-card see-all-card" href="most-read.html">See All ›</a></div></section>` +
       `<section><div class="section-head"><h2 class="section-title">Recently Added</h2><a class="see-all" href="recent.html">See All ›</a></div><div class="hscroll">${recent.map(miniCard).join('')}<a class="mini-card see-all-card" href="recent.html">See All ›</a></div></section>` +
       (poets.length?`<section><div class="section-head"><h2 class="section-title">Shuara (Poets)</h2><a class="see-all" href="poets.html">See All ›</a></div><div class="hscroll">${poets.slice(0,10).map(pp=>{const n=all.filter(x=>x.poet===pp.name).length; return `<a class="poet-card" href="poet.html?id=${pp.id}"><strong>${pp.name}</strong><span>${pp.honorific||''}</span><span>${fmtCount(n)} kalaam</span></a>`;}).join('')}<a class="poet-card see-all-card" href="poets.html">See All ›</a></div></section>`:'') +
