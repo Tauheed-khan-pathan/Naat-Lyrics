@@ -54,14 +54,14 @@ body.dark .see-all{color:#a7f3d0}
 .see-all-card{align-items:center;justify-content:center;font-weight:700;color:#0b3d2e;font-size:1.05rem;min-height:120px}
 body.dark .see-all-card{color:#a7f3d0}
 .catgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.catbox{background:#0b3d2e;color:#fff;border:0;border-radius:12px;padding:18px 16px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:4px}
-.catbox:nth-child(2){background:#14532d}.catbox:nth-child(3){background:#365314}.catbox:nth-child(4){background:#44403c}
+.catbox{background:#d1fae5;color:#0b3d2e;border:0;border-radius:12px;padding:18px 16px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:4px}
+.catbox:nth-child(2){background:#dbeafe}.catbox:nth-child(3){background:#ede9fe}.catbox:nth-child(4){background:#ffedd5}
 .catbox strong{font-size:1.05rem}.catbox span{font-size:.85rem;opacity:.85}
 .hscroll{display:flex;gap:12px;overflow-x:auto;padding:8px 8px 12px}
 .hscroll .poet-card{flex:0 0 220px}
 .mini-card{flex:0 0 220px;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px;text-decoration:none;color:#111827;display:flex;flex-direction:column;gap:4px}
 .mini-card strong{color:#0b3d2e}.mini-card span{font-size:.85rem;color:#6b7280}
-.catbox:nth-child(5){background:#78350f}
+.catbox:nth-child(5){background:#ffe4e6}.catbox:nth-child(6){background:#fef3c7}.catbox:nth-child(7){background:#f3f4f6}.catbox:nth-child(8){background:#d1fae5}
 
 body.dark{background:#111827;color:#e5e7eb}
 body.dark .tabbar{background:transparent;border-bottom:none}
@@ -240,11 +240,11 @@ body.home .sicon-svg,body.lyric .sicon-svg{color:#0b3d2e}
 body.home .section-title{color:#0b3d2e;display:inline-block}
 body.home .section-head .section-title{flex:0 0 auto}
 body.home .section-title::after{content:"";display:block;width:70%;height:2px;background:linear-gradient(90deg,rgba(212,175,55,0),rgba(212,175,55,.85),rgba(212,175,55,0));border-radius:2px;margin-top:5px}
-body.home .catbox{background-color:#0b3d2e;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.45);border-radius:16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),inset 0 -1px 0 rgba(255,255,255,.18),0 2px 12px rgba(11,61,46,.12);transition:filter .2s ease,box-shadow .2s ease}
-body.home .catbox:nth-child(2){background-color:#14532d}body.home .catbox:nth-child(3){background-color:#365314}body.home .catbox:nth-child(4){background-color:#44403c}body.home .catbox:nth-child(5){background-color:#78350f}
+body.home .catbox{background-color:#d1fae5;background-image:none;-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.45);border-radius:16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.35),inset 0 -1px 0 rgba(255,255,255,.18),0 2px 12px rgba(11,61,46,.12);transition:filter .2s ease,box-shadow .2s ease}
+body.home .catbox:nth-child(2){background-color:#dbeafe}body.home .catbox:nth-child(3){background-color:#ede9fe}body.home .catbox:nth-child(4){background-color:#ffedd5}body.home .catbox:nth-child(5){background-color:#ffe4e6}body.home .catbox:nth-child(6){background-color:#fef3c7}body.home .catbox:nth-child(7){background-color:#f3f4f6}body.home .catbox:nth-child(8){background-color:#d1fae5}
 body.home .catbox:hover{filter:brightness(1.04);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.4),inset 0 0 28px rgba(255,255,255,.18),0 3px 16px rgba(11,61,46,.08)}
-body.home .catbox strong{color:#fff}
-body.home .catbox span{color:rgba(255,255,255,.85);opacity:1}
+body.home .catbox strong{color:#0b3d2e}
+body.home .catbox span{color:#374151;opacity:1}
 body.home .card,body.home .mini-card,body.home .poet-card,body.home .empty{background-color:rgba(255,255,255,.5);background-image:linear-gradient(180deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.5) 42%,rgba(255,255,255,.18) 55%,rgba(255,255,255,.55) 100%);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6);border:1px solid rgba(255,255,255,.85);border-radius:16px;box-shadow:inset 0 1px 0 rgba(255,255,255,.95),inset 0 -1px 0 rgba(255,255,255,.4),inset 0 0 28px rgba(255,255,255,.18),0 2px 14px rgba(11,61,46,.06)}
 body.home .mini-card span,body.home .poet-card span{color:#5b6b60}
 body.home .meta,body.lyric .meta{color:#5b6b60}
