@@ -33,4 +33,4 @@ Disallow: /
 
 User-agent: *
 Allow: /
-Sitemap: https://tauheed-khan-pathan.github.io/Naat-Lyrics/sitemap.xml
+Sitemap: https://allnaat.com/sitemap.xml
