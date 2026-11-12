@@ -1,0 +1,31 @@
+# All Naat Lyrics
+
+> All Naat Lyrics is a collection of Naat, Hamd, Salaam, Noha and Manqabat lyrics in Roman Urdu, Hindi and Urdu. The site has 3,997 lyrics by 40 poets, searchable by title, category, poet and full lyrics text.
+
+## Site
+
+- [Home](https://allnaat.com/): Browse lyrics by category, search titles and full lyrics text.
+- [A–Z Index](https://allnaat.com/a-z.html): All 3,997 lyrics sorted by title.
+- [Most Famous](https://allnaat.com/most-read.html): Top 100 most-read lyrics.
+- [Recently Added](https://allnaat.com/recent.html): Newest 100 lyrics.
+- [Poets (Shuara)](https://allnaat.com/poets.html): 40 poets with their lyrics.
+- [About](https://allnaat.com/about.html): About the collection.
+- [Contact](https://allnaat.com/contact.html): Contact the site.
+
+## Categories
+
+- Naat (1,906 lyrics): Poetry in praise of Prophet Muhammad.
+- Manqabat (701 lyrics): Poetry in praise of saints and the Prophet's family.
+- Noha (912 lyrics): Elegies, mostly about Karbala.
+- Hamd (286 lyrics): Poetry in praise of Allah.
+- Salaam (160 lyrics): Salutations to the Prophet.
+- Dua (24 lyrics): Supplications.
+- Durood (1 lyric): Salutations and blessings.
+- Sufi Kalam (6 lyrics): Sufi poetry.
+- Tarana (1 lyric): Anthem-style poetry.
+
+## Notes
+
+- Every lyric is shown in Roman Urdu, Hindi and Urdu scripts.
+- Sitemap: https://allnaat.com/sitemap.xml
+- The collection and the site design are the work of the site owner; please do not copy or republish the collection or the design.
