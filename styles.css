@@ -202,9 +202,6 @@ body.dark .az-list li{border-color:#374151}
 body.dark .az-list a{color:#a7f3d0}
 
 /* A-Z link on homepage */
-.az-home-link{text-align:center;margin:2px 0 16px}
-.az-home-link a{display:inline-block;background:#0b3d2e;color:#fff;padding:9px 22px;border-radius:999px;text-decoration:none;font-weight:600}
-body.dark .az-home-link a{background:#a7f3d0;color:#052e22}
 
 /* Back-to-top button (WhatsApp scroll button jaisa): chhota, bottom-right,
    sirf scroll karne par dikhta hai. Chhupa hone par us jagah click ka koi
