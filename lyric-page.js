@@ -133,6 +133,24 @@ window.addEventListener('pageshow', function (e) {
   b.onclick = function () {
     var url = location.href;
     var text = document.title + ' — ' + url;
+    // GA4 "share" event (key-event candidate): total shares, per-lyric and
+    // per-method counts in GA4. method is the path taken here, NOT the app
+    // the user picks inside the native sheet — GA4 can never see that, and
+    // it can never see who shared or how many recipients got it.
+    // Guarded: if GA is blocked (ad blocker), the share still works.
+    try {
+      if (typeof gtag === 'function') {
+        var slug = location.pathname.split('/').pop().replace(/\.html$/, '');
+        var h1 = card.querySelector('h1');
+        var title = h1 ? h1.textContent.trim() : document.title.replace(/ Lyrics — Naat Lyrics$/, '');
+        gtag('event', 'share', {
+          method: navigator.share ? 'native_share' : 'whatsapp',
+          content_type: 'lyric',
+          item_id: slug,
+          content_title: title
+        });
+      }
+    } catch (e) {}
     if (navigator.share) {
       navigator.share({ title: document.title, text: document.title, url: url }).catch(function () {});
     } else {
